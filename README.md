@@ -64,6 +64,14 @@ These commands will automatically increase the version number in the
 `package.json` and `package-lock.json`, commit the changed files, create a
 corresponding git tag and push everything to the remote branch.
 
+## Code Contributors
+
+This project exists thanks to all the people who contribute.
+
+<a href="https://github.com/haiilo/catalyst-icons/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=haiilo/catalyst-icons" />
+</a>
+
 ## License
 
 The license is available within the main repository in the
