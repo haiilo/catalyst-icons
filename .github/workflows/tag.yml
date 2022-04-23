@@ -2,7 +2,7 @@ name: 'Tag'
 on:
   push:
     tags:
-      - "@haiilo/catalyst-icons@*"
+    - '@haiilo/catalyst-icons@*'
 jobs:
   build:
     runs-on: ubuntu-latest
