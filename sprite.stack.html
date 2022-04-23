@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<title>SVG stack preview | svg-sprite</title>
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url("data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=") top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+
+<!--
+
+Sprite shape dimensions
+====================================================================================================
+You will need to set the sprite shape dimensions via CSS when you use them as stack SVGs, otherwise
+they would become a huge 100% in size. You may use the following dimension classes for doing so.
+They might well be outsourced to an external stylesheet of course.
+
+-->
+
+<style type="text/css">
+	.ci-16-chevron-down-dims { width: 16px; height: 16px; }
+	.ci-16-chevron-left-dims { width: 16px; height: 16px; }
+	.ci-16-chevron-right-dims { width: 16px; height: 16px; }
+	.ci-16-chevron-up-dims { width: 16px; height: 16px; }
+	.ci-apple-safari-dims { width: 24px; height: 24px; }
+	.ci-arrow-down-outlined-dims { width: 24px; height: 24px; }
+	.ci-arrow-left-outlined-dims { width: 24px; height: 24px; }
+	.ci-arrow-right-outlined-dims { width: 24px; height: 24px; }
+	.ci-arrow-up-outlined-dims { width: 24px; height: 24px; }
+	.ci-article-filled-dims { width: 24px; height: 24px; }
+	.ci-article-outlined-dims { width: 24px; height: 24px; }
+	.ci-bar-chart-outlined-dims { width: 24px; height: 24px; }
+	.ci-bell-check-outlined-dims { width: 24px; height: 24px; }
+	.ci-bell-dot-filled-dims { width: 24px; height: 24px; }
+	.ci-bell-dot-outlined-dims { width: 24px; height: 24px; }
+	.ci-bell-filled-dims { width: 24px; height: 24px; }
+	.ci-bell-outlined-dims { width: 24px; height: 24px; }
+	.ci-bell-plus-outlined-dims { width: 24px; height: 24px; }
+	.ci-bell-ringing-filled-dims { width: 24px; height: 24px; }
+	.ci-bell-ringing-outlined-dims { width: 24px; height: 24px; }
+	.ci-book-filled-dims { width: 24px; height: 24px; }
+	.ci-book-outlined-dims { width: 24px; height: 24px; }
+	.ci-bookmark-check-outlined-dims { width: 24px; height: 24px; }
+	.ci-bookmark-filled-dims { width: 24px; height: 24px; }
+	.ci-bookmark-outlined-dims { width: 24px; height: 24px; }
+	.ci-bookmark-plus-outlined-dims { width: 24px; height: 24px; }
+	.ci-chat-filled-dims { width: 24px; height: 24px; }
+	.ci-chat-outlined-dims { width: 24px; height: 24px; }
+	.ci-check-circle-filled-dims { width: 24px; height: 24px; }
+	.ci-check-circle-outlined-dims { width: 24px; height: 24px; }
+	.ci-check-outlined-dims { width: 24px; height: 24px; }
+	.ci-chevron-down-outlined-dims { width: 24px; height: 24px; }
+	.ci-chevron-left-outlined-dims { width: 24px; height: 24px; }
+	.ci-chevron-right-outlined-dims { width: 24px; height: 24px; }
+	.ci-chevron-up-outlined-dims { width: 24px; height: 24px; }
+	.ci-clock-filled-dims { width: 24px; height: 24px; }
+	.ci-clock-outlined-dims { width: 24px; height: 24px; }
+	.ci-communities-filled-dims { width: 24px; height: 24px; }
+	.ci-communities-outlined-dims { width: 24px; height: 24px; }
+	.ci-content-filled-dims { width: 24px; height: 24px; }
+	.ci-content-outlined-dims { width: 24px; height: 24px; }
+	.ci-copy-outlined-dims { width: 24px; height: 24px; }
+	.ci-cross-circle-filled-dims { width: 24px; height: 24px; }
+	.ci-cross-circle-outlined-dims { width: 24px; height: 24px; }
+	.ci-cross-outlined-dims { width: 24px; height: 24px; }
+	.ci-cross-square-filled-dims { width: 24px; height: 24px; }
+	.ci-cross-square-outlined-dims { width: 24px; height: 24px; }
+	.ci-download-outlined-dims { width: 24px; height: 24px; }
+	.ci-earth-outlined-dims { width: 24px; height: 24px; }
+	.ci-events-filled-dims { width: 24px; height: 24px; }
+	.ci-events-outlined-dims { width: 24px; height: 24px; }
+	.ci-facebook-dims { width: 24px; height: 24px; }
+	.ci-feed-filled-dims { width: 24px; height: 24px; }
+	.ci-feed-outlined-dims { width: 24px; height: 24px; }
+	.ci-fingerprint-outlined-dims { width: 24px; height: 24px; }
+	.ci-folder-minus-outlined-dims { width: 24px; height: 24px; }
+	.ci-folder-outlined-dims { width: 24px; height: 24px; }
+	.ci-folder-plus-outlined-dims { width: 24px; height: 24px; }
+	.ci-gift-outlined-dims { width: 24px; height: 24px; }
+	.ci-globe-outlined-dims { width: 24px; height: 24px; }
+	.ci-google-dims { width: 24px; height: 24px; }
+	.ci-google-calendar-dims { width: 24px; height: 24px; }
+	.ci-google-chrome-dims { width: 24px; height: 24px; }
+	.ci-google-drive-dims { width: 24px; height: 24px; }
+	.ci-google-mail-dims { width: 24px; height: 24px; }
+	.ci-gradient-outlined-dims { width: 24px; height: 24px; }
+	.ci-group-outlined-dims { width: 24px; height: 24px; }
+	.ci-haiilo-home-dims { width: 24px; height: 24px; }
+	.ci-haiilo-insights-dims { width: 24px; height: 24px; }
+	.ci-haiilo-outlined-dims { width: 24px; height: 24px; }
+	.ci-haiilo-share-dims { width: 24px; height: 24px; }
+	.ci-haiilo-stories-dims { width: 24px; height: 24px; }
+	.ci-hashtag-outlined-dims { width: 24px; height: 24px; }
+	.ci-home-filled-dims { width: 24px; height: 24px; }
+	.ci-home-outlined-dims { width: 24px; height: 24px; }
+	.ci-instagram-dims { width: 24px; height: 24px; }
+	.ci-layers-filled-dims { width: 24px; height: 24px; }
+	.ci-layers-outlined-dims { width: 24px; height: 24px; }
+	.ci-likes-circle-filled-dims { width: 24px; height: 24px; }
+	.ci-link-outlined-dims { width: 24px; height: 24px; }
+	.ci-linkedin-dims { width: 24px; height: 24px; }
+	.ci-lock-filled-dims { width: 24px; height: 24px; }
+	.ci-lock-open-filled-dims { width: 24px; height: 24px; }
+	.ci-lock-open-outlined-dims { width: 24px; height: 24px; }
+	.ci-lock-outlined-dims { width: 24px; height: 24px; }
+	.ci-mail-open-outlined-dims { width: 24px; height: 24px; }
+	.ci-mail-outlined-dims { width: 24px; height: 24px; }
+	.ci-marketplace-filled-dims { width: 24px; height: 24px; }
+	.ci-marketplace-outlined-dims { width: 24px; height: 24px; }
+	.ci-megaphone-filled-dims { width: 24px; height: 24px; }
+	.ci-megaphone-outlined-dims { width: 24px; height: 24px; }
+	.ci-menu-outlined-dims { width: 24px; height: 24px; }
+	.ci-microsoft-dims { width: 24px; height: 24px; }
+	.ci-microsoft-edge-dims { width: 24px; height: 24px; }
+	.ci-microsoft-excel-dims { width: 24px; height: 24px; }
+	.ci-microsoft-onenote-dims { width: 24px; height: 24px; }
+	.ci-microsoft-outlook-dims { width: 24px; height: 24px; }
+	.ci-microsoft-planner-dims { width: 24px; height: 24px; }
+	.ci-microsoft-powerpoint-dims { width: 24px; height: 24px; }
+	.ci-microsoft-sharepoint-dims { width: 24px; height: 24px; }
+	.ci-microsoft-teams-dims { width: 24px; height: 24px; }
+	.ci-microsoft-word-dims { width: 24px; height: 24px; }
+	.ci-microsoft-yammer-dims { width: 24px; height: 24px; }
+	.ci-mozilla-firefox-dims { width: 24px; height: 24px; }
+	.ci-paperclip-box-outlined-dims { width: 24px; height: 24px; }
+	.ci-paperclip-outlined-dims { width: 24px; height: 24px; }
+	.ci-photo-add-outlined-dims { width: 24px; height: 24px; }
+	.ci-photo-filled-dims { width: 24px; height: 24px; }
+	.ci-photo-outlined-dims { width: 24px; height: 24px; }
+	.ci-photo-remove-outlined-dims { width: 24px; height: 24px; }
+	.ci-plus-circle-filled-dims { width: 24px; height: 24px; }
+	.ci-plus-circle-outlined-dims { width: 24px; height: 24px; }
+	.ci-plus-outlined-dims { width: 24px; height: 24px; }
+	.ci-plus-square-filled-dims { width: 24px; height: 24px; }
+	.ci-plus-square-outlined-dims { width: 24px; height: 24px; }
+	.ci-printer-filled-dims { width: 24px; height: 24px; }
+	.ci-printer-outlined-dims { width: 24px; height: 24px; }
+	.ci-profile-box-outlined-dims { width: 24px; height: 24px; }
+	.ci-profile-circle-outlined-dims { width: 24px; height: 24px; }
+	.ci-profiles-filled-dims { width: 24px; height: 24px; }
+	.ci-profiles-outlined-dims { width: 24px; height: 24px; }
+	.ci-reading-glasses-filled-dims { width: 24px; height: 24px; }
+	.ci-reading-glasses-outlined-dims { width: 24px; height: 24px; }
+	.ci-search-filled-dims { width: 24px; height: 24px; }
+	.ci-search-outlined-dims { width: 24px; height: 24px; }
+	.ci-settings-outlined-dims { width: 24px; height: 24px; }
+	.ci-share-filled-dims { width: 24px; height: 24px; }
+	.ci-share-outlined-dims { width: 24px; height: 24px; }
+	.ci-sign-in-outlined-dims { width: 24px; height: 24px; }
+	.ci-sign-out-outlined-dims { width: 24px; height: 24px; }
+	.ci-signal-outlined-dims { width: 24px; height: 24px; }
+	.ci-slack-dims { width: 24px; height: 24px; }
+	.ci-smile-dims { width: 24px; height: 24px; }
+	.ci-sparkle-filled-dims { width: 24px; height: 24px; }
+	.ci-sparkle-outlined-dims { width: 24px; height: 24px; }
+	.ci-star-circle-filled-dims { width: 24px; height: 24px; }
+	.ci-star-circle-outlined-dims { width: 24px; height: 24px; }
+	.ci-sticker-filled-dims { width: 24px; height: 24px; }
+	.ci-sticker-outlined-dims { width: 24px; height: 24px; }
+	.ci-stream-filled-dims { width: 24px; height: 24px; }
+	.ci-stream-outlined-dims { width: 24px; height: 24px; }
+	.ci-thumbs-up-filled-dims { width: 24px; height: 24px; }
+	.ci-thumbs-up-outlined-dims { width: 24px; height: 24px; }
+	.ci-translate-outlined-dims { width: 24px; height: 24px; }
+	.ci-trash-filled-dims { width: 24px; height: 24px; }
+	.ci-trash-outlined-dims { width: 24px; height: 24px; }
+	.ci-twitter-dims { width: 24px; height: 24px; }
+	.ci-upload-outlined-dims { width: 24px; height: 24px; }
+	.ci-video-camera-filled-dims { width: 24px; height: 24px; }
+	.ci-video-camera-outlined-dims { width: 24px; height: 24px; }
+	.ci-wechat-dims { width: 24px; height: 24px; }
+	.ci-write-outlined-dims { width: 24px; height: 24px; }
+	.ci-xing-dims { width: 24px; height: 24px; }
+</style>
+
+<!--
+====================================================================================================
+-->
+
+	</head>
+	<body>
+		<header>
+			<h1>SVG stack preview</h1>
+			<p>This preview features an SVG stack. Please have a look at the HTML source for further details and be aware of the following constraints:</p>
+			<ul>
+				<li>Your browser has to <a href="http://caniuse.com/#feat=svg-fragment" target="_blank" rel="noopener noreferrer">support SVG fragment identifiers</a> for SVG stacks to work.</li>
+				<li>Support for SVG fragment identifiers hasn't always been that decent. For older browsers you will have to use some prolyfill like <a href="https://github.com/preciousforever/SVG-Stacker/blob/master/fixsvgstack.jquery.js" target="_blank" rel="noopener noreferrer">fixsvgstack.jquery.js</a>.</li>
+			</ul>
+		</header>
+		<section>
+
+<!--
+
+SVG stack
+====================================================================================================
+These SVG images make use of fragment identifiers (IDs) to reference certain portions of the
+external sprite. By default, all shapes inside the sprite are hidden by CSS. The `:target` pseudo
+selector is used to show the very shape that is referenced by the fragment identifier.
+
+-->
+
+			<ul>
+
+				<li title="16-chevron-down">
+					<div class="icon-box">
+
+						<!-- 16-chevron-down -->
+						<img src="svg/sprite.stack.svg#16-chevron-down" class="ci-16-chevron-down-dims" alt="16-chevron-down"/>
+
+					</div>
+					<h2>16-chevron-down</h2>
+				</li>
+				<li title="16-chevron-left">
+					<div class="icon-box">
+
+						<!-- 16-chevron-left -->
+						<img src="svg/sprite.stack.svg#16-chevron-left" class="ci-16-chevron-left-dims" alt="16-chevron-left"/>
+
+					</div>
+					<h2>16-chevron-left</h2>
+				</li>
+				<li title="16-chevron-right">
+					<div class="icon-box">
+
+						<!-- 16-chevron-right -->
+						<img src="svg/sprite.stack.svg#16-chevron-right" class="ci-16-chevron-right-dims" alt="16-chevron-right"/>
+
+					</div>
+					<h2>16-chevron-right</h2>
+				</li>
+				<li title="16-chevron-up">
+					<div class="icon-box">
+
+						<!-- 16-chevron-up -->
+						<img src="svg/sprite.stack.svg#16-chevron-up" class="ci-16-chevron-up-dims" alt="16-chevron-up"/>
+
+					</div>
+					<h2>16-chevron-up</h2>
+				</li>
+				<li title="apple-safari">
+					<div class="icon-box">
+
+						<!-- apple-safari -->
+						<img src="svg/sprite.stack.svg#apple-safari" class="ci-apple-safari-dims" alt="apple-safari"/>
+
+					</div>
+					<h2>apple-safari</h2>
+				</li>
+				<li title="arrow-down-outlined">
+					<div class="icon-box">
+
+						<!-- arrow-down-outlined -->
+						<img src="svg/sprite.stack.svg#arrow-down-outlined" class="ci-arrow-down-outlined-dims" alt="arrow-down-outlined"/>
+
+					</div>
+					<h2>arrow-down-outlined</h2>
+				</li>
+				<li title="arrow-left-outlined">
+					<div class="icon-box">
+
+						<!-- arrow-left-outlined -->
+						<img src="svg/sprite.stack.svg#arrow-left-outlined" class="ci-arrow-left-outlined-dims" alt="arrow-left-outlined"/>
+
+					</div>
+					<h2>arrow-left-outlined</h2>
+				</li>
+				<li title="arrow-right-outlined">
+					<div class="icon-box">
+
+						<!-- arrow-right-outlined -->
+						<img src="svg/sprite.stack.svg#arrow-right-outlined" class="ci-arrow-right-outlined-dims" alt="arrow-right-outlined"/>
+
+					</div>
+					<h2>arrow-right-outlined</h2>
+				</li>
+				<li title="arrow-up-outlined">
+					<div class="icon-box">
+
+						<!-- arrow-up-outlined -->
+						<img src="svg/sprite.stack.svg#arrow-up-outlined" class="ci-arrow-up-outlined-dims" alt="arrow-up-outlined"/>
+
+					</div>
+					<h2>arrow-up-outlined</h2>
+				</li>
+				<li title="article-filled">
+					<div class="icon-box">
+
+						<!-- article-filled -->
+						<img src="svg/sprite.stack.svg#article-filled" class="ci-article-filled-dims" alt="article-filled"/>
+
+					</div>
+					<h2>article-filled</h2>
+				</li>
+				<li title="article-outlined">
+					<div class="icon-box">
+
+						<!-- article-outlined -->
+						<img src="svg/sprite.stack.svg#article-outlined" class="ci-article-outlined-dims" alt="article-outlined"/>
+
+					</div>
+					<h2>article-outlined</h2>
+				</li>
+				<li title="bar-chart-outlined">
+					<div class="icon-box">
+
+						<!-- bar-chart-outlined -->
+						<img src="svg/sprite.stack.svg#bar-chart-outlined" class="ci-bar-chart-outlined-dims" alt="bar-chart-outlined"/>
+
+					</div>
+					<h2>bar-chart-outlined</h2>
+				</li>
+				<li title="bell-check-outlined">
+					<div class="icon-box">
+
+						<!-- bell-check-outlined -->
+						<img src="svg/sprite.stack.svg#bell-check-outlined" class="ci-bell-check-outlined-dims" alt="bell-check-outlined"/>
+
+					</div>
+					<h2>bell-check-outlined</h2>
+				</li>
+				<li title="bell-dot-filled">
+					<div class="icon-box">
+
+						<!-- bell-dot-filled -->
+						<img src="svg/sprite.stack.svg#bell-dot-filled" class="ci-bell-dot-filled-dims" alt="bell-dot-filled"/>
+
+					</div>
+					<h2>bell-dot-filled</h2>
+				</li>
+				<li title="bell-dot-outlined">
+					<div class="icon-box">
+
+						<!-- bell-dot-outlined -->
+						<img src="svg/sprite.stack.svg#bell-dot-outlined" class="ci-bell-dot-outlined-dims" alt="bell-dot-outlined"/>
+
+					</div>
+					<h2>bell-dot-outlined</h2>
+				</li>
+				<li title="bell-filled">
+					<div class="icon-box">
+
+						<!-- bell-filled -->
+						<img src="svg/sprite.stack.svg#bell-filled" class="ci-bell-filled-dims" alt="bell-filled"/>
+
+					</div>
+					<h2>bell-filled</h2>
+				</li>
+				<li title="bell-outlined">
+					<div class="icon-box">
+
+						<!-- bell-outlined -->
+						<img src="svg/sprite.stack.svg#bell-outlined" class="ci-bell-outlined-dims" alt="bell-outlined"/>
+
+					</div>
+					<h2>bell-outlined</h2>
+				</li>
+				<li title="bell-plus-outlined">
+					<div class="icon-box">
+
+						<!-- bell-plus-outlined -->
+						<img src="svg/sprite.stack.svg#bell-plus-outlined" class="ci-bell-plus-outlined-dims" alt="bell-plus-outlined"/>
+
+					</div>
+					<h2>bell-plus-outlined</h2>
+				</li>
+				<li title="bell-ringing-filled">
+					<div class="icon-box">
+
+						<!-- bell-ringing-filled -->
+						<img src="svg/sprite.stack.svg#bell-ringing-filled" class="ci-bell-ringing-filled-dims" alt="bell-ringing-filled"/>
+
+					</div>
+					<h2>bell-ringing-filled</h2>
+				</li>
+				<li title="bell-ringing-outlined">
+					<div class="icon-box">
+
+						<!-- bell-ringing-outlined -->
+						<img src="svg/sprite.stack.svg#bell-ringing-outlined" class="ci-bell-ringing-outlined-dims" alt="bell-ringing-outlined"/>
+
+					</div>
+					<h2>bell-ringing-outlined</h2>
+				</li>
+				<li title="book-filled">
+					<div class="icon-box">
+
+						<!-- book-filled -->
+						<img src="svg/sprite.stack.svg#book-filled" class="ci-book-filled-dims" alt="book-filled"/>
+
+					</div>
+					<h2>book-filled</h2>
+				</li>
+				<li title="book-outlined">
+					<div class="icon-box">
+
+						<!-- book-outlined -->
+						<img src="svg/sprite.stack.svg#book-outlined" class="ci-book-outlined-dims" alt="book-outlined"/>
+
+					</div>
+					<h2>book-outlined</h2>
+				</li>
+				<li title="bookmark-check-outlined">
+					<div class="icon-box">
+
+						<!-- bookmark-check-outlined -->
+						<img src="svg/sprite.stack.svg#bookmark-check-outlined" class="ci-bookmark-check-outlined-dims" alt="bookmark-check-outlined"/>
+
+					</div>
+					<h2>bookmark-check-outlined</h2>
+				</li>
+				<li title="bookmark-filled">
+					<div class="icon-box">
+
+						<!-- bookmark-filled -->
+						<img src="svg/sprite.stack.svg#bookmark-filled" class="ci-bookmark-filled-dims" alt="bookmark-filled"/>
+
+					</div>
+					<h2>bookmark-filled</h2>
+				</li>
+				<li title="bookmark-outlined">
+					<div class="icon-box">
+
+						<!-- bookmark-outlined -->
+						<img src="svg/sprite.stack.svg#bookmark-outlined" class="ci-bookmark-outlined-dims" alt="bookmark-outlined"/>
+
+					</div>
+					<h2>bookmark-outlined</h2>
+				</li>
+				<li title="bookmark-plus-outlined">
+					<div class="icon-box">
+
+						<!-- bookmark-plus-outlined -->
+						<img src="svg/sprite.stack.svg#bookmark-plus-outlined" class="ci-bookmark-plus-outlined-dims" alt="bookmark-plus-outlined"/>
+
+					</div>
+					<h2>bookmark-plus-outlined</h2>
+				</li>
+				<li title="chat-filled">
+					<div class="icon-box">
+
+						<!-- chat-filled -->
+						<img src="svg/sprite.stack.svg#chat-filled" class="ci-chat-filled-dims" alt="chat-filled"/>
+
+					</div>
+					<h2>chat-filled</h2>
+				</li>
+				<li title="chat-outlined">
+					<div class="icon-box">
+
+						<!-- chat-outlined -->
+						<img src="svg/sprite.stack.svg#chat-outlined" class="ci-chat-outlined-dims" alt="chat-outlined"/>
+
+					</div>
+					<h2>chat-outlined</h2>
+				</li>
+				<li title="check-circle-filled">
+					<div class="icon-box">
+
+						<!-- check-circle-filled -->
+						<img src="svg/sprite.stack.svg#check-circle-filled" class="ci-check-circle-filled-dims" alt="check-circle-filled"/>
+
+					</div>
+					<h2>check-circle-filled</h2>
+				</li>
+				<li title="check-circle-outlined">
+					<div class="icon-box">
+
+						<!-- check-circle-outlined -->
+						<img src="svg/sprite.stack.svg#check-circle-outlined" class="ci-check-circle-outlined-dims" alt="check-circle-outlined"/>
+
+					</div>
+					<h2>check-circle-outlined</h2>
+				</li>
+				<li title="check-outlined">
+					<div class="icon-box">
+
+						<!-- check-outlined -->
+						<img src="svg/sprite.stack.svg#check-outlined" class="ci-check-outlined-dims" alt="check-outlined"/>
+
+					</div>
+					<h2>check-outlined</h2>
+				</li>
+				<li title="chevron-down-outlined">
+					<div class="icon-box">
+
+						<!-- chevron-down-outlined -->
+						<img src="svg/sprite.stack.svg#chevron-down-outlined" class="ci-chevron-down-outlined-dims" alt="chevron-down-outlined"/>
+
+					</div>
+					<h2>chevron-down-outlined</h2>
+				</li>
+				<li title="chevron-left-outlined">
+					<div class="icon-box">
+
+						<!-- chevron-left-outlined -->
+						<img src="svg/sprite.stack.svg#chevron-left-outlined" class="ci-chevron-left-outlined-dims" alt="chevron-left-outlined"/>
+
+					</div>
+					<h2>chevron-left-outlined</h2>
+				</li>
+				<li title="chevron-right-outlined">
+					<div class="icon-box">
+
+						<!-- chevron-right-outlined -->
+						<img src="svg/sprite.stack.svg#chevron-right-outlined" class="ci-chevron-right-outlined-dims" alt="chevron-right-outlined"/>
+
+					</div>
+					<h2>chevron-right-outlined</h2>
+				</li>
+				<li title="chevron-up-outlined">
+					<div class="icon-box">
+
+						<!-- chevron-up-outlined -->
+						<img src="svg/sprite.stack.svg#chevron-up-outlined" class="ci-chevron-up-outlined-dims" alt="chevron-up-outlined"/>
+
+					</div>
+					<h2>chevron-up-outlined</h2>
+				</li>
+				<li title="clock-filled">
+					<div class="icon-box">
+
+						<!-- clock-filled -->
+						<img src="svg/sprite.stack.svg#clock-filled" class="ci-clock-filled-dims" alt="clock-filled"/>
+
+					</div>
+					<h2>clock-filled</h2>
+				</li>
+				<li title="clock-outlined">
+					<div class="icon-box">
+
+						<!-- clock-outlined -->
+						<img src="svg/sprite.stack.svg#clock-outlined" class="ci-clock-outlined-dims" alt="clock-outlined"/>
+
+					</div>
+					<h2>clock-outlined</h2>
+				</li>
+				<li title="communities-filled">
+					<div class="icon-box">
+
+						<!-- communities-filled -->
+						<img src="svg/sprite.stack.svg#communities-filled" class="ci-communities-filled-dims" alt="communities-filled"/>
+
+					</div>
+					<h2>communities-filled</h2>
+				</li>
+				<li title="communities-outlined">
+					<div class="icon-box">
+
+						<!-- communities-outlined -->
+						<img src="svg/sprite.stack.svg#communities-outlined" class="ci-communities-outlined-dims" alt="communities-outlined"/>
+
+					</div>
+					<h2>communities-outlined</h2>
+				</li>
+				<li title="content-filled">
+					<div class="icon-box">
+
+						<!-- content-filled -->
+						<img src="svg/sprite.stack.svg#content-filled" class="ci-content-filled-dims" alt="content-filled"/>
+
+					</div>
+					<h2>content-filled</h2>
+				</li>
+				<li title="content-outlined">
+					<div class="icon-box">
+
+						<!-- content-outlined -->
+						<img src="svg/sprite.stack.svg#content-outlined" class="ci-content-outlined-dims" alt="content-outlined"/>
+
+					</div>
+					<h2>content-outlined</h2>
+				</li>
+				<li title="copy-outlined">
+					<div class="icon-box">
+
+						<!-- copy-outlined -->
+						<img src="svg/sprite.stack.svg#copy-outlined" class="ci-copy-outlined-dims" alt="copy-outlined"/>
+
+					</div>
+					<h2>copy-outlined</h2>
+				</li>
+				<li title="cross-circle-filled">
+					<div class="icon-box">
+
+						<!-- cross-circle-filled -->
+						<img src="svg/sprite.stack.svg#cross-circle-filled" class="ci-cross-circle-filled-dims" alt="cross-circle-filled"/>
+
+					</div>
+					<h2>cross-circle-filled</h2>
+				</li>
+				<li title="cross-circle-outlined">
+					<div class="icon-box">
+
+						<!-- cross-circle-outlined -->
+						<img src="svg/sprite.stack.svg#cross-circle-outlined" class="ci-cross-circle-outlined-dims" alt="cross-circle-outlined"/>
+
+					</div>
+					<h2>cross-circle-outlined</h2>
+				</li>
+				<li title="cross-outlined">
+					<div class="icon-box">
+
+						<!-- cross-outlined -->
+						<img src="svg/sprite.stack.svg#cross-outlined" class="ci-cross-outlined-dims" alt="cross-outlined"/>
+
+					</div>
+					<h2>cross-outlined</h2>
+				</li>
+				<li title="cross-square-filled">
+					<div class="icon-box">
+
+						<!-- cross-square-filled -->
+						<img src="svg/sprite.stack.svg#cross-square-filled" class="ci-cross-square-filled-dims" alt="cross-square-filled"/>
+
+					</div>
+					<h2>cross-square-filled</h2>
+				</li>
+				<li title="cross-square-outlined">
+					<div class="icon-box">
+
+						<!-- cross-square-outlined -->
+						<img src="svg/sprite.stack.svg#cross-square-outlined" class="ci-cross-square-outlined-dims" alt="cross-square-outlined"/>
+
+					</div>
+					<h2>cross-square-outlined</h2>
+				</li>
+				<li title="download-outlined">
+					<div class="icon-box">
+
+						<!-- download-outlined -->
+						<img src="svg/sprite.stack.svg#download-outlined" class="ci-download-outlined-dims" alt="download-outlined"/>
+
+					</div>
+					<h2>download-outlined</h2>
+				</li>
+				<li title="earth-outlined">
+					<div class="icon-box">
+
+						<!-- earth-outlined -->
+						<img src="svg/sprite.stack.svg#earth-outlined" class="ci-earth-outlined-dims" alt="earth-outlined"/>
+
+					</div>
+					<h2>earth-outlined</h2>
+				</li>
+				<li title="events-filled">
+					<div class="icon-box">
+
+						<!-- events-filled -->
+						<img src="svg/sprite.stack.svg#events-filled" class="ci-events-filled-dims" alt="events-filled"/>
+
+					</div>
+					<h2>events-filled</h2>
+				</li>
+				<li title="events-outlined">
+					<div class="icon-box">
+
+						<!-- events-outlined -->
+						<img src="svg/sprite.stack.svg#events-outlined" class="ci-events-outlined-dims" alt="events-outlined"/>
+
+					</div>
+					<h2>events-outlined</h2>
+				</li>
+				<li title="facebook">
+					<div class="icon-box">
+
+						<!-- facebook -->
+						<img src="svg/sprite.stack.svg#facebook" class="ci-facebook-dims" alt="facebook"/>
+
+					</div>
+					<h2>facebook</h2>
+				</li>
+				<li title="feed-filled">
+					<div class="icon-box">
+
+						<!-- feed-filled -->
+						<img src="svg/sprite.stack.svg#feed-filled" class="ci-feed-filled-dims" alt="feed-filled"/>
+
+					</div>
+					<h2>feed-filled</h2>
+				</li>
+				<li title="feed-outlined">
+					<div class="icon-box">
+
+						<!-- feed-outlined -->
+						<img src="svg/sprite.stack.svg#feed-outlined" class="ci-feed-outlined-dims" alt="feed-outlined"/>
+
+					</div>
+					<h2>feed-outlined</h2>
+				</li>
+				<li title="fingerprint-outlined">
+					<div class="icon-box">
+
+						<!-- fingerprint-outlined -->
+						<img src="svg/sprite.stack.svg#fingerprint-outlined" class="ci-fingerprint-outlined-dims" alt="fingerprint-outlined"/>
+
+					</div>
+					<h2>fingerprint-outlined</h2>
+				</li>
+				<li title="folder-minus-outlined">
+					<div class="icon-box">
+
+						<!-- folder-minus-outlined -->
+						<img src="svg/sprite.stack.svg#folder-minus-outlined" class="ci-folder-minus-outlined-dims" alt="folder-minus-outlined"/>
+
+					</div>
+					<h2>folder-minus-outlined</h2>
+				</li>
+				<li title="folder-outlined">
+					<div class="icon-box">
+
+						<!-- folder-outlined -->
+						<img src="svg/sprite.stack.svg#folder-outlined" class="ci-folder-outlined-dims" alt="folder-outlined"/>
+
+					</div>
+					<h2>folder-outlined</h2>
+				</li>
+				<li title="folder-plus-outlined">
+					<div class="icon-box">
+
+						<!-- folder-plus-outlined -->
+						<img src="svg/sprite.stack.svg#folder-plus-outlined" class="ci-folder-plus-outlined-dims" alt="folder-plus-outlined"/>
+
+					</div>
+					<h2>folder-plus-outlined</h2>
+				</li>
+				<li title="gift-outlined">
+					<div class="icon-box">
+
+						<!-- gift-outlined -->
+						<img src="svg/sprite.stack.svg#gift-outlined" class="ci-gift-outlined-dims" alt="gift-outlined"/>
+
+					</div>
+					<h2>gift-outlined</h2>
+				</li>
+				<li title="globe-outlined">
+					<div class="icon-box">
+
+						<!-- globe-outlined -->
+						<img src="svg/sprite.stack.svg#globe-outlined" class="ci-globe-outlined-dims" alt="globe-outlined"/>
+
+					</div>
+					<h2>globe-outlined</h2>
+				</li>
+				<li title="google">
+					<div class="icon-box">
+
+						<!-- google -->
+						<img src="svg/sprite.stack.svg#google" class="ci-google-dims" alt="google"/>
+
+					</div>
+					<h2>google</h2>
+				</li>
+				<li title="google-calendar">
+					<div class="icon-box">
+
+						<!-- google-calendar -->
+						<img src="svg/sprite.stack.svg#google-calendar" class="ci-google-calendar-dims" alt="google-calendar"/>
+
+					</div>
+					<h2>google-calendar</h2>
+				</li>
+				<li title="google-chrome">
+					<div class="icon-box">
+
+						<!-- google-chrome -->
+						<img src="svg/sprite.stack.svg#google-chrome" class="ci-google-chrome-dims" alt="google-chrome"/>
+
+					</div>
+					<h2>google-chrome</h2>
+				</li>
+				<li title="google-drive">
+					<div class="icon-box">
+
+						<!-- google-drive -->
+						<img src="svg/sprite.stack.svg#google-drive" class="ci-google-drive-dims" alt="google-drive"/>
+
+					</div>
+					<h2>google-drive</h2>
+				</li>
+				<li title="google-mail">
+					<div class="icon-box">
+
+						<!-- google-mail -->
+						<img src="svg/sprite.stack.svg#google-mail" class="ci-google-mail-dims" alt="google-mail"/>
+
+					</div>
+					<h2>google-mail</h2>
+				</li>
+				<li title="gradient-outlined">
+					<div class="icon-box">
+
+						<!-- gradient-outlined -->
+						<img src="svg/sprite.stack.svg#gradient-outlined" class="ci-gradient-outlined-dims" alt="gradient-outlined"/>
+
+					</div>
+					<h2>gradient-outlined</h2>
+				</li>
+				<li title="group-outlined">
+					<div class="icon-box">
+
+						<!-- group-outlined -->
+						<img src="svg/sprite.stack.svg#group-outlined" class="ci-group-outlined-dims" alt="group-outlined"/>
+
+					</div>
+					<h2>group-outlined</h2>
+				</li>
+				<li title="haiilo-home">
+					<div class="icon-box">
+
+						<!-- haiilo-home -->
+						<img src="svg/sprite.stack.svg#haiilo-home" class="ci-haiilo-home-dims" alt="haiilo-home"/>
+
+					</div>
+					<h2>haiilo-home</h2>
+				</li>
+				<li title="haiilo-insights">
+					<div class="icon-box">
+
+						<!-- haiilo-insights -->
+						<img src="svg/sprite.stack.svg#haiilo-insights" class="ci-haiilo-insights-dims" alt="haiilo-insights"/>
+
+					</div>
+					<h2>haiilo-insights</h2>
+				</li>
+				<li title="haiilo-outlined">
+					<div class="icon-box">
+
+						<!-- haiilo-outlined -->
+						<img src="svg/sprite.stack.svg#haiilo-outlined" class="ci-haiilo-outlined-dims" alt="haiilo-outlined"/>
+
+					</div>
+					<h2>haiilo-outlined</h2>
+				</li>
+				<li title="haiilo-share">
+					<div class="icon-box">
+
+						<!-- haiilo-share -->
+						<img src="svg/sprite.stack.svg#haiilo-share" class="ci-haiilo-share-dims" alt="haiilo-share"/>
+
+					</div>
+					<h2>haiilo-share</h2>
+				</li>
+				<li title="haiilo-stories">
+					<div class="icon-box">
+
+						<!-- haiilo-stories -->
+						<img src="svg/sprite.stack.svg#haiilo-stories" class="ci-haiilo-stories-dims" alt="haiilo-stories"/>
+
+					</div>
+					<h2>haiilo-stories</h2>
+				</li>
+				<li title="hashtag-outlined">
+					<div class="icon-box">
+
+						<!-- hashtag-outlined -->
+						<img src="svg/sprite.stack.svg#hashtag-outlined" class="ci-hashtag-outlined-dims" alt="hashtag-outlined"/>
+
+					</div>
+					<h2>hashtag-outlined</h2>
+				</li>
+				<li title="home-filled">
+					<div class="icon-box">
+
+						<!-- home-filled -->
+						<img src="svg/sprite.stack.svg#home-filled" class="ci-home-filled-dims" alt="home-filled"/>
+
+					</div>
+					<h2>home-filled</h2>
+				</li>
+				<li title="home-outlined">
+					<div class="icon-box">
+
+						<!-- home-outlined -->
+						<img src="svg/sprite.stack.svg#home-outlined" class="ci-home-outlined-dims" alt="home-outlined"/>
+
+					</div>
+					<h2>home-outlined</h2>
+				</li>
+				<li title="instagram">
+					<div class="icon-box">
+
+						<!-- instagram -->
+						<img src="svg/sprite.stack.svg#instagram" class="ci-instagram-dims" alt="instagram"/>
+
+					</div>
+					<h2>instagram</h2>
+				</li>
+				<li title="layers-filled">
+					<div class="icon-box">
+
+						<!-- layers-filled -->
+						<img src="svg/sprite.stack.svg#layers-filled" class="ci-layers-filled-dims" alt="layers-filled"/>
+
+					</div>
+					<h2>layers-filled</h2>
+				</li>
+				<li title="layers-outlined">
+					<div class="icon-box">
+
+						<!-- layers-outlined -->
+						<img src="svg/sprite.stack.svg#layers-outlined" class="ci-layers-outlined-dims" alt="layers-outlined"/>
+
+					</div>
+					<h2>layers-outlined</h2>
+				</li>
+				<li title="likes-circle-filled">
+					<div class="icon-box">
+
+						<!-- likes-circle-filled -->
+						<img src="svg/sprite.stack.svg#likes-circle-filled" class="ci-likes-circle-filled-dims" alt="likes-circle-filled"/>
+
+					</div>
+					<h2>likes-circle-filled</h2>
+				</li>
+				<li title="link-outlined">
+					<div class="icon-box">
+
+						<!-- link-outlined -->
+						<img src="svg/sprite.stack.svg#link-outlined" class="ci-link-outlined-dims" alt="link-outlined"/>
+
+					</div>
+					<h2>link-outlined</h2>
+				</li>
+				<li title="linkedin">
+					<div class="icon-box">
+
+						<!-- linkedin -->
+						<img src="svg/sprite.stack.svg#linkedin" class="ci-linkedin-dims" alt="linkedin"/>
+
+					</div>
+					<h2>linkedin</h2>
+				</li>
+				<li title="lock-filled">
+					<div class="icon-box">
+
+						<!-- lock-filled -->
+						<img src="svg/sprite.stack.svg#lock-filled" class="ci-lock-filled-dims" alt="lock-filled"/>
+
+					</div>
+					<h2>lock-filled</h2>
+				</li>
+				<li title="lock-open-filled">
+					<div class="icon-box">
+
+						<!-- lock-open-filled -->
+						<img src="svg/sprite.stack.svg#lock-open-filled" class="ci-lock-open-filled-dims" alt="lock-open-filled"/>
+
+					</div>
+					<h2>lock-open-filled</h2>
+				</li>
+				<li title="lock-open-outlined">
+					<div class="icon-box">
+
+						<!-- lock-open-outlined -->
+						<img src="svg/sprite.stack.svg#lock-open-outlined" class="ci-lock-open-outlined-dims" alt="lock-open-outlined"/>
+
+					</div>
+					<h2>lock-open-outlined</h2>
+				</li>
+				<li title="lock-outlined">
+					<div class="icon-box">
+
+						<!-- lock-outlined -->
+						<img src="svg/sprite.stack.svg#lock-outlined" class="ci-lock-outlined-dims" alt="lock-outlined"/>
+
+					</div>
+					<h2>lock-outlined</h2>
+				</li>
+				<li title="mail-open-outlined">
+					<div class="icon-box">
+
+						<!-- mail-open-outlined -->
+						<img src="svg/sprite.stack.svg#mail-open-outlined" class="ci-mail-open-outlined-dims" alt="mail-open-outlined"/>
+
+					</div>
+					<h2>mail-open-outlined</h2>
+				</li>
+				<li title="mail-outlined">
+					<div class="icon-box">
+
+						<!-- mail-outlined -->
+						<img src="svg/sprite.stack.svg#mail-outlined" class="ci-mail-outlined-dims" alt="mail-outlined"/>
+
+					</div>
+					<h2>mail-outlined</h2>
+				</li>
+				<li title="marketplace-filled">
+					<div class="icon-box">
+
+						<!-- marketplace-filled -->
+						<img src="svg/sprite.stack.svg#marketplace-filled" class="ci-marketplace-filled-dims" alt="marketplace-filled"/>
+
+					</div>
+					<h2>marketplace-filled</h2>
+				</li>
+				<li title="marketplace-outlined">
+					<div class="icon-box">
+
+						<!-- marketplace-outlined -->
+						<img src="svg/sprite.stack.svg#marketplace-outlined" class="ci-marketplace-outlined-dims" alt="marketplace-outlined"/>
+
+					</div>
+					<h2>marketplace-outlined</h2>
+				</li>
+				<li title="megaphone-filled">
+					<div class="icon-box">
+
+						<!-- megaphone-filled -->
+						<img src="svg/sprite.stack.svg#megaphone-filled" class="ci-megaphone-filled-dims" alt="megaphone-filled"/>
+
+					</div>
+					<h2>megaphone-filled</h2>
+				</li>
+				<li title="megaphone-outlined">
+					<div class="icon-box">
+
+						<!-- megaphone-outlined -->
+						<img src="svg/sprite.stack.svg#megaphone-outlined" class="ci-megaphone-outlined-dims" alt="megaphone-outlined"/>
+
+					</div>
+					<h2>megaphone-outlined</h2>
+				</li>
+				<li title="menu-outlined">
+					<div class="icon-box">
+
+						<!-- menu-outlined -->
+						<img src="svg/sprite.stack.svg#menu-outlined" class="ci-menu-outlined-dims" alt="menu-outlined"/>
+
+					</div>
+					<h2>menu-outlined</h2>
+				</li>
+				<li title="microsoft">
+					<div class="icon-box">
+
+						<!-- microsoft -->
+						<img src="svg/sprite.stack.svg#microsoft" class="ci-microsoft-dims" alt="microsoft"/>
+
+					</div>
+					<h2>microsoft</h2>
+				</li>
+				<li title="microsoft-edge">
+					<div class="icon-box">
+
+						<!-- microsoft-edge -->
+						<img src="svg/sprite.stack.svg#microsoft-edge" class="ci-microsoft-edge-dims" alt="microsoft-edge"/>
+
+					</div>
+					<h2>microsoft-edge</h2>
+				</li>
+				<li title="microsoft-excel">
+					<div class="icon-box">
+
+						<!-- microsoft-excel -->
+						<img src="svg/sprite.stack.svg#microsoft-excel" class="ci-microsoft-excel-dims" alt="microsoft-excel"/>
+
+					</div>
+					<h2>microsoft-excel</h2>
+				</li>
+				<li title="microsoft-onenote">
+					<div class="icon-box">
+
+						<!-- microsoft-onenote -->
+						<img src="svg/sprite.stack.svg#microsoft-onenote" class="ci-microsoft-onenote-dims" alt="microsoft-onenote"/>
+
+					</div>
+					<h2>microsoft-onenote</h2>
+				</li>
+				<li title="microsoft-outlook">
+					<div class="icon-box">
+
+						<!-- microsoft-outlook -->
+						<img src="svg/sprite.stack.svg#microsoft-outlook" class="ci-microsoft-outlook-dims" alt="microsoft-outlook"/>
+
+					</div>
+					<h2>microsoft-outlook</h2>
+				</li>
+				<li title="microsoft-planner">
+					<div class="icon-box">
+
+						<!-- microsoft-planner -->
+						<img src="svg/sprite.stack.svg#microsoft-planner" class="ci-microsoft-planner-dims" alt="microsoft-planner"/>
+
+					</div>
+					<h2>microsoft-planner</h2>
+				</li>
+				<li title="microsoft-powerpoint">
+					<div class="icon-box">
+
+						<!-- microsoft-powerpoint -->
+						<img src="svg/sprite.stack.svg#microsoft-powerpoint" class="ci-microsoft-powerpoint-dims" alt="microsoft-powerpoint"/>
+
+					</div>
+					<h2>microsoft-powerpoint</h2>
+				</li>
+				<li title="microsoft-sharepoint">
+					<div class="icon-box">
+
+						<!-- microsoft-sharepoint -->
+						<img src="svg/sprite.stack.svg#microsoft-sharepoint" class="ci-microsoft-sharepoint-dims" alt="microsoft-sharepoint"/>
+
+					</div>
+					<h2>microsoft-sharepoint</h2>
+				</li>
+				<li title="microsoft-teams">
+					<div class="icon-box">
+
+						<!-- microsoft-teams -->
+						<img src="svg/sprite.stack.svg#microsoft-teams" class="ci-microsoft-teams-dims" alt="microsoft-teams"/>
+
+					</div>
+					<h2>microsoft-teams</h2>
+				</li>
+				<li title="microsoft-word">
+					<div class="icon-box">
+
+						<!-- microsoft-word -->
+						<img src="svg/sprite.stack.svg#microsoft-word" class="ci-microsoft-word-dims" alt="microsoft-word"/>
+
+					</div>
+					<h2>microsoft-word</h2>
+				</li>
+				<li title="microsoft-yammer">
+					<div class="icon-box">
+
+						<!-- microsoft-yammer -->
+						<img src="svg/sprite.stack.svg#microsoft-yammer" class="ci-microsoft-yammer-dims" alt="microsoft-yammer"/>
+
+					</div>
+					<h2>microsoft-yammer</h2>
+				</li>
+				<li title="mozilla-firefox">
+					<div class="icon-box">
+
+						<!-- mozilla-firefox -->
+						<img src="svg/sprite.stack.svg#mozilla-firefox" class="ci-mozilla-firefox-dims" alt="mozilla-firefox"/>
+
+					</div>
+					<h2>mozilla-firefox</h2>
+				</li>
+				<li title="paperclip-box-outlined">
+					<div class="icon-box">
+
+						<!-- paperclip-box-outlined -->
+						<img src="svg/sprite.stack.svg#paperclip-box-outlined" class="ci-paperclip-box-outlined-dims" alt="paperclip-box-outlined"/>
+
+					</div>
+					<h2>paperclip-box-outlined</h2>
+				</li>
+				<li title="paperclip-outlined">
+					<div class="icon-box">
+
+						<!-- paperclip-outlined -->
+						<img src="svg/sprite.stack.svg#paperclip-outlined" class="ci-paperclip-outlined-dims" alt="paperclip-outlined"/>
+
+					</div>
+					<h2>paperclip-outlined</h2>
+				</li>
+				<li title="photo-add-outlined">
+					<div class="icon-box">
+
+						<!-- photo-add-outlined -->
+						<img src="svg/sprite.stack.svg#photo-add-outlined" class="ci-photo-add-outlined-dims" alt="photo-add-outlined"/>
+
+					</div>
+					<h2>photo-add-outlined</h2>
+				</li>
+				<li title="photo-filled">
+					<div class="icon-box">
+
+						<!-- photo-filled -->
+						<img src="svg/sprite.stack.svg#photo-filled" class="ci-photo-filled-dims" alt="photo-filled"/>
+
+					</div>
+					<h2>photo-filled</h2>
+				</li>
+				<li title="photo-outlined">
+					<div class="icon-box">
+
+						<!-- photo-outlined -->
+						<img src="svg/sprite.stack.svg#photo-outlined" class="ci-photo-outlined-dims" alt="photo-outlined"/>
+
+					</div>
+					<h2>photo-outlined</h2>
+				</li>
+				<li title="photo-remove-outlined">
+					<div class="icon-box">
+
+						<!-- photo-remove-outlined -->
+						<img src="svg/sprite.stack.svg#photo-remove-outlined" class="ci-photo-remove-outlined-dims" alt="photo-remove-outlined"/>
+
+					</div>
+					<h2>photo-remove-outlined</h2>
+				</li>
+				<li title="plus-circle-filled">
+					<div class="icon-box">
+
+						<!-- plus-circle-filled -->
+						<img src="svg/sprite.stack.svg#plus-circle-filled" class="ci-plus-circle-filled-dims" alt="plus-circle-filled"/>
+
+					</div>
+					<h2>plus-circle-filled</h2>
+				</li>
+				<li title="plus-circle-outlined">
+					<div class="icon-box">
+
+						<!-- plus-circle-outlined -->
+						<img src="svg/sprite.stack.svg#plus-circle-outlined" class="ci-plus-circle-outlined-dims" alt="plus-circle-outlined"/>
+
+					</div>
+					<h2>plus-circle-outlined</h2>
+				</li>
+				<li title="plus-outlined">
+					<div class="icon-box">
+
+						<!-- plus-outlined -->
+						<img src="svg/sprite.stack.svg#plus-outlined" class="ci-plus-outlined-dims" alt="plus-outlined"/>
+
+					</div>
+					<h2>plus-outlined</h2>
+				</li>
+				<li title="plus-square-filled">
+					<div class="icon-box">
+
+						<!-- plus-square-filled -->
+						<img src="svg/sprite.stack.svg#plus-square-filled" class="ci-plus-square-filled-dims" alt="plus-square-filled"/>
+
+					</div>
+					<h2>plus-square-filled</h2>
+				</li>
+				<li title="plus-square-outlined">
+					<div class="icon-box">
+
+						<!-- plus-square-outlined -->
+						<img src="svg/sprite.stack.svg#plus-square-outlined" class="ci-plus-square-outlined-dims" alt="plus-square-outlined"/>
+
+					</div>
+					<h2>plus-square-outlined</h2>
+				</li>
+				<li title="printer-filled">
+					<div class="icon-box">
+
+						<!-- printer-filled -->
+						<img src="svg/sprite.stack.svg#printer-filled" class="ci-printer-filled-dims" alt="printer-filled"/>
+
+					</div>
+					<h2>printer-filled</h2>
+				</li>
+				<li title="printer-outlined">
+					<div class="icon-box">
+
+						<!-- printer-outlined -->
+						<img src="svg/sprite.stack.svg#printer-outlined" class="ci-printer-outlined-dims" alt="printer-outlined"/>
+
+					</div>
+					<h2>printer-outlined</h2>
+				</li>
+				<li title="profile-box-outlined">
+					<div class="icon-box">
+
+						<!-- profile-box-outlined -->
+						<img src="svg/sprite.stack.svg#profile-box-outlined" class="ci-profile-box-outlined-dims" alt="profile-box-outlined"/>
+
+					</div>
+					<h2>profile-box-outlined</h2>
+				</li>
+				<li title="profile-circle-outlined">
+					<div class="icon-box">
+
+						<!-- profile-circle-outlined -->
+						<img src="svg/sprite.stack.svg#profile-circle-outlined" class="ci-profile-circle-outlined-dims" alt="profile-circle-outlined"/>
+
+					</div>
+					<h2>profile-circle-outlined</h2>
+				</li>
+				<li title="profiles-filled">
+					<div class="icon-box">
+
+						<!-- profiles-filled -->
+						<img src="svg/sprite.stack.svg#profiles-filled" class="ci-profiles-filled-dims" alt="profiles-filled"/>
+
+					</div>
+					<h2>profiles-filled</h2>
+				</li>
+				<li title="profiles-outlined">
+					<div class="icon-box">
+
+						<!-- profiles-outlined -->
+						<img src="svg/sprite.stack.svg#profiles-outlined" class="ci-profiles-outlined-dims" alt="profiles-outlined"/>
+
+					</div>
+					<h2>profiles-outlined</h2>
+				</li>
+				<li title="reading-glasses-filled">
+					<div class="icon-box">
+
+						<!-- reading-glasses-filled -->
+						<img src="svg/sprite.stack.svg#reading-glasses-filled" class="ci-reading-glasses-filled-dims" alt="reading-glasses-filled"/>
+
+					</div>
+					<h2>reading-glasses-filled</h2>
+				</li>
+				<li title="reading-glasses-outlined">
+					<div class="icon-box">
+
+						<!-- reading-glasses-outlined -->
+						<img src="svg/sprite.stack.svg#reading-glasses-outlined" class="ci-reading-glasses-outlined-dims" alt="reading-glasses-outlined"/>
+
+					</div>
+					<h2>reading-glasses-outlined</h2>
+				</li>
+				<li title="search-filled">
+					<div class="icon-box">
+
+						<!-- search-filled -->
+						<img src="svg/sprite.stack.svg#search-filled" class="ci-search-filled-dims" alt="search-filled"/>
+
+					</div>
+					<h2>search-filled</h2>
+				</li>
+				<li title="search-outlined">
+					<div class="icon-box">
+
+						<!-- search-outlined -->
+						<img src="svg/sprite.stack.svg#search-outlined" class="ci-search-outlined-dims" alt="search-outlined"/>
+
+					</div>
+					<h2>search-outlined</h2>
+				</li>
+				<li title="settings-outlined">
+					<div class="icon-box">
+
+						<!-- settings-outlined -->
+						<img src="svg/sprite.stack.svg#settings-outlined" class="ci-settings-outlined-dims" alt="settings-outlined"/>
+
+					</div>
+					<h2>settings-outlined</h2>
+				</li>
+				<li title="share-filled">
+					<div class="icon-box">
+
+						<!-- share-filled -->
+						<img src="svg/sprite.stack.svg#share-filled" class="ci-share-filled-dims" alt="share-filled"/>
+
+					</div>
+					<h2>share-filled</h2>
+				</li>
+				<li title="share-outlined">
+					<div class="icon-box">
+
+						<!-- share-outlined -->
+						<img src="svg/sprite.stack.svg#share-outlined" class="ci-share-outlined-dims" alt="share-outlined"/>
+
+					</div>
+					<h2>share-outlined</h2>
+				</li>
+				<li title="sign-in-outlined">
+					<div class="icon-box">
+
+						<!-- sign-in-outlined -->
+						<img src="svg/sprite.stack.svg#sign-in-outlined" class="ci-sign-in-outlined-dims" alt="sign-in-outlined"/>
+
+					</div>
+					<h2>sign-in-outlined</h2>
+				</li>
+				<li title="sign-out-outlined">
+					<div class="icon-box">
+
+						<!-- sign-out-outlined -->
+						<img src="svg/sprite.stack.svg#sign-out-outlined" class="ci-sign-out-outlined-dims" alt="sign-out-outlined"/>
+
+					</div>
+					<h2>sign-out-outlined</h2>
+				</li>
+				<li title="signal-outlined">
+					<div class="icon-box">
+
+						<!-- signal-outlined -->
+						<img src="svg/sprite.stack.svg#signal-outlined" class="ci-signal-outlined-dims" alt="signal-outlined"/>
+
+					</div>
+					<h2>signal-outlined</h2>
+				</li>
+				<li title="slack">
+					<div class="icon-box">
+
+						<!-- slack -->
+						<img src="svg/sprite.stack.svg#slack" class="ci-slack-dims" alt="slack"/>
+
+					</div>
+					<h2>slack</h2>
+				</li>
+				<li title="smile">
+					<div class="icon-box">
+
+						<!-- smile -->
+						<img src="svg/sprite.stack.svg#smile" class="ci-smile-dims" alt="smile"/>
+
+					</div>
+					<h2>smile</h2>
+				</li>
+				<li title="sparkle-filled">
+					<div class="icon-box">
+
+						<!-- sparkle-filled -->
+						<img src="svg/sprite.stack.svg#sparkle-filled" class="ci-sparkle-filled-dims" alt="sparkle-filled"/>
+
+					</div>
+					<h2>sparkle-filled</h2>
+				</li>
+				<li title="sparkle-outlined">
+					<div class="icon-box">
+
+						<!-- sparkle-outlined -->
+						<img src="svg/sprite.stack.svg#sparkle-outlined" class="ci-sparkle-outlined-dims" alt="sparkle-outlined"/>
+
+					</div>
+					<h2>sparkle-outlined</h2>
+				</li>
+				<li title="star-circle-filled">
+					<div class="icon-box">
+
+						<!-- star-circle-filled -->
+						<img src="svg/sprite.stack.svg#star-circle-filled" class="ci-star-circle-filled-dims" alt="star-circle-filled"/>
+
+					</div>
+					<h2>star-circle-filled</h2>
+				</li>
+				<li title="star-circle-outlined">
+					<div class="icon-box">
+
+						<!-- star-circle-outlined -->
+						<img src="svg/sprite.stack.svg#star-circle-outlined" class="ci-star-circle-outlined-dims" alt="star-circle-outlined"/>
+
+					</div>
+					<h2>star-circle-outlined</h2>
+				</li>
+				<li title="sticker-filled">
+					<div class="icon-box">
+
+						<!-- sticker-filled -->
+						<img src="svg/sprite.stack.svg#sticker-filled" class="ci-sticker-filled-dims" alt="sticker-filled"/>
+
+					</div>
+					<h2>sticker-filled</h2>
+				</li>
+				<li title="sticker-outlined">
+					<div class="icon-box">
+
+						<!-- sticker-outlined -->
+						<img src="svg/sprite.stack.svg#sticker-outlined" class="ci-sticker-outlined-dims" alt="sticker-outlined"/>
+
+					</div>
+					<h2>sticker-outlined</h2>
+				</li>
+				<li title="stream-filled">
+					<div class="icon-box">
+
+						<!-- stream-filled -->
+						<img src="svg/sprite.stack.svg#stream-filled" class="ci-stream-filled-dims" alt="stream-filled"/>
+
+					</div>
+					<h2>stream-filled</h2>
+				</li>
+				<li title="stream-outlined">
+					<div class="icon-box">
+
+						<!-- stream-outlined -->
+						<img src="svg/sprite.stack.svg#stream-outlined" class="ci-stream-outlined-dims" alt="stream-outlined"/>
+
+					</div>
+					<h2>stream-outlined</h2>
+				</li>
+				<li title="thumbs-up-filled">
+					<div class="icon-box">
+
+						<!-- thumbs-up-filled -->
+						<img src="svg/sprite.stack.svg#thumbs-up-filled" class="ci-thumbs-up-filled-dims" alt="thumbs-up-filled"/>
+
+					</div>
+					<h2>thumbs-up-filled</h2>
+				</li>
+				<li title="thumbs-up-outlined">
+					<div class="icon-box">
+
+						<!-- thumbs-up-outlined -->
+						<img src="svg/sprite.stack.svg#thumbs-up-outlined" class="ci-thumbs-up-outlined-dims" alt="thumbs-up-outlined"/>
+
+					</div>
+					<h2>thumbs-up-outlined</h2>
+				</li>
+				<li title="translate-outlined">
+					<div class="icon-box">
+
+						<!-- translate-outlined -->
+						<img src="svg/sprite.stack.svg#translate-outlined" class="ci-translate-outlined-dims" alt="translate-outlined"/>
+
+					</div>
+					<h2>translate-outlined</h2>
+				</li>
+				<li title="trash-filled">
+					<div class="icon-box">
+
+						<!-- trash-filled -->
+						<img src="svg/sprite.stack.svg#trash-filled" class="ci-trash-filled-dims" alt="trash-filled"/>
+
+					</div>
+					<h2>trash-filled</h2>
+				</li>
+				<li title="trash-outlined">
+					<div class="icon-box">
+
+						<!-- trash-outlined -->
+						<img src="svg/sprite.stack.svg#trash-outlined" class="ci-trash-outlined-dims" alt="trash-outlined"/>
+
+					</div>
+					<h2>trash-outlined</h2>
+				</li>
+				<li title="twitter">
+					<div class="icon-box">
+
+						<!-- twitter -->
+						<img src="svg/sprite.stack.svg#twitter" class="ci-twitter-dims" alt="twitter"/>
+
+					</div>
+					<h2>twitter</h2>
+				</li>
+				<li title="upload-outlined">
+					<div class="icon-box">
+
+						<!-- upload-outlined -->
+						<img src="svg/sprite.stack.svg#upload-outlined" class="ci-upload-outlined-dims" alt="upload-outlined"/>
+
+					</div>
+					<h2>upload-outlined</h2>
+				</li>
+				<li title="video-camera-filled">
+					<div class="icon-box">
+
+						<!-- video-camera-filled -->
+						<img src="svg/sprite.stack.svg#video-camera-filled" class="ci-video-camera-filled-dims" alt="video-camera-filled"/>
+
+					</div>
+					<h2>video-camera-filled</h2>
+				</li>
+				<li title="video-camera-outlined">
+					<div class="icon-box">
+
+						<!-- video-camera-outlined -->
+						<img src="svg/sprite.stack.svg#video-camera-outlined" class="ci-video-camera-outlined-dims" alt="video-camera-outlined"/>
+
+					</div>
+					<h2>video-camera-outlined</h2>
+				</li>
+				<li title="wechat">
+					<div class="icon-box">
+
+						<!-- wechat -->
+						<img src="svg/sprite.stack.svg#wechat" class="ci-wechat-dims" alt="wechat"/>
+
+					</div>
+					<h2>wechat</h2>
+				</li>
+				<li title="write-outlined">
+					<div class="icon-box">
+
+						<!-- write-outlined -->
+						<img src="svg/sprite.stack.svg#write-outlined" class="ci-write-outlined-dims" alt="write-outlined"/>
+
+					</div>
+					<h2>write-outlined</h2>
+				</li>
+				<li title="xing">
+					<div class="icon-box">
+
+						<!-- xing -->
+						<img src="svg/sprite.stack.svg#xing" class="ci-xing-dims" alt="xing"/>
+
+					</div>
+					<h2>xing</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<footer>
+			<p>Generated at Sat, 23 Apr 2022 13:23:36 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+		</footer>
+	</body>
+</html>
