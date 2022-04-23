@@ -1,6 +1,6 @@
 # Haiilo SVG Icons
 
-[![Icons: build & test](https://github.com/haiilo/catalyst/actions/workflows/icons.yml/badge.svg)](https://github.com/haiilo/catalyst/actions/workflows/icons.yml)
+[![Build](https://github.com/haiilo/catalyst-icons/actions/workflows/build.yml/badge.svg)](https://github.com/haiilo/catalyst-icons/actions/workflows/build.yml)
 
 This project contains all icons for the Catalyst design system custom SVG icon
 set.
@@ -16,10 +16,10 @@ npm install @haiilo/catalyst-icons
 
 ## Add new icons via web
 
-1. Go to [Code > icons > src](https://github.com/haiilo/catalyst/tree/main/icons/src)
+1. Go to [Code > src](https://github.com/haiilo/catalyst-icons/tree/main/src)
 and upload your new icon to the `src` directory. This can be done via the menu
 on the top right or simply by dragging your icon into the web browser.
-2. Navigate to [Actions > icons-release](https://github.com/haiilo/catalyst/actions/workflows/icons-release.yml) and trigger a manual CI release by clicking the `Run workflow`
+2. Navigate to [Actions > Release](https://github.com/haiilo/catalyst-icons/actions/workflows/release.yml) and trigger a manual CI release by clicking the `Run workflow`
 button (Branch: `main` / Release level: `patch`).
 
 ## Contributing
@@ -53,11 +53,8 @@ directory.
 ### Publishing
 
 The library can be published by running `npm publish`. However, the preferred
-way to publish a new version of the library is via the CI setup. A new version
-of the library will automatically be published to
-[npm](https://www.npmjs.com/package/@haiilo/catalyst-icons) when pushing a new
-tag on the main branch. To simplyfy this process, you can use the following npm
-commands:
+way to publish a new version of the library is via the CI setup. To simplyfy the
+manual release process, you can use the following npm commands:
 
  * **npm run release:major** releases a new *major* version
  * **npm run release:minor** releases a new *minor* version
@@ -65,8 +62,7 @@ commands:
 
 These commands will automatically increase the version number in the
 `package.json` and `package-lock.json`, commit the changed files, create a
-corresponding git tag and push everything to the remote branch. This will then
-automatically publish a new library version.
+corresponding git tag and push everything to the remote branch.
 
 ## License
 
