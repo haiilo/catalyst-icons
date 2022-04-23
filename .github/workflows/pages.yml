@@ -21,6 +21,8 @@ jobs:
         run: |
           npm ci
           npm run build
+      - name: Create index file
+        run: mv dist/sprite.css.html index.html
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.3
         with:
