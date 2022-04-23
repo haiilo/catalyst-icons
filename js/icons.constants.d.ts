@@ -414,6 +414,42 @@ export declare const ciSmile: {
     name: 'smile';
     data: string;
 };
+export declare const ciSpGrid2Cols: {
+    name: 'sp-grid-2-cols';
+    data: string;
+};
+export declare const ciSpGrid3Cols: {
+    name: 'sp-grid-3-cols';
+    data: string;
+};
+export declare const ciSpGrid4Cols: {
+    name: 'sp-grid-4-cols';
+    data: string;
+};
+export declare const ciSpGridFull: {
+    name: 'sp-grid-full';
+    data: string;
+};
+export declare const ciSpGridSidebarLeftLg: {
+    name: 'sp-grid-sidebar-left-lg';
+    data: string;
+};
+export declare const ciSpGridSidebarLeft: {
+    name: 'sp-grid-sidebar-left';
+    data: string;
+};
+export declare const ciSpGridSidebarRightLg: {
+    name: 'sp-grid-sidebar-right-lg';
+    data: string;
+};
+export declare const ciSpGridSidebarRight: {
+    name: 'sp-grid-sidebar-right';
+    data: string;
+};
+export declare const ciSpGridSocial: {
+    name: 'sp-grid-social';
+    data: string;
+};
 export declare const ciSparkleFilled: {
     name: 'sparkle-filled';
     data: string;
@@ -610,7 +646,7 @@ export declare const ciXing: {
     name: 'xing';
     data: string;
 };
-export declare type coyoIcon = '16-chevron-down' | '16-chevron-left' | '16-chevron-right' | '16-chevron-up' | 'arrow-down-outlined' | 'arrow-left-outlined' | 'arrow-right-outlined' | 'arrow-up-outlined' | 'article-filled' | 'article-outlined' | 'bar-chart-outlined' | 'bell-check-outlined' | 'bell-dot-filled' | 'bell-dot-outlined' | 'bell-filled' | 'bell-outlined' | 'bell-plus-outlined' | 'bell-ringing-filled' | 'bell-ringing-outlined' | 'book-filled' | 'book-outlined' | 'bookmark-check-outlined' | 'bookmark-filled' | 'bookmark-outlined' | 'bookmark-plus-outlined' | 'chat-filled' | 'chat-outlined' | 'check-circle-filled' | 'check-circle-outlined' | 'check-outlined' | 'chevron-down-outlined' | 'chevron-left-outlined' | 'chevron-right-outlined' | 'chevron-up-outlined' | 'clock-filled' | 'clock-outlined' | 'communities-filled' | 'communities-outlined' | 'content-filled' | 'content-outlined' | 'copy-outlined' | 'cross-circle-filled' | 'cross-circle-outlined' | 'cross-outlined' | 'cross-square-filled' | 'cross-square-outlined' | 'download-outlined' | 'earth-outlined' | 'events-filled' | 'events-outlined' | 'folder-minus-outlined' | 'folder-outlined' | 'folder-plus-outlined' | 'gift-outlined' | 'globe-outlined' | 'gradient-outlined' | 'group-outlined' | 'hashtag-outlined' | 'home-filled' | 'home-outlined' | 'layers-filled' | 'layers-outlined' | 'likes-circle-filled' | 'link-outlined' | 'lock-filled' | 'lock-open-filled' | 'lock-open-outlined' | 'lock-outlined' | 'marketplace-filled' | 'marketplace-outlined' | 'megaphone-filled' | 'megaphone-outlined' | 'menu-outlined' | 'microsoft-teams' | 'microsoft-yammer' | 'paperclip-box-outlined' | 'paperclip-outlined' | 'photo-add-outlined' | 'photo-filled' | 'photo-outlined' | 'photo-remove-outlined' | 'plus-circle-filled' | 'plus-circle-outlined' | 'plus-outlined' | 'plus-square-filled' | 'plus-square-outlined' | 'printer-filled' | 'printer-outlined' | 'profile-box-outlined' | 'profile-circle-outlined' | 'profiles-filled' | 'profiles-outlined' | 'reading-glasses-filled' | 'reading-glasses-outlined' | 'search-filled' | 'search-outlined' | 'settings-outlined' | 'share-filled' | 'share-outlined' | 'sign-in-outlined' | 'sign-out-outlined' | 'signal-outlined' | 'slack' | 'smile' | 'sparkle-filled' | 'sparkle-outlined' | 'star-circle-filled' | 'star-circle-outlined' | 'sticker-filled' | 'sticker-outlined' | 'thumbs-up-filled' | 'thumbs-up-outlined' | 'translate-outlined' | 'trash-filled' | 'trash-outlined' | 'upload-outlined' | 'video-camera-filled' | 'video-camera-outlined' | 'write-outlined' | 'apple-safari' | 'facebook' | 'feed-filled' | 'feed-outlined' | 'fingerprint-outlined' | 'google-calendar' | 'google-chrome' | 'google-drive' | 'google-mail' | 'google' | 'haiilo-home' | 'haiilo-insights' | 'haiilo-outlined' | 'haiilo-share' | 'haiilo-stories' | 'instagram' | 'linkedin' | 'mail-open-outlined' | 'mail-outlined' | 'microsoft-edge' | 'microsoft-excel' | 'microsoft-onenote' | 'microsoft-outlook' | 'microsoft-planner' | 'microsoft-powerpoint' | 'microsoft-sharepoint' | 'microsoft-word' | 'microsoft' | 'mozilla-firefox' | 'stream-filled' | 'stream-outlined' | 'twitter' | 'wechat' | 'xing';
+export declare type coyoIcon = '16-chevron-down' | '16-chevron-left' | '16-chevron-right' | '16-chevron-up' | 'arrow-down-outlined' | 'arrow-left-outlined' | 'arrow-right-outlined' | 'arrow-up-outlined' | 'article-filled' | 'article-outlined' | 'bar-chart-outlined' | 'bell-check-outlined' | 'bell-dot-filled' | 'bell-dot-outlined' | 'bell-filled' | 'bell-outlined' | 'bell-plus-outlined' | 'bell-ringing-filled' | 'bell-ringing-outlined' | 'book-filled' | 'book-outlined' | 'bookmark-check-outlined' | 'bookmark-filled' | 'bookmark-outlined' | 'bookmark-plus-outlined' | 'chat-filled' | 'chat-outlined' | 'check-circle-filled' | 'check-circle-outlined' | 'check-outlined' | 'chevron-down-outlined' | 'chevron-left-outlined' | 'chevron-right-outlined' | 'chevron-up-outlined' | 'clock-filled' | 'clock-outlined' | 'communities-filled' | 'communities-outlined' | 'content-filled' | 'content-outlined' | 'copy-outlined' | 'cross-circle-filled' | 'cross-circle-outlined' | 'cross-outlined' | 'cross-square-filled' | 'cross-square-outlined' | 'download-outlined' | 'earth-outlined' | 'events-filled' | 'events-outlined' | 'folder-minus-outlined' | 'folder-outlined' | 'folder-plus-outlined' | 'gift-outlined' | 'globe-outlined' | 'gradient-outlined' | 'group-outlined' | 'hashtag-outlined' | 'home-filled' | 'home-outlined' | 'layers-filled' | 'layers-outlined' | 'likes-circle-filled' | 'link-outlined' | 'lock-filled' | 'lock-open-filled' | 'lock-open-outlined' | 'lock-outlined' | 'marketplace-filled' | 'marketplace-outlined' | 'megaphone-filled' | 'megaphone-outlined' | 'menu-outlined' | 'microsoft-teams' | 'microsoft-yammer' | 'paperclip-box-outlined' | 'paperclip-outlined' | 'photo-add-outlined' | 'photo-filled' | 'photo-outlined' | 'photo-remove-outlined' | 'plus-circle-filled' | 'plus-circle-outlined' | 'plus-outlined' | 'plus-square-filled' | 'plus-square-outlined' | 'printer-filled' | 'printer-outlined' | 'profile-box-outlined' | 'profile-circle-outlined' | 'profiles-filled' | 'profiles-outlined' | 'reading-glasses-filled' | 'reading-glasses-outlined' | 'search-filled' | 'search-outlined' | 'settings-outlined' | 'share-filled' | 'share-outlined' | 'sign-in-outlined' | 'sign-out-outlined' | 'signal-outlined' | 'slack' | 'smile' | 'sp-grid-2-cols' | 'sp-grid-3-cols' | 'sp-grid-4-cols' | 'sp-grid-full' | 'sp-grid-sidebar-left-lg' | 'sp-grid-sidebar-left' | 'sp-grid-sidebar-right-lg' | 'sp-grid-sidebar-right' | 'sp-grid-social' | 'sparkle-filled' | 'sparkle-outlined' | 'star-circle-filled' | 'star-circle-outlined' | 'sticker-filled' | 'sticker-outlined' | 'thumbs-up-filled' | 'thumbs-up-outlined' | 'translate-outlined' | 'trash-filled' | 'trash-outlined' | 'upload-outlined' | 'video-camera-filled' | 'video-camera-outlined' | 'write-outlined' | 'apple-safari' | 'facebook' | 'feed-filled' | 'feed-outlined' | 'fingerprint-outlined' | 'google-calendar' | 'google-chrome' | 'google-drive' | 'google-mail' | 'google' | 'haiilo-home' | 'haiilo-insights' | 'haiilo-outlined' | 'haiilo-share' | 'haiilo-stories' | 'instagram' | 'linkedin' | 'mail-open-outlined' | 'mail-outlined' | 'microsoft-edge' | 'microsoft-excel' | 'microsoft-onenote' | 'microsoft-outlook' | 'microsoft-planner' | 'microsoft-powerpoint' | 'microsoft-sharepoint' | 'microsoft-word' | 'microsoft' | 'mozilla-firefox' | 'stream-filled' | 'stream-outlined' | 'twitter' | 'wechat' | 'xing';
 export interface CoyoIcon {
     name: coyoIcon;
     data: string;
@@ -927,6 +963,33 @@ export declare const completeIconSet: ({
     data: string;
 } | {
     name: 'smile';
+    data: string;
+} | {
+    name: 'sp-grid-2-cols';
+    data: string;
+} | {
+    name: 'sp-grid-3-cols';
+    data: string;
+} | {
+    name: 'sp-grid-4-cols';
+    data: string;
+} | {
+    name: 'sp-grid-full';
+    data: string;
+} | {
+    name: 'sp-grid-sidebar-left-lg';
+    data: string;
+} | {
+    name: 'sp-grid-sidebar-left';
+    data: string;
+} | {
+    name: 'sp-grid-sidebar-right-lg';
+    data: string;
+} | {
+    name: 'sp-grid-sidebar-right';
+    data: string;
+} | {
+    name: 'sp-grid-social';
     data: string;
 } | {
     name: 'sparkle-filled';

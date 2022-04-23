@@ -415,6 +415,42 @@ export const ciSmile = {
     name: 'smile',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.692 13.424a.75.75 0 1 0-1.136.98C7.8 15.847 9.793 16.75 12 16.75s4.2-.903 5.444-2.346a.75.75 0 1 0-1.136-.98C15.374 14.508 13.81 15.25 12 15.25c-1.81 0-3.374-.742-4.308-1.826ZM8 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0Z"/></svg>`
 };
+export const ciSpGrid2Cols = {
+    name: 'sp-grid-2-cols',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h42a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H4Zm.75 32V4.75h40.5v30.5H4.75ZM54 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h42a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H54Zm.75 32V4.75h40.5v30.5h-40.5Z"/></svg>`
+};
+export const ciSpGrid3Cols = {
+    name: 'sp-grid-3-cols',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 4.75c0-.414.317-.75.708-.75h23.917c.391 0 .708.336.708.75v32c0 .414-.317.75-.708.75H4.708c-.391 0-.708-.336-.708-.75v-32Zm1.416.75V36h22.501V5.5h-22.5Zm31.917-.75c0-.414.317-.75.708-.75H61.96c.39 0 .708.336.708.75v32c0 .414-.317.75-.708.75H38.04c-.39 0-.708-.336-.708-.75v-32Zm1.416.75V36h22.502V5.5H38.749ZM71.375 4c-.391 0-.708.336-.708.75v32c0 .414.317.75.708.75h23.917c.391 0 .708-.336.708-.75v-32c0-.414-.317-.75-.708-.75H71.375Zm.708 32V5.5h22.5V36h-22.5Z"/></svg>`
+};
+export const ciSpGrid4Cols = {
+    name: 'sp-grid-4-cols',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.69 4c-.381 0-.69.336-.69.75v32c0 .414.309.75.69.75h15.62c.381 0 .69-.336.69-.75v-32c0-.414-.309-.75-.69-.75H4.69Zm.688 32V5.5h14.244V36H5.378ZM29.69 4c-.381 0-.69.336-.69.75v32c0 .414.309.75.69.75h15.62c.381 0 .69-.336.69-.75v-32c0-.414-.309-.75-.69-.75H29.69Zm.688 32V5.5h14.244V36H30.378ZM54 4.75c0-.414.309-.75.69-.75h15.62c.381 0 .69.336.69.75v32c0 .414-.309.75-.69.75H54.69c-.381 0-.69-.336-.69-.75v-32Zm1.378.75V36h14.244V5.5H55.378ZM79.69 4c-.381 0-.69.336-.69.75v32c0 .414.309.75.69.75h15.62c.381 0 .69-.336.69-.75v-32c0-.414-.309-.75-.69-.75H79.69Zm.688 32V5.5h14.244V36H80.378Z"/></svg>`
+};
+export const ciSpGridFull = {
+    name: 'sp-grid-full',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 4.75c0-.414.33-.75.738-.75h90.524c.408 0 .738.336.738.75v32c0 .414-.33.75-.738.75H4.738A.744.744 0 0 1 4 36.75v-32Zm1.476.75V36h89.048V5.5H5.476Z"/></svg>`
+};
+export const ciSpGridSidebarLeftLg = {
+    name: 'sp-grid-sidebar-left-lg',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h30a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H4Zm.75 32V4.75h28.5v30.5H4.75ZM42 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h54a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H42Zm.75 32V4.75h52.5v30.5h-52.5Z"/></svg>`
+};
+export const ciSpGridSidebarLeft = {
+    name: 'sp-grid-sidebar-left',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H4Zm.75 32V4.75h16.5v30.5H4.75ZM30 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h66a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H30Zm.75 32V4.75h64.5v30.5h-64.5Z"/></svg>`
+};
+export const ciSpGridSidebarRightLg = {
+    name: 'sp-grid-sidebar-right-lg',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h54a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H4Zm.75 32V4.75h52.5v30.5H4.75ZM66 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h30a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H66Zm.75 32V4.75h28.5v30.5h-28.5Z"/></svg>`
+};
+export const ciSpGridSidebarRight = {
+    name: 'sp-grid-sidebar-right',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h66a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H4Zm.75 32V4.75h64.5v30.5H4.75ZM78 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H78Zm.75 32V4.75h16.5v30.5h-16.5Z"/></svg>`
+};
+export const ciSpGridSocial = {
+    name: 'sp-grid-social',
+    data: `<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 4A.75.75 0 0 1 4 3.25h18a.75.75 0 0 1 .75.75v32a.75.75 0 0 1-.75.75H4a.75.75 0 0 1-.75-.75V4Zm1.5.75v30.5h16.5V4.75H4.75ZM77.25 4a.75.75 0 0 1 .75-.75h18a.75.75 0 0 1 .75.75v32a.75.75 0 0 1-.75.75H78a.75.75 0 0 1-.75-.75V4Zm1.5.75v30.5h16.5V4.75h-16.5ZM30 3.25a.75.75 0 0 0-.75.75v32c0 .414.336.75.75.75h40a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75H30Zm.75 32V4.75h38.5v30.5h-38.5Z"/></svg>`
+};
 export const ciSparkleFilled = {
     name: 'sparkle-filled',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.07 3.359c.333-.844 1.527-.844 1.86 0l2.022 5.126a1 1 0 0 0 .563.563l5.126 2.022c.844.333.844 1.527 0 1.86l-5.126 2.022a1 1 0 0 0-.563.563l-2.022 5.126c-.333.844-1.527.844-1.86 0l-2.022-5.126a1 1 0 0 0-.563-.563L3.359 12.93c-.844-.333-.844-1.527 0-1.86l5.126-2.022a1 1 0 0 0 .563-.563l2.022-5.126ZM21 18a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/></svg>`
@@ -716,6 +752,15 @@ export const completeIconSet = [
     ciSignalOutlined,
     ciSlack,
     ciSmile,
+    ciSpGrid2Cols,
+    ciSpGrid3Cols,
+    ciSpGrid4Cols,
+    ciSpGridFull,
+    ciSpGridSidebarLeftLg,
+    ciSpGridSidebarLeft,
+    ciSpGridSidebarRightLg,
+    ciSpGridSidebarRight,
+    ciSpGridSocial,
     ciSparkleFilled,
     ciSparkleOutlined,
     ciStarCircleFilled,
