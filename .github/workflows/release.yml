@@ -42,3 +42,11 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: package.json
+      - name: 'Get release tag'
+        uses: 'WyriHaximus/github-action-get-previous-tag@v1'
+        id: previoustag
+      - name: Publish to GitHub
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.previoustag.outputs.tag }}
+          body_path: CHANGELOG.md
