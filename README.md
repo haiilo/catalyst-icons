@@ -1,6 +1,8 @@
 # Haiilo SVG Icons
 
 [![Build](https://github.com/haiilo/catalyst-icons/actions/workflows/build.yml/badge.svg)](https://github.com/haiilo/catalyst-icons/actions/workflows/build.yml)
+[![Release](https://github.com/haiilo/catalyst-icons/actions/workflows/release.yml/badge.svg)](https://github.com/haiilo/catalyst-icons/actions/workflows/release.yml)
+[![Deploy](https://github.com/haiilo/catalyst-icons/actions/workflows/pages.yml/badge.svg)](https://github.com/haiilo/catalyst-icons/actions/workflows/pages.yml)
 
 This project contains all icons for the Catalyst design system custom SVG icon
 set.
@@ -52,17 +54,17 @@ directory.
 
 ### Publishing
 
-The library can be published by running `npm publish`. However, the preferred
-way to publish a new version of the library is via the CI setup. To simplyfy the
-manual release process, you can use the following npm commands:
+The preferred way to publish a new release is via the corresponding GitHub
+Actions CI workflow. Navigate to [Actions > Release](https://github.com/haiilo/catalyst-icons/actions/workflows/release.yml)
+and trigger a manual CI release by clicking the `Run workflow` button
+(Branch: `main` / Release level: `patch`).
+
+The library can also be published locally by running `npm publish`. To simplyfy
+the manual release process, you can use the following npm commands:
 
  * **npm run release:major** releases a new *major* version
  * **npm run release:minor** releases a new *minor* version
  * **npm run release:patch** releases a new *patch* version
-
-These commands will automatically increase the version number in the
-`package.json` and `package-lock.json`, commit the changed files, create a
-corresponding git tag and push everything to the remote branch.
 
 ## Code Contributors
 
