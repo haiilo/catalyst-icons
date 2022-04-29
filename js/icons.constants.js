@@ -183,6 +183,10 @@ export const ciCrossSquareOutlined = {
     name: 'cross-square-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.47 8.47a.75.75 0 0 1 1.06 0L12 10.94l2.47-2.47a.75.75 0 1 1 1.06 1.06L13.06 12l2.47 2.47a.75.75 0 1 1-1.06 1.06L12 13.06l-2.47 2.47a.75.75 0 0 1-1.06-1.06L10.94 12 8.47 9.53a.75.75 0 0 1 0-1.06Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v14c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 19V5A1.75 1.75 0 0 0 19 3.25H5ZM4.75 5A.25.25 0 0 1 5 4.75h14a.25.25 0 0 1 .25.25v14a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25V5Z"/></svg>`
 };
+export const ciDotsCircleOutlined = {
+    name: 'dots-circle-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0Z"/></svg>`
+};
 export const ciDownloadOutlined = {
     name: 'download-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3.25a.75.75 0 0 1 .75.75v9.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 1 1 1.06-1.06l2.72 2.72V4a.75.75 0 0 1 .75-.75Z"/><path d="M4.75 14a.75.75 0 0 0-1.5 0v5.25c0 .39.15.77.425 1.052.275.284.653.448 1.052.448h14.546c.4 0 .777-.164 1.052-.448.275-.282.425-.662.425-1.052V14a.75.75 0 0 0-1.5 0v5.25H4.75V14Z"/></svg>`
@@ -279,6 +283,10 @@ export const ciMarketplaceOutlined = {
     name: 'marketplace-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.463 3.25H5.537L3.54 7.242a2.75 2.75 0 0 0-.29 1.23V10a2.75 2.75 0 0 0 2 2.646v3.604H4a.75.75 0 0 0 0 1.5h1.25V20a.75.75 0 0 0 1.5 0v-2.25h10.5V20a.75.75 0 0 0 1.5 0v-2.25H20a.75.75 0 0 0 0-1.5h-1.25v-3.604a2.751 2.751 0 0 0 2-2.646V8.472c0-.427-.1-.848-.29-1.23L18.463 3.25Zm-1.213 9.396v3.604H6.75v-3.604A2.75 2.75 0 0 0 8 11.887a2.742 2.742 0 0 0 2 .863c.788 0 1.499-.331 2-.863a2.742 2.742 0 0 0 2 .863c.788 0 1.499-.331 2-.863a2.75 2.75 0 0 0 1.25.76ZM18 11.25c.69 0 1.25-.56 1.25-1.25V8.472a1.25 1.25 0 0 0-.132-.559L17.537 4.75H6.463L4.882 7.913a1.25 1.25 0 0 0-.132.56V10a1.25 1.25 0 1 0 2.5 0V9a.75.75 0 0 1 1.5 0v1a1.25 1.25 0 1 0 2.5 0V9a.75.75 0 0 1 1.5 0v1a1.25 1.25 0 1 0 2.5 0V9a.75.75 0 0 1 1.5 0v1c0 .69.56 1.25 1.25 1.25Z"/></svg>`
 };
+export const ciMaybeCircleOutlined = {
+    name: 'maybe-circle-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.53 12.53c.93-.93 1.437-.972 1.698-.92.372.075.714.39 1.302.98.452.454 1.096 1.1 1.948 1.27.99.198 1.982-.26 3.052-1.33a.75.75 0 1 0-1.06-1.06c-.93.93-1.437.972-1.698.92-.359-.072-.696-.375-1.242-.92l-.06-.06c-.452-.454-1.096-1.1-1.948-1.27-.99-.198-1.982.26-3.052 1.33a.75.75 0 1 0 1.06 1.06Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0Z"/></svg>`
+};
 export const ciMegaphoneFilled = {
     name: 'megaphone-filled',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.26 3.984a1.75 1.75 0 0 1 2.49 1.586v9.953a1.75 1.75 0 0 1-2.4 1.625L2.866 12.554c-1.423-.569-1.479-2.562-.09-3.21l11.484-5.36ZM6 15.25a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 .75-.75Zm13-4h2a.75.75 0 0 0 0-1.5h-2a.75.75 0 0 0 0 1.5Zm1.53-6.78a.75.75 0 0 1 0 1.06l-1 1a.75.75 0 1 1-1.06-1.06l1-1a.75.75 0 0 1 1.06 0Zm0 11-1-1a.75.75 0 1 0-1.06 1.06l1 1a.75.75 0 1 0 1.06-1.06Z"/></svg>`
@@ -366,6 +374,10 @@ export const ciProfilesFilled = {
 export const ciProfilesOutlined = {
     name: 'profiles-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.588 14.677A2.823 2.823 0 0 1 11.168 13h1.664c1.116 0 2.127.657 2.58 1.677a.941.941 0 0 1-.86 1.323H9.448a.941.941 0 0 1-.86-1.323ZM14 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 3.25A3.75 3.75 0 0 0 3.25 7v.25H2a.75.75 0 0 0 0 1.5h1.25v2.5H2a.75.75 0 0 0 0 1.5h1.25v2.5H2a.75.75 0 0 0 0 1.5h1.25V17A3.75 3.75 0 0 0 7 20.75h10A3.75 3.75 0 0 0 20.75 17V7A3.75 3.75 0 0 0 17 3.25H7Zm-2.25 5.5v2.5H5a.75.75 0 0 1 0 1.5h-.25v2.5H5a.75.75 0 0 1 0 1.5h-.25V17A2.25 2.25 0 0 0 7 19.25h10A2.25 2.25 0 0 0 19.25 17V7A2.25 2.25 0 0 0 17 4.75H7A2.25 2.25 0 0 0 4.75 7v.25H5a.75.75 0 0 1 0 1.5h-.25Z"/></svg>`
+};
+export const ciQuestionMarkCircleOutlined = {
+    name: 'question-mark-circle-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5ZM2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.995-3.547c-.364.204-.753.602-1.054 1.316l-1.382-.583c.405-.96.995-1.644 1.7-2.04a3.046 3.046 0 0 1 2.187-.318c1.39.316 2.554 1.577 2.554 3.208 0 .94-.46 1.668-1.045 2.19-.43.384-.946.675-1.455.892V14h-1.5v-1.933l.507-.174c.555-.19 1.078-.455 1.45-.787.36-.32.543-.668.543-1.07 0-.882-.63-1.574-1.386-1.746a1.546 1.546 0 0 0-1.119.163ZM12 17a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/></svg>`
 };
 export const ciReadingGlassesFilled = {
     name: 'reading-glasses-filled',
@@ -694,6 +706,7 @@ export const completeIconSet = [
     ciCrossOutlined,
     ciCrossSquareFilled,
     ciCrossSquareOutlined,
+    ciDotsCircleOutlined,
     ciDownloadOutlined,
     ciEarthOutlined,
     ciEventsFilled,
@@ -718,6 +731,7 @@ export const completeIconSet = [
     ciLockOutlined,
     ciMarketplaceFilled,
     ciMarketplaceOutlined,
+    ciMaybeCircleOutlined,
     ciMegaphoneFilled,
     ciMegaphoneOutlined,
     ciMenuOutlined,
@@ -740,6 +754,7 @@ export const completeIconSet = [
     ciProfileCircleOutlined,
     ciProfilesFilled,
     ciProfilesOutlined,
+    ciQuestionMarkCircleOutlined,
     ciReadingGlassesFilled,
     ciReadingGlassesOutlined,
     ciSearchFilled,
