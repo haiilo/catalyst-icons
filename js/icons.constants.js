@@ -595,6 +595,10 @@ export const ciHaiiloStories = {
     name: 'haiilo-stories',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.025 11.999a2.024 2.024 0 1 0-4.048 0 2.024 2.024 0 0 0 4.048 0Zm0-6.974a2.024 2.024 0 1 0-4.049 0 2.024 2.024 0 0 0 4.049 0Zm0 13.95a2.025 2.025 0 1 0-4.05 0 2.025 2.025 0 0 0 4.05 0ZM7.05 12a2.024 2.024 0 1 0-4.049 0 2.024 2.024 0 0 0 4.049 0ZM21 18.975a2.025 2.025 0 1 0-4.05 0 2.025 2.025 0 0 0 4.05 0Zm0-13.948a2.024 2.024 0 1 0-4.048-.002A2.024 2.024 0 0 0 21 5.027Z" fill="#1B6C75"/></svg>`
 };
+export const ciHistoryOutlined = {
+    name: 'history-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm2.255-.027a.75.75 0 0 1 .827-.664c4.876.54 8.668 4.672 8.668 9.691A9.75 9.75 0 0 1 12 21.75c-5.02 0-9.152-3.792-9.69-8.668a.75.75 0 0 1 1.49-.164A8.251 8.251 0 1 0 12.918 3.8a.75.75 0 0 1-.663-.827Z"/><path d="M12 6.25a.75.75 0 0 1 .75.75v4.25H17a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75V7a.75.75 0 0 1 .75-.75ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm2-4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/></svg>`
+};
 export const ciInfoCircleOutlined = {
     name: 'info-circle-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25 3.5a.75.75 0 0 0-1.5 0V16a.75.75 0 0 0 1.5 0v-4.5Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z"/></svg>`
@@ -993,6 +997,7 @@ export const completeIconSet = [
     ciHaiiloOutlined,
     ciHaiiloShare,
     ciHaiiloStories,
+    ciHistoryOutlined,
     ciInfoCircleOutlined,
     ciInstagram,
     ciLinkedin,
