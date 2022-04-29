@@ -527,9 +527,17 @@ export const ciWriteOutlined = {
     name: 'write-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4.75 6c0-.69.56-1.25 1.25-1.25h6a.75.75 0 0 0 0-1.5H6A2.75 2.75 0 0 0 3.25 6v12A2.75 2.75 0 0 0 6 20.75h12A2.75 2.75 0 0 0 20.75 18v-6a.75.75 0 0 0-1.5 0v6c0 .69-.56 1.25-1.25 1.25H6c-.69 0-1.25-.56-1.25-1.25V6Z"/><path d="M19.707 5.707a1 1 0 0 0-1.414-1.414l-8 8a1 1 0 1 0 1.414 1.414l8-8Z"/></svg>`
 };
+export const ciCircleOutlined = {
+    name: 'circle-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25-8a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0V8Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z"/></svg>`
+};
 export const ciAppleSafari = {
     name: 'apple-safari',
     data: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.815 11.807a9.79 9.79 0 0 1-9.79 9.789c-5.405 0-9.788-4.383-9.788-9.79 0-5.406 4.383-9.788 9.789-9.788a9.79 9.79 0 0 1 9.789 9.789Z" fill="#E4E3E3"/><path d="M21.048 11.807a9.022 9.022 0 1 1-18.044 0 9.022 9.022 0 0 1 18.044 0Z" fill="#0BA2E2"/><path clip-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" stroke="#fff" stroke-linecap="round" stroke-dasharray="1 2.3"/><path d="m18.191 6.545-7.196 4.182 2.106 2.233 5.09-6.415Z" fill="#FF5150"/><path d="M10.995 10.727 6.444 17.89l6.657-4.93-2.106-2.233Z" fill="#F1F1F1"/></svg>`
+};
+export const ciExclamationMarkCircleOutlined = {
+    name: 'exclamation-mark-circle-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25-8a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0V8Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z"/></svg>`
 };
 export const ciFacebook = {
     name: 'facebook',
@@ -586,6 +594,10 @@ export const ciHaiiloShare = {
 export const ciHaiiloStories = {
     name: 'haiilo-stories',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.025 11.999a2.024 2.024 0 1 0-4.048 0 2.024 2.024 0 0 0 4.048 0Zm0-6.974a2.024 2.024 0 1 0-4.049 0 2.024 2.024 0 0 0 4.049 0Zm0 13.95a2.025 2.025 0 1 0-4.05 0 2.025 2.025 0 0 0 4.05 0ZM7.05 12a2.024 2.024 0 1 0-4.049 0 2.024 2.024 0 0 0 4.049 0ZM21 18.975a2.025 2.025 0 1 0-4.05 0 2.025 2.025 0 0 0 4.05 0Zm0-13.948a2.024 2.024 0 1 0-4.048-.002A2.024 2.024 0 0 0 21 5.027Z" fill="#1B6C75"/></svg>`
+};
+export const ciInfoCircleOutlined = {
+    name: 'info-circle-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25 3.5a.75.75 0 0 0-1.5 0V16a.75.75 0 0 0 1.5 0v-4.5Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z"/></svg>`
 };
 export const ciInstagram = {
     name: 'instagram',
@@ -964,7 +976,9 @@ export const completeIconSet = [
     ciVideoCameraOutlined,
     ciWBlogArticleRecommendedOutlined,
     ciWriteOutlined,
+    ciCircleOutlined,
     ciAppleSafari,
+    ciExclamationMarkCircleOutlined,
     ciFacebook,
     ciFeedFilled,
     ciFeedOutlined,
@@ -979,6 +993,7 @@ export const completeIconSet = [
     ciHaiiloOutlined,
     ciHaiiloShare,
     ciHaiiloStories,
+    ciInfoCircleOutlined,
     ciInstagram,
     ciLinkedin,
     ciMailOpenOutlined,
