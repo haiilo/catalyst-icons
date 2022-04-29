@@ -659,9 +659,17 @@ export const ciMailOutlined = {
     name: 'mail-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 4.25A2.75 2.75 0 0 0 2.25 7v10A2.75 2.75 0 0 0 5 19.75h14A2.75 2.75 0 0 0 21.75 17V7A2.75 2.75 0 0 0 19 4.25H5Zm-.138 1.508c.045-.005.091-.008.138-.008h14c.047 0 .093.003.138.008L12 12.003 4.862 5.758ZM3.767 6.793A1.258 1.258 0 0 0 3.75 7v10c0 .69.56 1.25 1.25 1.25h14c.69 0 1.25-.56 1.25-1.25V7c0-.07-.006-.14-.017-.207l-7.74 6.771a.75.75 0 0 1-.987 0L3.767 6.793Z"/></svg>`
 };
+export const ciMenuLeftOutlined = {
+    name: 'menu-left-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 5.25a.75.75 0 0 0 0 1.5h18a.75.75 0 0 0 0-1.5H3Zm9 6a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5h-9ZM11.25 18a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1-.75-.75Zm-3.72-5.47a.75.75 0 1 0-1.06-1.06l-3 3a.75.75 0 0 0 0 1.06l3 3a.75.75 0 0 0 1.06-1.06L5.06 15l2.47-2.47Z"/></svg>`
+};
 export const ciMenuOutlined = {
     name: 'menu-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.25 6A.75.75 0 0 1 3 5.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 6Zm0 6a.75.75 0 0 1 .75-.75h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75ZM3 17.25a.75.75 0 0 0 0 1.5h18a.75.75 0 0 0 0-1.5H3Z"/></svg>`
+};
+export const ciMenuRightOutlined = {
+    name: 'menu-right-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 5.25a.75.75 0 0 0 0 1.5h18a.75.75 0 0 0 0-1.5H3Zm0 6a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5H3ZM2.25 18a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75Zm15.28-6.53a.75.75 0 1 0-1.06 1.06L18.94 15l-2.47 2.47a.75.75 0 1 0 1.06 1.06l3-3a.75.75 0 0 0 0-1.06l-3-3Z"/></svg>`
 };
 export const ciMicrosoftEdge = {
     name: 'microsoft-edge',
@@ -1065,7 +1073,9 @@ export const completeIconSet = [
     ciLinkedin,
     ciMailOpenOutlined,
     ciMailOutlined,
+    ciMenuLeftOutlined,
     ciMenuOutlined,
+    ciMenuRightOutlined,
     ciMicrosoftEdge,
     ciMicrosoftExcel,
     ciMicrosoftOnenote,
