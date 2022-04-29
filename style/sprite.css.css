@@ -1460,8 +1460,17 @@
 	height: 24px;
 }
 
-.ci-wechat {
+.ci-w-blog-article-recommended-outlined {
 	background-position: 100% 90.69767441860465%;
+}
+
+.ci-w-blog-article-recommended-outlined-size {
+	width: 24px;
+	height: 24px;
+}
+
+.ci-wechat {
+	background-position: 0 100%;
 }
 
 .ci-wechat-size {
@@ -1470,7 +1479,7 @@
 }
 
 .ci-write-outlined {
-	background-position: 0 100%;
+	background-position: 6.976744186046512% 100%;
 }
 
 .ci-write-outlined-size {
@@ -1479,7 +1488,7 @@
 }
 
 .ci-xing {
-	background-position: 6.976744186046512% 100%;
+	background-position: 13.953488372093023% 100%;
 }
 
 .ci-xing-size {

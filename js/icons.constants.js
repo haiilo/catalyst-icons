@@ -519,6 +519,10 @@ export const ciVideoCameraOutlined = {
     name: 'video-camera-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 5.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h9c.69 0 1.25-.56 1.25-1.25v-3a.75.75 0 0 1 1.136-.643l3.864 2.318v-7.35l-3.864 2.318A.75.75 0 0 1 15.25 10V7c0-.69-.56-1.25-1.25-1.25H5ZM2.25 7A2.75 2.75 0 0 1 5 4.25h9A2.75 2.75 0 0 1 16.75 7v1.675l3.864-2.318A.75.75 0 0 1 21.75 7v10a.75.75 0 0 1-1.136.643l-3.864-2.318V17A2.75 2.75 0 0 1 14 19.75H5A2.75 2.75 0 0 1 2.25 17V7Z"/></svg>`
 };
+export const ciWBlogArticleRecommendedOutlined = {
+    name: 'w-blog-article-recommended-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.25 6A2.75 2.75 0 0 1 6 3.25h12A2.75 2.75 0 0 1 20.75 6v2a.75.75 0 0 1-1.5 0V6c0-.69-.56-1.25-1.25-1.25H6c-.69 0-1.25.56-1.25 1.25v12c0 .69.56 1.25 1.25 1.25v1.5A2.75 2.75 0 0 1 3.25 18V6Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M9.25 16c0-.966.784-1.75 1.75-1.75h1.66c.819-.97.952-1.635 1.129-2.517.068-.338.142-.708.263-1.14.12-.425.409-.786.765-1.004.362-.222.874-.337 1.378-.1.48.227.795.659 1.022 1.284.18.499.328 1.185.45 2.132h1.97a1.75 1.75 0 0 1 1.668 2.276l-1.37 4.345a1.75 1.75 0 0 1-1.668 1.224H11A1.75 1.75 0 0 1 9.25 19v-3Zm1.75-.25h1.25v3.5H11a.25.25 0 0 1-.25-.25v-3a.25.25 0 0 1 .25-.25Zm4.534-4.82a.22.22 0 0 0-.038.07c-.08.283-.136.57-.195.868-.195.988-.41 2.08-1.551 3.416v3.966h4.517a.25.25 0 0 0 .238-.175l1.37-4.345a.25.25 0 0 0-.239-.325H17a.75.75 0 0 1-.746-.672c-.133-1.272-.29-2.015-.448-2.45a1.397 1.397 0 0 0-.187-.378.35.35 0 0 0-.027-.031.268.268 0 0 0-.058.056Z"/><path d="M9.75 11.25h-2.5v1.5h2.5v-1.5Zm4-4h-6.5v1.5h6.5v-1.5Z"/></svg>`
+};
 export const ciWriteOutlined = {
     name: 'write-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4.75 6c0-.69.56-1.25 1.25-1.25h6a.75.75 0 0 0 0-1.5H6A2.75 2.75 0 0 0 3.25 6v12A2.75 2.75 0 0 0 6 20.75h12A2.75 2.75 0 0 0 20.75 18v-6a.75.75 0 0 0-1.5 0v6c0 .69-.56 1.25-1.25 1.25H6c-.69 0-1.25-.56-1.25-1.25V6Z"/><path d="M19.707 5.707a1 1 0 0 0-1.414-1.414l-8 8a1 1 0 1 0 1.414 1.414l8-8Z"/></svg>`
@@ -790,6 +794,7 @@ export const completeIconSet = [
     ciUploadOutlined,
     ciVideoCameraFilled,
     ciVideoCameraOutlined,
+    ciWBlogArticleRecommendedOutlined,
     ciWriteOutlined,
     ciAppleSafari,
     ciFacebook,
