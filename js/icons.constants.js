@@ -15,6 +15,22 @@ export const ci16ChevronUp = {
     name: '16-chevron-up',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.47 5.47a.75.75 0 0 1 1.06 0l4 4a.75.75 0 1 1-1.06 1.06L8 7.06l-3.47 3.47a.75.75 0 1 1-1.06-1.06l4-4Z"/></svg>`
 };
+export const ci16FlashCircleOutlined = {
+    name: '16-flash-circle-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8.491 3.79 4.922 7.134A.5.5 0 0 0 5.264 8h1.403l-.626 3.519a.5.5 0 0 0 .834.452l4.203-3.94a.5.5 0 0 0-.342-.864H9.333V4.154a.5.5 0 0 0-.842-.365Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .25a7.75 7.75 0 1 0 0 15.5A7.75 7.75 0 0 0 8 .25ZM1.75 8a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0Z"/></svg>`
+};
+export const ci16LockOutlined = {
+    name: '16-lock-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 4.25V4a3.75 3.75 0 1 1 7.5 0v.25H13c.966 0 1.75.784 1.75 1.75v8A1.75 1.75 0 0 1 13 15.75H3A1.75 1.75 0 0 1 1.25 14V6c0-.966.784-1.75 1.75-1.75h1.25ZM5.75 4a2.25 2.25 0 0 1 4.5 0v.25h-4.5V4ZM3 5.75a.25.25 0 0 0-.25.25v8c0 .138.112.25.25.25h10a.25.25 0 0 0 .25-.25V6a.25.25 0 0 0-.25-.25H3Z"/></svg>`
+};
+export const ci16ThumbsUpOutlined = {
+    name: '16-thumbs-up-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.698.464a1.576 1.576 0 0 0-1.354.161 1.81 1.81 0 0 0-.786 1.017c-.237.796-.35 1.627-.61 2.415-.191.575-.508 1.22-1.263 2.193H3A2.75 2.75 0 0 0 .25 9v4A2.75 2.75 0 0 0 3 15.75h8.743a1.75 1.75 0 0 0 1.684-1.276l1.937-6.883a1.75 1.75 0 0 0-1.684-2.224h-3.002c-.172-1.58-.383-2.64-.643-3.357-.308-.848-.73-1.33-1.337-1.546ZM7.996 2.07a.312.312 0 0 1 .132-.165l.074-.024c.05.016.216.072.423.642.227.625.447 1.724.628 3.665a.75.75 0 0 0 .747.68h3.68a.25.25 0 0 1 .24.317l-1.937 6.884a.25.25 0 0 1-.24.182H5.75V7.323c.914-1.153 1.353-1.984 1.621-2.795.266-.804.384-1.648.625-2.459Zm.132-.165.07-.026H8.19a.177.177 0 0 0-.063.026ZM4.25 14.25v-6.5H3c-.69 0-1.25.56-1.25 1.25v4c0 .69.56 1.25 1.25 1.25h1.25Z"/></svg>`
+};
+export const ci16TranslateBoxOutlined = {
+    name: '16-translate-box-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M4.25 5.28A.75.75 0 0 1 5 4.53h2.75V4a.75.75 0 0 1 1.5 0v.53H12a.75.75 0 0 1 0 1.5h-.781a9.177 9.177 0 0 1-1.848 3.768c.132.07.269.133.41.187l1 .383-.537 1.4-1-.383a5.113 5.113 0 0 1-.947-.48 9.176 9.176 0 0 1-2.21 1.422l-.775.355a.75.75 0 0 1-.624-1.364l.776-.355A7.68 7.68 0 0 0 7.16 9.901a5.113 5.113 0 0 1-1.153-2.6l1.486-.203c.088.644.345 1.239.73 1.733a7.678 7.678 0 0 0 1.45-2.801H5a.75.75 0 0 1-.75-.75Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M.25 3A2.75 2.75 0 0 1 3 .25h10A2.75 2.75 0 0 1 15.75 3v10A2.75 2.75 0 0 1 13 15.75H3A2.75 2.75 0 0 1 .25 13V3ZM3 1.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25V3c0-.69-.56-1.25-1.25-1.25H3Z"/></svg>`
+};
 export const ciArrowDownOutlined = {
     name: 'arrow-down-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.25a.75.75 0 0 1 .75.75v8.19l3.72-3.72a.75.75 0 1 1 1.06 1.06l-5 5a.75.75 0 0 1-1.06 0l-5-5a.75.75 0 1 1 1.06-1.06l3.72 3.72V7a.75.75 0 0 1 .75-.75Z"/></svg>`
@@ -888,6 +904,10 @@ export const completeIconSet = [
     ci16ChevronLeft,
     ci16ChevronRight,
     ci16ChevronUp,
+    ci16FlashCircleOutlined,
+    ci16LockOutlined,
+    ci16ThumbsUpOutlined,
+    ci16TranslateBoxOutlined,
     ciArrowDownOutlined,
     ciArrowLeftOutlined,
     ciArrowRightOutlined,
