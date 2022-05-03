@@ -21,7 +21,7 @@ npm install @haiilo/catalyst-icons
 1. Go to [Code > src](https://github.com/haiilo/catalyst-icons/tree/main/src)
 and upload your new icon to the `src` directory. This can be done via the menu
 on the top right or simply by dragging your icon into the web browser.
-2. Stick to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for your commit message, e.g. _feat: add new RTE icons_
+2. Stick to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for your commit message, e.g. _feat: add new RTE icons_.
 3. Navigate to [Actions > Release](https://github.com/haiilo/catalyst-icons/actions/workflows/release.yml) and trigger a manual CI release by clicking the `Run workflow`
 button (Branch: `main` / Release level: `patch`).
 
