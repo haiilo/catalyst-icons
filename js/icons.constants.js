@@ -31,10 +31,6 @@ export const ci16TranslateBoxOutlined = {
     name: '16-translate-box-outlined',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M4.25 5.28A.75.75 0 0 1 5 4.53h2.75V4a.75.75 0 0 1 1.5 0v.53H12a.75.75 0 0 1 0 1.5h-.781a9.177 9.177 0 0 1-1.848 3.768c.132.07.269.133.41.187l1 .383-.537 1.4-1-.383a5.113 5.113 0 0 1-.947-.48 9.176 9.176 0 0 1-2.21 1.422l-.775.355a.75.75 0 0 1-.624-1.364l.776-.355A7.68 7.68 0 0 0 7.16 9.901a5.113 5.113 0 0 1-1.153-2.6l1.486-.203c.088.644.345 1.239.73 1.733a7.678 7.678 0 0 0 1.45-2.801H5a.75.75 0 0 1-.75-.75Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M.25 3A2.75 2.75 0 0 1 3 .25h10A2.75 2.75 0 0 1 15.75 3v10A2.75 2.75 0 0 1 13 15.75H3A2.75 2.75 0 0 1 .25 13V3ZM3 1.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25V3c0-.69-.56-1.25-1.25-1.25H3Z"/></svg>`
 };
-export const ciArrowDownOutlined = {
-    name: 'arrow-down-outlined',
-    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.25a.75.75 0 0 1 .75.75v8.19l3.72-3.72a.75.75 0 1 1 1.06 1.06l-5 5a.75.75 0 0 1-1.06 0l-5-5a.75.75 0 1 1 1.06-1.06l3.72 3.72V7a.75.75 0 0 1 .75-.75Z"/></svg>`
-};
 export const ciArrowLeftOutlined = {
     name: 'arrow-left-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.53 6.47a.75.75 0 0 1 0 1.06l-3.72 3.72H17a.75.75 0 0 1 0 1.5H8.81l3.72 3.72a.75.75 0 1 1-1.06 1.06l-5-5a.75.75 0 0 1 0-1.06l5-5a.75.75 0 0 1 1.06 0Z"/></svg>`
@@ -571,6 +567,10 @@ export const ciAppleSafari = {
     name: 'apple-safari',
     data: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.815 11.807a9.79 9.79 0 0 1-9.79 9.789c-5.405 0-9.788-4.383-9.788-9.79 0-5.406 4.383-9.788 9.789-9.788a9.79 9.79 0 0 1 9.789 9.789Z" fill="#E4E3E3"/><path d="M21.048 11.807a9.022 9.022 0 1 1-18.044 0 9.022 9.022 0 0 1 18.044 0Z" fill="#0BA2E2"/><path clip-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" stroke="#fff" stroke-linecap="round" stroke-dasharray="1 2.3"/><path d="m18.191 6.545-7.196 4.182 2.106 2.233 5.09-6.415Z" fill="#FF5150"/><path d="M10.995 10.727 6.444 17.89l6.657-4.93-2.106-2.233Z" fill="#F1F1F1"/></svg>`
 };
+export const ciArrowDownOutlined = {
+    name: 'arrow-down-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.25a.75.75 0 0 1 .75.75v10.19l3.72-3.72a.75.75 0 1 1 1.06 1.06l-5 5a.75.75 0 0 1-1.06 0l-5-5a.75.75 0 1 1 1.06-1.06l3.72 3.72V6a.75.75 0 0 1 .75-.75Z"/></svg>`
+};
 export const ciArrowUpOutlined = {
     name: 'arrow-up-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 5.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 1 1-1.06 1.06l-3.72-3.72V18a.75.75 0 0 1-1.5 0V7.81l-3.72 3.72a.75.75 0 0 1-1.06-1.06l5-5Z"/></svg>`
@@ -940,7 +940,6 @@ export const completeIconSet = [
     ci16LockOutlined,
     ci16ThumbsUpOutlined,
     ci16TranslateBoxOutlined,
-    ciArrowDownOutlined,
     ciArrowLeftOutlined,
     ciArrowRightOutlined,
     ciArticleFilled,
@@ -1075,6 +1074,7 @@ export const completeIconSet = [
     ciWriteOutlined,
     ciCircleOutlined,
     ciAppleSafari,
+    ciArrowDownOutlined,
     ciArrowUpOutlined,
     ciBoldOutined,
     ciExclamationMarkCircleOutlined,
