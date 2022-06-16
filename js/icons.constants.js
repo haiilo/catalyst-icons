@@ -623,10 +623,6 @@ export const ciArrowUpOutlined = {
     name: 'arrow-up-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 5.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 1 1-1.06 1.06l-3.72-3.72V18a.75.75 0 0 1-1.5 0V7.81l-3.72 3.72a.75.75 0 0 1-1.06-1.06l5-5Z"/></svg>`
 };
-export const ciBoldOutlined = {
-    name: 'bold-outlined',
-    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.25 5A.75.75 0 0 1 8 4.25h4.5a4.25 4.25 0 0 1 2.836 7.416A4.25 4.25 0 0 1 13.5 19.75H8a.75.75 0 0 1-.75-.75V5Zm1.5.75v5.5h3.75a2.75 2.75 0 1 0 0-5.5H8.75Zm0 7v5.5h4.75a2.75 2.75 0 1 0 0-5.5H8.75Z"/></svg>`
-};
 export const ciExclamationMarkCircleOutlined = {
     name: 'exclamation-mark-circle-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25-8a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0V8Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z"/></svg>`
@@ -1136,7 +1132,6 @@ export const completeIconSet = [
     ciArrowLeftOutlined,
     ciArrowRightOutlined,
     ciArrowUpOutlined,
-    ciBoldOutlined,
     ciExclamationMarkCircleOutlined,
     ciFacebook,
     ciFeedFilled,
