@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.8 (2022-07-10)
+
+
+### Features
+
+* list icon (ol, ul), indent ([958eb2c](https://github.com/haiilo/catalyst-icons/commit/958eb2c00814a3758ecf834cae03e4e799a31a12))
+
 ### 0.3.7 (2022-07-07)
 
 ### 0.3.6 (2022-06-21)
