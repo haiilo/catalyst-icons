@@ -96,63 +96,83 @@ This is an all-in-one inline version of the CSS necessary to use the SVG sprite.
 	width: 16px;
 	height: 16px;
 }
-.ci-16-editor-italic {
+.ci-16-editor-indent-decrease {
 	background: url("svg/sprite.view.svg") 55.76923076923077% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-editor-link {
+.ci-16-editor-indent-increase {
 	background: url("svg/sprite.view.svg") 59.61538461538461% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-editor-link-break {
+.ci-16-editor-italic {
 	background: url("svg/sprite.view.svg") 63.46153846153846% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-editor-paragraph {
+.ci-16-editor-link {
 	background: url("svg/sprite.view.svg") 67.3076923076923% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-editor-plus {
+.ci-16-editor-link-break {
 	background: url("svg/sprite.view.svg") 71.15384615384616% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-editor-search {
+.ci-16-editor-ol {
 	background: url("svg/sprite.view.svg") 75% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-editor-settings {
+.ci-16-editor-paragraph {
 	background: url("svg/sprite.view.svg") 78.84615384615384% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-flash-circle-outlined {
+.ci-16-editor-plus {
 	background: url("svg/sprite.view.svg") 82.6923076923077% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-lock-outlined {
+.ci-16-editor-search {
 	background: url("svg/sprite.view.svg") 86.53846153846153% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-targeted-outlined {
+.ci-16-editor-settings {
 	background: url("svg/sprite.view.svg") 90.38461538461539% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-thumbs-up-outlined {
+.ci-16-editor-ul {
 	background: url("svg/sprite.view.svg") 94.23076923076923% 98% no-repeat;
 	width: 16px;
 	height: 16px;
 }
-.ci-16-translate-box-outlined {
+.ci-16-flash-circle-outlined {
 	background: url("svg/sprite.view.svg") 100% 0 no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.ci-16-lock-outlined {
+	background: url("svg/sprite.view.svg") 100% 4% no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.ci-16-targeted-outlined {
+	background: url("svg/sprite.view.svg") 100% 8% no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.ci-16-thumbs-up-outlined {
+	background: url("svg/sprite.view.svg") 100% 12% no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.ci-16-translate-box-outlined {
+	background: url("svg/sprite.view.svg") 100% 16% no-repeat;
 	width: 16px;
 	height: 16px;
 }
@@ -1306,13 +1326,17 @@ external stylesheet of course.
 	.ci-16-editor-h-6-dims { width: 16px; height: 16px; }
 	.ci-16-editor-headline-dims { width: 16px; height: 16px; }
 	.ci-16-editor-image-dims { width: 16px; height: 16px; }
+	.ci-16-editor-indent-decrease-dims { width: 16px; height: 16px; }
+	.ci-16-editor-indent-increase-dims { width: 16px; height: 16px; }
 	.ci-16-editor-italic-dims { width: 16px; height: 16px; }
 	.ci-16-editor-link-dims { width: 16px; height: 16px; }
 	.ci-16-editor-link-break-dims { width: 16px; height: 16px; }
+	.ci-16-editor-ol-dims { width: 16px; height: 16px; }
 	.ci-16-editor-paragraph-dims { width: 16px; height: 16px; }
 	.ci-16-editor-plus-dims { width: 16px; height: 16px; }
 	.ci-16-editor-search-dims { width: 16px; height: 16px; }
 	.ci-16-editor-settings-dims { width: 16px; height: 16px; }
+	.ci-16-editor-ul-dims { width: 16px; height: 16px; }
 	.ci-16-flash-circle-outlined-dims { width: 16px; height: 16px; }
 	.ci-16-lock-outlined-dims { width: 16px; height: 16px; }
 	.ci-16-targeted-outlined-dims { width: 16px; height: 16px; }
@@ -1716,6 +1740,24 @@ appropriately sized elements.
 					</div>
 					<h2>16-editor-image</h2>
 				</li>
+				<li title="16-editor-indent-decrease">
+					<div class="icon-box">
+
+						<!-- 16-editor-indent-decrease -->
+						<i class="ci-16-editor-indent-decrease">16-editor-indent-decrease</i>
+
+					</div>
+					<h2>16-editor-indent-decrease</h2>
+				</li>
+				<li title="16-editor-indent-increase">
+					<div class="icon-box">
+
+						<!-- 16-editor-indent-increase -->
+						<i class="ci-16-editor-indent-increase">16-editor-indent-increase</i>
+
+					</div>
+					<h2>16-editor-indent-increase</h2>
+				</li>
 				<li title="16-editor-italic">
 					<div class="icon-box">
 
@@ -1742,6 +1784,15 @@ appropriately sized elements.
 
 					</div>
 					<h2>16-editor-link-break</h2>
+				</li>
+				<li title="16-editor-ol">
+					<div class="icon-box">
+
+						<!-- 16-editor-ol -->
+						<i class="ci-16-editor-ol">16-editor-ol</i>
+
+					</div>
+					<h2>16-editor-ol</h2>
 				</li>
 				<li title="16-editor-paragraph">
 					<div class="icon-box">
@@ -1778,6 +1829,15 @@ appropriately sized elements.
 
 					</div>
 					<h2>16-editor-settings</h2>
+				</li>
+				<li title="16-editor-ul">
+					<div class="icon-box">
+
+						<!-- 16-editor-ul -->
+						<i class="ci-16-editor-ul">16-editor-ul</i>
+
+					</div>
+					<h2>16-editor-ul</h2>
 				</li>
 				<li title="16-flash-circle-outlined">
 					<div class="icon-box">
@@ -4005,6 +4065,24 @@ pre-defined in the external sprite.
 					</div>
 					<h2>16-editor-image</h2>
 				</li>
+				<li title="16-editor-indent-decrease">
+					<div class="icon-box">
+
+						<!-- 16-editor-indent-decrease -->
+						<img src="svg/sprite.view.svg#16-editor-indent-decrease" class="ci-16-editor-indent-decrease-dims" alt="16-editor-indent-decrease"/>
+
+					</div>
+					<h2>16-editor-indent-decrease</h2>
+				</li>
+				<li title="16-editor-indent-increase">
+					<div class="icon-box">
+
+						<!-- 16-editor-indent-increase -->
+						<img src="svg/sprite.view.svg#16-editor-indent-increase" class="ci-16-editor-indent-increase-dims" alt="16-editor-indent-increase"/>
+
+					</div>
+					<h2>16-editor-indent-increase</h2>
+				</li>
 				<li title="16-editor-italic">
 					<div class="icon-box">
 
@@ -4031,6 +4109,15 @@ pre-defined in the external sprite.
 
 					</div>
 					<h2>16-editor-link-break</h2>
+				</li>
+				<li title="16-editor-ol">
+					<div class="icon-box">
+
+						<!-- 16-editor-ol -->
+						<img src="svg/sprite.view.svg#16-editor-ol" class="ci-16-editor-ol-dims" alt="16-editor-ol"/>
+
+					</div>
+					<h2>16-editor-ol</h2>
 				</li>
 				<li title="16-editor-paragraph">
 					<div class="icon-box">
@@ -4067,6 +4154,15 @@ pre-defined in the external sprite.
 
 					</div>
 					<h2>16-editor-settings</h2>
+				</li>
+				<li title="16-editor-ul">
+					<div class="icon-box">
+
+						<!-- 16-editor-ul -->
+						<img src="svg/sprite.view.svg#16-editor-ul" class="ci-16-editor-ul-dims" alt="16-editor-ul"/>
+
+					</div>
+					<h2>16-editor-ul</h2>
 				</li>
 				<li title="16-flash-circle-outlined">
 					<div class="icon-box">
@@ -6137,7 +6233,7 @@ pre-defined in the external sprite.
 
 		</section>
 		<footer>
-			<p>Generated at Sun, 10 Jul 2022 08:36:10 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+			<p>Generated at Sun, 10 Jul 2022 08:37:36 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>

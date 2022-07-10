@@ -146,8 +146,26 @@
 	height: 16px;
 }
 
-.ci-16-editor-italic {
+.ci-16-editor-indent-decrease {
 	background-position: 55.76923076923077% 98%;
+}
+
+.ci-16-editor-indent-decrease-size {
+	width: 16px;
+	height: 16px;
+}
+
+.ci-16-editor-indent-increase {
+	background-position: 59.61538461538461% 98%;
+}
+
+.ci-16-editor-indent-increase-size {
+	width: 16px;
+	height: 16px;
+}
+
+.ci-16-editor-italic {
+	background-position: 63.46153846153846% 98%;
 }
 
 .ci-16-editor-italic-size {
@@ -156,7 +174,7 @@
 }
 
 .ci-16-editor-link {
-	background-position: 59.61538461538461% 98%;
+	background-position: 67.3076923076923% 98%;
 }
 
 .ci-16-editor-link-size {
@@ -165,7 +183,7 @@
 }
 
 .ci-16-editor-link-break {
-	background-position: 63.46153846153846% 98%;
+	background-position: 71.15384615384616% 98%;
 }
 
 .ci-16-editor-link-break-size {
@@ -173,8 +191,17 @@
 	height: 16px;
 }
 
+.ci-16-editor-ol {
+	background-position: 75% 98%;
+}
+
+.ci-16-editor-ol-size {
+	width: 16px;
+	height: 16px;
+}
+
 .ci-16-editor-paragraph {
-	background-position: 67.3076923076923% 98%;
+	background-position: 78.84615384615384% 98%;
 }
 
 .ci-16-editor-paragraph-size {
@@ -183,7 +210,7 @@
 }
 
 .ci-16-editor-plus {
-	background-position: 71.15384615384616% 98%;
+	background-position: 82.6923076923077% 98%;
 }
 
 .ci-16-editor-plus-size {
@@ -192,7 +219,7 @@
 }
 
 .ci-16-editor-search {
-	background-position: 75% 98%;
+	background-position: 86.53846153846153% 98%;
 }
 
 .ci-16-editor-search-size {
@@ -201,7 +228,7 @@
 }
 
 .ci-16-editor-settings {
-	background-position: 78.84615384615384% 98%;
+	background-position: 90.38461538461539% 98%;
 }
 
 .ci-16-editor-settings-size {
@@ -209,8 +236,17 @@
 	height: 16px;
 }
 
+.ci-16-editor-ul {
+	background-position: 94.23076923076923% 98%;
+}
+
+.ci-16-editor-ul-size {
+	width: 16px;
+	height: 16px;
+}
+
 .ci-16-flash-circle-outlined {
-	background-position: 82.6923076923077% 98%;
+	background-position: 100% 0;
 }
 
 .ci-16-flash-circle-outlined-size {
@@ -219,7 +255,7 @@
 }
 
 .ci-16-lock-outlined {
-	background-position: 86.53846153846153% 98%;
+	background-position: 100% 4%;
 }
 
 .ci-16-lock-outlined-size {
@@ -228,7 +264,7 @@
 }
 
 .ci-16-targeted-outlined {
-	background-position: 90.38461538461539% 98%;
+	background-position: 100% 8%;
 }
 
 .ci-16-targeted-outlined-size {
@@ -237,7 +273,7 @@
 }
 
 .ci-16-thumbs-up-outlined {
-	background-position: 94.23076923076923% 98%;
+	background-position: 100% 12%;
 }
 
 .ci-16-thumbs-up-outlined-size {
@@ -246,7 +282,7 @@
 }
 
 .ci-16-translate-box-outlined {
-	background-position: 100% 0;
+	background-position: 100% 16%;
 }
 
 .ci-16-translate-box-outlined-size {
