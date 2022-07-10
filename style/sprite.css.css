@@ -57,7 +57,7 @@
 }
 
 .ci-16-editor-bold {
-	background-position: 28.846153846153847% 98%;
+	background-position: 34.61538461538461% 98%;
 }
 
 .ci-16-editor-bold-size {
@@ -66,7 +66,7 @@
 }
 
 .ci-16-editor-delete {
-	background-position: 32.69230769230769% 98%;
+	background-position: 38.46153846153846% 98%;
 }
 
 .ci-16-editor-delete-size {
@@ -75,7 +75,7 @@
 }
 
 .ci-16-editor-h-1 {
-	background-position: 36.53846153846154% 98%;
+	background-position: 42.30769230769231% 98%;
 }
 
 .ci-16-editor-h-1-size {
@@ -84,7 +84,7 @@
 }
 
 .ci-16-editor-h-2 {
-	background-position: 40.38461538461539% 98%;
+	background-position: 46.15384615384615% 98%;
 }
 
 .ci-16-editor-h-2-size {
@@ -93,7 +93,7 @@
 }
 
 .ci-16-editor-h-3 {
-	background-position: 44.23076923076923% 98%;
+	background-position: 50% 98%;
 }
 
 .ci-16-editor-h-3-size {
@@ -102,7 +102,7 @@
 }
 
 .ci-16-editor-h-4 {
-	background-position: 48.07692307692308% 98%;
+	background-position: 53.84615384615385% 98%;
 }
 
 .ci-16-editor-h-4-size {
@@ -111,7 +111,7 @@
 }
 
 .ci-16-editor-h-5 {
-	background-position: 51.92307692307692% 98%;
+	background-position: 57.69230769230769% 98%;
 }
 
 .ci-16-editor-h-5-size {
@@ -120,7 +120,7 @@
 }
 
 .ci-16-editor-h-6 {
-	background-position: 55.76923076923077% 98%;
+	background-position: 61.53846153846154% 98%;
 }
 
 .ci-16-editor-h-6-size {
@@ -129,7 +129,7 @@
 }
 
 .ci-16-editor-headline {
-	background-position: 59.61538461538461% 98%;
+	background-position: 65.38461538461539% 98%;
 }
 
 .ci-16-editor-headline-size {
@@ -138,7 +138,7 @@
 }
 
 .ci-16-editor-image {
-	background-position: 63.46153846153846% 98%;
+	background-position: 69.23076923076923% 98%;
 }
 
 .ci-16-editor-image-size {
@@ -147,7 +147,7 @@
 }
 
 .ci-16-editor-indent-decrease {
-	background-position: 67.3076923076923% 98%;
+	background-position: 73.07692307692308% 98%;
 }
 
 .ci-16-editor-indent-decrease-size {
@@ -156,7 +156,7 @@
 }
 
 .ci-16-editor-indent-increase {
-	background-position: 71.15384615384616% 98%;
+	background-position: 76.92307692307692% 98%;
 }
 
 .ci-16-editor-indent-increase-size {
@@ -165,7 +165,7 @@
 }
 
 .ci-16-editor-italic {
-	background-position: 75% 98%;
+	background-position: 80.76923076923077% 98%;
 }
 
 .ci-16-editor-italic-size {
@@ -174,7 +174,7 @@
 }
 
 .ci-16-editor-link {
-	background-position: 78.84615384615384% 98%;
+	background-position: 84.61538461538461% 98%;
 }
 
 .ci-16-editor-link-size {
@@ -183,7 +183,7 @@
 }
 
 .ci-16-editor-link-break {
-	background-position: 82.6923076923077% 98%;
+	background-position: 88.46153846153847% 98%;
 }
 
 .ci-16-editor-link-break-size {
@@ -192,7 +192,7 @@
 }
 
 .ci-16-editor-ol {
-	background-position: 86.53846153846153% 98%;
+	background-position: 92.3076923076923% 98%;
 }
 
 .ci-16-editor-ol-size {
@@ -201,7 +201,7 @@
 }
 
 .ci-16-editor-paragraph {
-	background-position: 90.38461538461539% 98%;
+	background-position: 96.15384615384616% 98%;
 }
 
 .ci-16-editor-paragraph-size {
@@ -210,7 +210,7 @@
 }
 
 .ci-16-editor-plus {
-	background-position: 94.23076923076923% 98%;
+	background-position: 100% 0;
 }
 
 .ci-16-editor-plus-size {
@@ -219,7 +219,7 @@
 }
 
 .ci-16-editor-search {
-	background-position: 100% 0;
+	background-position: 100% 4%;
 }
 
 .ci-16-editor-search-size {
@@ -228,7 +228,7 @@
 }
 
 .ci-16-editor-settings {
-	background-position: 100% 4%;
+	background-position: 100% 8%;
 }
 
 .ci-16-editor-settings-size {
@@ -237,7 +237,7 @@
 }
 
 .ci-16-editor-ul {
-	background-position: 100% 8%;
+	background-position: 100% 12%;
 }
 
 .ci-16-editor-ul-size {
@@ -246,7 +246,7 @@
 }
 
 .ci-16-flash-circle-outlined {
-	background-position: 100% 12%;
+	background-position: 100% 16%;
 }
 
 .ci-16-flash-circle-outlined-size {
@@ -255,7 +255,7 @@
 }
 
 .ci-16-lock-outlined {
-	background-position: 100% 16%;
+	background-position: 100% 20%;
 }
 
 .ci-16-lock-outlined-size {
@@ -264,7 +264,7 @@
 }
 
 .ci-16-targeted-outlined {
-	background-position: 100% 20%;
+	background-position: 100% 24%;
 }
 
 .ci-16-targeted-outlined-size {
@@ -273,7 +273,7 @@
 }
 
 .ci-16-thumbs-up-outlined {
-	background-position: 100% 24%;
+	background-position: 100% 28%;
 }
 
 .ci-16-thumbs-up-outlined-size {
@@ -282,7 +282,7 @@
 }
 
 .ci-16-translate-box-outlined {
-	background-position: 100% 28%;
+	background-position: 100% 32%;
 }
 
 .ci-16-translate-box-outlined-size {
@@ -1019,8 +1019,17 @@
 	height: 24px;
 }
 
-.ci-instagram {
+.ci-info-circled-filled {
 	background-position: 52.94117647058823% 69.38775510204081%;
+}
+
+.ci-info-circled-filled-size {
+	width: 24px;
+	height: 24px;
+}
+
+.ci-instagram {
+	background-position: 58.8235294117647% 69.38775510204081%;
 }
 
 .ci-instagram-size {
@@ -1029,7 +1038,7 @@
 }
 
 .ci-layers-filled {
-	background-position: 58.8235294117647% 69.38775510204081%;
+	background-position: 64.70588235294117% 69.38775510204081%;
 }
 
 .ci-layers-filled-size {
@@ -1038,7 +1047,7 @@
 }
 
 .ci-layers-outlined {
-	background-position: 64.70588235294117% 69.38775510204081%;
+	background-position: 72.54901960784314% 0;
 }
 
 .ci-layers-outlined-size {
@@ -1047,7 +1056,7 @@
 }
 
 .ci-likes-circle-filled {
-	background-position: 72.54901960784314% 0;
+	background-position: 72.54901960784314% 6.122448979591836%;
 }
 
 .ci-likes-circle-filled-size {
@@ -1056,7 +1065,7 @@
 }
 
 .ci-link-break-outlined {
-	background-position: 72.54901960784314% 6.122448979591836%;
+	background-position: 72.54901960784314% 12.244897959183673%;
 }
 
 .ci-link-break-outlined-size {
@@ -1065,7 +1074,7 @@
 }
 
 .ci-link-outlined {
-	background-position: 72.54901960784314% 12.244897959183673%;
+	background-position: 72.54901960784314% 18.367346938775512%;
 }
 
 .ci-link-outlined-size {
@@ -1074,7 +1083,7 @@
 }
 
 .ci-linkedin {
-	background-position: 72.54901960784314% 18.367346938775512%;
+	background-position: 72.54901960784314% 24.489795918367346%;
 }
 
 .ci-linkedin-size {
@@ -1083,7 +1092,7 @@
 }
 
 .ci-location-outlined {
-	background-position: 72.54901960784314% 24.489795918367346%;
+	background-position: 72.54901960784314% 30.612244897959183%;
 }
 
 .ci-location-outlined-size {
@@ -1092,7 +1101,7 @@
 }
 
 .ci-lock-filled {
-	background-position: 72.54901960784314% 30.612244897959183%;
+	background-position: 72.54901960784314% 36.734693877551024%;
 }
 
 .ci-lock-filled-size {
@@ -1101,7 +1110,7 @@
 }
 
 .ci-lock-open-filled {
-	background-position: 72.54901960784314% 36.734693877551024%;
+	background-position: 72.54901960784314% 42.857142857142854%;
 }
 
 .ci-lock-open-filled-size {
@@ -1110,7 +1119,7 @@
 }
 
 .ci-lock-open-outlined {
-	background-position: 72.54901960784314% 42.857142857142854%;
+	background-position: 72.54901960784314% 48.97959183673469%;
 }
 
 .ci-lock-open-outlined-size {
@@ -1119,7 +1128,7 @@
 }
 
 .ci-lock-outlined {
-	background-position: 72.54901960784314% 48.97959183673469%;
+	background-position: 72.54901960784314% 55.10204081632653%;
 }
 
 .ci-lock-outlined-size {
@@ -1128,7 +1137,7 @@
 }
 
 .ci-mail-open-outlined {
-	background-position: 72.54901960784314% 55.10204081632653%;
+	background-position: 72.54901960784314% 61.224489795918366%;
 }
 
 .ci-mail-open-outlined-size {
@@ -1137,7 +1146,7 @@
 }
 
 .ci-mail-outlined {
-	background-position: 72.54901960784314% 61.224489795918366%;
+	background-position: 72.54901960784314% 67.34693877551021%;
 }
 
 .ci-mail-outlined-size {
@@ -1146,7 +1155,7 @@
 }
 
 .ci-marketplace-filled {
-	background-position: 72.54901960784314% 67.34693877551021%;
+	background-position: 0 75.51020408163265%;
 }
 
 .ci-marketplace-filled-size {
@@ -1155,7 +1164,7 @@
 }
 
 .ci-marketplace-outlined {
-	background-position: 0 75.51020408163265%;
+	background-position: 5.882352941176471% 75.51020408163265%;
 }
 
 .ci-marketplace-outlined-size {
@@ -1164,7 +1173,7 @@
 }
 
 .ci-maybe-circle-outlined {
-	background-position: 5.882352941176471% 75.51020408163265%;
+	background-position: 11.764705882352942% 75.51020408163265%;
 }
 
 .ci-maybe-circle-outlined-size {
@@ -1173,7 +1182,7 @@
 }
 
 .ci-megaphone-filled {
-	background-position: 11.764705882352942% 75.51020408163265%;
+	background-position: 17.647058823529413% 75.51020408163265%;
 }
 
 .ci-megaphone-filled-size {
@@ -1182,7 +1191,7 @@
 }
 
 .ci-megaphone-outlined {
-	background-position: 17.647058823529413% 75.51020408163265%;
+	background-position: 23.529411764705884% 75.51020408163265%;
 }
 
 .ci-megaphone-outlined-size {
@@ -1191,7 +1200,7 @@
 }
 
 .ci-menu-left-outlined {
-	background-position: 23.529411764705884% 75.51020408163265%;
+	background-position: 29.41176470588235% 75.51020408163265%;
 }
 
 .ci-menu-left-outlined-size {
@@ -1200,7 +1209,7 @@
 }
 
 .ci-menu-outlined {
-	background-position: 29.41176470588235% 75.51020408163265%;
+	background-position: 35.294117647058826% 75.51020408163265%;
 }
 
 .ci-menu-outlined-size {
@@ -1209,7 +1218,7 @@
 }
 
 .ci-menu-right-outlined {
-	background-position: 35.294117647058826% 75.51020408163265%;
+	background-position: 41.1764705882353% 75.51020408163265%;
 }
 
 .ci-menu-right-outlined-size {
@@ -1218,7 +1227,7 @@
 }
 
 .ci-microsoft {
-	background-position: 41.1764705882353% 75.51020408163265%;
+	background-position: 47.05882352941177% 75.51020408163265%;
 }
 
 .ci-microsoft-size {
@@ -1227,7 +1236,7 @@
 }
 
 .ci-microsoft-edge {
-	background-position: 47.05882352941177% 75.51020408163265%;
+	background-position: 52.94117647058823% 75.51020408163265%;
 }
 
 .ci-microsoft-edge-size {
@@ -1236,7 +1245,7 @@
 }
 
 .ci-microsoft-excel {
-	background-position: 52.94117647058823% 75.51020408163265%;
+	background-position: 58.8235294117647% 75.51020408163265%;
 }
 
 .ci-microsoft-excel-size {
@@ -1245,7 +1254,7 @@
 }
 
 .ci-microsoft-onenote {
-	background-position: 58.8235294117647% 75.51020408163265%;
+	background-position: 64.70588235294117% 75.51020408163265%;
 }
 
 .ci-microsoft-onenote-size {
@@ -1254,7 +1263,7 @@
 }
 
 .ci-microsoft-outlook {
-	background-position: 64.70588235294117% 75.51020408163265%;
+	background-position: 70.58823529411765% 75.51020408163265%;
 }
 
 .ci-microsoft-outlook-size {
@@ -1263,7 +1272,7 @@
 }
 
 .ci-microsoft-planner {
-	background-position: 70.58823529411765% 75.51020408163265%;
+	background-position: 78.43137254901961% 0;
 }
 
 .ci-microsoft-planner-size {
@@ -1272,7 +1281,7 @@
 }
 
 .ci-microsoft-powerpoint {
-	background-position: 78.43137254901961% 0;
+	background-position: 78.43137254901961% 6.122448979591836%;
 }
 
 .ci-microsoft-powerpoint-size {
@@ -1281,7 +1290,7 @@
 }
 
 .ci-microsoft-sharepoint {
-	background-position: 78.43137254901961% 6.122448979591836%;
+	background-position: 78.43137254901961% 12.244897959183673%;
 }
 
 .ci-microsoft-sharepoint-size {
@@ -1290,7 +1299,7 @@
 }
 
 .ci-microsoft-teams {
-	background-position: 78.43137254901961% 12.244897959183673%;
+	background-position: 78.43137254901961% 18.367346938775512%;
 }
 
 .ci-microsoft-teams-size {
@@ -1299,7 +1308,7 @@
 }
 
 .ci-microsoft-word {
-	background-position: 78.43137254901961% 18.367346938775512%;
+	background-position: 78.43137254901961% 24.489795918367346%;
 }
 
 .ci-microsoft-word-size {
@@ -1308,7 +1317,7 @@
 }
 
 .ci-microsoft-yammer {
-	background-position: 78.43137254901961% 24.489795918367346%;
+	background-position: 78.43137254901961% 30.612244897959183%;
 }
 
 .ci-microsoft-yammer-size {
@@ -1317,7 +1326,7 @@
 }
 
 .ci-more-horizontal-filled {
-	background-position: 78.43137254901961% 30.612244897959183%;
+	background-position: 78.43137254901961% 36.734693877551024%;
 }
 
 .ci-more-horizontal-filled-size {
@@ -1326,7 +1335,7 @@
 }
 
 .ci-mozilla-firefox {
-	background-position: 78.43137254901961% 36.734693877551024%;
+	background-position: 78.43137254901961% 42.857142857142854%;
 }
 
 .ci-mozilla-firefox-size {
@@ -1335,7 +1344,7 @@
 }
 
 .ci-paperclip-box-outlined {
-	background-position: 78.43137254901961% 42.857142857142854%;
+	background-position: 78.43137254901961% 48.97959183673469%;
 }
 
 .ci-paperclip-box-outlined-size {
@@ -1344,7 +1353,7 @@
 }
 
 .ci-paperclip-outlined {
-	background-position: 78.43137254901961% 48.97959183673469%;
+	background-position: 78.43137254901961% 55.10204081632653%;
 }
 
 .ci-paperclip-outlined-size {
@@ -1353,7 +1362,7 @@
 }
 
 .ci-pen-outlined {
-	background-position: 78.43137254901961% 55.10204081632653%;
+	background-position: 78.43137254901961% 61.224489795918366%;
 }
 
 .ci-pen-outlined-size {
@@ -1362,7 +1371,7 @@
 }
 
 .ci-photo-add-outlined {
-	background-position: 78.43137254901961% 61.224489795918366%;
+	background-position: 78.43137254901961% 67.34693877551021%;
 }
 
 .ci-photo-add-outlined-size {
@@ -1371,7 +1380,7 @@
 }
 
 .ci-photo-filled {
-	background-position: 78.43137254901961% 67.34693877551021%;
+	background-position: 78.43137254901961% 73.46938775510205%;
 }
 
 .ci-photo-filled-size {
@@ -1380,7 +1389,7 @@
 }
 
 .ci-photo-outlined {
-	background-position: 78.43137254901961% 73.46938775510205%;
+	background-position: 0 81.63265306122449%;
 }
 
 .ci-photo-outlined-size {
@@ -1389,7 +1398,7 @@
 }
 
 .ci-photo-remove-outlined {
-	background-position: 0 81.63265306122449%;
+	background-position: 5.882352941176471% 81.63265306122449%;
 }
 
 .ci-photo-remove-outlined-size {
@@ -1398,7 +1407,7 @@
 }
 
 .ci-planet-filled {
-	background-position: 5.882352941176471% 81.63265306122449%;
+	background-position: 11.764705882352942% 81.63265306122449%;
 }
 
 .ci-planet-filled-size {
@@ -1407,7 +1416,7 @@
 }
 
 .ci-planet-outlined {
-	background-position: 11.764705882352942% 81.63265306122449%;
+	background-position: 17.647058823529413% 81.63265306122449%;
 }
 
 .ci-planet-outlined-size {
@@ -1416,7 +1425,7 @@
 }
 
 .ci-plus-circle-filled {
-	background-position: 17.647058823529413% 81.63265306122449%;
+	background-position: 23.529411764705884% 81.63265306122449%;
 }
 
 .ci-plus-circle-filled-size {
@@ -1425,7 +1434,7 @@
 }
 
 .ci-plus-circle-outlined {
-	background-position: 23.529411764705884% 81.63265306122449%;
+	background-position: 29.41176470588235% 81.63265306122449%;
 }
 
 .ci-plus-circle-outlined-size {
@@ -1434,7 +1443,7 @@
 }
 
 .ci-plus-outlined {
-	background-position: 29.41176470588235% 81.63265306122449%;
+	background-position: 35.294117647058826% 81.63265306122449%;
 }
 
 .ci-plus-outlined-size {
@@ -1443,7 +1452,7 @@
 }
 
 .ci-plus-square-filled {
-	background-position: 35.294117647058826% 81.63265306122449%;
+	background-position: 41.1764705882353% 81.63265306122449%;
 }
 
 .ci-plus-square-filled-size {
@@ -1452,7 +1461,7 @@
 }
 
 .ci-plus-square-outlined {
-	background-position: 41.1764705882353% 81.63265306122449%;
+	background-position: 47.05882352941177% 81.63265306122449%;
 }
 
 .ci-plus-square-outlined-size {
@@ -1461,7 +1470,7 @@
 }
 
 .ci-printer-filled {
-	background-position: 47.05882352941177% 81.63265306122449%;
+	background-position: 52.94117647058823% 81.63265306122449%;
 }
 
 .ci-printer-filled-size {
@@ -1470,7 +1479,7 @@
 }
 
 .ci-printer-outlined {
-	background-position: 52.94117647058823% 81.63265306122449%;
+	background-position: 58.8235294117647% 81.63265306122449%;
 }
 
 .ci-printer-outlined-size {
@@ -1479,7 +1488,7 @@
 }
 
 .ci-profile-box-outlined {
-	background-position: 58.8235294117647% 81.63265306122449%;
+	background-position: 64.70588235294117% 81.63265306122449%;
 }
 
 .ci-profile-box-outlined-size {
@@ -1488,7 +1497,7 @@
 }
 
 .ci-profile-circle-outlined {
-	background-position: 64.70588235294117% 81.63265306122449%;
+	background-position: 70.58823529411765% 81.63265306122449%;
 }
 
 .ci-profile-circle-outlined-size {
@@ -1497,7 +1506,7 @@
 }
 
 .ci-profiles-filled {
-	background-position: 70.58823529411765% 81.63265306122449%;
+	background-position: 76.47058823529412% 81.63265306122449%;
 }
 
 .ci-profiles-filled-size {
@@ -1506,7 +1515,7 @@
 }
 
 .ci-profiles-outlined {
-	background-position: 76.47058823529412% 81.63265306122449%;
+	background-position: 84.31372549019608% 0;
 }
 
 .ci-profiles-outlined-size {
@@ -1515,7 +1524,7 @@
 }
 
 .ci-puzzle-piece-outlined {
-	background-position: 84.31372549019608% 0;
+	background-position: 84.31372549019608% 6.122448979591836%;
 }
 
 .ci-puzzle-piece-outlined-size {
@@ -1524,7 +1533,7 @@
 }
 
 .ci-question-mark-circle-outlined {
-	background-position: 84.31372549019608% 6.122448979591836%;
+	background-position: 84.31372549019608% 12.244897959183673%;
 }
 
 .ci-question-mark-circle-outlined-size {
@@ -1533,7 +1542,7 @@
 }
 
 .ci-reading-glasses-filled {
-	background-position: 84.31372549019608% 12.244897959183673%;
+	background-position: 84.31372549019608% 18.367346938775512%;
 }
 
 .ci-reading-glasses-filled-size {
@@ -1542,7 +1551,7 @@
 }
 
 .ci-reading-glasses-outlined {
-	background-position: 84.31372549019608% 18.367346938775512%;
+	background-position: 84.31372549019608% 24.489795918367346%;
 }
 
 .ci-reading-glasses-outlined-size {
@@ -1551,7 +1560,7 @@
 }
 
 .ci-restart-outlined {
-	background-position: 84.31372549019608% 24.489795918367346%;
+	background-position: 84.31372549019608% 30.612244897959183%;
 }
 
 .ci-restart-outlined-size {
@@ -1560,7 +1569,7 @@
 }
 
 .ci-search-filled {
-	background-position: 84.31372549019608% 30.612244897959183%;
+	background-position: 84.31372549019608% 36.734693877551024%;
 }
 
 .ci-search-filled-size {
@@ -1569,7 +1578,7 @@
 }
 
 .ci-search-outlined {
-	background-position: 84.31372549019608% 36.734693877551024%;
+	background-position: 84.31372549019608% 42.857142857142854%;
 }
 
 .ci-search-outlined-size {
@@ -1578,7 +1587,7 @@
 }
 
 .ci-search-restart-outlined {
-	background-position: 84.31372549019608% 42.857142857142854%;
+	background-position: 84.31372549019608% 48.97959183673469%;
 }
 
 .ci-search-restart-outlined-size {
@@ -1587,7 +1596,7 @@
 }
 
 .ci-settings-outlined {
-	background-position: 84.31372549019608% 48.97959183673469%;
+	background-position: 84.31372549019608% 55.10204081632653%;
 }
 
 .ci-settings-outlined-size {
@@ -1596,7 +1605,7 @@
 }
 
 .ci-share-filled {
-	background-position: 84.31372549019608% 55.10204081632653%;
+	background-position: 84.31372549019608% 61.224489795918366%;
 }
 
 .ci-share-filled-size {
@@ -1605,7 +1614,7 @@
 }
 
 .ci-share-outlined {
-	background-position: 84.31372549019608% 61.224489795918366%;
+	background-position: 84.31372549019608% 67.34693877551021%;
 }
 
 .ci-share-outlined-size {
@@ -1614,7 +1623,7 @@
 }
 
 .ci-sign-in-outlined {
-	background-position: 84.31372549019608% 67.34693877551021%;
+	background-position: 84.31372549019608% 73.46938775510205%;
 }
 
 .ci-sign-in-outlined-size {
@@ -1623,7 +1632,7 @@
 }
 
 .ci-sign-out-outlined {
-	background-position: 84.31372549019608% 73.46938775510205%;
+	background-position: 84.31372549019608% 79.59183673469387%;
 }
 
 .ci-sign-out-outlined-size {
@@ -1632,7 +1641,7 @@
 }
 
 .ci-signal-outlined {
-	background-position: 84.31372549019608% 79.59183673469387%;
+	background-position: 0 87.75510204081633%;
 }
 
 .ci-signal-outlined-size {
@@ -1641,7 +1650,7 @@
 }
 
 .ci-slack {
-	background-position: 0 87.75510204081633%;
+	background-position: 5.882352941176471% 87.75510204081633%;
 }
 
 .ci-slack-size {
@@ -1650,7 +1659,7 @@
 }
 
 .ci-smile {
-	background-position: 5.882352941176471% 87.75510204081633%;
+	background-position: 11.764705882352942% 87.75510204081633%;
 }
 
 .ci-smile-size {
@@ -1740,7 +1749,7 @@
 }
 
 .ci-sparkle-filled {
-	background-position: 11.764705882352942% 87.75510204081633%;
+	background-position: 17.647058823529413% 87.75510204081633%;
 }
 
 .ci-sparkle-filled-size {
@@ -1749,7 +1758,7 @@
 }
 
 .ci-sparkle-outlined {
-	background-position: 17.647058823529413% 87.75510204081633%;
+	background-position: 23.529411764705884% 87.75510204081633%;
 }
 
 .ci-sparkle-outlined-size {
@@ -1758,7 +1767,7 @@
 }
 
 .ci-star-circle-filled {
-	background-position: 23.529411764705884% 87.75510204081633%;
+	background-position: 29.41176470588235% 87.75510204081633%;
 }
 
 .ci-star-circle-filled-size {
@@ -1767,7 +1776,7 @@
 }
 
 .ci-star-circle-outlined {
-	background-position: 29.41176470588235% 87.75510204081633%;
+	background-position: 35.294117647058826% 87.75510204081633%;
 }
 
 .ci-star-circle-outlined-size {
@@ -1776,7 +1785,7 @@
 }
 
 .ci-sticker-filled {
-	background-position: 35.294117647058826% 87.75510204081633%;
+	background-position: 41.1764705882353% 87.75510204081633%;
 }
 
 .ci-sticker-filled-size {
@@ -1785,7 +1794,7 @@
 }
 
 .ci-sticker-outlined {
-	background-position: 41.1764705882353% 87.75510204081633%;
+	background-position: 47.05882352941177% 87.75510204081633%;
 }
 
 .ci-sticker-outlined-size {
@@ -1794,7 +1803,7 @@
 }
 
 .ci-stream-filled {
-	background-position: 47.05882352941177% 87.75510204081633%;
+	background-position: 52.94117647058823% 87.75510204081633%;
 }
 
 .ci-stream-filled-size {
@@ -1803,7 +1812,7 @@
 }
 
 .ci-stream-outlined {
-	background-position: 52.94117647058823% 87.75510204081633%;
+	background-position: 58.8235294117647% 87.75510204081633%;
 }
 
 .ci-stream-outlined-size {
@@ -1812,7 +1821,7 @@
 }
 
 .ci-targeted-outlined {
-	background-position: 58.8235294117647% 87.75510204081633%;
+	background-position: 64.70588235294117% 87.75510204081633%;
 }
 
 .ci-targeted-outlined-size {
@@ -1821,7 +1830,7 @@
 }
 
 .ci-thumbs-up-filled {
-	background-position: 64.70588235294117% 87.75510204081633%;
+	background-position: 70.58823529411765% 87.75510204081633%;
 }
 
 .ci-thumbs-up-filled-size {
@@ -1830,7 +1839,7 @@
 }
 
 .ci-thumbs-up-outlined {
-	background-position: 70.58823529411765% 87.75510204081633%;
+	background-position: 76.47058823529412% 87.75510204081633%;
 }
 
 .ci-thumbs-up-outlined-size {
@@ -1839,7 +1848,7 @@
 }
 
 .ci-translate-box-filled {
-	background-position: 76.47058823529412% 87.75510204081633%;
+	background-position: 82.3529411764706% 87.75510204081633%;
 }
 
 .ci-translate-box-filled-size {
@@ -1848,7 +1857,7 @@
 }
 
 .ci-translate-box-outlined {
-	background-position: 82.3529411764706% 87.75510204081633%;
+	background-position: 90.19607843137256% 0;
 }
 
 .ci-translate-box-outlined-size {
@@ -1857,7 +1866,7 @@
 }
 
 .ci-translate-outlined {
-	background-position: 90.19607843137256% 0;
+	background-position: 90.19607843137256% 6.122448979591836%;
 }
 
 .ci-translate-outlined-size {
@@ -1866,7 +1875,7 @@
 }
 
 .ci-trash-filled {
-	background-position: 90.19607843137256% 6.122448979591836%;
+	background-position: 90.19607843137256% 12.244897959183673%;
 }
 
 .ci-trash-filled-size {
@@ -1875,7 +1884,7 @@
 }
 
 .ci-trash-outlined {
-	background-position: 90.19607843137256% 12.244897959183673%;
+	background-position: 90.19607843137256% 18.367346938775512%;
 }
 
 .ci-trash-outlined-size {
@@ -1884,7 +1893,7 @@
 }
 
 .ci-twitter {
-	background-position: 90.19607843137256% 18.367346938775512%;
+	background-position: 90.19607843137256% 24.489795918367346%;
 }
 
 .ci-twitter-size {
@@ -1893,7 +1902,7 @@
 }
 
 .ci-upload-outlined {
-	background-position: 90.19607843137256% 24.489795918367346%;
+	background-position: 90.19607843137256% 30.612244897959183%;
 }
 
 .ci-upload-outlined-size {
@@ -1902,7 +1911,7 @@
 }
 
 .ci-video-camera-filled {
-	background-position: 90.19607843137256% 30.612244897959183%;
+	background-position: 90.19607843137256% 36.734693877551024%;
 }
 
 .ci-video-camera-filled-size {
@@ -1911,7 +1920,7 @@
 }
 
 .ci-video-camera-outlined {
-	background-position: 90.19607843137256% 36.734693877551024%;
+	background-position: 90.19607843137256% 42.857142857142854%;
 }
 
 .ci-video-camera-outlined-size {
@@ -1920,7 +1929,7 @@
 }
 
 .ci-w-alert-outlined {
-	background-position: 90.19607843137256% 42.857142857142854%;
+	background-position: 90.19607843137256% 48.97959183673469%;
 }
 
 .ci-w-alert-outlined-size {
@@ -1929,7 +1938,7 @@
 }
 
 .ci-w-birthdays-upcoming-outlined {
-	background-position: 90.19607843137256% 48.97959183673469%;
+	background-position: 90.19607843137256% 55.10204081632653%;
 }
 
 .ci-w-birthdays-upcoming-outlined-size {
@@ -1938,7 +1947,7 @@
 }
 
 .ci-w-blog-article-new-outlined {
-	background-position: 90.19607843137256% 55.10204081632653%;
+	background-position: 90.19607843137256% 61.224489795918366%;
 }
 
 .ci-w-blog-article-new-outlined-size {
@@ -1947,7 +1956,7 @@
 }
 
 .ci-w-blog-article-outlined {
-	background-position: 90.19607843137256% 61.224489795918366%;
+	background-position: 90.19607843137256% 67.34693877551021%;
 }
 
 .ci-w-blog-article-outlined-size {
@@ -1956,7 +1965,7 @@
 }
 
 .ci-w-blog-article-recommended-outlined {
-	background-position: 90.19607843137256% 67.34693877551021%;
+	background-position: 90.19607843137256% 73.46938775510205%;
 }
 
 .ci-w-blog-article-recommended-outlined-size {
@@ -1965,7 +1974,7 @@
 }
 
 .ci-w-bookmarks-outlined {
-	background-position: 90.19607843137256% 73.46938775510205%;
+	background-position: 90.19607843137256% 79.59183673469387%;
 }
 
 .ci-w-bookmarks-outlined-size {
@@ -1974,7 +1983,7 @@
 }
 
 .ci-w-button-outlined {
-	background-position: 90.19607843137256% 79.59183673469387%;
+	background-position: 90.19607843137256% 85.71428571428571%;
 }
 
 .ci-w-button-outlined-size {
@@ -1983,7 +1992,7 @@
 }
 
 .ci-w-colleagues-new-outlined {
-	background-position: 90.19607843137256% 85.71428571428571%;
+	background-position: 0 93.87755102040816%;
 }
 
 .ci-w-colleagues-new-outlined-size {
@@ -1992,7 +2001,7 @@
 }
 
 .ci-w-complete-profile-outlined {
-	background-position: 0 93.87755102040816%;
+	background-position: 5.882352941176471% 93.87755102040816%;
 }
 
 .ci-w-complete-profile-outlined-size {
@@ -2001,7 +2010,7 @@
 }
 
 .ci-w-divider-outlined {
-	background-position: 5.882352941176471% 93.87755102040816%;
+	background-position: 11.764705882352942% 93.87755102040816%;
 }
 
 .ci-w-divider-outlined-size {
@@ -2010,7 +2019,7 @@
 }
 
 .ci-w-do-you-know-outlined {
-	background-position: 11.764705882352942% 93.87755102040816%;
+	background-position: 17.647058823529413% 93.87755102040816%;
 }
 
 .ci-w-do-you-know-outlined-size {
@@ -2019,7 +2028,7 @@
 }
 
 .ci-w-document-outlined {
-	background-position: 17.647058823529413% 93.87755102040816%;
+	background-position: 23.529411764705884% 93.87755102040816%;
 }
 
 .ci-w-document-outlined-size {
@@ -2028,7 +2037,7 @@
 }
 
 .ci-w-documents-m-365-outlined {
-	background-position: 23.529411764705884% 93.87755102040816%;
+	background-position: 29.41176470588235% 93.87755102040816%;
 }
 
 .ci-w-documents-m-365-outlined-size {
@@ -2037,7 +2046,7 @@
 }
 
 .ci-w-documents-new-outlined {
-	background-position: 29.41176470588235% 93.87755102040816%;
+	background-position: 35.294117647058826% 93.87755102040816%;
 }
 
 .ci-w-documents-new-outlined-size {
@@ -2046,7 +2055,7 @@
 }
 
 .ci-w-download-outlined {
-	background-position: 35.294117647058826% 93.87755102040816%;
+	background-position: 41.1764705882353% 93.87755102040816%;
 }
 
 .ci-w-download-outlined-size {
@@ -2055,7 +2064,7 @@
 }
 
 .ci-w-events-upcoming-outlined {
-	background-position: 41.1764705882353% 93.87755102040816%;
+	background-position: 47.05882352941177% 93.87755102040816%;
 }
 
 .ci-w-events-upcoming-outlined-size {
@@ -2064,7 +2073,7 @@
 }
 
 .ci-w-facegame-outlined {
-	background-position: 47.05882352941177% 93.87755102040816%;
+	background-position: 52.94117647058823% 93.87755102040816%;
 }
 
 .ci-w-facegame-outlined-size {
@@ -2073,7 +2082,7 @@
 }
 
 .ci-w-feed-outlined {
-	background-position: 52.94117647058823% 93.87755102040816%;
+	background-position: 58.8235294117647% 93.87755102040816%;
 }
 
 .ci-w-feed-outlined-size {
@@ -2082,7 +2091,7 @@
 }
 
 .ci-w-gallery-outlined {
-	background-position: 58.8235294117647% 93.87755102040816%;
+	background-position: 64.70588235294117% 93.87755102040816%;
 }
 
 .ci-w-gallery-outlined-size {
@@ -2091,7 +2100,7 @@
 }
 
 .ci-w-hashtags-outlined {
-	background-position: 64.70588235294117% 93.87755102040816%;
+	background-position: 70.58823529411765% 93.87755102040816%;
 }
 
 .ci-w-hashtags-outlined-size {
@@ -2100,7 +2109,7 @@
 }
 
 .ci-w-headline-outlined {
-	background-position: 70.58823529411765% 93.87755102040816%;
+	background-position: 76.47058823529412% 93.87755102040816%;
 }
 
 .ci-w-headline-outlined-size {
@@ -2109,7 +2118,7 @@
 }
 
 .ci-w-hero-teaser-outlined {
-	background-position: 76.47058823529412% 93.87755102040816%;
+	background-position: 82.3529411764706% 93.87755102040816%;
 }
 
 .ci-w-hero-teaser-outlined-size {
@@ -2118,7 +2127,7 @@
 }
 
 .ci-w-html-outlined {
-	background-position: 82.3529411764706% 93.87755102040816%;
+	background-position: 88.23529411764706% 93.87755102040816%;
 }
 
 .ci-w-html-outlined-size {
@@ -2127,7 +2136,7 @@
 }
 
 .ci-w-iframe-outlined {
-	background-position: 88.23529411764706% 93.87755102040816%;
+	background-position: 96.07843137254902% 0;
 }
 
 .ci-w-iframe-outlined-size {
@@ -2136,7 +2145,7 @@
 }
 
 .ci-w-image-outlined {
-	background-position: 96.07843137254902% 0;
+	background-position: 96.07843137254902% 6.122448979591836%;
 }
 
 .ci-w-image-outlined-size {
@@ -2145,7 +2154,7 @@
 }
 
 .ci-w-launchpad-outlined {
-	background-position: 96.07843137254902% 6.122448979591836%;
+	background-position: 96.07843137254902% 12.244897959183673%;
 }
 
 .ci-w-launchpad-outlined-size {
@@ -2154,7 +2163,7 @@
 }
 
 .ci-w-media-outlined {
-	background-position: 96.07843137254902% 12.244897959183673%;
+	background-position: 96.07843137254902% 18.367346938775512%;
 }
 
 .ci-w-media-outlined-size {
@@ -2163,7 +2172,7 @@
 }
 
 .ci-w-online-users-outlined {
-	background-position: 96.07843137254902% 18.367346938775512%;
+	background-position: 96.07843137254902% 24.489795918367346%;
 }
 
 .ci-w-online-users-outlined-size {
@@ -2172,7 +2181,7 @@
 }
 
 .ci-w-plugin-trello-outlined {
-	background-position: 96.07843137254902% 24.489795918367346%;
+	background-position: 96.07843137254902% 30.612244897959183%;
 }
 
 .ci-w-plugin-trello-outlined-size {
@@ -2181,7 +2190,7 @@
 }
 
 .ci-w-plugin-twitter-outlined {
-	background-position: 96.07843137254902% 30.612244897959183%;
+	background-position: 96.07843137254902% 36.734693877551024%;
 }
 
 .ci-w-plugin-twitter-outlined-size {
@@ -2190,7 +2199,7 @@
 }
 
 .ci-w-poll-outlined {
-	background-position: 96.07843137254902% 36.734693877551024%;
+	background-position: 96.07843137254902% 42.857142857142854%;
 }
 
 .ci-w-poll-outlined-size {
@@ -2199,7 +2208,7 @@
 }
 
 .ci-w-profile-outlined {
-	background-position: 96.07843137254902% 42.857142857142854%;
+	background-position: 96.07843137254902% 48.97959183673469%;
 }
 
 .ci-w-profile-outlined-size {
@@ -2208,7 +2217,7 @@
 }
 
 .ci-w-rss-feed-outlined {
-	background-position: 96.07843137254902% 48.97959183673469%;
+	background-position: 96.07843137254902% 55.10204081632653%;
 }
 
 .ci-w-rss-feed-outlined-size {
@@ -2217,7 +2226,7 @@
 }
 
 .ci-w-subscriptions-outlined {
-	background-position: 96.07843137254902% 55.10204081632653%;
+	background-position: 96.07843137254902% 61.224489795918366%;
 }
 
 .ci-w-subscriptions-outlined-size {
@@ -2226,7 +2235,7 @@
 }
 
 .ci-w-suggested-communities-outlined {
-	background-position: 96.07843137254902% 61.224489795918366%;
+	background-position: 96.07843137254902% 67.34693877551021%;
 }
 
 .ci-w-suggested-communities-outlined-size {
@@ -2235,7 +2244,7 @@
 }
 
 .ci-w-suggested-pages-outlined {
-	background-position: 96.07843137254902% 67.34693877551021%;
+	background-position: 96.07843137254902% 73.46938775510205%;
 }
 
 .ci-w-suggested-pages-outlined-size {
@@ -2244,7 +2253,7 @@
 }
 
 .ci-w-teaser-outlined {
-	background-position: 96.07843137254902% 73.46938775510205%;
+	background-position: 96.07843137254902% 79.59183673469387%;
 }
 
 .ci-w-teaser-outlined-size {
@@ -2253,7 +2262,7 @@
 }
 
 .ci-w-text-outlined {
-	background-position: 96.07843137254902% 79.59183673469387%;
+	background-position: 96.07843137254902% 85.71428571428571%;
 }
 
 .ci-w-text-outlined-size {
@@ -2262,7 +2271,7 @@
 }
 
 .ci-w-video-outlined {
-	background-position: 96.07843137254902% 85.71428571428571%;
+	background-position: 96.07843137254902% 91.83673469387755%;
 }
 
 .ci-w-video-outlined-size {
@@ -2271,7 +2280,7 @@
 }
 
 .ci-w-welcome-outlined {
-	background-position: 96.07843137254902% 91.83673469387755%;
+	background-position: 0 100%;
 }
 
 .ci-w-welcome-outlined-size {
@@ -2280,7 +2289,7 @@
 }
 
 .ci-w-wiki-article-new-outlined {
-	background-position: 0 100%;
+	background-position: 5.882352941176471% 100%;
 }
 
 .ci-w-wiki-article-new-outlined-size {
@@ -2289,7 +2298,7 @@
 }
 
 .ci-w-wiki-article-outlined {
-	background-position: 5.882352941176471% 100%;
+	background-position: 11.764705882352942% 100%;
 }
 
 .ci-w-wiki-article-outlined-size {
@@ -2298,7 +2307,7 @@
 }
 
 .ci-wechat {
-	background-position: 11.764705882352942% 100%;
+	background-position: 17.647058823529413% 100%;
 }
 
 .ci-wechat-size {
@@ -2307,7 +2316,7 @@
 }
 
 .ci-write-outlined {
-	background-position: 17.647058823529413% 100%;
+	background-position: 23.529411764705884% 100%;
 }
 
 .ci-write-outlined-size {
@@ -2316,7 +2325,7 @@
 }
 
 .ci-xing {
-	background-position: 23.529411764705884% 100%;
+	background-position: 29.41176470588235% 100%;
 }
 
 .ci-xing-size {
