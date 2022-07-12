@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.9 (2022-07-12)
+
+
+### Features
+
+* Added paperplane-tilt-outlined ([1622094](https://github.com/haiilo/catalyst-icons/commit/1622094d916093da6e4cc9b57cddcd5aa335da02))
+
 ### 0.3.8 (2022-07-10)
 
 
