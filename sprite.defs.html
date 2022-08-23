@@ -86,7 +86,6 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-chevron-left-outlined-dims { width: 24px; height: 24px; }
 	.ci-chevron-right-outlined-dims { width: 24px; height: 24px; }
 	.ci-chevron-up-outlined-dims { width: 24px; height: 24px; }
-	.ci-circle-outlined-dims { width: 24px; height: 24px; }
 	.ci-clock-filled-dims { width: 24px; height: 24px; }
 	.ci-clock-outlined-dims { width: 24px; height: 24px; }
 	.ci-communities-filled-dims { width: 24px; height: 24px; }
@@ -374,7 +373,6 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 24 24" id="chevron-left-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.53 6.47a.75.75 0 010 1.06L10.06 12l4.47 4.47a.75.75 0 11-1.06 1.06l-5-5a.75.75 0 010-1.06l5-5a.75.75 0 011.06 0z"/></svg>
 		<svg viewBox="0 0 24 24" id="chevron-right-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.47 6.47a.75.75 0 011.06 0l5 5a.75.75 0 010 1.06l-5 5a.75.75 0 11-1.06-1.06L13.94 12 9.47 7.53a.75.75 0 010-1.06z"/></svg>
 		<svg viewBox="0 0 24 24" id="chevron-up-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 8.47a.75.75 0 011.06 0l5 5a.75.75 0 11-1.06 1.06L12 10.06l-4.47 4.47a.75.75 0 01-1.06-1.06l5-5z"/></svg>
-		<svg viewBox="0 0 24 24" id="circle-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M13 16a1 1 0 11-2 0 1 1 0 012 0zm-.25-8a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0V8z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zM12 3.75a8.25 8.25 0 100 16.5 8.25 8.25 0 000-16.5z"/></svg>
 		<svg viewBox="0 0 24 24" id="clock-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm1-15a1 1 0 10-2 0v5a1 1 0 001 1h5a1 1 0 100-2h-4V7z"/></svg>
 		<svg viewBox="0 0 24 24" id="clock-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M12.75 7a.75.75 0 00-1.5 0v5c0 .414.336.75.75.75h5a.75.75 0 000-1.5h-4.25V7z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0z"/></svg>
 		<svg viewBox="0 0 24 24" id="communities-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 9a3 3 0 100-6 3 3 0 000 6zm-3 3a3 3 0 11-6 0 3 3 0 016 0zm9 3a3 3 0 100-6 3 3 0 000 6zm-6 6a3 3 0 100-6 3 3 0 000 6z"/></svg>
@@ -1337,17 +1335,6 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>chevron-up-outlined</h2>
-				</li>
-				<li title="circle-outlined">
-					<div class="icon-box">
-
-						<!-- circle-outlined -->
-						<svg viewBox="0 0 24 24" class="ci-circle-outlined-dims">
-							<use xlink:href="#circle-outlined"></use>
-						</svg>
-
-					</div>
-					<h2>circle-outlined</h2>
 				</li>
 				<li title="clock-filled">
 					<div class="icon-box">
@@ -4263,17 +4250,6 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 					</div>
 					<h2>chevron-up-outlined</h2>
 				</li>
-				<li title="circle-outlined">
-					<div class="icon-box">
-
-						<!-- circle-outlined -->
-						<svg viewBox="0 0 24 24" class="ci-circle-outlined-dims">
-							<use xlink:href="svg/sprite.defs.svg#circle-outlined"></use>
-						</shapes>
-
-					</div>
-					<h2>circle-outlined</h2>
-				</li>
 				<li title="clock-filled">
 					<div class="icon-box">
 
@@ -6438,7 +6414,7 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 		</section>
 		<footer>
-			<p>Generated at Mon, 22 Aug 2022 16:19:47 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+			<p>Generated at Tue, 23 Aug 2022 12:26:44 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>
