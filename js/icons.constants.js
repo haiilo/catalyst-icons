@@ -659,6 +659,18 @@ export const ci16ExternalLink = {
     name: '16-external-link',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M4 2.75c-.69 0-1.25.56-1.25 1.25v8c0 .69.56 1.25 1.25 1.25h8c.69 0 1.25-.56 1.25-1.25v-1a.75.75 0 0 1 1.5 0v1A2.75 2.75 0 0 1 12 14.75H4A2.75 2.75 0 0 1 1.25 12V4A2.75 2.75 0 0 1 4 1.25h1a.75.75 0 0 1 0 1.5H4Z"/><path d="M8.25 2A.75.75 0 0 1 9 1.25h4c.966 0 1.75.784 1.75 1.75v4a.75.75 0 0 1-1.5 0V3.81L8.53 8.53a.75.75 0 0 1-1.06-1.06l4.72-4.72H9A.75.75 0 0 1 8.25 2Z"/></svg>`
 };
+export const ci16LinkLarge = {
+    name: '16-link-large',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 1.25A1.75 1.75 0 0 0 1.25 3v10c0 .966.784 1.75 1.75 1.75h10A1.75 1.75 0 0 0 14.75 13V3A1.75 1.75 0 0 0 13 1.25H3ZM2.75 3A.25.25 0 0 1 3 2.75h10a.25.25 0 0 1 .25.25v5.25H2.75V3Zm0 6.75V13c0 .138.112.25.25.25h10a.25.25 0 0 0 .25-.25V9.75H2.75Z"/></svg>`
+};
+export const ci16LinkMedium = {
+    name: '16-link-medium',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 3.25A1.75 1.75 0 0 0 .25 5v6c0 .966.784 1.75 1.75 1.75h12A1.75 1.75 0 0 0 15.75 11V5A1.75 1.75 0 0 0 14 3.25H2ZM1.75 5A.25.25 0 0 1 2 4.75h3.75v6.5H2a.25.25 0 0 1-.25-.25V5Zm5.5 6.25H14a.25.25 0 0 0 .25-.25V5a.25.25 0 0 0-.25-.25H7.25v6.5Z"/></svg>`
+};
+export const ci16LinkSmall = {
+    name: '16-link-small',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 6A.75.75 0 0 1 2 5.25h12a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75V6Zm1.5.75v2.5h10.5v-2.5H2.75Z"/></svg>`
+};
 export const ci16TargetedOutlined = {
     name: '16-targeted-outlined',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75a5.25 5.25 0 0 0-1.75 10.201.75.75 0 1 1-.5 1.415A6.752 6.752 0 0 1 8 1.25c2.94 0 5.44 1.88 6.366 4.5a.75.75 0 1 1-1.415.5A5.253 5.253 0 0 0 8 2.75Z"/><path d="M8 5.75a2.25 2.25 0 0 0-1.5 3.927.75.75 0 0 1-1 1.118A3.75 3.75 0 1 1 10.795 5.5a.75.75 0 0 1-1.118 1A2.243 2.243 0 0 0 8 5.75Z"/><path d="M8.25 9A.75.75 0 0 1 9 8.25h3a.75.75 0 0 1 0 1.5h-1.19l2.72 2.72a.75.75 0 1 1-1.06 1.06l-2.72-2.72V12a.75.75 0 0 1-1.5 0V9Z"/></svg>`
@@ -1217,6 +1229,9 @@ export const completeIconSet = [
     ci16EditorSearch,
     ci16EditorSettings,
     ci16ExternalLink,
+    ci16LinkLarge,
+    ci16LinkMedium,
+    ci16LinkSmall,
     ci16TargetedOutlined,
     ciAppleSafari,
     ciArrowDownOutlined,
