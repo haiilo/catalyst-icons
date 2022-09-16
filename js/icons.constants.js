@@ -603,6 +603,18 @@ export const ciWriteOutlined = {
     name: 'write-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4.75 6c0-.69.56-1.25 1.25-1.25h6a.75.75 0 0 0 0-1.5H6A2.75 2.75 0 0 0 3.25 6v12A2.75 2.75 0 0 0 6 20.75h12A2.75 2.75 0 0 0 20.75 18v-6a.75.75 0 0 0-1.5 0v6c0 .69-.56 1.25-1.25 1.25H6c-.69 0-1.25-.56-1.25-1.25V6Z"/><path d="M19.707 5.707a1 1 0 0 0-1.414-1.414l-8 8a1 1 0 1 0 1.414 1.414l8-8Z"/></svg>`
 };
+export const ci16CheckCircleFilled = {
+    name: '16-check-circle-filled',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm3.547-9.487a.75.75 0 1 0-1.094-1.026l-3.25 3.467L5.497 7.44a.75.75 0 1 0-.996 1.122l2.25 2a.75.75 0 0 0 1.045-.048l3.75-4Z"/></svg>`
+};
+export const ci16CheckCircleOutlined = {
+    name: '16-check-circle-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M11.547 6.513a.75.75 0 0 0-1.094-1.026l-3.25 3.467L5.497 7.44a.75.75 0 1 0-.996 1.122l2.25 2a.75.75 0 0 0 1.045-.048l3.75-4Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .25a7.75 7.75 0 1 0 0 15.5A7.75 7.75 0 0 0 8 .25ZM1.75 8a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0Z"/></svg>`
+};
+export const ci16ClockOutlined = {
+    name: '16-clock-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8.75 4a.75.75 0 0 0-1.5 0v4c0 .414.336.75.75.75h4a.75.75 0 0 0 0-1.5H8.75V4Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .25a7.75 7.75 0 1 0 0 15.5A7.75 7.75 0 0 0 8 .25ZM1.75 8a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0Z"/></svg>`
+};
 export const ci16Cross = {
     name: '16-cross',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M4.53 3.47a.75.75 0 0 0-1.06 1.06L6.94 8l-3.47 3.47a.75.75 0 1 0 1.06 1.06L8 9.06l3.47 3.47a.75.75 0 1 0 1.06-1.06L9.06 8l3.47-3.47a.75.75 0 0 0-1.06-1.06L8 6.94 4.53 3.47Z"/></svg>`
@@ -675,6 +687,10 @@ export const ci16TargetedOutlined = {
     name: '16-targeted-outlined',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75a5.25 5.25 0 0 0-1.75 10.201.75.75 0 1 1-.5 1.415A6.752 6.752 0 0 1 8 1.25c2.94 0 5.44 1.88 6.366 4.5a.75.75 0 1 1-1.415.5A5.253 5.253 0 0 0 8 2.75Z"/><path d="M8 5.75a2.25 2.25 0 0 0-1.5 3.927.75.75 0 0 1-1 1.118A3.75 3.75 0 1 1 10.795 5.5a.75.75 0 0 1-1.118 1A2.243 2.243 0 0 0 8 5.75Z"/><path d="M8.25 9A.75.75 0 0 1 9 8.25h3a.75.75 0 0 1 0 1.5h-1.19l2.72 2.72a.75.75 0 1 1-1.06 1.06l-2.72-2.72V12a.75.75 0 0 1-1.5 0V9Z"/></svg>`
 };
+export const ci16WarningCircleOutlined = {
+    name: '16-warning-circle-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 9V4h1.5v5h-1.5ZM8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M.25 8a7.75 7.75 0 1 1 15.5 0A7.75 7.75 0 0 1 .25 8ZM8 1.75a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5Z"/></svg>`
+};
 export const ciAppleSafari = {
     name: 'apple-safari',
     data: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.815 11.807a9.79 9.79 0 0 1-9.79 9.789c-5.405 0-9.788-4.383-9.788-9.79 0-5.406 4.383-9.788 9.789-9.788a9.79 9.79 0 0 1 9.789 9.789Z" fill="#E4E3E3"/><path d="M21.048 11.807a9.022 9.022 0 1 1-18.044 0 9.022 9.022 0 0 1 18.044 0Z" fill="#0BA2E2"/><path clip-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" stroke="#fff" stroke-linecap="round" stroke-dasharray="1 2.3"/><path d="m18.191 6.545-7.196 4.182 2.106 2.233 5.09-6.415Z" fill="#FF5150"/><path d="M10.995 10.727 6.444 17.89l6.657-4.93-2.106-2.233Z" fill="#F1F1F1"/></svg>`
@@ -718,6 +734,10 @@ export const ciFeedFilled = {
 export const ciFeedOutlined = {
     name: 'feed-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0 0 11.75 9V5A1.75 1.75 0 0 0 10 3.25H5ZM4.75 5A.25.25 0 0 1 5 4.75h5a.25.25 0 0 1 .25.25v4a.25.25 0 0 1-.25.25H5A.25.25 0 0 1 4.75 9V5ZM5 13.25A1.75 1.75 0 0 0 3.25 15v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0 0 11.75 19v-4A1.75 1.75 0 0 0 10 13.25H5ZM4.75 15a.25.25 0 0 1 .25-.25h5a.25.25 0 0 1 .25.25v4a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25v-4Z"/><path d="M14.25 5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Zm.75 9.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5h-4ZM14.25 9a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Zm.75 9.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5h-4Z"/></svg>`
+};
+export const ciFilterOutlined = {
+    name: 'filter-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4.25 7A.75.75 0 0 1 5 6.25h14a.75.75 0 0 1 0 1.5H5A.75.75 0 0 1 4.25 7Zm3 5a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75ZM11 16.25a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5h-2Z"/></svg>`
 };
 export const ciFingerprintOutlined = {
     name: 'fingerprint-outlined',
@@ -878,6 +898,10 @@ export const ciStreamFilled = {
 export const ciStreamOutlined = {
     name: 'stream-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 4.75A2.25 2.25 0 0 0 4.75 7a.75.75 0 0 1-1.5 0A3.75 3.75 0 0 1 7 3.25h9A4.75 4.75 0 0 1 20.75 8v9A3.75 3.75 0 0 1 17 20.75a.75.75 0 0 1 0-1.5A2.25 2.25 0 0 0 19.25 17V8A3.25 3.25 0 0 0 16 4.75H7ZM3.25 10A.75.75 0 0 1 4 9.25c5.937 0 10.75 4.813 10.75 10.75a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4 10.75a.75.75 0 0 1-.75-.75Zm0 4a.75.75 0 0 1 .75-.75A6.75 6.75 0 0 1 10.75 20a.75.75 0 0 1-1.5 0c0-2.9-2.35-5.25-5.25-5.25a.75.75 0 0 1-.75-.75Zm0 4a.75.75 0 0 1 .75-.75A2.75 2.75 0 0 1 6.75 20a.75.75 0 0 1-1.5 0c0-.69-.56-1.25-1.25-1.25a.75.75 0 0 1-.75-.75Z"/></svg>`
+};
+export const ciTagOutlined = {
+    name: 'tag-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 6.25a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5ZM13.75 9a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12.828 3.25c-.729 0-1.428.29-1.944.805l-7.707 7.708a1.75 1.75 0 0 0 0 2.474l6.586 6.586a1.75 1.75 0 0 0 2.474 0l7.708-7.707a2.75 2.75 0 0 0 .805-1.944V6A2.75 2.75 0 0 0 18 3.25h-5.172Zm-.883 1.866a1.25 1.25 0 0 1 .883-.366H18c.69 0 1.25.56 1.25 1.25v5.172c0 .331-.132.649-.366.883l-7.707 7.708a.25.25 0 0 1-.354 0l-6.586-6.586a.25.25 0 0 1 0-.354l7.707-7.707Z"/></svg>`
 };
 export const ciTargetedOutlined = {
     name: 'targeted-outlined',
@@ -1215,6 +1239,9 @@ export const completeIconSet = [
     ciVideoCameraOutlined,
     ciWBlogArticleRecommendedOutlined,
     ciWriteOutlined,
+    ci16CheckCircleFilled,
+    ci16CheckCircleOutlined,
+    ci16ClockOutlined,
     ci16Cross,
     ci16EditorArrowDown,
     ci16EditorArrowUp,
@@ -1233,6 +1260,7 @@ export const completeIconSet = [
     ci16LinkMedium,
     ci16LinkSmall,
     ci16TargetedOutlined,
+    ci16WarningCircleOutlined,
     ciAppleSafari,
     ciArrowDownOutlined,
     ciArrowLeftOutlined,
@@ -1244,6 +1272,7 @@ export const completeIconSet = [
     ciFacebook,
     ciFeedFilled,
     ciFeedOutlined,
+    ciFilterOutlined,
     ciFingerprintOutlined,
     ciGoogleCalendar,
     ciGoogleChrome,
@@ -1284,6 +1313,7 @@ export const completeIconSet = [
     ciPuzzlePieceOutlined,
     ciStreamFilled,
     ciStreamOutlined,
+    ciTagOutlined,
     ciTargetedOutlined,
     ciTranslateBoxFilled,
     ciTwitter,

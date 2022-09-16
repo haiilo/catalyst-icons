@@ -19,10 +19,13 @@ They might well be outsourced to an external stylesheet of course.
 -->
 
 <style type="text/css">
+	.ci-16-check-circle-filled-dims { width: 16px; height: 16px; }
+	.ci-16-check-circle-outlined-dims { width: 16px; height: 16px; }
 	.ci-16-chevron-down-dims { width: 16px; height: 16px; }
 	.ci-16-chevron-left-dims { width: 16px; height: 16px; }
 	.ci-16-chevron-right-dims { width: 16px; height: 16px; }
 	.ci-16-chevron-up-dims { width: 16px; height: 16px; }
+	.ci-16-clock-outlined-dims { width: 16px; height: 16px; }
 	.ci-16-cross-dims { width: 16px; height: 16px; }
 	.ci-16-editor-arrow-down-dims { width: 16px; height: 16px; }
 	.ci-16-editor-arrow-up-dims { width: 16px; height: 16px; }
@@ -56,6 +59,7 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-16-targeted-outlined-dims { width: 16px; height: 16px; }
 	.ci-16-thumbs-up-outlined-dims { width: 16px; height: 16px; }
 	.ci-16-translate-box-outlined-dims { width: 16px; height: 16px; }
+	.ci-16-warning-circle-outlined-dims { width: 16px; height: 16px; }
 	.ci-apple-safari-dims { width: 24px; height: 24px; }
 	.ci-arrow-down-outlined-dims { width: 24px; height: 24px; }
 	.ci-arrow-left-outlined-dims { width: 24px; height: 24px; }
@@ -113,6 +117,7 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-facebook-dims { width: 24px; height: 24px; }
 	.ci-feed-filled-dims { width: 24px; height: 24px; }
 	.ci-feed-outlined-dims { width: 24px; height: 24px; }
+	.ci-filter-outlined-dims { width: 24px; height: 24px; }
 	.ci-fingerprint-outlined-dims { width: 24px; height: 24px; }
 	.ci-flash-circle-outlined-dims { width: 24px; height: 24px; }
 	.ci-flash-outlined-dims { width: 24px; height: 24px; }
@@ -228,6 +233,7 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-sticker-outlined-dims { width: 24px; height: 24px; }
 	.ci-stream-filled-dims { width: 24px; height: 24px; }
 	.ci-stream-outlined-dims { width: 24px; height: 24px; }
+	.ci-tag-outlined-dims { width: 24px; height: 24px; }
 	.ci-targeted-outlined-dims { width: 24px; height: 24px; }
 	.ci-thumbs-up-filled-dims { width: 24px; height: 24px; }
 	.ci-thumbs-up-outlined-dims { width: 24px; height: 24px; }
@@ -309,10 +315,13 @@ for further details on how to create this embeddable sprite variant.
 
 <svg width="0" height="0" style="position:absolute">
 	<defs>
+		<svg viewBox="0 0 16 16" id="16-check-circle-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm3.547-9.487a.75.75 0 10-1.094-1.026l-3.25 3.467L5.497 7.44a.75.75 0 10-.996 1.122l2.25 2a.75.75 0 001.045-.048l3.75-4z"/></svg>
+		<svg viewBox="0 0 16 16" id="16-check-circle-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M11.547 6.513a.75.75 0 00-1.094-1.026l-3.25 3.467L5.497 7.44a.75.75 0 10-.996 1.122l2.25 2a.75.75 0 001.045-.048l3.75-4z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .25a7.75 7.75 0 100 15.5A7.75 7.75 0 008 .25zM1.75 8a6.25 6.25 0 1112.5 0 6.25 6.25 0 01-12.5 0z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-chevron-down" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.47 5.47a.75.75 0 011.06 0L8 8.94l3.47-3.47a.75.75 0 111.06 1.06l-4 4a.75.75 0 01-1.06 0l-4-4a.75.75 0 010-1.06z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-chevron-left" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.53 3.47a.75.75 0 010 1.06L7.06 8l3.47 3.47a.75.75 0 11-1.06 1.06l-4-4a.75.75 0 010-1.06l4-4a.75.75 0 011.06 0z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-chevron-right" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.47 3.47a.75.75 0 011.06 0l4 4a.75.75 0 010 1.06l-4 4a.75.75 0 01-1.06-1.06L8.94 8 5.47 4.53a.75.75 0 010-1.06z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-chevron-up" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.47 5.47a.75.75 0 011.06 0l4 4a.75.75 0 11-1.06 1.06L8 7.06l-3.47 3.47a.75.75 0 11-1.06-1.06l4-4z"/></svg>
+		<svg viewBox="0 0 16 16" id="16-clock-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M8.75 4a.75.75 0 00-1.5 0v4c0 .414.336.75.75.75h4a.75.75 0 000-1.5H8.75V4z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .25a7.75 7.75 0 100 15.5A7.75 7.75 0 008 .25zM1.75 8a6.25 6.25 0 1112.5 0 6.25 6.25 0 01-12.5 0z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-cross" xmlns="http://www.w3.org/2000/svg"><path d="M4.53 3.47a.75.75 0 00-1.06 1.06L6.94 8l-3.47 3.47a.75.75 0 101.06 1.06L8 9.06l3.47 3.47a.75.75 0 101.06-1.06L9.06 8l3.47-3.47a.75.75 0 00-1.06-1.06L8 6.94 4.53 3.47z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-editor-arrow-down" xmlns="http://www.w3.org/2000/svg"><path d="M7.47 14.53a.75.75 0 001.06 0l5-5a.75.75 0 00-1.06-1.06l-3.72 3.72V2a.75.75 0 00-1.5 0v10.19L3.53 8.47a.75.75 0 00-1.06 1.06l5 5z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-editor-arrow-up" xmlns="http://www.w3.org/2000/svg"><path d="M8.53 1.47a.75.75 0 00-1.06 0l-5 5a.75.75 0 001.06 1.06l3.72-3.72V14a.75.75 0 001.5 0V3.81l3.72 3.72a.75.75 0 101.06-1.06l-5-5z"/></svg>
@@ -346,6 +355,7 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 16 16" id="16-targeted-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75a5.25 5.25 0 00-1.75 10.201.75.75 0 11-.5 1.415A6.752 6.752 0 018 1.25c2.94 0 5.44 1.88 6.366 4.5a.75.75 0 11-1.415.5A5.253 5.253 0 008 2.75z"/><path d="M8 5.75a2.25 2.25 0 00-1.5 3.927.75.75 0 01-1 1.118A3.75 3.75 0 1110.795 5.5a.75.75 0 01-1.118 1A2.243 2.243 0 008 5.75z"/><path d="M8.25 9A.75.75 0 019 8.25h3a.75.75 0 010 1.5h-1.19l2.72 2.72a.75.75 0 11-1.06 1.06l-2.72-2.72V12a.75.75 0 01-1.5 0V9z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-thumbs-up-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.698.464a1.576 1.576 0 00-1.354.161 1.81 1.81 0 00-.786 1.017c-.237.796-.35 1.627-.61 2.415-.191.575-.508 1.22-1.263 2.193H3A2.75 2.75 0 00.25 9v4A2.75 2.75 0 003 15.75h8.743a1.75 1.75 0 001.684-1.276l1.937-6.883a1.75 1.75 0 00-1.684-2.224h-3.002c-.172-1.58-.383-2.64-.643-3.357-.308-.848-.73-1.33-1.337-1.546zM7.996 2.07a.312.312 0 01.132-.165l.074-.024c.05.016.216.072.423.642.227.625.447 1.724.628 3.665a.75.75 0 00.747.68h3.68a.25.25 0 01.24.317l-1.937 6.884a.25.25 0 01-.24.182H5.75V7.323c.914-1.153 1.353-1.984 1.621-2.795.266-.804.384-1.648.625-2.459zm.132-.165l.07-.026H8.19a.177.177 0 00-.063.026zM4.25 14.25v-6.5H3c-.69 0-1.25.56-1.25 1.25v4c0 .69.56 1.25 1.25 1.25h1.25z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-translate-box-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M4.25 5.28A.75.75 0 015 4.53h2.75V4a.75.75 0 011.5 0v.53H12a.75.75 0 010 1.5h-.781a9.177 9.177 0 01-1.848 3.768c.132.07.269.133.41.187l1 .383-.537 1.4-1-.383a5.113 5.113 0 01-.947-.48 9.176 9.176 0 01-2.21 1.422l-.775.355a.75.75 0 01-.624-1.364l.776-.355A7.68 7.68 0 007.16 9.901a5.113 5.113 0 01-1.153-2.6l1.486-.203c.088.644.345 1.239.73 1.733a7.678 7.678 0 001.45-2.801H5a.75.75 0 01-.75-.75z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M.25 3A2.75 2.75 0 013 .25h10A2.75 2.75 0 0115.75 3v10A2.75 2.75 0 0113 15.75H3A2.75 2.75 0 01.25 13V3zM3 1.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25V3c0-.69-.56-1.25-1.25-1.25H3z"/></svg>
+		<svg viewBox="0 0 16 16" id="16-warning-circle-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 9V4h1.5v5h-1.5zM8 12a1 1 0 100-2 1 1 0 000 2z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M.25 8a7.75 7.75 0 1115.5 0A7.75 7.75 0 01.25 8zM8 1.75a6.25 6.25 0 100 12.5 6.25 6.25 0 000-12.5z"/></svg>
 		<svg viewBox="0 0 24 24" fill="none" id="apple-safari" xmlns="http://www.w3.org/2000/svg"><path d="M21.815 11.807a9.79 9.79 0 01-9.79 9.789c-5.405 0-9.788-4.383-9.788-9.79 0-5.406 4.383-9.788 9.789-9.788a9.79 9.79 0 019.789 9.789z" fill="#E4E3E3"/><path d="M21.048 11.807a9.022 9.022 0 11-18.044 0 9.022 9.022 0 0118.044 0z" fill="#0BA2E2"/><path clip-rule="evenodd" d="M12 20a8 8 0 100-16 8 8 0 000 16z" stroke="#fff" stroke-linecap="round" stroke-dasharray="1 2.3"/><path d="M18.191 6.545l-7.196 4.182 2.106 2.233 5.09-6.415z" fill="#FF5150"/><path d="M10.995 10.727L6.444 17.89l6.657-4.93-2.106-2.233z" fill="#F1F1F1"/></svg>
 		<svg viewBox="0 0 24 24" id="arrow-down-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.25a.75.75 0 01.75.75v10.19l3.72-3.72a.75.75 0 111.06 1.06l-5 5a.75.75 0 01-1.06 0l-5-5a.75.75 0 111.06-1.06l3.72 3.72V6a.75.75 0 01.75-.75z"/></svg>
 		<svg viewBox="0 0 24 24" id="arrow-left-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.53 6.47a.75.75 0 010 1.06l-3.72 3.72H18a.75.75 0 010 1.5H7.81l3.72 3.72a.75.75 0 11-1.06 1.06l-5-5a.75.75 0 010-1.06l5-5a.75.75 0 011.06 0z"/></svg>
@@ -403,6 +413,7 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 24 24" fill="none" id="facebook" xmlns="http://www.w3.org/2000/svg"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1z" fill="#1877F2"/><path d="M15.041 12.978l.363-2.245h-2.27V9.277c0-.615.317-1.214 1.334-1.214H15.5V6.152S14.563 6 13.668 6c-1.87 0-3.09 1.076-3.09 3.022v1.711H8.5v2.245h2.078v5.428a8.664 8.664 0 002.557 0v-5.428h1.906z" fill="#fff"/></svg>
 		<svg viewBox="0 0 24 24" id="feed-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 003.25 5v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0011.75 9V5A1.75 1.75 0 0010 3.25H5zm0 10A1.75 1.75 0 003.25 15v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0011.75 19v-4A1.75 1.75 0 0010 13.25H5z"/><path d="M14.25 5a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zm.75 9.25a.75.75 0 000 1.5h4a.75.75 0 000-1.5h-4zM14.25 9a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zm.75 9.25a.75.75 0 000 1.5h4a.75.75 0 000-1.5h-4z"/></svg>
 		<svg viewBox="0 0 24 24" id="feed-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 003.25 5v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0011.75 9V5A1.75 1.75 0 0010 3.25H5zM4.75 5A.25.25 0 015 4.75h5a.25.25 0 01.25.25v4a.25.25 0 01-.25.25H5A.25.25 0 014.75 9V5zM5 13.25A1.75 1.75 0 003.25 15v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0011.75 19v-4A1.75 1.75 0 0010 13.25H5zM4.75 15a.25.25 0 01.25-.25h5a.25.25 0 01.25.25v4a.25.25 0 01-.25.25H5a.25.25 0 01-.25-.25v-4z"/><path d="M14.25 5a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zm.75 9.25a.75.75 0 000 1.5h4a.75.75 0 000-1.5h-4zM14.25 9a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zm.75 9.25a.75.75 0 000 1.5h4a.75.75 0 000-1.5h-4z"/></svg>
+		<svg viewBox="0 0 24 24" id="filter-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M4.25 7A.75.75 0 015 6.25h14a.75.75 0 010 1.5H5A.75.75 0 014.25 7zm3 5a.75.75 0 01.75-.75h8a.75.75 0 010 1.5H8a.75.75 0 01-.75-.75zM11 16.25a.75.75 0 000 1.5h2a.75.75 0 000-1.5h-2z"/></svg>
 		<svg viewBox="0 0 24 24" id="fingerprint-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M9.41 5.172a.75.75 0 11-.504-1.413 8.884 8.884 0 019.243 2.09 8.875 8.875 0 012.601 6.278c0 1.88-.21 3.753-.629 5.585a.75.75 0 11-1.462-.334 23.56 23.56 0 00.591-5.25 7.375 7.375 0 00-7.382-7.378 7.292 7.292 0 00-2.458.422z"/><path d="M13.006 7.448a4.818 4.818 0 00-5.953 4.68 11.316 11.316 0 01-1.43 5.535.75.75 0 001.31.73 12.816 12.816 0 001.62-6.267 3.312 3.312 0 012.132-3.097 3.318 3.318 0 013.657.889.75.75 0 101.118-1 4.816 4.816 0 00-2.454-1.47zm3.678 4.678a.75.75 0 00-1.5.002 19.432 19.432 0 01-1.468 7.434.75.75 0 101.387.572 20.93 20.93 0 001.581-8.008zM5.126 9.116a7.326 7.326 0 011.82-2.481c.723-.643-.274-1.764-.997-1.121a8.886 8.886 0 00-2.962 6.615 7.33 7.33 0 01-.669 3.071.75.75 0 101.364.626 8.832 8.832 0 00.805-3.7 7.342 7.342 0 01.64-3.01zm5.592 9.107a.75.75 0 01.353 1c-.181.38-.374.766-.578 1.137a.75.75 0 11-1.315-.72c.186-.34.366-.699.54-1.064a.75.75 0 011-.353z"/><path d="M12.618 12.126a.75.75 0 10-1.5.002 15.29 15.29 0 01-.492 3.874.75.75 0 001.452.377c.36-1.389.543-2.818.54-4.253z"/></svg>
 		<svg viewBox="0 0 24 24" id="flash-circle-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M12.46 6.983l-3.72 4.185a.5.5 0 00.373.832h1.554l-.643 4.341a.5.5 0 00.868.406l4.368-4.915a.5.5 0 00-.373-.832h-1.554V7.315a.5.5 0 00-.873-.332z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0z"/></svg>
 		<svg viewBox="0 0 24 24" id="flash-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.523 2.293a.75.75 0 01.5.698l.082 7.259H18a.75.75 0 01.552 1.257l-9.181 10a.75.75 0 01-1.299-.583l.734-7.174H6a.75.75 0 01-.578-1.228l8.273-10a.75.75 0 01.828-.23zm-6.93 9.957h2.043a.75.75 0 01.747.826l-.589 5.752 6.5-7.078h-1.93a.75.75 0 01-.75-.742l-.068-5.953-5.952 7.195z"/></svg>
@@ -518,6 +529,7 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 24 24" id="sticker-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25A9.75 9.75 0 002.25 12a9.752 9.752 0 006.662 9.25c2.15.718 4.262-.363 5.669-1.77l4.9-4.9c1.405-1.406 2.487-3.518 1.77-5.668C19.959 5.042 16.307 2.25 12 2.25zM3.75 12a8.25 8.25 0 0116.078-2.613c.094.282.141.571.147.863H15A4.75 4.75 0 0010.25 15v4.975a2.887 2.887 0 01-.863-.147A8.254 8.254 0 013.75 12zm8 7.658c.625-.27 1.23-.698 1.77-1.239l4.9-4.9c.54-.54.969-1.144 1.238-1.769H15A3.25 3.25 0 0011.75 15v4.658z"/></svg>
 		<svg viewBox="0 0 24 24" id="stream-filled" xmlns="http://www.w3.org/2000/svg"><path d="M6.375 3H16.5A4.5 4.5 0 0121 7.5v10.125A3.375 3.375 0 0117.625 21v-1.625c0-7.18-5.82-13-13-13H3A3.375 3.375 0 016.375 3z"/><path d="M4 9.25a.75.75 0 000 1.5A9.25 9.25 0 0113.25 20a.75.75 0 001.5 0C14.75 14.063 9.937 9.25 4 9.25z"/><path d="M4 13.25a.75.75 0 000 1.5c2.9 0 5.25 2.35 5.25 5.25a.75.75 0 001.5 0A6.75 6.75 0 004 13.25zm0 4a.75.75 0 000 1.5c.69 0 1.25.56 1.25 1.25a.75.75 0 001.5 0A2.75 2.75 0 004 17.25z"/></svg>
 		<svg viewBox="0 0 24 24" id="stream-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 4.75A2.25 2.25 0 004.75 7a.75.75 0 01-1.5 0A3.75 3.75 0 017 3.25h9A4.75 4.75 0 0120.75 8v9A3.75 3.75 0 0117 20.75a.75.75 0 010-1.5A2.25 2.25 0 0019.25 17V8A3.25 3.25 0 0016 4.75H7zM3.25 10A.75.75 0 014 9.25c5.937 0 10.75 4.813 10.75 10.75a.75.75 0 01-1.5 0A9.25 9.25 0 004 10.75a.75.75 0 01-.75-.75zm0 4a.75.75 0 01.75-.75A6.75 6.75 0 0110.75 20a.75.75 0 01-1.5 0c0-2.9-2.35-5.25-5.25-5.25a.75.75 0 01-.75-.75zm0 4a.75.75 0 01.75-.75A2.75 2.75 0 016.75 20a.75.75 0 01-1.5 0c0-.69-.56-1.25-1.25-1.25a.75.75 0 01-.75-.75z"/></svg>
+		<svg viewBox="0 0 24 24" id="tag-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 6.25a2.75 2.75 0 100 5.5 2.75 2.75 0 000-5.5zM13.75 9a1.25 1.25 0 112.5 0 1.25 1.25 0 01-2.5 0z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12.828 3.25c-.729 0-1.428.29-1.944.805l-7.707 7.708a1.75 1.75 0 000 2.474l6.586 6.586a1.75 1.75 0 002.474 0l7.708-7.707a2.75 2.75 0 00.805-1.944V6A2.75 2.75 0 0018 3.25h-5.172zm-.883 1.866a1.25 1.25 0 01.883-.366H18c.69 0 1.25.56 1.25 1.25v5.172c0 .331-.132.649-.366.883l-7.707 7.708a.25.25 0 01-.354 0l-6.586-6.586a.25.25 0 010-.354l7.707-7.707z"/></svg>
 		<svg viewBox="0 0 24 24" id="targeted-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M15.157 4.378A8.25 8.25 0 1012 20.25a.75.75 0 010 1.5A9.75 9.75 0 1121.75 12a.75.75 0 01-1.5 0 8.25 8.25 0 00-5.093-7.622z"/><path d="M12.644 7.8a4.25 4.25 0 00-2.44 8.052.75.75 0 01-.634 1.36 5.75 5.75 0 117.566-7.797.75.75 0 01-1.34.675 4.25 4.25 0 00-3.152-2.29z"/><path d="M12.25 13a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-2.19l4.72 4.72a.75.75 0 11-1.06 1.06l-4.72-4.72V17a.75.75 0 01-1.5 0v-4z"/></svg>
 		<svg viewBox="0 0 24 24" id="thumbs-up-filled" xmlns="http://www.w3.org/2000/svg"><path d="M10.855 3.74c-.53 2.038-1.032 3.962-2.517 5.432-.207.205-.338.48-.338.77V19a1 1 0 001 1h6.638a3 3 0 002.824-1.988l2.1-5.861c.7-1.954-.748-4.012-2.824-4.012h-2.32a.509.509 0 01-.495-.414c-.629-3.264-1.358-4.636-2.053-5.23-.729-.621-1.734.168-1.975 1.095l-.04.15zM5.5 10H5a2 2 0 00-2 2v6a2 2 0 002 2h.5a.5.5 0 00.5-.5v-9a.5.5 0 00-.5-.5z"/></svg>
 		<svg viewBox="0 0 24 24" id="thumbs-up-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.28 2.382c-.82-.132-1.669.334-1.958 1.146a17.2 17.2 0 00-.485 1.649l-.02.079a11.8 11.8 0 01-.338 1.178c-.263.724-.712 1.534-1.878 2.816H6A2.75 2.75 0 003.25 12v5A2.75 2.75 0 006 19.75h9.56a3.75 3.75 0 003.572-2.607l1.747-5.457a2.75 2.75 0 00-2.62-3.588h-3.09c-.256-2.118-.58-3.44-1-4.272-.239-.476-.526-.827-.88-1.067a2.423 2.423 0 00-1.009-.377zm-.545 1.65c.036-.102.17-.19.306-.169.196.032.31.072.404.136.094.064.23.193.385.502.329.652.658 1.924.924 4.426a.75.75 0 00.746.67h3.76a1.25 1.25 0 011.19 1.632l-1.747 5.457a2.25 2.25 0 01-2.143 1.564H8.75v-8.034c1.229-1.358 1.794-2.322 2.139-3.27.163-.448.272-.882.378-1.307l.024-.096c.117-.462.241-.942.444-1.512zM7.25 18.25v-7.5H6c-.69 0-1.25.56-1.25 1.25v5c0 .69.56 1.25 1.25 1.25h1.25z"/></svg>
@@ -605,6 +617,28 @@ embedded above. They may be styled via CSS.
 			<h3>A) Inline SVG with embedded sprite</h3>
 			<ul>
 
+				<li title="16-check-circle-filled">
+					<div class="icon-box">
+
+						<!-- 16-check-circle-filled -->
+						<svg viewBox="0 0 16 16" class="ci-16-check-circle-filled-dims">
+							<use xlink:href="#16-check-circle-filled"></use>
+						</svg>
+
+					</div>
+					<h2>16-check-circle-filled</h2>
+				</li>
+				<li title="16-check-circle-outlined">
+					<div class="icon-box">
+
+						<!-- 16-check-circle-outlined -->
+						<svg viewBox="0 0 16 16" class="ci-16-check-circle-outlined-dims">
+							<use xlink:href="#16-check-circle-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>16-check-circle-outlined</h2>
+				</li>
 				<li title="16-chevron-down">
 					<div class="icon-box">
 
@@ -648,6 +682,17 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>16-chevron-up</h2>
+				</li>
+				<li title="16-clock-outlined">
+					<div class="icon-box">
+
+						<!-- 16-clock-outlined -->
+						<svg viewBox="0 0 16 16" class="ci-16-clock-outlined-dims">
+							<use xlink:href="#16-clock-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>16-clock-outlined</h2>
 				</li>
 				<li title="16-cross">
 					<div class="icon-box">
@@ -1011,6 +1056,17 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>16-translate-box-outlined</h2>
+				</li>
+				<li title="16-warning-circle-outlined">
+					<div class="icon-box">
+
+						<!-- 16-warning-circle-outlined -->
+						<svg viewBox="0 0 16 16" class="ci-16-warning-circle-outlined-dims">
+							<use xlink:href="#16-warning-circle-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>16-warning-circle-outlined</h2>
 				</li>
 				<li title="apple-safari">
 					<div class="icon-box">
@@ -1638,6 +1694,17 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>feed-outlined</h2>
+				</li>
+				<li title="filter-outlined">
+					<div class="icon-box">
+
+						<!-- filter-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-filter-outlined-dims">
+							<use xlink:href="#filter-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>filter-outlined</h2>
 				</li>
 				<li title="fingerprint-outlined">
 					<div class="icon-box">
@@ -2904,6 +2971,17 @@ embedded above. They may be styled via CSS.
 					</div>
 					<h2>stream-outlined</h2>
 				</li>
+				<li title="tag-outlined">
+					<div class="icon-box">
+
+						<!-- tag-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-tag-outlined-dims">
+							<use xlink:href="#tag-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>tag-outlined</h2>
+				</li>
 				<li title="targeted-outlined">
 					<div class="icon-box">
 
@@ -3552,6 +3630,28 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 			<h3>B) Inline SVG with external sprite (IE 9-11 with polyfill only)</h3>
 			<ul>
 
+				<li title="16-check-circle-filled">
+					<div class="icon-box">
+
+						<!-- 16-check-circle-filled -->
+						<svg viewBox="0 0 16 16" class="ci-16-check-circle-filled-dims">
+							<use xlink:href="svg/sprite.defs.svg#16-check-circle-filled"></use>
+						</shapes>
+
+					</div>
+					<h2>16-check-circle-filled</h2>
+				</li>
+				<li title="16-check-circle-outlined">
+					<div class="icon-box">
+
+						<!-- 16-check-circle-outlined -->
+						<svg viewBox="0 0 16 16" class="ci-16-check-circle-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#16-check-circle-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>16-check-circle-outlined</h2>
+				</li>
 				<li title="16-chevron-down">
 					<div class="icon-box">
 
@@ -3595,6 +3695,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 					</div>
 					<h2>16-chevron-up</h2>
+				</li>
+				<li title="16-clock-outlined">
+					<div class="icon-box">
+
+						<!-- 16-clock-outlined -->
+						<svg viewBox="0 0 16 16" class="ci-16-clock-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#16-clock-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>16-clock-outlined</h2>
 				</li>
 				<li title="16-cross">
 					<div class="icon-box">
@@ -3958,6 +4069,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 					</div>
 					<h2>16-translate-box-outlined</h2>
+				</li>
+				<li title="16-warning-circle-outlined">
+					<div class="icon-box">
+
+						<!-- 16-warning-circle-outlined -->
+						<svg viewBox="0 0 16 16" class="ci-16-warning-circle-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#16-warning-circle-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>16-warning-circle-outlined</h2>
 				</li>
 				<li title="apple-safari">
 					<div class="icon-box">
@@ -4585,6 +4707,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 					</div>
 					<h2>feed-outlined</h2>
+				</li>
+				<li title="filter-outlined">
+					<div class="icon-box">
+
+						<!-- filter-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-filter-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#filter-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>filter-outlined</h2>
 				</li>
 				<li title="fingerprint-outlined">
 					<div class="icon-box">
@@ -5851,6 +5984,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 					</div>
 					<h2>stream-outlined</h2>
 				</li>
+				<li title="tag-outlined">
+					<div class="icon-box">
+
+						<!-- tag-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-tag-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#tag-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>tag-outlined</h2>
+				</li>
 				<li title="targeted-outlined">
 					<div class="icon-box">
 
@@ -6486,7 +6630,7 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 		</section>
 		<footer>
-			<p>Generated at Thu, 08 Sep 2022 16:01:33 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+			<p>Generated at Fri, 16 Sep 2022 09:02:20 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>
