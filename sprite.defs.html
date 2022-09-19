@@ -65,7 +65,6 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-arrow-left-outlined-dims { width: 24px; height: 24px; }
 	.ci-arrow-redo-outlined-dims { width: 24px; height: 24px; }
 	.ci-arrow-right-outlined-dims { width: 24px; height: 24px; }
-	.ci-arrow-undo-outlined-dims { width: 24px; height: 24px; }
 	.ci-arrow-up-outlined-dims { width: 24px; height: 24px; }
 	.ci-article-filled-dims { width: 24px; height: 24px; }
 	.ci-article-outlined-dims { width: 24px; height: 24px; }
@@ -243,6 +242,7 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-trash-filled-dims { width: 24px; height: 24px; }
 	.ci-trash-outlined-dims { width: 24px; height: 24px; }
 	.ci-twitter-dims { width: 24px; height: 24px; }
+	.ci-undo-outlined-dims { width: 24px; height: 24px; }
 	.ci-upload-outlined-dims { width: 24px; height: 24px; }
 	.ci-video-camera-filled-dims { width: 24px; height: 24px; }
 	.ci-video-camera-outlined-dims { width: 24px; height: 24px; }
@@ -361,7 +361,6 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 24 24" id="arrow-left-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.53 6.47a.75.75 0 010 1.06l-3.72 3.72H18a.75.75 0 010 1.5H7.81l3.72 3.72a.75.75 0 11-1.06 1.06l-5-5a.75.75 0 010-1.06l5-5a.75.75 0 011.06 0z"/></svg>
 		<svg viewBox="0 0 24 24" id="arrow-redo-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M15.53 3.47a.75.75 0 10-1.06 1.06l2.72 2.72H10a5.75 5.75 0 100 11.5h2a.75.75 0 000-1.5h-2a4.25 4.25 0 010-8.5h7.19l-2.72 2.72a.75.75 0 101.06 1.06l4-4a.75.75 0 000-1.06l-4-4z"/></svg>
 		<svg viewBox="0 0 24 24" id="arrow-right-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.47 6.47a.75.75 0 011.06 0l5 5a.75.75 0 010 1.06l-5 5a.75.75 0 11-1.06-1.06l3.72-3.72H6a.75.75 0 010-1.5h10.19l-3.72-3.72a.75.75 0 010-1.06z"/></svg>
-		<svg viewBox="0 0 24 24" id="arrow-undo-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M9.53 4.53a.75.75 0 00-1.06-1.06l-4 4a.75.75 0 000 1.06l4 4a.75.75 0 001.06-1.06L6.81 8.75H14a4.25 4.25 0 010 8.5h-2a.75.75 0 000 1.5h2a5.75 5.75 0 000-11.5H6.81l2.72-2.72z"/></svg>
 		<svg viewBox="0 0 24 24" id="arrow-up-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 5.47a.75.75 0 011.06 0l5 5a.75.75 0 11-1.06 1.06l-3.72-3.72V18a.75.75 0 01-1.5 0V7.81l-3.72 3.72a.75.75 0 01-1.06-1.06l5-5z"/></svg>
 		<svg viewBox="0 0 24 24" id="article-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3a3 3 0 00-3 3v12a3 3 0 003 3h12a3 3 0 003-3V6a3 3 0 00-3-3H6zm2 6a1 1 0 011-1h6a1 1 0 110 2h-2v5a1 1 0 11-2 0v-5H9a1 1 0 01-1-1z"/></svg>
 		<svg viewBox="0 0 24 24" id="article-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M12.75 9.75H15a.75.75 0 000-1.5H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0V9.75z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 6A2.75 2.75 0 016 3.25h12A2.75 2.75 0 0120.75 6v12A2.75 2.75 0 0118 20.75H6A2.75 2.75 0 013.25 18V6zM6 4.75c-.69 0-1.25.56-1.25 1.25v12c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25V6c0-.69-.56-1.25-1.25-1.25H6z"/></svg>
@@ -539,6 +538,7 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 24 24" id="trash-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.25 4A.75.75 0 018 3.25h8a.75.75 0 01.75.75v2.25H20a.75.75 0 010 1.5h-.308l-.942 11.637a1.353 1.353 0 01-.497.998 1.61 1.61 0 01-1.03.365H6.777a1.61 1.61 0 01-1.031-.365 1.353 1.353 0 01-.496-.998L4.308 7.75H4a.75.75 0 010-1.5h3.25V4zm1.5 2.25h6.5v-1.5h-6.5v1.5z"/></svg>
 		<svg viewBox="0 0 24 24" id="trash-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.25 4A.75.75 0 018 3.25h8a.75.75 0 01.75.75v2.25H20a.75.75 0 010 1.5h-.308l-.942 11.637a1.353 1.353 0 01-.497.998 1.61 1.61 0 01-1.03.365H6.777a1.61 1.61 0 01-1.031-.365 1.353 1.353 0 01-.497-.998L4.308 7.75H4a.75.75 0 010-1.5h3.25V4zM5.813 7.75l.931 11.497h10.512l.93-11.497H5.814zm9.437-3v1.5h-6.5v-1.5h6.5z"/></svg>
 		<svg viewBox="0 0 24 24" fill="none" id="twitter" xmlns="http://www.w3.org/2000/svg"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zm5.56 8.841c.168 3.704-2.594 7.832-7.483 7.832a7.45 7.45 0 01-4.035-1.183 5.297 5.297 0 003.897-1.09 2.639 2.639 0 01-2.46-1.829c.413.079.82.056 1.19-.045-1.266-.255-2.14-1.395-2.112-2.615.355.197.76.315 1.192.33a2.637 2.637 0 01-.814-3.516 7.474 7.474 0 005.426 2.75 2.636 2.636 0 014.487-2.401 5.253 5.253 0 001.672-.639 2.644 2.644 0 01-1.157 1.457 5.252 5.252 0 001.511-.416c-.352.53-.797.994-1.313 1.365z" fill="#1DA1F2"/></svg>
+		<svg viewBox="0 0 24 24" id="undo-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M9.53 4.53a.75.75 0 00-1.06-1.06l-4 4a.75.75 0 000 1.06l4 4a.75.75 0 001.06-1.06L6.81 8.75H14a4.25 4.25 0 010 8.5h-2a.75.75 0 000 1.5h2a5.75 5.75 0 000-11.5H6.81l2.72-2.72z"/></svg>
 		<svg viewBox="0 0 24 24" id="upload-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M7.47 9.53a.75.75 0 001.06 0l2.72-2.72V15a.75.75 0 001.5 0V6.81l2.72 2.72a.75.75 0 101.06-1.06l-4-4a.75.75 0 00-1.06 0l-4 4a.75.75 0 000 1.06z"/><path d="M4.75 14a.75.75 0 00-1.5 0v5.25c0 .39.15.77.425 1.052.275.284.653.448 1.052.448h14.546c.4 0 .777-.164 1.052-.448.275-.282.425-.662.425-1.052V14a.75.75 0 00-1.5 0v5.25H4.75V14z"/></svg>
 		<svg viewBox="0 0 24 24" id="video-camera-filled" xmlns="http://www.w3.org/2000/svg"><path d="M2 17.714V6.286C2 5.023 2.995 4 4.222 4h10c1.228 0 2.222 1.023 2.222 2.286v3.428l4.03-2.487A1 1 0 0122 8.078v7.844a1 1 0 01-1.525.851l-4.03-2.487v3.428c0 1.263-.995 2.286-2.223 2.286h-10C2.995 20 2 18.977 2 17.714z"/></svg>
 		<svg viewBox="0 0 24 24" id="video-camera-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 5.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h9c.69 0 1.25-.56 1.25-1.25v-3a.75.75 0 011.136-.643l3.864 2.318v-7.35l-3.864 2.318A.75.75 0 0115.25 10V7c0-.69-.56-1.25-1.25-1.25H5zM2.25 7A2.75 2.75 0 015 4.25h9A2.75 2.75 0 0116.75 7v1.675l3.864-2.318A.75.75 0 0121.75 7v10a.75.75 0 01-1.136.643l-3.864-2.318V17A2.75 2.75 0 0114 19.75H5A2.75 2.75 0 012.25 17V7z"/></svg>
@@ -1122,17 +1122,6 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>arrow-right-outlined</h2>
-				</li>
-				<li title="arrow-undo-outlined">
-					<div class="icon-box">
-
-						<!-- arrow-undo-outlined -->
-						<svg viewBox="0 0 24 24" class="ci-arrow-undo-outlined-dims">
-							<use xlink:href="#arrow-undo-outlined"></use>
-						</svg>
-
-					</div>
-					<h2>arrow-undo-outlined</h2>
 				</li>
 				<li title="arrow-up-outlined">
 					<div class="icon-box">
@@ -3081,6 +3070,17 @@ embedded above. They may be styled via CSS.
 					</div>
 					<h2>twitter</h2>
 				</li>
+				<li title="undo-outlined">
+					<div class="icon-box">
+
+						<!-- undo-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-undo-outlined-dims">
+							<use xlink:href="#undo-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>undo-outlined</h2>
+				</li>
 				<li title="upload-outlined">
 					<div class="icon-box">
 
@@ -4135,17 +4135,6 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 					</div>
 					<h2>arrow-right-outlined</h2>
-				</li>
-				<li title="arrow-undo-outlined">
-					<div class="icon-box">
-
-						<!-- arrow-undo-outlined -->
-						<svg viewBox="0 0 24 24" class="ci-arrow-undo-outlined-dims">
-							<use xlink:href="svg/sprite.defs.svg#arrow-undo-outlined"></use>
-						</shapes>
-
-					</div>
-					<h2>arrow-undo-outlined</h2>
 				</li>
 				<li title="arrow-up-outlined">
 					<div class="icon-box">
@@ -6094,6 +6083,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 					</div>
 					<h2>twitter</h2>
 				</li>
+				<li title="undo-outlined">
+					<div class="icon-box">
+
+						<!-- undo-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-undo-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#undo-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>undo-outlined</h2>
+				</li>
 				<li title="upload-outlined">
 					<div class="icon-box">
 
@@ -6630,7 +6630,7 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 		</section>
 		<footer>
-			<p>Generated at Fri, 16 Sep 2022 09:02:20 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+			<p>Generated at Mon, 19 Sep 2022 08:06:28 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>

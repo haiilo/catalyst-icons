@@ -711,10 +711,6 @@ export const ciArrowRightOutlined = {
     name: 'arrow-right-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.47 6.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 0 1 0 1.06l-5 5a.75.75 0 1 1-1.06-1.06l3.72-3.72H6a.75.75 0 0 1 0-1.5h10.19l-3.72-3.72a.75.75 0 0 1 0-1.06Z"/></svg>`
 };
-export const ciArrowUndoOutlined = {
-    name: 'arrow-undo-outlined',
-    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.53 4.53a.75.75 0 0 0-1.06-1.06l-4 4a.75.75 0 0 0 0 1.06l4 4a.75.75 0 0 0 1.06-1.06L6.81 8.75H14a4.25 4.25 0 0 1 0 8.5h-2a.75.75 0 0 0 0 1.5h2a5.75 5.75 0 0 0 0-11.5H6.81l2.72-2.72Z"/></svg>`
-};
 export const ciArrowUpOutlined = {
     name: 'arrow-up-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 5.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 1 1-1.06 1.06l-3.72-3.72V18a.75.75 0 0 1-1.5 0V7.81l-3.72 3.72a.75.75 0 0 1-1.06-1.06l5-5Z"/></svg>`
@@ -914,6 +910,10 @@ export const ciTranslateBoxFilled = {
 export const ciTwitter = {
     name: 'twitter',
     data: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.56 8.841c.168 3.704-2.594 7.832-7.483 7.832a7.45 7.45 0 0 1-4.035-1.183 5.297 5.297 0 0 0 3.897-1.09 2.639 2.639 0 0 1-2.46-1.829c.413.079.82.056 1.19-.045-1.266-.255-2.14-1.395-2.112-2.615.355.197.76.315 1.192.33a2.637 2.637 0 0 1-.814-3.516 7.474 7.474 0 0 0 5.426 2.75 2.636 2.636 0 0 1 4.487-2.401 5.253 5.253 0 0 0 1.672-.639 2.644 2.644 0 0 1-1.157 1.457 5.252 5.252 0 0 0 1.511-.416c-.352.53-.797.994-1.313 1.365Z" fill="#1DA1F2"/></svg>`
+};
+export const ciUndoOutlined = {
+    name: 'undo-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.53 4.53a.75.75 0 0 0-1.06-1.06l-4 4a.75.75 0 0 0 0 1.06l4 4a.75.75 0 0 0 1.06-1.06L6.81 8.75H14a4.25 4.25 0 0 1 0 8.5h-2a.75.75 0 0 0 0 1.5h2a5.75 5.75 0 0 0 0-11.5H6.81l2.72-2.72Z"/></svg>`
 };
 export const ciWAlertOutlined = {
     name: 'w-alert-outlined',
@@ -1266,7 +1266,6 @@ export const completeIconSet = [
     ciArrowLeftOutlined,
     ciArrowRedoOutlined,
     ciArrowRightOutlined,
-    ciArrowUndoOutlined,
     ciArrowUpOutlined,
     ciExclamationMarkCircleOutlined,
     ciFacebook,
@@ -1317,6 +1316,7 @@ export const completeIconSet = [
     ciTargetedOutlined,
     ciTranslateBoxFilled,
     ciTwitter,
+    ciUndoOutlined,
     ciWAlertOutlined,
     ciWBirthdaysUpcomingOutlined,
     ciWBlogArticleNewOutlined,
