@@ -715,6 +715,10 @@ export const ciBoldOutlined = {
     name: 'bold-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.25 5A.75.75 0 0 1 8 4.25h4.5a4.25 4.25 0 0 1 2.836 7.416A4.25 4.25 0 0 1 13.5 19.75H8a.75.75 0 0 1-.75-.75V5Zm1.5.75v5.5h3.75a2.75 2.75 0 1 0 0-5.5H8.75Zm0 7v5.5h4.75a2.75 2.75 0 1 0 0-5.5H8.75Z"/></svg>`
 };
+export const ciBrushBracketsOutlined = {
+    name: 'brush-brackets-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 3.18a3.75 3.75 0 0 0-3.75 3.75v3a.75.75 0 0 0 1.5 0v-3A2.25 2.25 0 0 1 7 4.68h2.771a.75.75 0 0 0 0-1.5H7ZM20.75 14.4a.75.75 0 0 0-1.5 0v2.53A2.25 2.25 0 0 1 17 19.18h-3a.75.75 0 0 0 0 1.5h3a3.75 3.75 0 0 0 3.75-3.75V14.4Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="m15.653 12.675-2.824 1.999a3.653 3.653 0 0 1-1.064 2.799.754.754 0 0 1-.053.048c-1.873 1.542-3.825 1.82-5.3 1.706a7.846 7.846 0 0 1-1.78-.349 6.522 6.522 0 0 1-.659-.251c-.37-.17-.581-.577-.427-.974.712-1.823 1.487-4.066 2.91-5.49a3.652 3.652 0 0 1 2.8-1.063l1.999-2.824 5.822-4.406a2.13 2.13 0 0 1 2.983 2.983l-4.407 5.822Zm-3.103.358-.808-.808-.019-.019-.019-.018-.808-.809 1.449-2.047 5.637-4.266a.63.63 0 0 1 .882.881l-4.267 5.638-2.047 1.448Zm-5.033.191c.842-.842 2.24-.847 3.13.028l.03.03c.867.882.87 2.26.052 3.105-1.503 1.224-3.034 1.434-4.2 1.344a6.366 6.366 0 0 1-1.298-.238c.163-.387.383-.896.634-1.435.266-.572.563-1.17.86-1.69.305-.533.58-.93.792-1.144Z"/></svg>`
+};
 export const ciCompassOutlined = {
     name: 'compass-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.374 16.683a.5.5 0 0 1-.93.07l-1.618-3.412a.5.5 0 0 0-.237-.238l-3.413-1.617a.5.5 0 0 1 .07-.93l7.865-2.36a.5.5 0 0 1 .622.623l-2.36 7.864Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.18a9.75 9.75 0 0 0-9.75 9.75c0 5.384 4.365 9.75 9.75 9.75s9.75-4.366 9.75-9.75A9.75 9.75 0 0 0 12 2.18Zm-8.25 9.75a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0Z"/></svg>`
@@ -1295,6 +1299,7 @@ export const completeIconSet = [
     ciArrowRightOutlined,
     ciArrowUpOutlined,
     ciBoldOutlined,
+    ciBrushBracketsOutlined,
     ciCompassOutlined,
     ciExclamationMarkCircleOutlined,
     ciFacebook,

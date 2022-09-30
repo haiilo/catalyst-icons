@@ -84,6 +84,7 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-bookmark-filled-dims { width: 24px; height: 24px; }
 	.ci-bookmark-outlined-dims { width: 24px; height: 24px; }
 	.ci-bookmark-plus-outlined-dims { width: 24px; height: 24px; }
+	.ci-brush-brackets-outlined-dims { width: 24px; height: 24px; }
 	.ci-chat-filled-dims { width: 24px; height: 24px; }
 	.ci-chat-outlined-dims { width: 24px; height: 24px; }
 	.ci-check-circle-filled-dims { width: 24px; height: 24px; }
@@ -387,6 +388,7 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 24 24" id="bookmark-filled" xmlns="http://www.w3.org/2000/svg"><path d="M17 3H7a3 3 0 00-3 3v13.404a1 1 0 001.436.9l6.128-2.968a1 1 0 01.872 0l6.128 2.969a1 1 0 001.436-.9V6a3 3 0 00-3-3z"/></svg>
 		<svg viewBox="0 0 24 24" id="bookmark-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 6A2.75 2.75 0 017 3.25h10A2.75 2.75 0 0119.75 6v14a.75.75 0 01-1.081.673L12 17.39l-6.669 3.282A.75.75 0 014.25 20V6zM7 4.75c-.69 0-1.25.56-1.25 1.25v12.795l5.919-2.912a.75.75 0 01.662 0l5.919 2.912V6c0-.69-.56-1.25-1.25-1.25H7z"/></svg>
 		<svg viewBox="0 0 24 24" id="bookmark-plus-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M7 3.25A2.75 2.75 0 004.25 6v14a.75.75 0 001.081.673L12 17.39l6.669 3.282A.75.75 0 0019.75 20v-5a.75.75 0 00-1.5 0v3.795l-5.919-2.912a.75.75 0 00-.662 0L5.75 18.795V6c0-.69.56-1.25 1.25-1.25h5a.75.75 0 000-1.5H7zM19.75 4a.75.75 0 00-1.5 0v2.25H16a.75.75 0 000 1.5h2.25V10a.75.75 0 001.5 0V7.75H22a.75.75 0 000-1.5h-2.25V4z"/></svg>
+		<svg viewBox="0 0 24 24" id="brush-brackets-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M7 3.18a3.75 3.75 0 00-3.75 3.75v3a.75.75 0 001.5 0v-3A2.25 2.25 0 017 4.68h2.771a.75.75 0 000-1.5H7zM20.75 14.4a.75.75 0 00-1.5 0v2.53A2.25 2.25 0 0117 19.18h-3a.75.75 0 000 1.5h3a3.75 3.75 0 003.75-3.75V14.4z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M15.653 12.675l-2.824 1.999a3.653 3.653 0 01-1.064 2.799.754.754 0 01-.053.048c-1.873 1.542-3.825 1.82-5.3 1.706a7.846 7.846 0 01-1.78-.349 6.522 6.522 0 01-.659-.251c-.37-.17-.581-.577-.427-.974.712-1.823 1.487-4.066 2.91-5.49a3.652 3.652 0 012.8-1.063l1.999-2.824 5.822-4.406a2.13 2.13 0 012.983 2.983l-4.407 5.822zm-3.103.358l-.808-.808-.019-.019-.019-.018-.808-.809 1.449-2.047 5.637-4.266a.63.63 0 01.882.881l-4.267 5.638-2.047 1.448zm-5.033.191c.842-.842 2.24-.847 3.13.028l.03.03c.867.882.87 2.26.052 3.105-1.503 1.224-3.034 1.434-4.2 1.344a6.366 6.366 0 01-1.298-.238c.163-.387.383-.896.634-1.435.266-.572.563-1.17.86-1.69.305-.533.58-.93.792-1.144z"/></svg>
 		<svg viewBox="0 0 24 24" id="chat-filled" xmlns="http://www.w3.org/2000/svg"><path d="M20 12a8 8 0 01-12.235 6.788L4 20l1.212-3.765A8 8 0 1120 12z"/></svg>
 		<svg viewBox="0 0 24 24" id="chat-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 4.75a7.25 7.25 0 00-6.152 11.088l.185.295-.871 2.705 2.705-.87.295.184A7.25 7.25 0 1012 4.75zM3.25 12a8.75 8.75 0 114.422 7.606l-2.978.959a1 1 0 01-1.259-1.259l.959-2.978A8.714 8.714 0 013.25 12z"/></svg>
 		<svg viewBox="0 0 24 24" id="check-circle-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm4.768-12.36a1 1 0 10-1.536-1.28l-4.3 5.159-2.225-2.226a1 1 0 00-1.414 1.414l3 3a1 1 0 001.475-.067l5-6z"/></svg>
@@ -1345,6 +1347,17 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>bookmark-plus-outlined</h2>
+				</li>
+				<li title="brush-brackets-outlined">
+					<div class="icon-box">
+
+						<!-- brush-brackets-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-brush-brackets-outlined-dims">
+							<use xlink:href="#brush-brackets-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>brush-brackets-outlined</h2>
 				</li>
 				<li title="chat-filled">
 					<div class="icon-box">
@@ -4436,6 +4449,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 					</div>
 					<h2>bookmark-plus-outlined</h2>
 				</li>
+				<li title="brush-brackets-outlined">
+					<div class="icon-box">
+
+						<!-- brush-brackets-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-brush-brackets-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#brush-brackets-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>brush-brackets-outlined</h2>
+				</li>
 				<li title="chat-filled">
 					<div class="icon-box">
 
@@ -6798,7 +6822,7 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 		</section>
 		<footer>
-			<p>Generated at Fri, 30 Sep 2022 19:04:46 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+			<p>Generated at Fri, 30 Sep 2022 19:09:31 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>
