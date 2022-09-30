@@ -719,6 +719,10 @@ export const ciBoldOutlined = {
     name: 'bold-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.25 5A.75.75 0 0 1 8 4.25h4.5a4.25 4.25 0 0 1 2.836 7.416A4.25 4.25 0 0 1 13.5 19.75H8a.75.75 0 0 1-.75-.75V5Zm1.5.75v5.5h3.75a2.75 2.75 0 1 0 0-5.5H8.75Zm0 7v5.5h4.75a2.75 2.75 0 1 0 0-5.5H8.75Z"/></svg>`
 };
+export const ciCompassOutlined = {
+    name: 'compass-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.374 16.683a.5.5 0 0 1-.93.07l-1.618-3.412a.5.5 0 0 0-.237-.238l-3.413-1.617a.5.5 0 0 1 .07-.93l7.865-2.36a.5.5 0 0 1 .622.623l-2.36 7.864Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.18a9.75 9.75 0 0 0-9.75 9.75c0 5.384 4.365 9.75 9.75 9.75s9.75-4.366 9.75-9.75A9.75 9.75 0 0 0 12 2.18Zm-8.25 9.75a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0Z"/></svg>`
+};
 export const ciExclamationMarkCircleOutlined = {
     name: 'exclamation-mark-circle-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25-8a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0V8Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z"/></svg>`
@@ -906,6 +910,10 @@ export const ciPuzzlePieceOutlined = {
 export const ciRedoOutlined = {
     name: 'redo-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.53 3.47a.75.75 0 1 0-1.06 1.06l2.72 2.72H10a5.75 5.75 0 1 0 0 11.5h2a.75.75 0 0 0 0-1.5h-2a4.25 4.25 0 0 1 0-8.5h7.19l-2.72 2.72a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4Z"/></svg>`
+};
+export const ciSlidersOutlined = {
+    name: 'sliders-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 7.68h2.825a3.751 3.751 0 0 0 7.335.07H20a.75.75 0 0 0 0-1.5h-5.811a3.751 3.751 0 0 0-7.364-.07H4a.75.75 0 0 0 0 1.5Zm6.5-3a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Zm6.689 11.57a3.751 3.751 0 0 0-7.364-.07H4a.75.75 0 0 0 0 1.5h5.825a3.751 3.751 0 0 0 7.335.07H20a.75.75 0 0 0 0-1.5h-2.811Zm-5.939.68a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0Z"/></svg>`
 };
 export const ciStreamFilled = {
     name: 'stream-filled',
@@ -1288,6 +1296,7 @@ export const completeIconSet = [
     ciArrowRightOutlined,
     ciArrowUpOutlined,
     ciBoldOutlined,
+    ciCompassOutlined,
     ciExclamationMarkCircleOutlined,
     ciFacebook,
     ciFeedFilled,
@@ -1335,6 +1344,7 @@ export const completeIconSet = [
     ciPlanetOutlined,
     ciPuzzlePieceOutlined,
     ciRedoOutlined,
+    ciSlidersOutlined,
     ciStreamFilled,
     ciStreamOutlined,
     ciTagOutlined,

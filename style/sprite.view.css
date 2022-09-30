@@ -57,7 +57,7 @@
 }
 
 .ci-16-clock-outlined {
-	background-position: 86.53846153846153% 94.23076923076923%;
+	background-position: 100% 0;
 }
 
 .ci-16-clock-outlined-size {
@@ -66,7 +66,7 @@
 }
 
 .ci-16-cross {
-	background-position: 90.38461538461539% 94.23076923076923%;
+	background-position: 100% 3.8461538461538463%;
 }
 
 .ci-16-cross-size {
@@ -75,7 +75,7 @@
 }
 
 .ci-16-editor-arrow-down {
-	background-position: 94.23076923076923% 94.23076923076923%;
+	background-position: 100% 7.6923076923076925%;
 }
 
 .ci-16-editor-arrow-down-size {
@@ -84,7 +84,7 @@
 }
 
 .ci-16-editor-arrow-up {
-	background-position: 100% 0;
+	background-position: 100% 11.538461538461538%;
 }
 
 .ci-16-editor-arrow-up-size {
@@ -93,7 +93,7 @@
 }
 
 .ci-16-editor-bold {
-	background-position: 100% 3.8461538461538463%;
+	background-position: 100% 15.384615384615385%;
 }
 
 .ci-16-editor-bold-size {
@@ -102,7 +102,7 @@
 }
 
 .ci-16-editor-delete {
-	background-position: 100% 7.6923076923076925%;
+	background-position: 100% 19.23076923076923%;
 }
 
 .ci-16-editor-delete-size {
@@ -111,7 +111,7 @@
 }
 
 .ci-16-editor-h-1 {
-	background-position: 100% 11.538461538461538%;
+	background-position: 100% 23.076923076923077%;
 }
 
 .ci-16-editor-h-1-size {
@@ -120,7 +120,7 @@
 }
 
 .ci-16-editor-h-2 {
-	background-position: 100% 15.384615384615385%;
+	background-position: 100% 26.923076923076923%;
 }
 
 .ci-16-editor-h-2-size {
@@ -129,7 +129,7 @@
 }
 
 .ci-16-editor-h-3 {
-	background-position: 100% 19.23076923076923%;
+	background-position: 100% 30.76923076923077%;
 }
 
 .ci-16-editor-h-3-size {
@@ -138,7 +138,7 @@
 }
 
 .ci-16-editor-h-4 {
-	background-position: 100% 23.076923076923077%;
+	background-position: 100% 34.61538461538461%;
 }
 
 .ci-16-editor-h-4-size {
@@ -147,7 +147,7 @@
 }
 
 .ci-16-editor-h-5 {
-	background-position: 100% 26.923076923076923%;
+	background-position: 100% 38.46153846153846%;
 }
 
 .ci-16-editor-h-5-size {
@@ -156,7 +156,7 @@
 }
 
 .ci-16-editor-h-6 {
-	background-position: 100% 30.76923076923077%;
+	background-position: 100% 42.30769230769231%;
 }
 
 .ci-16-editor-h-6-size {
@@ -165,7 +165,7 @@
 }
 
 .ci-16-editor-headline {
-	background-position: 100% 34.61538461538461%;
+	background-position: 100% 46.15384615384615%;
 }
 
 .ci-16-editor-headline-size {
@@ -174,7 +174,7 @@
 }
 
 .ci-16-editor-image {
-	background-position: 100% 38.46153846153846%;
+	background-position: 100% 50%;
 }
 
 .ci-16-editor-image-size {
@@ -183,7 +183,7 @@
 }
 
 .ci-16-editor-indent-decrease {
-	background-position: 100% 42.30769230769231%;
+	background-position: 100% 53.84615384615385%;
 }
 
 .ci-16-editor-indent-decrease-size {
@@ -192,7 +192,7 @@
 }
 
 .ci-16-editor-indent-increase {
-	background-position: 100% 46.15384615384615%;
+	background-position: 100% 57.69230769230769%;
 }
 
 .ci-16-editor-indent-increase-size {
@@ -201,7 +201,7 @@
 }
 
 .ci-16-editor-italic {
-	background-position: 100% 50%;
+	background-position: 100% 61.53846153846154%;
 }
 
 .ci-16-editor-italic-size {
@@ -210,7 +210,7 @@
 }
 
 .ci-16-editor-link {
-	background-position: 100% 53.84615384615385%;
+	background-position: 100% 65.38461538461539%;
 }
 
 .ci-16-editor-link-size {
@@ -219,7 +219,7 @@
 }
 
 .ci-16-editor-link-break {
-	background-position: 100% 57.69230769230769%;
+	background-position: 100% 69.23076923076923%;
 }
 
 .ci-16-editor-link-break-size {
@@ -228,7 +228,7 @@
 }
 
 .ci-16-editor-ol {
-	background-position: 100% 61.53846153846154%;
+	background-position: 100% 73.07692307692308%;
 }
 
 .ci-16-editor-ol-size {
@@ -237,7 +237,7 @@
 }
 
 .ci-16-editor-paragraph {
-	background-position: 100% 65.38461538461539%;
+	background-position: 100% 76.92307692307692%;
 }
 
 .ci-16-editor-paragraph-size {
@@ -246,7 +246,7 @@
 }
 
 .ci-16-editor-plus {
-	background-position: 100% 69.23076923076923%;
+	background-position: 100% 80.76923076923077%;
 }
 
 .ci-16-editor-plus-size {
@@ -255,7 +255,7 @@
 }
 
 .ci-16-editor-search {
-	background-position: 100% 73.07692307692308%;
+	background-position: 100% 84.61538461538461%;
 }
 
 .ci-16-editor-search-size {
@@ -264,7 +264,7 @@
 }
 
 .ci-16-editor-settings {
-	background-position: 100% 76.92307692307692%;
+	background-position: 100% 88.46153846153847%;
 }
 
 .ci-16-editor-settings-size {
@@ -273,7 +273,7 @@
 }
 
 .ci-16-editor-ul {
-	background-position: 100% 80.76923076923077%;
+	background-position: 100% 92.3076923076923%;
 }
 
 .ci-16-editor-ul-size {
@@ -282,7 +282,7 @@
 }
 
 .ci-16-external-link {
-	background-position: 100% 84.61538461538461%;
+	background-position: 100% 96.15384615384616%;
 }
 
 .ci-16-external-link-size {
@@ -291,7 +291,7 @@
 }
 
 .ci-16-flash-circle-outlined {
-	background-position: 100% 88.46153846153847%;
+	background-position: 0 100%;
 }
 
 .ci-16-flash-circle-outlined-size {
@@ -300,7 +300,7 @@
 }
 
 .ci-16-link-large {
-	background-position: 100% 92.3076923076923%;
+	background-position: 3.8461538461538463% 100%;
 }
 
 .ci-16-link-large-size {
@@ -309,7 +309,7 @@
 }
 
 .ci-16-link-medium {
-	background-position: 100% 96.15384615384616%;
+	background-position: 7.6923076923076925% 100%;
 }
 
 .ci-16-link-medium-size {
@@ -318,7 +318,7 @@
 }
 
 .ci-16-link-small {
-	background-position: 0 100%;
+	background-position: 11.538461538461538% 100%;
 }
 
 .ci-16-link-small-size {
@@ -327,7 +327,7 @@
 }
 
 .ci-16-lock-outlined {
-	background-position: 3.8461538461538463% 100%;
+	background-position: 15.384615384615385% 100%;
 }
 
 .ci-16-lock-outlined-size {
@@ -336,7 +336,7 @@
 }
 
 .ci-16-targeted-outlined {
-	background-position: 7.6923076923076925% 100%;
+	background-position: 19.23076923076923% 100%;
 }
 
 .ci-16-targeted-outlined-size {
@@ -345,7 +345,7 @@
 }
 
 .ci-16-thumbs-up-outlined {
-	background-position: 11.538461538461538% 100%;
+	background-position: 23.076923076923077% 100%;
 }
 
 .ci-16-thumbs-up-outlined-size {
@@ -354,7 +354,7 @@
 }
 
 .ci-16-translate-box-outlined {
-	background-position: 15.384615384615385% 100%;
+	background-position: 26.923076923076923% 100%;
 }
 
 .ci-16-translate-box-outlined-size {
@@ -363,7 +363,7 @@
 }
 
 .ci-16-warning-circle-outlined {
-	background-position: 19.23076923076923% 100%;
+	background-position: 30.76923076923077% 100%;
 }
 
 .ci-16-warning-circle-outlined-size {
@@ -704,8 +704,17 @@
 	height: 24px;
 }
 
-.ci-content-filled {
+.ci-compass-outlined {
 	background-position: 41.1764705882353% 54.90196078431372%;
+}
+
+.ci-compass-outlined-size {
+	width: 24px;
+	height: 24px;
+}
+
+.ci-content-filled {
+	background-position: 47.05882352941177% 54.90196078431372%;
 }
 
 .ci-content-filled-size {
@@ -714,7 +723,7 @@
 }
 
 .ci-content-outlined {
-	background-position: 47.05882352941177% 54.90196078431372%;
+	background-position: 52.94117647058823% 54.90196078431372%;
 }
 
 .ci-content-outlined-size {
@@ -723,7 +732,7 @@
 }
 
 .ci-copy-outlined {
-	background-position: 52.94117647058823% 54.90196078431372%;
+	background-position: 60.78431372549019% 0;
 }
 
 .ci-copy-outlined-size {
@@ -732,7 +741,7 @@
 }
 
 .ci-cross-circle-filled {
-	background-position: 60.78431372549019% 0;
+	background-position: 60.78431372549019% 5.882352941176471%;
 }
 
 .ci-cross-circle-filled-size {
@@ -741,7 +750,7 @@
 }
 
 .ci-cross-circle-outlined {
-	background-position: 60.78431372549019% 5.882352941176471%;
+	background-position: 60.78431372549019% 11.764705882352942%;
 }
 
 .ci-cross-circle-outlined-size {
@@ -750,7 +759,7 @@
 }
 
 .ci-cross-outlined {
-	background-position: 60.78431372549019% 11.764705882352942%;
+	background-position: 60.78431372549019% 17.647058823529413%;
 }
 
 .ci-cross-outlined-size {
@@ -759,7 +768,7 @@
 }
 
 .ci-cross-square-filled {
-	background-position: 60.78431372549019% 17.647058823529413%;
+	background-position: 60.78431372549019% 23.529411764705884%;
 }
 
 .ci-cross-square-filled-size {
@@ -768,7 +777,7 @@
 }
 
 .ci-cross-square-outlined {
-	background-position: 60.78431372549019% 23.529411764705884%;
+	background-position: 60.78431372549019% 29.41176470588235%;
 }
 
 .ci-cross-square-outlined-size {
@@ -777,7 +786,7 @@
 }
 
 .ci-danger-filled {
-	background-position: 60.78431372549019% 29.41176470588235%;
+	background-position: 60.78431372549019% 35.294117647058826%;
 }
 
 .ci-danger-filled-size {
@@ -786,7 +795,7 @@
 }
 
 .ci-danger-outlined {
-	background-position: 60.78431372549019% 35.294117647058826%;
+	background-position: 60.78431372549019% 41.1764705882353%;
 }
 
 .ci-danger-outlined-size {
@@ -795,7 +804,7 @@
 }
 
 .ci-dots-circle-outlined {
-	background-position: 60.78431372549019% 41.1764705882353%;
+	background-position: 60.78431372549019% 47.05882352941177%;
 }
 
 .ci-dots-circle-outlined-size {
@@ -804,7 +813,7 @@
 }
 
 .ci-download-outlined {
-	background-position: 60.78431372549019% 47.05882352941177%;
+	background-position: 60.78431372549019% 52.94117647058823%;
 }
 
 .ci-download-outlined-size {
@@ -813,7 +822,7 @@
 }
 
 .ci-earth-outlined {
-	background-position: 60.78431372549019% 52.94117647058823%;
+	background-position: 0 60.78431372549019%;
 }
 
 .ci-earth-outlined-size {
@@ -822,7 +831,7 @@
 }
 
 .ci-events-filled {
-	background-position: 0 60.78431372549019%;
+	background-position: 5.882352941176471% 60.78431372549019%;
 }
 
 .ci-events-filled-size {
@@ -831,7 +840,7 @@
 }
 
 .ci-events-outlined {
-	background-position: 5.882352941176471% 60.78431372549019%;
+	background-position: 11.764705882352942% 60.78431372549019%;
 }
 
 .ci-events-outlined-size {
@@ -840,7 +849,7 @@
 }
 
 .ci-exclamation-mark-circle-outlined {
-	background-position: 11.764705882352942% 60.78431372549019%;
+	background-position: 17.647058823529413% 60.78431372549019%;
 }
 
 .ci-exclamation-mark-circle-outlined-size {
@@ -849,7 +858,7 @@
 }
 
 .ci-external-link-outlined {
-	background-position: 17.647058823529413% 60.78431372549019%;
+	background-position: 23.529411764705884% 60.78431372549019%;
 }
 
 .ci-external-link-outlined-size {
@@ -858,7 +867,7 @@
 }
 
 .ci-facebook {
-	background-position: 23.529411764705884% 60.78431372549019%;
+	background-position: 29.41176470588235% 60.78431372549019%;
 }
 
 .ci-facebook-size {
@@ -867,7 +876,7 @@
 }
 
 .ci-feed-filled {
-	background-position: 29.41176470588235% 60.78431372549019%;
+	background-position: 35.294117647058826% 60.78431372549019%;
 }
 
 .ci-feed-filled-size {
@@ -876,7 +885,7 @@
 }
 
 .ci-feed-outlined {
-	background-position: 35.294117647058826% 60.78431372549019%;
+	background-position: 41.1764705882353% 60.78431372549019%;
 }
 
 .ci-feed-outlined-size {
@@ -885,7 +894,7 @@
 }
 
 .ci-filter-outlined {
-	background-position: 41.1764705882353% 60.78431372549019%;
+	background-position: 47.05882352941177% 60.78431372549019%;
 }
 
 .ci-filter-outlined-size {
@@ -894,7 +903,7 @@
 }
 
 .ci-fingerprint-outlined {
-	background-position: 47.05882352941177% 60.78431372549019%;
+	background-position: 52.94117647058823% 60.78431372549019%;
 }
 
 .ci-fingerprint-outlined-size {
@@ -903,7 +912,7 @@
 }
 
 .ci-flash-circle-outlined {
-	background-position: 52.94117647058823% 60.78431372549019%;
+	background-position: 58.8235294117647% 60.78431372549019%;
 }
 
 .ci-flash-circle-outlined-size {
@@ -912,7 +921,7 @@
 }
 
 .ci-flash-outlined {
-	background-position: 58.8235294117647% 60.78431372549019%;
+	background-position: 66.66666666666667% 0;
 }
 
 .ci-flash-outlined-size {
@@ -921,7 +930,7 @@
 }
 
 .ci-folder-minus-outlined {
-	background-position: 66.66666666666667% 0;
+	background-position: 66.66666666666667% 5.882352941176471%;
 }
 
 .ci-folder-minus-outlined-size {
@@ -930,7 +939,7 @@
 }
 
 .ci-folder-outlined {
-	background-position: 66.66666666666667% 5.882352941176471%;
+	background-position: 66.66666666666667% 11.764705882352942%;
 }
 
 .ci-folder-outlined-size {
@@ -939,7 +948,7 @@
 }
 
 .ci-folder-plus-outlined {
-	background-position: 66.66666666666667% 11.764705882352942%;
+	background-position: 66.66666666666667% 17.647058823529413%;
 }
 
 .ci-folder-plus-outlined-size {
@@ -948,7 +957,7 @@
 }
 
 .ci-gift-outlined {
-	background-position: 66.66666666666667% 17.647058823529413%;
+	background-position: 66.66666666666667% 23.529411764705884%;
 }
 
 .ci-gift-outlined-size {
@@ -957,7 +966,7 @@
 }
 
 .ci-globe-outlined {
-	background-position: 66.66666666666667% 23.529411764705884%;
+	background-position: 66.66666666666667% 29.41176470588235%;
 }
 
 .ci-globe-outlined-size {
@@ -966,7 +975,7 @@
 }
 
 .ci-google {
-	background-position: 66.66666666666667% 29.41176470588235%;
+	background-position: 66.66666666666667% 35.294117647058826%;
 }
 
 .ci-google-size {
@@ -975,7 +984,7 @@
 }
 
 .ci-google-calendar {
-	background-position: 66.66666666666667% 35.294117647058826%;
+	background-position: 66.66666666666667% 41.1764705882353%;
 }
 
 .ci-google-calendar-size {
@@ -984,7 +993,7 @@
 }
 
 .ci-google-chrome {
-	background-position: 66.66666666666667% 41.1764705882353%;
+	background-position: 66.66666666666667% 47.05882352941177%;
 }
 
 .ci-google-chrome-size {
@@ -993,7 +1002,7 @@
 }
 
 .ci-google-drive {
-	background-position: 66.66666666666667% 47.05882352941177%;
+	background-position: 66.66666666666667% 52.94117647058823%;
 }
 
 .ci-google-drive-size {
@@ -1002,7 +1011,7 @@
 }
 
 .ci-google-mail {
-	background-position: 66.66666666666667% 52.94117647058823%;
+	background-position: 66.66666666666667% 58.8235294117647%;
 }
 
 .ci-google-mail-size {
@@ -1011,7 +1020,7 @@
 }
 
 .ci-gradient-outlined {
-	background-position: 66.66666666666667% 58.8235294117647%;
+	background-position: 0 66.66666666666667%;
 }
 
 .ci-gradient-outlined-size {
@@ -1020,7 +1029,7 @@
 }
 
 .ci-group-outlined {
-	background-position: 0 66.66666666666667%;
+	background-position: 5.882352941176471% 66.66666666666667%;
 }
 
 .ci-group-outlined-size {
@@ -1029,7 +1038,7 @@
 }
 
 .ci-haiilo-home {
-	background-position: 5.882352941176471% 66.66666666666667%;
+	background-position: 11.764705882352942% 66.66666666666667%;
 }
 
 .ci-haiilo-home-size {
@@ -1038,7 +1047,7 @@
 }
 
 .ci-haiilo-insights {
-	background-position: 11.764705882352942% 66.66666666666667%;
+	background-position: 17.647058823529413% 66.66666666666667%;
 }
 
 .ci-haiilo-insights-size {
@@ -1047,7 +1056,7 @@
 }
 
 .ci-haiilo-outlined {
-	background-position: 17.647058823529413% 66.66666666666667%;
+	background-position: 23.529411764705884% 66.66666666666667%;
 }
 
 .ci-haiilo-outlined-size {
@@ -1056,7 +1065,7 @@
 }
 
 .ci-haiilo-share {
-	background-position: 23.529411764705884% 66.66666666666667%;
+	background-position: 29.41176470588235% 66.66666666666667%;
 }
 
 .ci-haiilo-share-size {
@@ -1065,7 +1074,7 @@
 }
 
 .ci-haiilo-stories {
-	background-position: 29.41176470588235% 66.66666666666667%;
+	background-position: 35.294117647058826% 66.66666666666667%;
 }
 
 .ci-haiilo-stories-size {
@@ -1074,7 +1083,7 @@
 }
 
 .ci-hashtag-outlined {
-	background-position: 35.294117647058826% 66.66666666666667%;
+	background-position: 41.1764705882353% 66.66666666666667%;
 }
 
 .ci-hashtag-outlined-size {
@@ -1083,7 +1092,7 @@
 }
 
 .ci-history-outlined {
-	background-position: 41.1764705882353% 66.66666666666667%;
+	background-position: 47.05882352941177% 66.66666666666667%;
 }
 
 .ci-history-outlined-size {
@@ -1092,7 +1101,7 @@
 }
 
 .ci-home-filled {
-	background-position: 47.05882352941177% 66.66666666666667%;
+	background-position: 52.94117647058823% 66.66666666666667%;
 }
 
 .ci-home-filled-size {
@@ -1101,7 +1110,7 @@
 }
 
 .ci-home-outlined {
-	background-position: 52.94117647058823% 66.66666666666667%;
+	background-position: 58.8235294117647% 66.66666666666667%;
 }
 
 .ci-home-outlined-size {
@@ -1110,7 +1119,7 @@
 }
 
 .ci-info-circle-filled {
-	background-position: 58.8235294117647% 66.66666666666667%;
+	background-position: 64.70588235294117% 66.66666666666667%;
 }
 
 .ci-info-circle-filled-size {
@@ -1119,7 +1128,7 @@
 }
 
 .ci-info-circle-outlined {
-	background-position: 64.70588235294117% 66.66666666666667%;
+	background-position: 72.54901960784314% 0;
 }
 
 .ci-info-circle-outlined-size {
@@ -1128,7 +1137,7 @@
 }
 
 .ci-instagram {
-	background-position: 72.54901960784314% 0;
+	background-position: 72.54901960784314% 5.882352941176471%;
 }
 
 .ci-instagram-size {
@@ -1137,7 +1146,7 @@
 }
 
 .ci-italic-outlined {
-	background-position: 72.54901960784314% 5.882352941176471%;
+	background-position: 72.54901960784314% 11.764705882352942%;
 }
 
 .ci-italic-outlined-size {
@@ -1146,7 +1155,7 @@
 }
 
 .ci-layers-filled {
-	background-position: 72.54901960784314% 11.764705882352942%;
+	background-position: 72.54901960784314% 17.647058823529413%;
 }
 
 .ci-layers-filled-size {
@@ -1155,7 +1164,7 @@
 }
 
 .ci-layers-outlined {
-	background-position: 72.54901960784314% 17.647058823529413%;
+	background-position: 72.54901960784314% 23.529411764705884%;
 }
 
 .ci-layers-outlined-size {
@@ -1164,7 +1173,7 @@
 }
 
 .ci-likes-circle-filled {
-	background-position: 72.54901960784314% 23.529411764705884%;
+	background-position: 72.54901960784314% 29.41176470588235%;
 }
 
 .ci-likes-circle-filled-size {
@@ -1173,7 +1182,7 @@
 }
 
 .ci-link-break-outlined {
-	background-position: 72.54901960784314% 29.41176470588235%;
+	background-position: 72.54901960784314% 35.294117647058826%;
 }
 
 .ci-link-break-outlined-size {
@@ -1182,7 +1191,7 @@
 }
 
 .ci-link-outlined {
-	background-position: 72.54901960784314% 35.294117647058826%;
+	background-position: 72.54901960784314% 41.1764705882353%;
 }
 
 .ci-link-outlined-size {
@@ -1191,7 +1200,7 @@
 }
 
 .ci-linkedin {
-	background-position: 72.54901960784314% 41.1764705882353%;
+	background-position: 72.54901960784314% 47.05882352941177%;
 }
 
 .ci-linkedin-size {
@@ -1200,7 +1209,7 @@
 }
 
 .ci-list-ordered-outlined {
-	background-position: 72.54901960784314% 47.05882352941177%;
+	background-position: 72.54901960784314% 52.94117647058823%;
 }
 
 .ci-list-ordered-outlined-size {
@@ -1209,7 +1218,7 @@
 }
 
 .ci-list-unordered-outlined {
-	background-position: 72.54901960784314% 52.94117647058823%;
+	background-position: 72.54901960784314% 58.8235294117647%;
 }
 
 .ci-list-unordered-outlined-size {
@@ -1218,7 +1227,7 @@
 }
 
 .ci-location-outlined {
-	background-position: 72.54901960784314% 58.8235294117647%;
+	background-position: 72.54901960784314% 64.70588235294117%;
 }
 
 .ci-location-outlined-size {
@@ -1227,7 +1236,7 @@
 }
 
 .ci-lock-filled {
-	background-position: 72.54901960784314% 64.70588235294117%;
+	background-position: 0 72.54901960784314%;
 }
 
 .ci-lock-filled-size {
@@ -1236,7 +1245,7 @@
 }
 
 .ci-lock-open-filled {
-	background-position: 0 72.54901960784314%;
+	background-position: 5.882352941176471% 72.54901960784314%;
 }
 
 .ci-lock-open-filled-size {
@@ -1245,7 +1254,7 @@
 }
 
 .ci-lock-open-outlined {
-	background-position: 5.882352941176471% 72.54901960784314%;
+	background-position: 11.764705882352942% 72.54901960784314%;
 }
 
 .ci-lock-open-outlined-size {
@@ -1254,7 +1263,7 @@
 }
 
 .ci-lock-outlined {
-	background-position: 11.764705882352942% 72.54901960784314%;
+	background-position: 17.647058823529413% 72.54901960784314%;
 }
 
 .ci-lock-outlined-size {
@@ -1263,7 +1272,7 @@
 }
 
 .ci-mail-open-outlined {
-	background-position: 17.647058823529413% 72.54901960784314%;
+	background-position: 23.529411764705884% 72.54901960784314%;
 }
 
 .ci-mail-open-outlined-size {
@@ -1272,7 +1281,7 @@
 }
 
 .ci-mail-outlined {
-	background-position: 23.529411764705884% 72.54901960784314%;
+	background-position: 29.41176470588235% 72.54901960784314%;
 }
 
 .ci-mail-outlined-size {
@@ -1281,7 +1290,7 @@
 }
 
 .ci-marketplace-filled {
-	background-position: 29.41176470588235% 72.54901960784314%;
+	background-position: 35.294117647058826% 72.54901960784314%;
 }
 
 .ci-marketplace-filled-size {
@@ -1290,7 +1299,7 @@
 }
 
 .ci-marketplace-outlined {
-	background-position: 35.294117647058826% 72.54901960784314%;
+	background-position: 41.1764705882353% 72.54901960784314%;
 }
 
 .ci-marketplace-outlined-size {
@@ -1299,7 +1308,7 @@
 }
 
 .ci-maybe-circle-outlined {
-	background-position: 41.1764705882353% 72.54901960784314%;
+	background-position: 47.05882352941177% 72.54901960784314%;
 }
 
 .ci-maybe-circle-outlined-size {
@@ -1308,7 +1317,7 @@
 }
 
 .ci-megaphone-filled {
-	background-position: 47.05882352941177% 72.54901960784314%;
+	background-position: 52.94117647058823% 72.54901960784314%;
 }
 
 .ci-megaphone-filled-size {
@@ -1317,7 +1326,7 @@
 }
 
 .ci-megaphone-outlined {
-	background-position: 52.94117647058823% 72.54901960784314%;
+	background-position: 58.8235294117647% 72.54901960784314%;
 }
 
 .ci-megaphone-outlined-size {
@@ -1326,7 +1335,7 @@
 }
 
 .ci-menu-left-outlined {
-	background-position: 58.8235294117647% 72.54901960784314%;
+	background-position: 64.70588235294117% 72.54901960784314%;
 }
 
 .ci-menu-left-outlined-size {
@@ -1335,7 +1344,7 @@
 }
 
 .ci-menu-outlined {
-	background-position: 64.70588235294117% 72.54901960784314%;
+	background-position: 70.58823529411765% 72.54901960784314%;
 }
 
 .ci-menu-outlined-size {
@@ -1344,7 +1353,7 @@
 }
 
 .ci-menu-right-outlined {
-	background-position: 70.58823529411765% 72.54901960784314%;
+	background-position: 78.43137254901961% 0;
 }
 
 .ci-menu-right-outlined-size {
@@ -1353,7 +1362,7 @@
 }
 
 .ci-microsoft {
-	background-position: 78.43137254901961% 0;
+	background-position: 78.43137254901961% 5.882352941176471%;
 }
 
 .ci-microsoft-size {
@@ -1362,7 +1371,7 @@
 }
 
 .ci-microsoft-edge {
-	background-position: 78.43137254901961% 5.882352941176471%;
+	background-position: 78.43137254901961% 11.764705882352942%;
 }
 
 .ci-microsoft-edge-size {
@@ -1371,7 +1380,7 @@
 }
 
 .ci-microsoft-excel {
-	background-position: 78.43137254901961% 11.764705882352942%;
+	background-position: 78.43137254901961% 17.647058823529413%;
 }
 
 .ci-microsoft-excel-size {
@@ -1380,7 +1389,7 @@
 }
 
 .ci-microsoft-onenote {
-	background-position: 78.43137254901961% 17.647058823529413%;
+	background-position: 78.43137254901961% 23.529411764705884%;
 }
 
 .ci-microsoft-onenote-size {
@@ -1389,7 +1398,7 @@
 }
 
 .ci-microsoft-outlook {
-	background-position: 78.43137254901961% 23.529411764705884%;
+	background-position: 78.43137254901961% 29.41176470588235%;
 }
 
 .ci-microsoft-outlook-size {
@@ -1398,7 +1407,7 @@
 }
 
 .ci-microsoft-planner {
-	background-position: 78.43137254901961% 29.41176470588235%;
+	background-position: 78.43137254901961% 35.294117647058826%;
 }
 
 .ci-microsoft-planner-size {
@@ -1407,7 +1416,7 @@
 }
 
 .ci-microsoft-powerpoint {
-	background-position: 78.43137254901961% 35.294117647058826%;
+	background-position: 78.43137254901961% 41.1764705882353%;
 }
 
 .ci-microsoft-powerpoint-size {
@@ -1416,7 +1425,7 @@
 }
 
 .ci-microsoft-sharepoint {
-	background-position: 78.43137254901961% 41.1764705882353%;
+	background-position: 78.43137254901961% 47.05882352941177%;
 }
 
 .ci-microsoft-sharepoint-size {
@@ -1425,7 +1434,7 @@
 }
 
 .ci-microsoft-teams {
-	background-position: 78.43137254901961% 47.05882352941177%;
+	background-position: 78.43137254901961% 52.94117647058823%;
 }
 
 .ci-microsoft-teams-size {
@@ -1434,7 +1443,7 @@
 }
 
 .ci-microsoft-word {
-	background-position: 78.43137254901961% 52.94117647058823%;
+	background-position: 78.43137254901961% 58.8235294117647%;
 }
 
 .ci-microsoft-word-size {
@@ -1443,7 +1452,7 @@
 }
 
 .ci-microsoft-yammer {
-	background-position: 78.43137254901961% 58.8235294117647%;
+	background-position: 78.43137254901961% 64.70588235294117%;
 }
 
 .ci-microsoft-yammer-size {
@@ -1452,7 +1461,7 @@
 }
 
 .ci-more-horizontal-filled {
-	background-position: 78.43137254901961% 64.70588235294117%;
+	background-position: 78.43137254901961% 70.58823529411765%;
 }
 
 .ci-more-horizontal-filled-size {
@@ -1461,7 +1470,7 @@
 }
 
 .ci-mozilla-firefox {
-	background-position: 78.43137254901961% 70.58823529411765%;
+	background-position: 0 78.43137254901961%;
 }
 
 .ci-mozilla-firefox-size {
@@ -1470,7 +1479,7 @@
 }
 
 .ci-paperclip-box-outlined {
-	background-position: 0 78.43137254901961%;
+	background-position: 5.882352941176471% 78.43137254901961%;
 }
 
 .ci-paperclip-box-outlined-size {
@@ -1479,7 +1488,7 @@
 }
 
 .ci-paperclip-outlined {
-	background-position: 5.882352941176471% 78.43137254901961%;
+	background-position: 11.764705882352942% 78.43137254901961%;
 }
 
 .ci-paperclip-outlined-size {
@@ -1488,7 +1497,7 @@
 }
 
 .ci-paperplane-tilt-outlined {
-	background-position: 11.764705882352942% 78.43137254901961%;
+	background-position: 17.647058823529413% 78.43137254901961%;
 }
 
 .ci-paperplane-tilt-outlined-size {
@@ -1497,7 +1506,7 @@
 }
 
 .ci-pen-outlined {
-	background-position: 17.647058823529413% 78.43137254901961%;
+	background-position: 23.529411764705884% 78.43137254901961%;
 }
 
 .ci-pen-outlined-size {
@@ -1506,7 +1515,7 @@
 }
 
 .ci-photo-add-outlined {
-	background-position: 23.529411764705884% 78.43137254901961%;
+	background-position: 29.41176470588235% 78.43137254901961%;
 }
 
 .ci-photo-add-outlined-size {
@@ -1515,7 +1524,7 @@
 }
 
 .ci-photo-filled {
-	background-position: 29.41176470588235% 78.43137254901961%;
+	background-position: 35.294117647058826% 78.43137254901961%;
 }
 
 .ci-photo-filled-size {
@@ -1524,7 +1533,7 @@
 }
 
 .ci-photo-outlined {
-	background-position: 35.294117647058826% 78.43137254901961%;
+	background-position: 41.1764705882353% 78.43137254901961%;
 }
 
 .ci-photo-outlined-size {
@@ -1533,7 +1542,7 @@
 }
 
 .ci-photo-remove-outlined {
-	background-position: 41.1764705882353% 78.43137254901961%;
+	background-position: 47.05882352941177% 78.43137254901961%;
 }
 
 .ci-photo-remove-outlined-size {
@@ -1542,7 +1551,7 @@
 }
 
 .ci-planet-filled {
-	background-position: 47.05882352941177% 78.43137254901961%;
+	background-position: 52.94117647058823% 78.43137254901961%;
 }
 
 .ci-planet-filled-size {
@@ -1551,7 +1560,7 @@
 }
 
 .ci-planet-outlined {
-	background-position: 52.94117647058823% 78.43137254901961%;
+	background-position: 58.8235294117647% 78.43137254901961%;
 }
 
 .ci-planet-outlined-size {
@@ -1560,7 +1569,7 @@
 }
 
 .ci-plus-circle-filled {
-	background-position: 58.8235294117647% 78.43137254901961%;
+	background-position: 64.70588235294117% 78.43137254901961%;
 }
 
 .ci-plus-circle-filled-size {
@@ -1569,7 +1578,7 @@
 }
 
 .ci-plus-circle-outlined {
-	background-position: 64.70588235294117% 78.43137254901961%;
+	background-position: 70.58823529411765% 78.43137254901961%;
 }
 
 .ci-plus-circle-outlined-size {
@@ -1578,7 +1587,7 @@
 }
 
 .ci-plus-outlined {
-	background-position: 70.58823529411765% 78.43137254901961%;
+	background-position: 76.47058823529412% 78.43137254901961%;
 }
 
 .ci-plus-outlined-size {
@@ -1587,7 +1596,7 @@
 }
 
 .ci-plus-square-filled {
-	background-position: 76.47058823529412% 78.43137254901961%;
+	background-position: 84.31372549019608% 0;
 }
 
 .ci-plus-square-filled-size {
@@ -1596,7 +1605,7 @@
 }
 
 .ci-plus-square-outlined {
-	background-position: 84.31372549019608% 0;
+	background-position: 84.31372549019608% 5.882352941176471%;
 }
 
 .ci-plus-square-outlined-size {
@@ -1605,7 +1614,7 @@
 }
 
 .ci-printer-filled {
-	background-position: 84.31372549019608% 5.882352941176471%;
+	background-position: 84.31372549019608% 11.764705882352942%;
 }
 
 .ci-printer-filled-size {
@@ -1614,7 +1623,7 @@
 }
 
 .ci-printer-outlined {
-	background-position: 84.31372549019608% 11.764705882352942%;
+	background-position: 84.31372549019608% 17.647058823529413%;
 }
 
 .ci-printer-outlined-size {
@@ -1623,7 +1632,7 @@
 }
 
 .ci-profile-box-outlined {
-	background-position: 84.31372549019608% 17.647058823529413%;
+	background-position: 84.31372549019608% 23.529411764705884%;
 }
 
 .ci-profile-box-outlined-size {
@@ -1632,7 +1641,7 @@
 }
 
 .ci-profile-circle-outlined {
-	background-position: 84.31372549019608% 23.529411764705884%;
+	background-position: 84.31372549019608% 29.41176470588235%;
 }
 
 .ci-profile-circle-outlined-size {
@@ -1641,7 +1650,7 @@
 }
 
 .ci-profiles-filled {
-	background-position: 84.31372549019608% 29.41176470588235%;
+	background-position: 84.31372549019608% 35.294117647058826%;
 }
 
 .ci-profiles-filled-size {
@@ -1650,7 +1659,7 @@
 }
 
 .ci-profiles-outlined {
-	background-position: 84.31372549019608% 35.294117647058826%;
+	background-position: 84.31372549019608% 41.1764705882353%;
 }
 
 .ci-profiles-outlined-size {
@@ -1659,7 +1668,7 @@
 }
 
 .ci-puzzle-piece-outlined {
-	background-position: 84.31372549019608% 41.1764705882353%;
+	background-position: 84.31372549019608% 47.05882352941177%;
 }
 
 .ci-puzzle-piece-outlined-size {
@@ -1668,7 +1677,7 @@
 }
 
 .ci-question-mark-circle-outlined {
-	background-position: 84.31372549019608% 47.05882352941177%;
+	background-position: 84.31372549019608% 52.94117647058823%;
 }
 
 .ci-question-mark-circle-outlined-size {
@@ -1677,7 +1686,7 @@
 }
 
 .ci-reading-glasses-filled {
-	background-position: 84.31372549019608% 52.94117647058823%;
+	background-position: 84.31372549019608% 58.8235294117647%;
 }
 
 .ci-reading-glasses-filled-size {
@@ -1686,7 +1695,7 @@
 }
 
 .ci-reading-glasses-outlined {
-	background-position: 84.31372549019608% 58.8235294117647%;
+	background-position: 84.31372549019608% 64.70588235294117%;
 }
 
 .ci-reading-glasses-outlined-size {
@@ -1695,7 +1704,7 @@
 }
 
 .ci-redo-outlined {
-	background-position: 84.31372549019608% 64.70588235294117%;
+	background-position: 84.31372549019608% 70.58823529411765%;
 }
 
 .ci-redo-outlined-size {
@@ -1704,7 +1713,7 @@
 }
 
 .ci-restart-outlined {
-	background-position: 84.31372549019608% 70.58823529411765%;
+	background-position: 84.31372549019608% 76.47058823529412%;
 }
 
 .ci-restart-outlined-size {
@@ -1713,7 +1722,7 @@
 }
 
 .ci-search-filled {
-	background-position: 84.31372549019608% 76.47058823529412%;
+	background-position: 0 84.31372549019608%;
 }
 
 .ci-search-filled-size {
@@ -1722,7 +1731,7 @@
 }
 
 .ci-search-outlined {
-	background-position: 0 84.31372549019608%;
+	background-position: 5.882352941176471% 84.31372549019608%;
 }
 
 .ci-search-outlined-size {
@@ -1731,7 +1740,7 @@
 }
 
 .ci-search-restart-outlined {
-	background-position: 5.882352941176471% 84.31372549019608%;
+	background-position: 11.764705882352942% 84.31372549019608%;
 }
 
 .ci-search-restart-outlined-size {
@@ -1740,7 +1749,7 @@
 }
 
 .ci-settings-outlined {
-	background-position: 11.764705882352942% 84.31372549019608%;
+	background-position: 17.647058823529413% 84.31372549019608%;
 }
 
 .ci-settings-outlined-size {
@@ -1749,7 +1758,7 @@
 }
 
 .ci-share-filled {
-	background-position: 17.647058823529413% 84.31372549019608%;
+	background-position: 23.529411764705884% 84.31372549019608%;
 }
 
 .ci-share-filled-size {
@@ -1758,7 +1767,7 @@
 }
 
 .ci-share-outlined {
-	background-position: 23.529411764705884% 84.31372549019608%;
+	background-position: 29.41176470588235% 84.31372549019608%;
 }
 
 .ci-share-outlined-size {
@@ -1767,7 +1776,7 @@
 }
 
 .ci-sign-in-outlined {
-	background-position: 29.41176470588235% 84.31372549019608%;
+	background-position: 35.294117647058826% 84.31372549019608%;
 }
 
 .ci-sign-in-outlined-size {
@@ -1776,7 +1785,7 @@
 }
 
 .ci-sign-out-outlined {
-	background-position: 35.294117647058826% 84.31372549019608%;
+	background-position: 41.1764705882353% 84.31372549019608%;
 }
 
 .ci-sign-out-outlined-size {
@@ -1785,7 +1794,7 @@
 }
 
 .ci-signal-outlined {
-	background-position: 41.1764705882353% 84.31372549019608%;
+	background-position: 47.05882352941177% 84.31372549019608%;
 }
 
 .ci-signal-outlined-size {
@@ -1794,7 +1803,7 @@
 }
 
 .ci-slack {
-	background-position: 47.05882352941177% 84.31372549019608%;
+	background-position: 52.94117647058823% 84.31372549019608%;
 }
 
 .ci-slack-size {
@@ -1802,8 +1811,17 @@
 	height: 24px;
 }
 
+.ci-sliders-outlined {
+	background-position: 58.8235294117647% 84.31372549019608%;
+}
+
+.ci-sliders-outlined-size {
+	width: 24px;
+	height: 24px;
+}
+
 .ci-smile {
-	background-position: 52.94117647058823% 84.31372549019608%;
+	background-position: 64.70588235294117% 84.31372549019608%;
 }
 
 .ci-smile-size {
@@ -1893,7 +1911,7 @@
 }
 
 .ci-sparkle-filled {
-	background-position: 58.8235294117647% 84.31372549019608%;
+	background-position: 70.58823529411765% 84.31372549019608%;
 }
 
 .ci-sparkle-filled-size {
@@ -1902,7 +1920,7 @@
 }
 
 .ci-sparkle-outlined {
-	background-position: 64.70588235294117% 84.31372549019608%;
+	background-position: 76.47058823529412% 84.31372549019608%;
 }
 
 .ci-sparkle-outlined-size {
@@ -1911,7 +1929,7 @@
 }
 
 .ci-star-circle-filled {
-	background-position: 70.58823529411765% 84.31372549019608%;
+	background-position: 82.3529411764706% 84.31372549019608%;
 }
 
 .ci-star-circle-filled-size {
@@ -1920,7 +1938,7 @@
 }
 
 .ci-star-circle-outlined {
-	background-position: 76.47058823529412% 84.31372549019608%;
+	background-position: 90.19607843137256% 0;
 }
 
 .ci-star-circle-outlined-size {
@@ -1929,7 +1947,7 @@
 }
 
 .ci-sticker-filled {
-	background-position: 82.3529411764706% 84.31372549019608%;
+	background-position: 90.19607843137256% 5.882352941176471%;
 }
 
 .ci-sticker-filled-size {
@@ -1938,7 +1956,7 @@
 }
 
 .ci-sticker-outlined {
-	background-position: 90.19607843137256% 0;
+	background-position: 90.19607843137256% 11.764705882352942%;
 }
 
 .ci-sticker-outlined-size {
@@ -1947,7 +1965,7 @@
 }
 
 .ci-stream-filled {
-	background-position: 90.19607843137256% 5.882352941176471%;
+	background-position: 90.19607843137256% 17.647058823529413%;
 }
 
 .ci-stream-filled-size {
@@ -1956,7 +1974,7 @@
 }
 
 .ci-stream-outlined {
-	background-position: 90.19607843137256% 11.764705882352942%;
+	background-position: 90.19607843137256% 23.529411764705884%;
 }
 
 .ci-stream-outlined-size {
@@ -1965,7 +1983,7 @@
 }
 
 .ci-tag-outlined {
-	background-position: 90.19607843137256% 17.647058823529413%;
+	background-position: 90.19607843137256% 29.41176470588235%;
 }
 
 .ci-tag-outlined-size {
@@ -1974,7 +1992,7 @@
 }
 
 .ci-targeted-outlined {
-	background-position: 90.19607843137256% 23.529411764705884%;
+	background-position: 90.19607843137256% 35.294117647058826%;
 }
 
 .ci-targeted-outlined-size {
@@ -1983,7 +2001,7 @@
 }
 
 .ci-thumbs-up-filled {
-	background-position: 90.19607843137256% 29.41176470588235%;
+	background-position: 90.19607843137256% 41.1764705882353%;
 }
 
 .ci-thumbs-up-filled-size {
@@ -1992,7 +2010,7 @@
 }
 
 .ci-thumbs-up-outlined {
-	background-position: 90.19607843137256% 35.294117647058826%;
+	background-position: 90.19607843137256% 47.05882352941177%;
 }
 
 .ci-thumbs-up-outlined-size {
@@ -2001,7 +2019,7 @@
 }
 
 .ci-translate-box-filled {
-	background-position: 90.19607843137256% 41.1764705882353%;
+	background-position: 90.19607843137256% 52.94117647058823%;
 }
 
 .ci-translate-box-filled-size {
@@ -2010,7 +2028,7 @@
 }
 
 .ci-translate-box-outlined {
-	background-position: 90.19607843137256% 47.05882352941177%;
+	background-position: 90.19607843137256% 58.8235294117647%;
 }
 
 .ci-translate-box-outlined-size {
@@ -2019,7 +2037,7 @@
 }
 
 .ci-translate-outlined {
-	background-position: 90.19607843137256% 52.94117647058823%;
+	background-position: 90.19607843137256% 64.70588235294117%;
 }
 
 .ci-translate-outlined-size {
@@ -2028,7 +2046,7 @@
 }
 
 .ci-trash-filled {
-	background-position: 90.19607843137256% 58.8235294117647%;
+	background-position: 90.19607843137256% 70.58823529411765%;
 }
 
 .ci-trash-filled-size {
@@ -2037,7 +2055,7 @@
 }
 
 .ci-trash-outlined {
-	background-position: 90.19607843137256% 64.70588235294117%;
+	background-position: 90.19607843137256% 76.47058823529412%;
 }
 
 .ci-trash-outlined-size {
@@ -2046,7 +2064,7 @@
 }
 
 .ci-twitter {
-	background-position: 90.19607843137256% 70.58823529411765%;
+	background-position: 90.19607843137256% 82.3529411764706%;
 }
 
 .ci-twitter-size {
@@ -2055,7 +2073,7 @@
 }
 
 .ci-undo-outlined {
-	background-position: 90.19607843137256% 76.47058823529412%;
+	background-position: 0 90.19607843137256%;
 }
 
 .ci-undo-outlined-size {
@@ -2064,7 +2082,7 @@
 }
 
 .ci-upload-outlined {
-	background-position: 90.19607843137256% 82.3529411764706%;
+	background-position: 5.882352941176471% 90.19607843137256%;
 }
 
 .ci-upload-outlined-size {
@@ -2073,7 +2091,7 @@
 }
 
 .ci-video-camera-filled {
-	background-position: 0 90.19607843137256%;
+	background-position: 11.764705882352942% 90.19607843137256%;
 }
 
 .ci-video-camera-filled-size {
@@ -2082,7 +2100,7 @@
 }
 
 .ci-video-camera-outlined {
-	background-position: 5.882352941176471% 90.19607843137256%;
+	background-position: 17.647058823529413% 90.19607843137256%;
 }
 
 .ci-video-camera-outlined-size {
@@ -2091,7 +2109,7 @@
 }
 
 .ci-w-alert-outlined {
-	background-position: 11.764705882352942% 90.19607843137256%;
+	background-position: 23.529411764705884% 90.19607843137256%;
 }
 
 .ci-w-alert-outlined-size {
@@ -2100,7 +2118,7 @@
 }
 
 .ci-w-birthdays-upcoming-outlined {
-	background-position: 17.647058823529413% 90.19607843137256%;
+	background-position: 29.41176470588235% 90.19607843137256%;
 }
 
 .ci-w-birthdays-upcoming-outlined-size {
@@ -2109,7 +2127,7 @@
 }
 
 .ci-w-blog-article-new-outlined {
-	background-position: 23.529411764705884% 90.19607843137256%;
+	background-position: 35.294117647058826% 90.19607843137256%;
 }
 
 .ci-w-blog-article-new-outlined-size {
@@ -2118,7 +2136,7 @@
 }
 
 .ci-w-blog-article-outlined {
-	background-position: 29.41176470588235% 90.19607843137256%;
+	background-position: 41.1764705882353% 90.19607843137256%;
 }
 
 .ci-w-blog-article-outlined-size {
@@ -2127,7 +2145,7 @@
 }
 
 .ci-w-blog-article-recommended-outlined {
-	background-position: 35.294117647058826% 90.19607843137256%;
+	background-position: 47.05882352941177% 90.19607843137256%;
 }
 
 .ci-w-blog-article-recommended-outlined-size {
@@ -2136,7 +2154,7 @@
 }
 
 .ci-w-bookmarks-outlined {
-	background-position: 41.1764705882353% 90.19607843137256%;
+	background-position: 52.94117647058823% 90.19607843137256%;
 }
 
 .ci-w-bookmarks-outlined-size {
@@ -2145,7 +2163,7 @@
 }
 
 .ci-w-button-outlined {
-	background-position: 47.05882352941177% 90.19607843137256%;
+	background-position: 58.8235294117647% 90.19607843137256%;
 }
 
 .ci-w-button-outlined-size {
@@ -2154,7 +2172,7 @@
 }
 
 .ci-w-colleagues-new-outlined {
-	background-position: 52.94117647058823% 90.19607843137256%;
+	background-position: 64.70588235294117% 90.19607843137256%;
 }
 
 .ci-w-colleagues-new-outlined-size {
@@ -2163,7 +2181,7 @@
 }
 
 .ci-w-complete-profile-outlined {
-	background-position: 58.8235294117647% 90.19607843137256%;
+	background-position: 70.58823529411765% 90.19607843137256%;
 }
 
 .ci-w-complete-profile-outlined-size {
@@ -2172,7 +2190,7 @@
 }
 
 .ci-w-divider-outlined {
-	background-position: 64.70588235294117% 90.19607843137256%;
+	background-position: 76.47058823529412% 90.19607843137256%;
 }
 
 .ci-w-divider-outlined-size {
@@ -2181,7 +2199,7 @@
 }
 
 .ci-w-do-you-know-outlined {
-	background-position: 70.58823529411765% 90.19607843137256%;
+	background-position: 82.3529411764706% 90.19607843137256%;
 }
 
 .ci-w-do-you-know-outlined-size {
@@ -2190,7 +2208,7 @@
 }
 
 .ci-w-document-outlined {
-	background-position: 76.47058823529412% 90.19607843137256%;
+	background-position: 88.23529411764706% 90.19607843137256%;
 }
 
 .ci-w-document-outlined-size {
@@ -2199,7 +2217,7 @@
 }
 
 .ci-w-documents-m-365-outlined {
-	background-position: 82.3529411764706% 90.19607843137256%;
+	background-position: 96.07843137254902% 0;
 }
 
 .ci-w-documents-m-365-outlined-size {
@@ -2208,7 +2226,7 @@
 }
 
 .ci-w-documents-new-outlined {
-	background-position: 88.23529411764706% 90.19607843137256%;
+	background-position: 96.07843137254902% 5.882352941176471%;
 }
 
 .ci-w-documents-new-outlined-size {
@@ -2217,7 +2235,7 @@
 }
 
 .ci-w-download-outlined {
-	background-position: 96.07843137254902% 0;
+	background-position: 96.07843137254902% 11.764705882352942%;
 }
 
 .ci-w-download-outlined-size {
@@ -2226,7 +2244,7 @@
 }
 
 .ci-w-events-upcoming-outlined {
-	background-position: 96.07843137254902% 5.882352941176471%;
+	background-position: 96.07843137254902% 17.647058823529413%;
 }
 
 .ci-w-events-upcoming-outlined-size {
@@ -2235,7 +2253,7 @@
 }
 
 .ci-w-facegame-outlined {
-	background-position: 96.07843137254902% 11.764705882352942%;
+	background-position: 96.07843137254902% 23.529411764705884%;
 }
 
 .ci-w-facegame-outlined-size {
@@ -2244,7 +2262,7 @@
 }
 
 .ci-w-feed-outlined {
-	background-position: 96.07843137254902% 17.647058823529413%;
+	background-position: 96.07843137254902% 29.41176470588235%;
 }
 
 .ci-w-feed-outlined-size {
@@ -2253,7 +2271,7 @@
 }
 
 .ci-w-gallery-outlined {
-	background-position: 96.07843137254902% 23.529411764705884%;
+	background-position: 96.07843137254902% 35.294117647058826%;
 }
 
 .ci-w-gallery-outlined-size {
@@ -2262,7 +2280,7 @@
 }
 
 .ci-w-hashtags-outlined {
-	background-position: 96.07843137254902% 29.41176470588235%;
+	background-position: 96.07843137254902% 41.1764705882353%;
 }
 
 .ci-w-hashtags-outlined-size {
@@ -2271,7 +2289,7 @@
 }
 
 .ci-w-headline-outlined {
-	background-position: 96.07843137254902% 35.294117647058826%;
+	background-position: 96.07843137254902% 47.05882352941177%;
 }
 
 .ci-w-headline-outlined-size {
@@ -2280,7 +2298,7 @@
 }
 
 .ci-w-hero-teaser-outlined {
-	background-position: 96.07843137254902% 41.1764705882353%;
+	background-position: 96.07843137254902% 52.94117647058823%;
 }
 
 .ci-w-hero-teaser-outlined-size {
@@ -2289,7 +2307,7 @@
 }
 
 .ci-w-html-outlined {
-	background-position: 96.07843137254902% 47.05882352941177%;
+	background-position: 96.07843137254902% 58.8235294117647%;
 }
 
 .ci-w-html-outlined-size {
@@ -2298,7 +2316,7 @@
 }
 
 .ci-w-iframe-outlined {
-	background-position: 96.07843137254902% 52.94117647058823%;
+	background-position: 96.07843137254902% 64.70588235294117%;
 }
 
 .ci-w-iframe-outlined-size {
@@ -2307,7 +2325,7 @@
 }
 
 .ci-w-image-outlined {
-	background-position: 96.07843137254902% 58.8235294117647%;
+	background-position: 96.07843137254902% 70.58823529411765%;
 }
 
 .ci-w-image-outlined-size {
@@ -2316,7 +2334,7 @@
 }
 
 .ci-w-launchpad-outlined {
-	background-position: 96.07843137254902% 64.70588235294117%;
+	background-position: 96.07843137254902% 76.47058823529412%;
 }
 
 .ci-w-launchpad-outlined-size {
@@ -2325,7 +2343,7 @@
 }
 
 .ci-w-media-outlined {
-	background-position: 96.07843137254902% 70.58823529411765%;
+	background-position: 96.07843137254902% 82.3529411764706%;
 }
 
 .ci-w-media-outlined-size {
@@ -2334,7 +2352,7 @@
 }
 
 .ci-w-online-users-outlined {
-	background-position: 96.07843137254902% 76.47058823529412%;
+	background-position: 96.07843137254902% 88.23529411764706%;
 }
 
 .ci-w-online-users-outlined-size {
@@ -2343,7 +2361,7 @@
 }
 
 .ci-w-plugin-trello-outlined {
-	background-position: 96.07843137254902% 82.3529411764706%;
+	background-position: 0 96.07843137254902%;
 }
 
 .ci-w-plugin-trello-outlined-size {
@@ -2352,7 +2370,7 @@
 }
 
 .ci-w-plugin-twitter-outlined {
-	background-position: 96.07843137254902% 88.23529411764706%;
+	background-position: 5.882352941176471% 96.07843137254902%;
 }
 
 .ci-w-plugin-twitter-outlined-size {
@@ -2361,7 +2379,7 @@
 }
 
 .ci-w-poll-outlined {
-	background-position: 0 96.07843137254902%;
+	background-position: 11.764705882352942% 96.07843137254902%;
 }
 
 .ci-w-poll-outlined-size {
@@ -2370,7 +2388,7 @@
 }
 
 .ci-w-profile-outlined {
-	background-position: 5.882352941176471% 96.07843137254902%;
+	background-position: 17.647058823529413% 96.07843137254902%;
 }
 
 .ci-w-profile-outlined-size {
@@ -2379,7 +2397,7 @@
 }
 
 .ci-w-rss-feed-outlined {
-	background-position: 11.764705882352942% 96.07843137254902%;
+	background-position: 23.529411764705884% 96.07843137254902%;
 }
 
 .ci-w-rss-feed-outlined-size {
@@ -2388,7 +2406,7 @@
 }
 
 .ci-w-subscriptions-outlined {
-	background-position: 17.647058823529413% 96.07843137254902%;
+	background-position: 29.41176470588235% 96.07843137254902%;
 }
 
 .ci-w-subscriptions-outlined-size {
@@ -2397,7 +2415,7 @@
 }
 
 .ci-w-suggested-communities-outlined {
-	background-position: 23.529411764705884% 96.07843137254902%;
+	background-position: 35.294117647058826% 96.07843137254902%;
 }
 
 .ci-w-suggested-communities-outlined-size {
@@ -2406,7 +2424,7 @@
 }
 
 .ci-w-suggested-pages-outlined {
-	background-position: 29.41176470588235% 96.07843137254902%;
+	background-position: 41.1764705882353% 96.07843137254902%;
 }
 
 .ci-w-suggested-pages-outlined-size {
@@ -2415,7 +2433,7 @@
 }
 
 .ci-w-teaser-outlined {
-	background-position: 35.294117647058826% 96.07843137254902%;
+	background-position: 47.05882352941177% 96.07843137254902%;
 }
 
 .ci-w-teaser-outlined-size {
@@ -2424,7 +2442,7 @@
 }
 
 .ci-w-text-outlined {
-	background-position: 41.1764705882353% 96.07843137254902%;
+	background-position: 52.94117647058823% 96.07843137254902%;
 }
 
 .ci-w-text-outlined-size {
@@ -2433,7 +2451,7 @@
 }
 
 .ci-w-video-outlined {
-	background-position: 47.05882352941177% 96.07843137254902%;
+	background-position: 58.8235294117647% 96.07843137254902%;
 }
 
 .ci-w-video-outlined-size {
@@ -2442,7 +2460,7 @@
 }
 
 .ci-w-welcome-outlined {
-	background-position: 52.94117647058823% 96.07843137254902%;
+	background-position: 64.70588235294117% 96.07843137254902%;
 }
 
 .ci-w-welcome-outlined-size {
@@ -2451,7 +2469,7 @@
 }
 
 .ci-w-wiki-article-new-outlined {
-	background-position: 58.8235294117647% 96.07843137254902%;
+	background-position: 70.58823529411765% 96.07843137254902%;
 }
 
 .ci-w-wiki-article-new-outlined-size {
@@ -2460,7 +2478,7 @@
 }
 
 .ci-w-wiki-article-outlined {
-	background-position: 64.70588235294117% 96.07843137254902%;
+	background-position: 76.47058823529412% 96.07843137254902%;
 }
 
 .ci-w-wiki-article-outlined-size {
@@ -2469,7 +2487,7 @@
 }
 
 .ci-wechat {
-	background-position: 70.58823529411765% 96.07843137254902%;
+	background-position: 82.3529411764706% 96.07843137254902%;
 }
 
 .ci-wechat-size {
@@ -2478,7 +2496,7 @@
 }
 
 .ci-write-outlined {
-	background-position: 76.47058823529412% 96.07843137254902%;
+	background-position: 88.23529411764706% 96.07843137254902%;
 }
 
 .ci-write-outlined-size {
@@ -2487,7 +2505,7 @@
 }
 
 .ci-xing {
-	background-position: 82.3529411764706% 96.07843137254902%;
+	background-position: 94.11764705882354% 96.07843137254902%;
 }
 
 .ci-xing-size {
