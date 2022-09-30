@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.14 (2022-09-30)
+
+
+### Features
+
+* Added brush icon for studio ([887c7c7](https://github.com/haiilo/catalyst-icons/commit/887c7c7da23b73eb3a97a67a5ea1b57106b3bdfa))
+
 ### 0.3.13 (2022-09-19)
 
 ### 0.3.12 (2022-09-19)
