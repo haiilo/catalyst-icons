@@ -911,6 +911,10 @@ export const ciPuzzlePieceOutlined = {
     name: 'puzzle-piece-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M14.48 4.47a2.88 2.88 0 1 1 4.08 4.08l-.23.23 1.78 1.78a1.75 1.75 0 0 1 0 2.47l-1.78 1.78.23.22a2.88 2.88 0 1 1-4.08 4.08l-.23-.22-1.78 1.78a1.75 1.75 0 0 1-2.47 0l-7.64-7.64a1.75 1.75 0 0 1 0-2.47l2.31-2.31a.75.75 0 0 1 1.06 0L6.5 9a1.38 1.38 0 1 0 1.95-1.96L7.7 6.3a.75.75 0 0 1 0-1.06L10 2.92a1.75 1.75 0 0 1 2.48 0l1.77 1.78.23-.23Zm3.01 1.07a1.38 1.38 0 0 0-1.95 0l-.75.75a.75.75 0 0 1-1.07 0l-2.3-2.31a.25.25 0 0 0-.36 0L9.28 5.76l.23.22a2.88 2.88 0 0 1-4.08 4.08l-.23-.22-1.78 1.78a.25.25 0 0 0 0 .35l7.64 7.64a.25.25 0 0 0 .35 0l2.31-2.31a.75.75 0 0 1 1.06 0l.76.75a1.38 1.38 0 0 0 1.96-1.96l-.76-.75a.75.75 0 0 1 0-1.06l2.31-2.3a.25.25 0 0 0 0-.36l-2.3-2.31a.75.75 0 0 1 0-1.06l.74-.76c.55-.54.55-1.41 0-1.95Z" clip-rule="evenodd"/></svg>`
 };
+export const ciQuoteOutlined = {
+    name: 'quote-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.75 9.43a4.25 4.25 0 0 1 8.5 0v3.5a5.75 5.75 0 0 1-5.75 5.75H5a.75.75 0 0 1 0-1.5h.5c2.518 0 4.25-2.104 4.25-4.51a4.25 4.25 0 0 1-7-3.24ZM7 6.68a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5Zm5.75 2.75a4.25 4.25 0 0 1 8.5 0v3.5a5.75 5.75 0 0 1-5.75 5.75H15a.75.75 0 0 1 0-1.5h.5c2.518 0 4.25-2.104 4.25-4.51a4.25 4.25 0 0 1-7-3.24ZM17 6.68a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5Z"/></svg>`
+};
 export const ciRedoOutlined = {
     name: 'redo-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.53 3.47a.75.75 0 1 0-1.06 1.06l2.72 2.72H10a5.75 5.75 0 1 0 0 11.5h2a.75.75 0 0 0 0-1.5h-2a4.25 4.25 0 0 1 0-8.5h7.19l-2.72 2.72a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4Z"/></svg>`
@@ -1360,6 +1364,7 @@ export const completeIconSet = [
     ciPlanetFilled,
     ciPlanetOutlined,
     ciPuzzlePieceOutlined,
+    ciQuoteOutlined,
     ciRedoOutlined,
     ciSlidersOutlined,
     ciSocialMediaOutlined,
