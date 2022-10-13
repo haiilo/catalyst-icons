@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.16 (2022-10-13)
+
+
+### Features
+
+* Added icon for block quote ([db9e3c3](https://github.com/haiilo/catalyst-icons/commit/db9e3c31362291f263ab4366674802cd05355f18))
+
 ### 0.3.15 (2022-10-07)
 
 ### 0.3.14 (2022-09-30)
