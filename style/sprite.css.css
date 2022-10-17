@@ -335,8 +335,17 @@
 	height: 16px;
 }
 
-.ci-16-targeted-outlined {
+.ci-16-pen-outlined {
 	background-position: 49.056603773584904% 100%;
+}
+
+.ci-16-pen-outlined-size {
+	width: 16px;
+	height: 16px;
+}
+
+.ci-16-targeted-outlined {
+	background-position: 52.83018867924528% 100%;
 }
 
 .ci-16-targeted-outlined-size {
@@ -345,7 +354,7 @@
 }
 
 .ci-16-thumbs-up-outlined {
-	background-position: 52.83018867924528% 100%;
+	background-position: 56.60377358490566% 100%;
 }
 
 .ci-16-thumbs-up-outlined-size {
@@ -354,7 +363,7 @@
 }
 
 .ci-16-translate-box-outlined {
-	background-position: 56.60377358490566% 100%;
+	background-position: 60.37735849056604% 100%;
 }
 
 .ci-16-translate-box-outlined-size {
@@ -363,7 +372,7 @@
 }
 
 .ci-16-warning-circle-outlined {
-	background-position: 60.37735849056604% 100%;
+	background-position: 64.15094339622641% 100%;
 }
 
 .ci-16-warning-circle-outlined-size {

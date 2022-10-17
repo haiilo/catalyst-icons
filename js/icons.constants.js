@@ -679,6 +679,10 @@ export const ci16LinkSmall = {
     name: '16-link-small',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 6A.75.75 0 0 1 2 5.25h12a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75V6Zm1.5.75v2.5h10.5v-2.5H2.75Z"/></svg>`
 };
+export const ci16PenOutlined = {
+    name: '16-pen-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m8.174 3.79.002-.002h.001l2.278-2.279a1.74 1.74 0 0 1 2.46 0l1.576 1.577a1.74 1.74 0 0 1 0 2.46l-8.243 8.242a.744.744 0 0 1-.346.196l-3.976.994a.746.746 0 0 1-.904-.904l.994-3.976c.033-.131.1-.25.196-.346L8.174 3.79Zm3.335-1.226a.248.248 0 0 1 .351 0l1.576 1.576a.249.249 0 0 1 0 .351l-1.752 1.752-1.927-1.928 1.752-1.751Zm-.879 4.733-5.29 5.29-2.57.643.642-2.57 5.29-5.29 1.928 1.927Z"/></svg>`
+};
 export const ci16TargetedOutlined = {
     name: '16-targeted-outlined',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75a5.25 5.25 0 0 0-1.75 10.201.75.75 0 1 1-.5 1.415A6.752 6.752 0 0 1 8 1.25c2.94 0 5.44 1.88 6.366 4.5a.75.75 0 1 1-1.415.5A5.253 5.253 0 0 0 8 2.75Z"/><path d="M8 5.75a2.25 2.25 0 0 0-1.5 3.927.75.75 0 0 1-1 1.118A3.75 3.75 0 1 1 10.795 5.5a.75.75 0 0 1-1.118 1A2.243 2.243 0 0 0 8 5.75Z"/><path d="M8.25 9A.75.75 0 0 1 9 8.25h3a.75.75 0 0 1 0 1.5h-1.19l2.72 2.72a.75.75 0 1 1-1.06 1.06l-2.72-2.72V12a.75.75 0 0 1-1.5 0V9Z"/></svg>`
@@ -1306,6 +1310,7 @@ export const completeIconSet = [
     ci16LinkLarge,
     ci16LinkMedium,
     ci16LinkSmall,
+    ci16PenOutlined,
     ci16TargetedOutlined,
     ci16WarningCircleOutlined,
     ciAppleSafari,
