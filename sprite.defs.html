@@ -51,6 +51,7 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-16-editor-settings-dims { width: 16px; height: 16px; }
 	.ci-16-editor-ul-dims { width: 16px; height: 16px; }
 	.ci-16-external-link-dims { width: 16px; height: 16px; }
+	.ci-16-flag-dims { width: 16px; height: 16px; }
 	.ci-16-flash-circle-outlined-dims { width: 16px; height: 16px; }
 	.ci-16-link-large-dims { width: 16px; height: 16px; }
 	.ci-16-link-medium-dims { width: 16px; height: 16px; }
@@ -117,6 +118,8 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-events-outlined-dims { width: 24px; height: 24px; }
 	.ci-exclamation-mark-circle-outlined-dims { width: 24px; height: 24px; }
 	.ci-external-link-outlined-dims { width: 24px; height: 24px; }
+	.ci-eye-closed-outlined-dims { width: 24px; height: 24px; }
+	.ci-eye-open-outlined-dims { width: 24px; height: 24px; }
 	.ci-facebook-dims { width: 24px; height: 24px; }
 	.ci-feed-filled-dims { width: 24px; height: 24px; }
 	.ci-feed-outlined-dims { width: 24px; height: 24px; }
@@ -360,6 +363,7 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 16 16" id="16-editor-settings" xmlns="http://www.w3.org/2000/svg"><path d="M8 10a2 2 0 100-4 2 2 0 000 4z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7.126.25c-.907 0-1.642.735-1.642 1.642 0 .78-.863 1.29-1.566.888a1.655 1.655 0 00-2.25.598L.802 4.865a1.637 1.637 0 00.602 2.246 1.025 1.025 0 010 1.778 1.637 1.637 0 00-.602 2.246l.866 1.487a1.655 1.655 0 002.25.598c.703-.402 1.566.108 1.566.888 0 .907.735 1.642 1.642 1.642h1.748c.907 0 1.642-.735 1.642-1.642 0-.78.863-1.29 1.566-.888.78.447 1.79.19 2.25-.598l.866-1.487a1.637 1.637 0 00-.602-2.246 1.025 1.025 0 010-1.778c.79-.452 1.06-1.46.602-2.246l-.866-1.487a1.655 1.655 0 00-2.25-.598c-.703.402-1.566-.108-1.566-.888C10.516.985 9.78.25 8.874.25H7.126zm-.142 1.642c0-.078.064-.142.142-.142h1.748c.078 0 .142.064.142.142 0 1.961 2.134 3.15 3.81 2.19a.155.155 0 01.21.051l.866 1.487a.137.137 0 01-.05.189c-1.695.97-1.695 3.413 0 4.382a.137.137 0 01.05.189l-.866 1.487a.155.155 0 01-.21.051c-1.676-.96-3.81.229-3.81 2.19a.142.142 0 01-.142.142H7.126a.142.142 0 01-.142-.142c0-1.961-2.134-3.15-3.81-2.19a.155.155 0 01-.21-.051l-.866-1.487a.137.137 0 01.05-.189c1.695-.97 1.695-3.413 0-4.382a.137.137 0 01-.05-.189l.866-1.487a.155.155 0 01.21-.051c1.676.96 3.81-.229 3.81-2.19z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-editor-ul" xmlns="http://www.w3.org/2000/svg"><path d="M2 1a1 1 0 100 2 1 1 0 000-2zm3.25 1A.75.75 0 016 1.25h8a.75.75 0 010 1.5H6A.75.75 0 015.25 2zM2 7a1 1 0 100 2 1 1 0 000-2zm3.25 1A.75.75 0 016 7.25h8a.75.75 0 010 1.5H6A.75.75 0 015.25 8zM2 13a1 1 0 100 2 1 1 0 000-2zm4 .25a.75.75 0 000 1.5h8a.75.75 0 000-1.5H6z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-external-link" xmlns="http://www.w3.org/2000/svg"><path d="M4 2.75c-.69 0-1.25.56-1.25 1.25v8c0 .69.56 1.25 1.25 1.25h8c.69 0 1.25-.56 1.25-1.25v-1a.75.75 0 011.5 0v1A2.75 2.75 0 0112 14.75H4A2.75 2.75 0 011.25 12V4A2.75 2.75 0 014 1.25h1a.75.75 0 010 1.5H4z"/><path d="M8.25 2A.75.75 0 019 1.25h4c.966 0 1.75.784 1.75 1.75v4a.75.75 0 01-1.5 0V3.81L8.53 8.53a.75.75 0 01-1.06-1.06l4.72-4.72H9A.75.75 0 018.25 2z"/></svg>
+		<svg viewBox="0 0 16 16" id="16-flag" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 3.293V8.57c.514-.184 1.057-.218 1.597-.16.962.106 1.98.513 2.876.872l.056.022c.965.386 1.8.714 2.537.794.587.064 1.046-.034 1.434-.394V4.253c-.603.188-1.223.203-1.825.123-.936-.124-1.894-.488-2.74-.81l-.138-.052c-.93-.353-1.713-.634-2.402-.68-.544-.036-.994.076-1.395.46zm0 7.003c.388-.36.847-.458 1.434-.394.737.08 1.572.408 2.537.794l.056.022c.896.36 1.914.766 2.876.871 1.041.114 2.098-.119 2.923-1.109a.75.75 0 00.174-.48V3a.75.75 0 00-1.23-.576c-.544.453-1.157.564-1.898.465-.758-.1-1.568-.408-2.472-.75l-.072-.028c-.883-.335-1.88-.71-2.833-.773C4.23 1.27 3.23 1.554 2.424 2.52A.75.75 0 002.25 3v11a.75.75 0 001.5 0v-3.704z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-flash-circle-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M8.491 3.79L4.922 7.134A.5.5 0 005.264 8h1.403l-.626 3.519a.5.5 0 00.834.452l4.203-3.94a.5.5 0 00-.342-.864H9.333V4.154a.5.5 0 00-.842-.365z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .25a7.75 7.75 0 100 15.5A7.75 7.75 0 008 .25zM1.75 8a6.25 6.25 0 1112.5 0 6.25 6.25 0 01-12.5 0z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-link-large" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 1.25A1.75 1.75 0 001.25 3v10c0 .966.784 1.75 1.75 1.75h10A1.75 1.75 0 0014.75 13V3A1.75 1.75 0 0013 1.25H3zM2.75 3A.25.25 0 013 2.75h10a.25.25 0 01.25.25v5.25H2.75V3zm0 6.75V13c0 .138.112.25.25.25h10a.25.25 0 00.25-.25V9.75H2.75z"/></svg>
 		<svg viewBox="0 0 16 16" id="16-link-medium" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 3.25A1.75 1.75 0 00.25 5v6c0 .966.784 1.75 1.75 1.75h12A1.75 1.75 0 0015.75 11V5A1.75 1.75 0 0014 3.25H2zM1.75 5A.25.25 0 012 4.75h3.75v6.5H2a.25.25 0 01-.25-.25V5zm5.5 6.25H14a.25.25 0 00.25-.25V5a.25.25 0 00-.25-.25H7.25v6.5z"/></svg>
@@ -426,6 +430,8 @@ for further details on how to create this embeddable sprite variant.
 		<svg viewBox="0 0 24 24" id="events-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M14.416 11.376a.75.75 0 01.208 1.04l-2.667 4a.75.75 0 01-1.2.064l-1.333-1.6a.75.75 0 111.152-.96l.69.828 2.11-3.164a.75.75 0 011.04-.208z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17 2.25a.75.75 0 01.75.75v.58A3.501 3.501 0 0120.5 7v10a3.5 3.5 0 01-3.5 3.5H7A3.5 3.5 0 013.5 17V7a3.501 3.501 0 012.75-3.42V3a.75.75 0 011.5 0v.5h8.5V3a.75.75 0 01.75-.75zM7 5a2 2 0 00-2 2v1.25h14V7a2 2 0 00-2-2H7zm12 4.75H5V17a2 2 0 002 2h10a2 2 0 002-2V9.75z"/></svg>
 		<svg viewBox="0 0 24 24" id="exclamation-mark-circle-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M13 16a1 1 0 11-2 0 1 1 0 012 0zm-.25-8a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0V8z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zM12 3.75a8.25 8.25 0 100 16.5 8.25 8.25 0 000-16.5z"/></svg>
 		<svg viewBox="0 0 24 24" id="external-link-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M6 4.75c-.69 0-1.25.56-1.25 1.25v12c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25v-3a.75.75 0 011.5 0v3A2.75 2.75 0 0118 20.75H6A2.75 2.75 0 013.25 18V6A2.75 2.75 0 016 3.25h3a.75.75 0 010 1.5H6z"/><path d="M13.25 4a.75.75 0 01.75-.75h5c.966 0 1.75.784 1.75 1.75v5a.75.75 0 01-1.5 0V5.81l-6.72 6.72a.75.75 0 11-1.06-1.06l6.72-6.72H14a.75.75 0 01-.75-.75z"/></svg>
+		<svg viewBox="0 0 24 24" id="eye-closed-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M4.608 7.948a.75.75 0 10-1.234.853 12.396 12.396 0 002.255 2.438l-2.574 2.574a.75.75 0 001.061 1.06l2.738-2.737c1.283.824 2.777 1.433 4.396 1.58V17a.75.75 0 001.5 0v-3.284c1.618-.148 3.11-.76 4.392-1.584l2.742 2.742a.75.75 0 001.06-1.06l-2.579-2.58a12.5 12.5 0 002.251-2.432.75.75 0 00-1.232-.855C17.965 9.99 15.144 12.25 12 12.25c-3.153 0-5.978-2.255-7.392-4.302z"/></svg>
+		<svg viewBox="0 0 24 24" id="eye-open-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 11c0 3.392 5.438 6.25 8.25 6.25 2.8 0 8.25-2.87 8.25-6.25S14.8 4.75 12 4.75c-2.812 0-8.25 2.858-8.25 6.25zM12 3.25c3.646 0 9.75 3.511 9.75 7.75s-6.104 7.75-9.75 7.75c-3.657 0-9.75-3.5-9.75-7.75S8.343 3.25 12 3.25z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 8.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM8.25 11a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0z"/></svg>
 		<svg viewBox="0 0 24 24" fill="none" id="facebook" xmlns="http://www.w3.org/2000/svg"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1z" fill="#1877F2"/><path d="M15.041 12.978l.363-2.245h-2.27V9.277c0-.615.317-1.214 1.334-1.214H15.5V6.152S14.563 6 13.668 6c-1.87 0-3.09 1.076-3.09 3.022v1.711H8.5v2.245h2.078v5.428a8.664 8.664 0 002.557 0v-5.428h1.906z" fill="#fff"/></svg>
 		<svg viewBox="0 0 24 24" id="feed-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 003.25 5v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0011.75 9V5A1.75 1.75 0 0010 3.25H5zm0 10A1.75 1.75 0 003.25 15v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0011.75 19v-4A1.75 1.75 0 0010 13.25H5z"/><path d="M14.25 5a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zm.75 9.25a.75.75 0 000 1.5h4a.75.75 0 000-1.5h-4zM14.25 9a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zm.75 9.25a.75.75 0 000 1.5h4a.75.75 0 000-1.5h-4z"/></svg>
 		<svg viewBox="0 0 24 24" id="feed-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 003.25 5v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0011.75 9V5A1.75 1.75 0 0010 3.25H5zM4.75 5A.25.25 0 015 4.75h5a.25.25 0 01.25.25v4a.25.25 0 01-.25.25H5A.25.25 0 014.75 9V5zM5 13.25A1.75 1.75 0 003.25 15v4c0 .966.784 1.75 1.75 1.75h5A1.75 1.75 0 0011.75 19v-4A1.75 1.75 0 0010 13.25H5zM4.75 15a.25.25 0 01.25-.25h5a.25.25 0 01.25.25v4a.25.25 0 01-.25.25H5a.25.25 0 01-.25-.25v-4z"/><path d="M14.25 5a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zm.75 9.25a.75.75 0 000 1.5h4a.75.75 0 000-1.5h-4zM14.25 9a.75.75 0 01.75-.75h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zm.75 9.25a.75.75 0 000 1.5h4a.75.75 0 000-1.5h-4z"/></svg>
@@ -994,6 +1000,17 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>16-external-link</h2>
+				</li>
+				<li title="16-flag">
+					<div class="icon-box">
+
+						<!-- 16-flag -->
+						<svg viewBox="0 0 16 16" class="ci-16-flag-dims">
+							<use xlink:href="#16-flag"></use>
+						</svg>
+
+					</div>
+					<h2>16-flag</h2>
 				</li>
 				<li title="16-flash-circle-outlined">
 					<div class="icon-box">
@@ -1720,6 +1737,28 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>external-link-outlined</h2>
+				</li>
+				<li title="eye-closed-outlined">
+					<div class="icon-box">
+
+						<!-- eye-closed-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-eye-closed-outlined-dims">
+							<use xlink:href="#eye-closed-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>eye-closed-outlined</h2>
+				</li>
+				<li title="eye-open-outlined">
+					<div class="icon-box">
+
+						<!-- eye-open-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-eye-open-outlined-dims">
+							<use xlink:href="#eye-open-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>eye-open-outlined</h2>
 				</li>
 				<li title="facebook">
 					<div class="icon-box">
@@ -4151,6 +4190,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 					</div>
 					<h2>16-external-link</h2>
 				</li>
+				<li title="16-flag">
+					<div class="icon-box">
+
+						<!-- 16-flag -->
+						<svg viewBox="0 0 16 16" class="ci-16-flag-dims">
+							<use xlink:href="svg/sprite.defs.svg#16-flag"></use>
+						</shapes>
+
+					</div>
+					<h2>16-flag</h2>
+				</li>
 				<li title="16-flash-circle-outlined">
 					<div class="icon-box">
 
@@ -4876,6 +4926,28 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 					</div>
 					<h2>external-link-outlined</h2>
+				</li>
+				<li title="eye-closed-outlined">
+					<div class="icon-box">
+
+						<!-- eye-closed-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-eye-closed-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#eye-closed-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>eye-closed-outlined</h2>
+				</li>
+				<li title="eye-open-outlined">
+					<div class="icon-box">
+
+						<!-- eye-open-outlined -->
+						<svg viewBox="0 0 24 24" class="ci-eye-open-outlined-dims">
+							<use xlink:href="svg/sprite.defs.svg#eye-open-outlined"></use>
+						</shapes>
+
+					</div>
+					<h2>eye-open-outlined</h2>
 				</li>
 				<li title="facebook">
 					<div class="icon-box">
@@ -6942,7 +7014,7 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 		</section>
 		<footer>
-			<p>Generated at Mon, 17 Oct 2022 12:02:18 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+			<p>Generated at Tue, 25 Oct 2022 17:48:53 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>
