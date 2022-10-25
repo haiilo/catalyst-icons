@@ -353,8 +353,17 @@
 	height: 16px;
 }
 
-.ci-16-targeted-outlined {
+.ci-16-pin-outlined {
 	background-position: 67.9245283018868% 100%;
+}
+
+.ci-16-pin-outlined-size {
+	width: 16px;
+	height: 16px;
+}
+
+.ci-16-targeted-outlined {
+	background-position: 71.69811320754717% 100%;
 }
 
 .ci-16-targeted-outlined-size {
@@ -363,7 +372,7 @@
 }
 
 .ci-16-thumbs-up-outlined {
-	background-position: 71.69811320754717% 100%;
+	background-position: 75.47169811320755% 100%;
 }
 
 .ci-16-thumbs-up-outlined-size {
@@ -372,7 +381,7 @@
 }
 
 .ci-16-translate-box-outlined {
-	background-position: 75.47169811320755% 100%;
+	background-position: 79.24528301886792% 100%;
 }
 
 .ci-16-translate-box-outlined-size {
@@ -381,7 +390,7 @@
 }
 
 .ci-16-warning-circle-outlined {
-	background-position: 79.24528301886792% 100%;
+	background-position: 83.01886792452831% 100%;
 }
 
 .ci-16-warning-circle-outlined-size {
