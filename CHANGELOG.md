@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.18 (2022-11-29)
+
+
+### Features
+
+* Added icons for CK editor image settings ([cf40395](https://github.com/haiilo/catalyst-icons/commit/cf403959a011ff5da205b23c1acd1b7daf9ff69f))
+
 ### 0.3.17 (2022-10-25)
 
 ### 0.3.16 (2022-10-13)
