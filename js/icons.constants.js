@@ -699,6 +699,10 @@ export const ci16WarningCircleOutlined = {
     name: '16-warning-circle-outlined',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 9V4h1.5v5h-1.5ZM8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M.25 8a7.75 7.75 0 1 1 15.5 0A7.75 7.75 0 0 1 .25 8ZM8 1.75a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5Z"/></svg>`
 };
+export const ciA11YOutlined = {
+    name: 'a-11-y-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM7.272 9.818a.75.75 0 0 1 .91-.546l3.818.955 3.818-.955a.75.75 0 0 1 .364 1.456l-2.92.73a9.16 9.16 0 0 0 1.526 4.622l.336.504a.75.75 0 1 1-1.248.832l-.336-.504A10.652 10.652 0 0 1 12.53 15h-1.06a10.565 10.565 0 0 1-1.01 1.912l-.336.504a.75.75 0 1 1-1.248-.832l.336-.504a9.159 9.159 0 0 0 1.527-4.622l-2.92-.73a.75.75 0 0 1-.547-.91Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z"/></svg>`
+};
 export const ciAlertBoxOutlined = {
     name: 'alert-box-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v14c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 19V5A1.75 1.75 0 0 0 19 3.25H5ZM4.75 5A.25.25 0 0 1 5 4.75h14a.25.25 0 0 1 .25.25v14a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25V5ZM12 7.25a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75ZM13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>`
@@ -730,6 +734,22 @@ export const ciArrowRightOutlined = {
 export const ciArrowUpOutlined = {
     name: 'arrow-up-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 5.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 1 1-1.06 1.06l-3.72-3.72V18a.75.75 0 0 1-1.5 0V7.81l-3.72 3.72a.75.75 0 0 1-1.06-1.06l5-5Z"/></svg>`
+};
+export const ciBlockAlignCenterOutlined = {
+    name: 'block-align-center-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.25 5A.75.75 0 0 1 4 4.25h16a.75.75 0 0 1 0 1.5H4A.75.75 0 0 1 3.25 5Zm0 14a.75.75 0 0 1 .75-.75h16a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1-.75-.75Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M9 8.25a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h6a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75H9Zm.75 6v-4.5h4.5v4.5h-4.5Z"/></svg>`
+};
+export const ciBlockAlignLeftOutlined = {
+    name: 'block-align-left-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.25 5A.75.75 0 0 1 4 4.25h16a.75.75 0 0 1 0 1.5H4A.75.75 0 0 1 3.25 5Zm0 14a.75.75 0 0 1 .75-.75h16a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1-.75-.75Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M5 8.25a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h6a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75H5Zm.75 6v-4.5h4.5v4.5h-4.5Z"/></svg>`
+};
+export const ciBlockAlignRightOutlined = {
+    name: 'block-align-right-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.25 5A.75.75 0 0 1 4 4.25h16a.75.75 0 0 1 0 1.5H4A.75.75 0 0 1 3.25 5Zm0 14a.75.75 0 0 1 .75-.75h16a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1-.75-.75Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M13 8.25a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h6a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75h-6Zm.75 6v-4.5h4.5v4.5h-4.5Z"/></svg>`
+};
+export const ciBlockCaptionOutlined = {
+    name: 'block-caption-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 4.25A1.75 1.75 0 0 0 3.25 6v8c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 14V6A1.75 1.75 0 0 0 19 4.25H5ZM4.75 6A.25.25 0 0 1 5 5.75h14a.25.25 0 0 1 .25.25v8a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25V6ZM4 18.25a.75.75 0 0 0 0 1.5h12a.75.75 0 0 0 0-1.5H4Z"/></svg>`
 };
 export const ciBoldOutlined = {
     name: 'bold-outlined',
@@ -1339,6 +1359,7 @@ export const completeIconSet = [
     ci16PinOutlined,
     ci16TargetedOutlined,
     ci16WarningCircleOutlined,
+    ciA11YOutlined,
     ciAlertBoxOutlined,
     ciAlertCircleOutlined,
     ciAppleSafari,
@@ -1347,6 +1368,10 @@ export const completeIconSet = [
     ciArrowRedoOutlined,
     ciArrowRightOutlined,
     ciArrowUpOutlined,
+    ciBlockAlignCenterOutlined,
+    ciBlockAlignLeftOutlined,
+    ciBlockAlignRightOutlined,
+    ciBlockCaptionOutlined,
     ciBoldOutlined,
     ciBrushBracketsOutlined,
     ciCalendarPenOutlined,
