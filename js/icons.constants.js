@@ -975,6 +975,26 @@ export const ciSocialMediaOutlined = {
     name: 'social-media-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.25 6a3.75 3.75 0 1 1 1.042 2.594l-2.781 2.085a3.757 3.757 0 0 1-.001 2.641l2.782 2.086a3.75 3.75 0 1 1-.803 1.273l-2.78-2.085a3.75 3.75 0 1 1 0-5.187l2.78-2.086A3.741 3.741 0 0 1 12.25 6ZM16 3.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Zm0 12a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5ZM4.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0Z"/></svg>`
 };
+export const ciStatusAvailable = {
+    name: 'status-available',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle opacity=".15" cx="12" cy="12" r="8" fill="#008458"/><circle cx="12" cy="12" r="4" fill="#008458"/></svg>`
+};
+export const ciStatusAway = {
+    name: 'status-away',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5ZM5.25 12a6.75 6.75 0 1 1 13.5 0 6.75 6.75 0 0 1-13.5 0Z" fill="#697687"/></svg>`
+};
+export const ciStatusDnd = {
+    name: 'status-dnd',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 11.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5h-4Z" fill="#D9340D"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.25a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM6.75 12a5.25 5.25 0 1 1 10.5 0 5.25 5.25 0 0 1-10.5 0Z" fill="#D9340D"/></svg>`
+};
+export const ciStatusInvisible = {
+    name: 'status-invisible',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.684 5.378a6.78 6.78 0 0 1 2.633 0l-.292 1.472a5.278 5.278 0 0 0-2.05 0l-.291-1.472Zm5.067 1.01a6.783 6.783 0 0 1 1.862 1.861l-1.247.835a5.283 5.283 0 0 0-1.45-1.45l.835-1.247Zm-9.364 1.86A6.783 6.783 0 0 1 8.25 6.387l.835 1.247a5.283 5.283 0 0 0-1.45 1.45l-1.247-.835ZM5.25 12c0-.45.044-.89.128-1.316l1.472.29a5.278 5.278 0 0 0 0 2.051l-1.472.291A6.78 6.78 0 0 1 5.25 12Zm13.372-1.316a6.776 6.776 0 0 1 0 2.633l-1.472-.292a5.286 5.286 0 0 0 0-2.05l1.472-.291ZM8.249 17.613a6.783 6.783 0 0 1-1.862-1.862l1.247-.835a5.283 5.283 0 0 0 1.45 1.45l-.835 1.247Zm9.364-1.862a6.783 6.783 0 0 1-1.862 1.862l-.835-1.247a5.284 5.284 0 0 0 1.45-1.45l1.247.835ZM12 18.75c-.45 0-.89-.044-1.316-.128l.29-1.472a5.286 5.286 0 0 0 2.051 0l.291 1.472A6.776 6.776 0 0 1 12 18.75Z" fill="#697687"/></svg>`
+};
+export const ciStatusOoo = {
+    name: 'status-ooo',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.75 9a.75.75 0 0 0-1.5 0v3c0 .414.336.75.75.75h2a.75.75 0 0 0 0-1.5h-1.25V9Z" fill="#9F6100"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.25a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM6.75 12a5.25 5.25 0 1 1 10.5 0 5.25 5.25 0 0 1-10.5 0Z" fill="#9F6100"/></svg>`
+};
 export const ciStreamFilled = {
     name: 'stream-filled',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.375 3H16.5A4.5 4.5 0 0 1 21 7.5v10.125A3.375 3.375 0 0 1 17.625 21v-1.625c0-7.18-5.82-13-13-13H3A3.375 3.375 0 0 1 6.375 3Z"/><path d="M4 9.25a.75.75 0 0 0 0 1.5A9.25 9.25 0 0 1 13.25 20a.75.75 0 0 0 1.5 0C14.75 14.063 9.937 9.25 4 9.25Z"/><path d="M4 13.25a.75.75 0 0 0 0 1.5c2.9 0 5.25 2.35 5.25 5.25a.75.75 0 0 0 1.5 0A6.75 6.75 0 0 0 4 13.25Zm0 4a.75.75 0 0 0 0 1.5c.69 0 1.25.56 1.25 1.25a.75.75 0 0 0 1.5 0A2.75 2.75 0 0 0 4 17.25Z"/></svg>`
@@ -1428,6 +1448,11 @@ export const completeIconSet = [
     ciRedoOutlined,
     ciSlidersOutlined,
     ciSocialMediaOutlined,
+    ciStatusAvailable,
+    ciStatusAway,
+    ciStatusDnd,
+    ciStatusInvisible,
+    ciStatusOoo,
     ciStreamFilled,
     ciStreamOutlined,
     ciStrikethroughOutlined,
