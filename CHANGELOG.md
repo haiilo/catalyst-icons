@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.19 (2022-12-02)
+
+
+### Features
+
+* Added specific icons for availability status ([a3999fb](https://github.com/haiilo/catalyst-icons/commit/a3999fb3c58a737ba87e692a50430dc79775b5da))
+
 ### 0.3.18 (2022-11-29)
 
 
