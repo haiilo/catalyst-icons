@@ -735,6 +735,10 @@ export const ciArrowUpOutlined = {
     name: 'arrow-up-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 5.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 1 1-1.06 1.06l-3.72-3.72V18a.75.75 0 0 1-1.5 0V7.81l-3.72 3.72a.75.75 0 0 1-1.06-1.06l5-5Z"/></svg>`
 };
+export const ciBlank = {
+    name: 'blank',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"/>`
+};
 export const ciBlockAlignCenterOutlined = {
     name: 'block-align-center-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.25 5A.75.75 0 0 1 4 4.25h16a.75.75 0 0 1 0 1.5H4A.75.75 0 0 1 3.25 5Zm0 14a.75.75 0 0 1 .75-.75h16a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1-.75-.75Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M9 8.25a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h6a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75H9Zm.75 6v-4.5h4.5v4.5h-4.5Z"/></svg>`
@@ -1388,6 +1392,7 @@ export const completeIconSet = [
     ciArrowRedoOutlined,
     ciArrowRightOutlined,
     ciArrowUpOutlined,
+    ciBlank,
     ciBlockAlignCenterOutlined,
     ciBlockAlignLeftOutlined,
     ciBlockAlignRightOutlined,
