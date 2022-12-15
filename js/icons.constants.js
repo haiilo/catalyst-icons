@@ -671,6 +671,10 @@ export const ci16Flag = {
     name: '16-flag',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 3.293V8.57c.514-.184 1.057-.218 1.597-.16.962.106 1.98.513 2.876.872l.056.022c.965.386 1.8.714 2.537.794.587.064 1.046-.034 1.434-.394V4.253c-.603.188-1.223.203-1.825.123-.936-.124-1.894-.488-2.74-.81l-.138-.052c-.93-.353-1.713-.634-2.402-.68-.544-.036-.994.076-1.395.46Zm0 7.003c.388-.36.847-.458 1.434-.394.737.08 1.572.408 2.537.794l.056.022c.896.36 1.914.766 2.876.871 1.041.114 2.098-.119 2.923-1.109a.75.75 0 0 0 .174-.48V3a.75.75 0 0 0-1.23-.576c-.544.453-1.157.564-1.898.465-.758-.1-1.568-.408-2.472-.75l-.072-.028c-.883-.335-1.88-.71-2.833-.773C4.23 1.27 3.23 1.554 2.424 2.52A.75.75 0 0 0 2.25 3v11a.75.75 0 0 0 1.5 0v-3.704Z"/></svg>`
 };
+export const ci16InfoCircleOutlined = {
+    name: '16-info-circle-outlined',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 12V7h1.5v5h-1.5ZM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M.25 8a7.75 7.75 0 1 1 15.5 0A7.75 7.75 0 0 1 .25 8ZM8 1.75a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5Z"/></svg>`
+};
 export const ci16LinkLarge = {
     name: '16-link-large',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 1.25A1.75 1.75 0 0 0 1.25 3v10c0 .966.784 1.75 1.75 1.75h10A1.75 1.75 0 0 0 14.75 13V3A1.75 1.75 0 0 0 13 1.25H3ZM2.75 3A.25.25 0 0 1 3 2.75h10a.25.25 0 0 1 .25.25v5.25H2.75V3Zm0 6.75V13c0 .138.112.25.25.25h10a.25.25 0 0 0 .25-.25V9.75H2.75Z"/></svg>`
@@ -1384,6 +1388,7 @@ export const completeIconSet = [
     ci16EditorSettings,
     ci16ExternalLink,
     ci16Flag,
+    ci16InfoCircleOutlined,
     ci16LinkLarge,
     ci16LinkMedium,
     ci16LinkSmall,
