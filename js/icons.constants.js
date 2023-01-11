@@ -727,6 +727,10 @@ export const ciArrowLeftOutlined = {
     name: 'arrow-left-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.53 6.47a.75.75 0 0 1 0 1.06l-3.72 3.72H18a.75.75 0 0 1 0 1.5H7.81l3.72 3.72a.75.75 0 1 1-1.06 1.06l-5-5a.75.75 0 0 1 0-1.06l5-5a.75.75 0 0 1 1.06 0Z"/></svg>`
 };
+export const ciArrowPointingBoxOutlined = {
+    name: 'arrow-pointing-box-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 4.75c-.69 0-1.25.56-1.25 1.25v5a.75.75 0 0 1-1.5 0V6A2.75 2.75 0 0 1 6 3.25h12A2.75 2.75 0 0 1 20.75 6v12A2.75 2.75 0 0 1 18 20.75h-5a.75.75 0 0 1 0-1.5h5c.69 0 1.25-.56 1.25-1.25V6c0-.69-.56-1.25-1.25-1.25H6Z"/><path d="M8.25 10A.75.75 0 0 1 9 9.25h4c.966 0 1.75.784 1.75 1.75v4a.75.75 0 0 1-1.5 0v-3.19l-6.72 6.72a.75.75 0 0 1-1.06-1.06l6.72-6.72H9a.75.75 0 0 1-.75-.75Z"/></svg>`
+};
 export const ciArrowRedoOutlined = {
     name: 'arrow-redo-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.53 3.47a.75.75 0 1 0-1.06 1.06l2.72 2.72H10a5.75 5.75 0 1 0 0 11.5h2a.75.75 0 0 0 0-1.5h-2a4.25 4.25 0 0 1 0-8.5h7.19l-2.72 2.72a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4Z"/></svg>`
@@ -1406,6 +1410,7 @@ export const completeIconSet = [
     ciAppleSafari,
     ciArrowDownOutlined,
     ciArrowLeftOutlined,
+    ciArrowPointingBoxOutlined,
     ciArrowRedoOutlined,
     ciArrowRightOutlined,
     ciArrowUpOutlined,
