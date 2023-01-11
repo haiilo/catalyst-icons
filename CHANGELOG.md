@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.23 (2023-01-11)
+
+
+### Features
+
+* Added icon "arrow-pointing-box-outlined" ([20accc3](https://github.com/haiilo/catalyst-icons/commit/20accc3bfdca324fc5e01d7d2c6880ab0c307ef7))
+
 ### 0.3.22 (2023-01-11)
 
 
