@@ -109,6 +109,10 @@ They might well be outsourced to an external stylesheet of course.
 	.ci-chevron-left-outlined-dims { width: 24px; height: 24px; }
 	.ci-chevron-right-outlined-dims { width: 24px; height: 24px; }
 	.ci-chevron-up-outlined-dims { width: 24px; height: 24px; }
+	.ci-circle-filled-dims { width: 24px; height: 24px; }
+	.ci-circle-filled-s-dims { width: 24px; height: 24px; }
+	.ci-circle-outlined-dims { width: 24px; height: 24px; }
+	.ci-circle-outlined-s-dims { width: 24px; height: 24px; }
 	.ci-clock-filled-dims { width: 24px; height: 24px; }
 	.ci-clock-outlined-dims { width: 24px; height: 24px; }
 	.ci-comment-outlined-dims { width: 24px; height: 24px; }
@@ -438,6 +442,10 @@ for further details on how to create this embeddable sprite variant.
 		<symbol viewBox="0 0 24 24" id="chevron-left-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.53 6.47a.75.75 0 010 1.06L10.06 12l4.47 4.47a.75.75 0 11-1.06 1.06l-5-5a.75.75 0 010-1.06l5-5a.75.75 0 011.06 0z"/></symbol>
 		<symbol viewBox="0 0 24 24" id="chevron-right-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.47 6.47a.75.75 0 011.06 0l5 5a.75.75 0 010 1.06l-5 5a.75.75 0 11-1.06-1.06L13.94 12 9.47 7.53a.75.75 0 010-1.06z"/></symbol>
 		<symbol viewBox="0 0 24 24" id="chevron-up-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 8.47a.75.75 0 011.06 0l5 5a.75.75 0 11-1.06 1.06L12 10.06l-4.47 4.47a.75.75 0 01-1.06-1.06l5-5z"/></symbol>
+		<symbol viewBox="0 0 24 24" id="circle-filled" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"/></symbol>
+		<symbol viewBox="0 0 24 24" id="circle-filled-s" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="7"/></symbol>
+		<symbol viewBox="0 0 24 24" id="circle-outlined" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.75a8.25 8.25 0 100 16.5 8.25 8.25 0 000-16.5zM2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12z"/></symbol>
+		<symbol viewBox="0 0 24 24" id="circle-outlined-s" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="6" stroke="#000" stroke-width="1.5"/></symbol>
 		<symbol viewBox="0 0 24 24" id="clock-filled" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm1-15a1 1 0 10-2 0v5a1 1 0 001 1h5a1 1 0 100-2h-4V7z"/></symbol>
 		<symbol viewBox="0 0 24 24" id="clock-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M12.75 7a.75.75 0 00-1.5 0v5c0 .414.336.75.75.75h5a.75.75 0 000-1.5h-4.25V7z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0z"/></symbol>
 		<symbol viewBox="0 0 24 24" id="comment-outlined" xmlns="http://www.w3.org/2000/svg"><path d="M12 12a1 1 0 100-2 1 1 0 000 2zm5-1a1 1 0 11-2 0 1 1 0 012 0zm-9 1a1 1 0 100-2 1 1 0 000 2z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.25A1.75 1.75 0 002.25 5v11.999c0 .966.784 1.75 1.75 1.75h4.44c.07 0 .139.03.186.084l2.066 2.324a1.75 1.75 0 002.616 0l2.066-2.324a.25.25 0 01.187-.084H20a1.75 1.75 0 001.75-1.75V5A1.75 1.75 0 0020 3.25H4zM3.75 5A.25.25 0 014 4.75h16a.25.25 0 01.25.25v11.999a.25.25 0 01-.25.25h-4.44c-.499 0-.975.214-1.307.587l-2.066 2.325a.25.25 0 01-.374 0l-2.066-2.325a1.75 1.75 0 00-1.308-.587H4a.25.25 0 01-.25-.25V5z"/></symbol>
@@ -1673,6 +1681,50 @@ embedded above. They may be styled via CSS.
 
 					</div>
 					<h2>chevron-up-outlined</h2>
+				</li>
+				<li title="circle-filled">
+					<div class="icon-box">
+
+						<!-- circle-filled -->
+						<svg class="ci-circle-filled-dims">
+							<use xlink:href="#circle-filled"></use>
+						</svg>
+
+					</div>
+					<h2>circle-filled</h2>
+				</li>
+				<li title="circle-filled-s">
+					<div class="icon-box">
+
+						<!-- circle-filled-s -->
+						<svg class="ci-circle-filled-s-dims">
+							<use xlink:href="#circle-filled-s"></use>
+						</svg>
+
+					</div>
+					<h2>circle-filled-s</h2>
+				</li>
+				<li title="circle-outlined">
+					<div class="icon-box">
+
+						<!-- circle-outlined -->
+						<svg class="ci-circle-outlined-dims">
+							<use xlink:href="#circle-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>circle-outlined</h2>
+				</li>
+				<li title="circle-outlined-s">
+					<div class="icon-box">
+
+						<!-- circle-outlined-s -->
+						<svg class="ci-circle-outlined-s-dims">
+							<use xlink:href="#circle-outlined-s"></use>
+						</svg>
+
+					</div>
+					<h2>circle-outlined-s</h2>
 				</li>
 				<li title="clock-filled">
 					<div class="icon-box">
@@ -5072,6 +5124,50 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 					</div>
 					<h2>chevron-up-outlined</h2>
 				</li>
+				<li title="circle-filled">
+					<div class="icon-box">
+
+						<!-- circle-filled -->
+						<svg class="ci-circle-filled-dims">
+							<use xlink:href="svg/sprite.symbol.svg#circle-filled"></use>
+						</svg>
+
+					</div>
+					<h2>circle-filled</h2>
+				</li>
+				<li title="circle-filled-s">
+					<div class="icon-box">
+
+						<!-- circle-filled-s -->
+						<svg class="ci-circle-filled-s-dims">
+							<use xlink:href="svg/sprite.symbol.svg#circle-filled-s"></use>
+						</svg>
+
+					</div>
+					<h2>circle-filled-s</h2>
+				</li>
+				<li title="circle-outlined">
+					<div class="icon-box">
+
+						<!-- circle-outlined -->
+						<svg class="ci-circle-outlined-dims">
+							<use xlink:href="svg/sprite.symbol.svg#circle-outlined"></use>
+						</svg>
+
+					</div>
+					<h2>circle-outlined</h2>
+				</li>
+				<li title="circle-outlined-s">
+					<div class="icon-box">
+
+						<!-- circle-outlined-s -->
+						<svg class="ci-circle-outlined-s-dims">
+							<use xlink:href="svg/sprite.symbol.svg#circle-outlined-s"></use>
+						</svg>
+
+					</div>
+					<h2>circle-outlined-s</h2>
+				</li>
 				<li title="clock-filled">
 					<div class="icon-box">
 
@@ -7467,7 +7563,7 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 		</section>
 		<footer>
-			<p>Generated at Wed, 11 Jan 2023 14:39:46 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+			<p>Generated at Thu, 12 Jan 2023 15:51:52 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>

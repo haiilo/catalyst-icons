@@ -779,6 +779,22 @@ export const ciCalendarPenOutlined = {
     name: 'calendar-pen-outlined',
     data: `<svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg"><path d="M17 2.32a.75.75 0 0 1 .75.75v.25H18a2.75 2.75 0 0 1 2.75 2.75h-1.5c0-.69-.56-1.25-1.25-1.25H7a2.25 2.25 0 0 0-2.25 2.25v1.25H12a.75.75 0 0 1 0 1.5H4.75v8.25c0 .691.56 1.25 1.25 1.25v1.5a2.75 2.75 0 0 1-2.75-2.75v-11a3.751 3.751 0 0 1 3-3.674V3.07a.75.75 0 0 1 1.5 0v.25h8.5v-.25a.75.75 0 0 1 .75-.75Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16.993 8.247a1.75 1.75 0 0 1 2.475 0l1.355 1.355a1.75 1.75 0 0 1 0 2.475l-7.6 7.6a.75.75 0 0 1-.349.198l-3.692.923a.75.75 0 0 1-.91-.91l.923-3.692a.75.75 0 0 1 .198-.348l7.6-7.6Zm1.415 1.061a.25.25 0 0 0-.354 0l-1.378 1.378 1.709 1.709 1.377-1.378a.25.25 0 0 0 0-.354l-1.355-1.355Zm-1.084 4.147-1.709-1.708-5.015 5.015-.57 2.278 2.279-.57 5.015-5.015Z"/></svg>`
 };
+export const ciCircleFilledS = {
+    name: 'circle-filled-s',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="7"/></svg>`
+};
+export const ciCircleFilled = {
+    name: 'circle-filled',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"/></svg>`
+};
+export const ciCircleOutlinedS = {
+    name: 'circle-outlined-s',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="6" stroke="#000" stroke-width="1.5"/></svg>`
+};
+export const ciCircleOutlined = {
+    name: 'circle-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5ZM2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Z"/></svg>`
+};
 export const ciCommentOutlined = {
     name: 'comment-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.25A1.75 1.75 0 0 0 2.25 5v11.999c0 .966.784 1.75 1.75 1.75h4.44c.07 0 .139.03.186.084l2.066 2.324a1.75 1.75 0 0 0 2.616 0l2.066-2.324a.25.25 0 0 1 .187-.084H20a1.75 1.75 0 0 0 1.75-1.75V5A1.75 1.75 0 0 0 20 3.25H4ZM3.75 5A.25.25 0 0 1 4 4.75h16a.25.25 0 0 1 .25.25v11.999a.25.25 0 0 1-.25.25h-4.44c-.499 0-.975.214-1.307.587l-2.066 2.325a.25.25 0 0 1-.374 0l-2.066-2.325a1.75 1.75 0 0 0-1.308-.587H4a.25.25 0 0 1-.25-.25V5Z"/></svg>`
@@ -1423,6 +1439,10 @@ export const completeIconSet = [
     ciBoldOutlined,
     ciBrushBracketsOutlined,
     ciCalendarPenOutlined,
+    ciCircleFilledS,
+    ciCircleFilled,
+    ciCircleOutlinedS,
+    ciCircleOutlined,
     ciCommentOutlined,
     ciCompassOutlined,
     ciEyeClosedOutlined,
