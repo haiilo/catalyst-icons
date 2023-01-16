@@ -607,6 +607,14 @@ export const ci16CheckCircleOutlined = {
     name: '16-check-circle-outlined',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M11.547 6.513a.75.75 0 0 0-1.094-1.026l-3.25 3.467L5.497 7.44a.75.75 0 1 0-.996 1.122l2.25 2a.75.75 0 0 0 1.045-.048l3.75-4Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .25a7.75 7.75 0 1 0 0 15.5A7.75 7.75 0 0 0 8 .25ZM1.75 8a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0Z"/></svg>`
 };
+export const ci16CheckDouble = {
+    name: '16-check-double',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m10.143 4.386-2.226 3.71-.356-.357a1.494 1.494 0 0 0-.92-.432l2.216-3.693a.75.75 0 1 1 1.286.772ZM5.44 9.86l.886.888-.983 1.638a.75.75 0 0 1-1.173.144l-3.2-3.2a.75.75 0 0 1 1.06-1.06l2.521 2.52.698-1.162c.054.082.118.16.19.233Z"/><path d="M15.143 4.386a.75.75 0 1 0-1.286-.772L9.55 10.79 7.03 8.27a.75.75 0 0 0-1.06 1.06l3.2 3.2a.75.75 0 0 0 1.173-.144l4.8-8Z"/></svg>`
+};
+export const ci16Check = {
+    name: '16-check',
+    data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.386 3.357a.75.75 0 0 1 .257 1.029l-4.8 8a.75.75 0 0 1-1.173.144l-3.2-3.2a.75.75 0 0 1 1.06-1.06l2.521 2.52 4.306-7.176a.75.75 0 0 1 1.029-.257Z"/></svg>`
+};
 export const ci16ClockOutlined = {
     name: '16-clock-outlined',
     data: `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8.75 4a.75.75 0 0 0-1.5 0v4c0 .414.336.75.75.75h4a.75.75 0 0 0 0-1.5H8.75V4Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .25a7.75 7.75 0 1 0 0 15.5A7.75 7.75 0 0 0 8 .25ZM1.75 8a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0Z"/></svg>`
@@ -1400,6 +1408,8 @@ export const completeIconSet = [
     ciWriteOutlined,
     ci16CheckCircleFilled,
     ci16CheckCircleOutlined,
+    ci16CheckDouble,
+    ci16Check,
     ci16ClockOutlined,
     ci16Cross,
     ci16EditorArrowDown,
