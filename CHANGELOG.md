@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.27 (2023-02-02)
+
+
+### Features
+
+* Added "pen-writing", size 24x24 ([bcaf297](https://github.com/haiilo/catalyst-icons/commit/bcaf297922e1d59192c7e01fa4c95661a89816f6))
+
 ### 0.3.26 (2023-01-17)
 
 ### 0.3.25 (2023-01-16)
