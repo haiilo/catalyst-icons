@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.29 (2023-03-02)
+
+
+### Features
+
+* Added icon for AI feature set in ck editor ([e71230c](https://github.com/haiilo/catalyst-icons/commit/e71230cf261a4f1c7a22eb5e43db952bd526c2ca))
+
 ### 0.3.28 (2023-03-02)
 
 
