@@ -715,6 +715,14 @@ export const ciA11YOutlined = {
     name: 'a-11-y-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM7.272 9.818a.75.75 0 0 1 .91-.546l3.818.955 3.818-.955a.75.75 0 0 1 .364 1.456l-2.92.73a9.16 9.16 0 0 0 1.526 4.622l.336.504a.75.75 0 1 1-1.248.832l-.336-.504A10.652 10.652 0 0 1 12.53 15h-1.06a10.565 10.565 0 0 1-1.01 1.912l-.336.504a.75.75 0 1 1-1.248-.832l.336-.504a9.159 9.159 0 0 0 1.527-4.622l-2.92-.73a.75.75 0 0 1-.547-.91Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z"/></svg>`
 };
+export const ciAiFilled = {
+    name: 'ai-filled',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4Zm2.738 12.5h1.648l.54-1.658h2.625l.538 1.658h1.648L11.23 8.227H9.25L6.738 15.5Zm4.423-2.859-.893-2.752h-.057l-.895 2.752h1.845Zm4.99 2.859V8.227h-1.538V15.5h1.537Z"/></svg>`
+};
+export const ciAiOutlined = {
+    name: 'ai-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.738 15.5h1.648l.54-1.658h2.625l.538 1.658h1.648L11.23 8.227H9.25L6.738 15.5Zm4.423-2.859-.893-2.752h-.057l-.895 2.752h1.845Z"/><path d="M16.15 15.5V8.227h-1.537V15.5h1.537Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.25A2.75 2.75 0 0 0 1.25 6v12A2.75 2.75 0 0 0 4 20.75h16A2.75 2.75 0 0 0 22.75 18V6A2.75 2.75 0 0 0 20 3.25H4ZM2.75 6c0-.69.56-1.25 1.25-1.25h16c.69 0 1.25.56 1.25 1.25v12c0 .69-.56 1.25-1.25 1.25H4c-.69 0-1.25-.56-1.25-1.25V6Z"/></svg>`
+};
 export const ciAlertBoxOutlined = {
     name: 'alert-box-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v14c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 19V5A1.75 1.75 0 0 0 19 3.25H5ZM4.75 5A.25.25 0 0 1 5 4.75h14a.25.25 0 0 1 .25.25v14a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25V5ZM12 7.25a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75ZM13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>`
@@ -1439,6 +1447,8 @@ export const completeIconSet = [
     ci16TargetedOutlined,
     ci16WarningCircleOutlined,
     ciA11YOutlined,
+    ciAiFilled,
+    ciAiOutlined,
     ciAlertBoxOutlined,
     ciAlertCircleOutlined,
     ciAppleSafari,
