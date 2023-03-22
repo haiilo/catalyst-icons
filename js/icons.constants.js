@@ -935,6 +935,10 @@ export const ciListUnorderedOutlined = {
     name: 'list-unordered-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm4.25 1a.75.75 0 0 1 .75-.75h10a.75.75 0 0 1 0 1.5H10A.75.75 0 0 1 9.25 6Zm.75 5.25a.75.75 0 0 0 0 1.5h10a.75.75 0 0 0 0-1.5H10ZM9.25 18a.75.75 0 0 1 .75-.75h10a.75.75 0 0 1 0 1.5H10a.75.75 0 0 1-.75-.75ZM5 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm0 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"/></svg>`
 };
+export const ciLoopOutlined = {
+    name: 'loop-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.47 3.53a.75.75 0 0 1 1.06-1.06l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H6A2.25 2.25 0 0 0 3.75 9v6A2.25 2.25 0 0 0 6 17.25h1v1.5H6A3.75 3.75 0 0 1 2.25 15V9A3.75 3.75 0 0 1 6 5.25h5.19L9.47 3.53ZM18 5.25h-1v1.5h1A2.25 2.25 0 0 1 20.25 9v6A2.25 2.25 0 0 1 18 17.25h-5.19l1.72-1.72a.75.75 0 1 0-1.06-1.06l-3 3a.75.75 0 0 0 0 1.06l3 3a.75.75 0 1 0 1.06-1.06l-1.72-1.72H18A3.75 3.75 0 0 0 21.75 15V9A3.75 3.75 0 0 0 18 5.25Z"/></svg>`
+};
 export const ciMailOpenOutlined = {
     name: 'mail-open-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.416 1.376a.75.75 0 0 0-.832 0l-9 6A.75.75 0 0 0 2.25 8v9A2.75 2.75 0 0 0 5 19.75h14A2.75 2.75 0 0 0 21.75 17V8a.75.75 0 0 0-.334-.624l-9-6ZM3.75 9.275V17c0 .69.56 1.25 1.25 1.25h14c.69 0 1.25-.56 1.25-1.25V9.275l-7.886 4.38a.75.75 0 0 1-.728 0L3.75 9.276Zm15.81-1.333L12 2.902l-7.56 5.04 7.56 4.2 7.56-4.2Z"/></svg>`
@@ -1514,6 +1518,7 @@ export const completeIconSet = [
     ciLinkedin,
     ciListOrderedOutlined,
     ciListUnorderedOutlined,
+    ciLoopOutlined,
     ciMailOpenOutlined,
     ciMailOutlined,
     ciMenuLeftOutlined,
