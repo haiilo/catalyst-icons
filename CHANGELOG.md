@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.30 (2023-03-22)
+
+
+### Features
+
+* New icon "click" ([a30b581](https://github.com/haiilo/catalyst-icons/commit/a30b581e6ee9d9782873ca37d4503f74edb45a4a))
+
 ### 0.3.29 (2023-03-02)
 
 
