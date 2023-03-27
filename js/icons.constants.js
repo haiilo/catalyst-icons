@@ -1111,6 +1111,10 @@ export const ciUndoOutlined = {
     name: 'undo-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.53 4.53a.75.75 0 0 0-1.06-1.06l-4 4a.75.75 0 0 0 0 1.06l4 4a.75.75 0 0 0 1.06-1.06L6.81 8.75H14a4.25 4.25 0 0 1 0 8.5h-2a.75.75 0 0 0 0 1.5h2a5.75 5.75 0 0 0 0-11.5H6.81l2.72-2.72Z"/></svg>`
 };
+export const ciVideoOutlined = {
+    name: 'video-outlined',
+    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.757 9.454a.5.5 0 0 0-.757.43v4.233a.5.5 0 0 0 .757.429l3.528-2.117a.5.5 0 0 0 0-.858l-3.528-2.117Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M5 4.25A2.75 2.75 0 0 0 2.25 7v10A2.75 2.75 0 0 0 5 19.75h14A2.75 2.75 0 0 0 21.75 17V7A2.75 2.75 0 0 0 19 4.25H5ZM3.75 7c0-.69.56-1.25 1.25-1.25h14c.69 0 1.25.56 1.25 1.25v10c0 .69-.56 1.25-1.25 1.25H5c-.69 0-1.25-.56-1.25-1.25V7Z"/></svg>`
+};
 export const ciWAlertOutlined = {
     name: 'w-alert-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7.25a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75ZM13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v14c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 19V5A1.75 1.75 0 0 0 19 3.25H5ZM4.75 5A.25.25 0 0 1 5 4.75h14a.25.25 0 0 1 .25.25v14a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25V5Z"/></svg>`
@@ -1562,6 +1566,7 @@ export const completeIconSet = [
     ciTwitter,
     ciUnderlinedOutlined,
     ciUndoOutlined,
+    ciVideoOutlined,
     ciWAlertOutlined,
     ciWBirthdaysUpcomingOutlined,
     ciWBlogArticleNewOutlined,
