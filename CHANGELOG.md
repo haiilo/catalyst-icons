@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.32 (2023-03-30)
+
+
+### Features
+
+* New icon "calendar-cross" ([588b387](https://github.com/haiilo/catalyst-icons/commit/588b387b9edd67f09d90faab0d947b614c63dda8))
+
 ### 0.3.31 (2023-03-27)
 
 
