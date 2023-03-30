@@ -791,6 +791,10 @@ export const ciCalendarCheckOutlined = {
     name: 'calendar-check-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M17.75 3a.75.75 0 0 0-1.5 0v.25h-8.5V3a.75.75 0 0 0-1.5 0v.25H6A2.75 2.75 0 0 0 3.25 6v12A2.75 2.75 0 0 0 6 20.75h4a.75.75 0 0 0 0-1.5H6c-.69 0-1.25-.56-1.25-1.25V9.75h14.5V10a.75.75 0 0 0 1.5 0V6A2.75 2.75 0 0 0 18 3.25h-.25V3ZM6 4.75h12c.69 0 1.25.56 1.25 1.25v2.25H4.75V6c0-.69.56-1.25 1.25-1.25Z" clip-rule="evenodd"/><path fill="#000" d="M20.609 15.438a.75.75 0 1 0-1.218-.876l-3.13 4.347-1.78-1.485a.75.75 0 0 0-.961 1.152l2.4 2a.75.75 0 0 0 1.089-.138l3.6-5Z"/></svg>`
 };
+export const ciCalendarCrossOutlined = {
+    name: 'calendar-cross-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M17.75 3a.75.75 0 0 0-1.5 0v.25h-8.5V3a.75.75 0 0 0-1.5 0v.25H6A2.75 2.75 0 0 0 3.25 6v12A2.75 2.75 0 0 0 6 20.75h4a.75.75 0 0 0 0-1.5H6c-.69 0-1.25-.56-1.25-1.25V9.75h14.5V10a.75.75 0 0 0 1.5 0V6A2.75 2.75 0 0 0 18 3.25h-.25V3ZM6 4.75h12c.69 0 1.25.56 1.25 1.25v2.25H4.75V6c0-.69.56-1.25 1.25-1.25Z" clip-rule="evenodd"/><path fill="#000" d="M14.53 13.47a.75.75 0 1 0-1.06 1.06l1.97 1.97-1.97 1.97a.75.75 0 1 0 1.06 1.06l1.97-1.97 1.97 1.97a.75.75 0 1 0 1.06-1.06l-1.97-1.97 1.97-1.97a.75.75 0 1 0-1.06-1.06l-1.97 1.97-1.97-1.97Z"/></svg>`
+};
 export const ciCalendarOutlined = {
     name: 'calendar-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M17 2.25a.75.75 0 0 1 .75.75v.25H18A2.75 2.75 0 0 1 20.75 6v12A2.75 2.75 0 0 1 18 20.75H6A2.75 2.75 0 0 1 3.25 18V6A2.75 2.75 0 0 1 6 3.25h.25V3a.75.75 0 0 1 1.5 0v.25h8.5V3a.75.75 0 0 1 .75-.75ZM6 4.75c-.69 0-1.25.56-1.25 1.25v2.25h14.5V6c0-.69-.56-1.25-1.25-1.25H6Zm-1.25 5V18c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25V9.75H4.75Z" clip-rule="evenodd"/></svg>`
@@ -1494,6 +1498,7 @@ export const completeIconSet = [
     ciBoldOutlined,
     ciBrushBracketsOutlined,
     ciCalendarCheckOutlined,
+    ciCalendarCrossOutlined,
     ciCalendarOutlined,
     ciCalendarPenOutlined,
     ciCheckDoubleOutlined,
