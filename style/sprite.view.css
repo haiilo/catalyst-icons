@@ -2,8 +2,26 @@
 	background: url("../svg/sprite.view.svg") no-repeat;
 }
 
-.ci-16-check {
+.ci-16-bell {
 	background-position: 98.21428571428571% 27.272727272727273%;
+}
+
+.ci-16-bell-size {
+	width: 16px;
+	height: 16px;
+}
+
+.ci-16-bell-strikethrough {
+	background-position: 98.21428571428571% 30.90909090909091%;
+}
+
+.ci-16-bell-strikethrough-size {
+	width: 16px;
+	height: 16px;
+}
+
+.ci-16-check {
+	background-position: 98.21428571428571% 34.54545454545455%;
 }
 
 .ci-16-check-size {
@@ -12,7 +30,7 @@
 }
 
 .ci-16-check-circle-filled {
-	background-position: 98.21428571428571% 30.90909090909091%;
+	background-position: 98.21428571428571% 38.18181818181818%;
 }
 
 .ci-16-check-circle-filled-size {
@@ -21,7 +39,7 @@
 }
 
 .ci-16-check-circle-outlined {
-	background-position: 98.21428571428571% 34.54545454545455%;
+	background-position: 98.21428571428571% 41.81818181818182%;
 }
 
 .ci-16-check-circle-outlined-size {
@@ -30,7 +48,7 @@
 }
 
 .ci-16-check-double {
-	background-position: 98.21428571428571% 38.18181818181818%;
+	background-position: 98.21428571428571% 45.45454545454545%;
 }
 
 .ci-16-check-double-size {
@@ -39,7 +57,7 @@
 }
 
 .ci-16-chevron-down {
-	background-position: 98.21428571428571% 41.81818181818182%;
+	background-position: 98.21428571428571% 49.09090909090909%;
 }
 
 .ci-16-chevron-down-size {
@@ -48,7 +66,7 @@
 }
 
 .ci-16-chevron-left {
-	background-position: 98.21428571428571% 45.45454545454545%;
+	background-position: 98.21428571428571% 52.72727272727273%;
 }
 
 .ci-16-chevron-left-size {
@@ -57,7 +75,7 @@
 }
 
 .ci-16-chevron-right {
-	background-position: 98.21428571428571% 49.09090909090909%;
+	background-position: 98.21428571428571% 56.36363636363637%;
 }
 
 .ci-16-chevron-right-size {
@@ -66,7 +84,7 @@
 }
 
 .ci-16-chevron-up {
-	background-position: 98.21428571428571% 52.72727272727273%;
+	background-position: 98.21428571428571% 60%;
 }
 
 .ci-16-chevron-up-size {
@@ -75,7 +93,7 @@
 }
 
 .ci-16-clock-outlined {
-	background-position: 98.21428571428571% 56.36363636363637%;
+	background-position: 98.21428571428571% 63.63636363636363%;
 }
 
 .ci-16-clock-outlined-size {
@@ -84,7 +102,7 @@
 }
 
 .ci-16-cross {
-	background-position: 98.21428571428571% 60%;
+	background-position: 98.21428571428571% 67.27272727272727%;
 }
 
 .ci-16-cross-size {
@@ -93,7 +111,7 @@
 }
 
 .ci-16-editor-arrow-down {
-	background-position: 98.21428571428571% 63.63636363636363%;
+	background-position: 98.21428571428571% 70.9090909090909%;
 }
 
 .ci-16-editor-arrow-down-size {
@@ -102,7 +120,7 @@
 }
 
 .ci-16-editor-arrow-up {
-	background-position: 98.21428571428571% 67.27272727272727%;
+	background-position: 98.21428571428571% 74.54545454545455%;
 }
 
 .ci-16-editor-arrow-up-size {
@@ -111,7 +129,7 @@
 }
 
 .ci-16-editor-bold {
-	background-position: 98.21428571428571% 70.9090909090909%;
+	background-position: 98.21428571428571% 78.18181818181819%;
 }
 
 .ci-16-editor-bold-size {
@@ -120,7 +138,7 @@
 }
 
 .ci-16-editor-delete {
-	background-position: 98.21428571428571% 74.54545454545455%;
+	background-position: 98.21428571428571% 81.81818181818181%;
 }
 
 .ci-16-editor-delete-size {
@@ -129,7 +147,7 @@
 }
 
 .ci-16-editor-h-1 {
-	background-position: 98.21428571428571% 78.18181818181819%;
+	background-position: 98.21428571428571% 85.45454545454545%;
 }
 
 .ci-16-editor-h-1-size {
@@ -138,7 +156,7 @@
 }
 
 .ci-16-editor-h-2 {
-	background-position: 98.21428571428571% 81.81818181818181%;
+	background-position: 98.21428571428571% 89.0909090909091%;
 }
 
 .ci-16-editor-h-2-size {
@@ -147,7 +165,7 @@
 }
 
 .ci-16-editor-h-3 {
-	background-position: 98.21428571428571% 85.45454545454545%;
+	background-position: 98.21428571428571% 92.72727272727273%;
 }
 
 .ci-16-editor-h-3-size {
@@ -156,7 +174,7 @@
 }
 
 .ci-16-editor-h-4 {
-	background-position: 98.21428571428571% 89.0909090909091%;
+	background-position: 98.21428571428571% 96.36363636363636%;
 }
 
 .ci-16-editor-h-4-size {
@@ -165,7 +183,7 @@
 }
 
 .ci-16-editor-h-5 {
-	background-position: 98.21428571428571% 92.72727272727273%;
+	background-position: 22.321428571428573% 41.81818181818182%;
 }
 
 .ci-16-editor-h-5-size {
@@ -174,7 +192,7 @@
 }
 
 .ci-16-editor-h-6 {
-	background-position: 98.21428571428571% 96.36363636363636%;
+	background-position: 25.892857142857142% 41.81818181818182%;
 }
 
 .ci-16-editor-h-6-size {
@@ -183,7 +201,7 @@
 }
 
 .ci-16-editor-headline {
-	background-position: 22.321428571428573% 41.81818181818182%;
+	background-position: 29.464285714285715% 41.81818181818182%;
 }
 
 .ci-16-editor-headline-size {
@@ -192,7 +210,7 @@
 }
 
 .ci-16-editor-image {
-	background-position: 25.892857142857142% 41.81818181818182%;
+	background-position: 33.035714285714285% 41.81818181818182%;
 }
 
 .ci-16-editor-image-size {
@@ -201,7 +219,7 @@
 }
 
 .ci-16-editor-indent-decrease {
-	background-position: 29.464285714285715% 41.81818181818182%;
+	background-position: 36.607142857142854% 41.81818181818182%;
 }
 
 .ci-16-editor-indent-decrease-size {
@@ -210,7 +228,7 @@
 }
 
 .ci-16-editor-indent-increase {
-	background-position: 33.035714285714285% 41.81818181818182%;
+	background-position: 40.17857142857143% 41.81818181818182%;
 }
 
 .ci-16-editor-indent-increase-size {
@@ -219,7 +237,7 @@
 }
 
 .ci-16-editor-italic {
-	background-position: 36.607142857142854% 41.81818181818182%;
+	background-position: 0 100%;
 }
 
 .ci-16-editor-italic-size {
@@ -228,7 +246,7 @@
 }
 
 .ci-16-editor-link {
-	background-position: 40.17857142857143% 41.81818181818182%;
+	background-position: 3.5714285714285716% 100%;
 }
 
 .ci-16-editor-link-size {
@@ -237,7 +255,7 @@
 }
 
 .ci-16-editor-link-break {
-	background-position: 0 100%;
+	background-position: 7.142857142857143% 100%;
 }
 
 .ci-16-editor-link-break-size {
@@ -246,7 +264,7 @@
 }
 
 .ci-16-editor-ol {
-	background-position: 3.5714285714285716% 100%;
+	background-position: 10.714285714285714% 100%;
 }
 
 .ci-16-editor-ol-size {
@@ -255,7 +273,7 @@
 }
 
 .ci-16-editor-paragraph {
-	background-position: 7.142857142857143% 100%;
+	background-position: 14.285714285714286% 100%;
 }
 
 .ci-16-editor-paragraph-size {
@@ -264,7 +282,7 @@
 }
 
 .ci-16-editor-plus {
-	background-position: 10.714285714285714% 100%;
+	background-position: 17.857142857142858% 100%;
 }
 
 .ci-16-editor-plus-size {
@@ -273,7 +291,7 @@
 }
 
 .ci-16-editor-search {
-	background-position: 14.285714285714286% 100%;
+	background-position: 21.428571428571427% 100%;
 }
 
 .ci-16-editor-search-size {
@@ -282,7 +300,7 @@
 }
 
 .ci-16-editor-settings {
-	background-position: 17.857142857142858% 100%;
+	background-position: 25% 100%;
 }
 
 .ci-16-editor-settings-size {
@@ -291,7 +309,7 @@
 }
 
 .ci-16-editor-ul {
-	background-position: 21.428571428571427% 100%;
+	background-position: 28.571428571428573% 100%;
 }
 
 .ci-16-editor-ul-size {
@@ -300,7 +318,7 @@
 }
 
 .ci-16-external-link {
-	background-position: 25% 100%;
+	background-position: 32.142857142857146% 100%;
 }
 
 .ci-16-external-link-size {
@@ -309,7 +327,7 @@
 }
 
 .ci-16-flag {
-	background-position: 28.571428571428573% 100%;
+	background-position: 35.714285714285715% 100%;
 }
 
 .ci-16-flag-size {
@@ -318,7 +336,7 @@
 }
 
 .ci-16-flash-circle-outlined {
-	background-position: 32.142857142857146% 100%;
+	background-position: 39.285714285714285% 100%;
 }
 
 .ci-16-flash-circle-outlined-size {
@@ -327,7 +345,7 @@
 }
 
 .ci-16-info-circle-outlined {
-	background-position: 35.714285714285715% 100%;
+	background-position: 42.857142857142854% 100%;
 }
 
 .ci-16-info-circle-outlined-size {
@@ -336,7 +354,7 @@
 }
 
 .ci-16-link-large {
-	background-position: 39.285714285714285% 100%;
+	background-position: 46.42857142857143% 100%;
 }
 
 .ci-16-link-large-size {
@@ -345,7 +363,7 @@
 }
 
 .ci-16-link-medium {
-	background-position: 42.857142857142854% 100%;
+	background-position: 50% 100%;
 }
 
 .ci-16-link-medium-size {
@@ -354,7 +372,7 @@
 }
 
 .ci-16-link-small {
-	background-position: 46.42857142857143% 100%;
+	background-position: 53.57142857142857% 100%;
 }
 
 .ci-16-link-small-size {
@@ -363,7 +381,7 @@
 }
 
 .ci-16-lock-outlined {
-	background-position: 50% 100%;
+	background-position: 57.142857142857146% 100%;
 }
 
 .ci-16-lock-outlined-size {
@@ -372,7 +390,7 @@
 }
 
 .ci-16-pen-outlined {
-	background-position: 53.57142857142857% 100%;
+	background-position: 60.714285714285715% 100%;
 }
 
 .ci-16-pen-outlined-size {
@@ -381,7 +399,7 @@
 }
 
 .ci-16-pin-outlined {
-	background-position: 57.142857142857146% 100%;
+	background-position: 64.28571428571429% 100%;
 }
 
 .ci-16-pin-outlined-size {
@@ -390,7 +408,7 @@
 }
 
 .ci-16-targeted-outlined {
-	background-position: 60.714285714285715% 100%;
+	background-position: 67.85714285714286% 100%;
 }
 
 .ci-16-targeted-outlined-size {
@@ -399,7 +417,7 @@
 }
 
 .ci-16-thumbs-up-outlined {
-	background-position: 64.28571428571429% 100%;
+	background-position: 71.42857142857143% 100%;
 }
 
 .ci-16-thumbs-up-outlined-size {
@@ -408,7 +426,7 @@
 }
 
 .ci-16-translate-box-outlined {
-	background-position: 67.85714285714286% 100%;
+	background-position: 75% 100%;
 }
 
 .ci-16-translate-box-outlined-size {
@@ -417,7 +435,7 @@
 }
 
 .ci-16-warning-circle-outlined {
-	background-position: 71.42857142857143% 100%;
+	background-position: 78.57142857142857% 100%;
 }
 
 .ci-16-warning-circle-outlined-size {
