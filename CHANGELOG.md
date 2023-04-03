@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.3.33 (2023-04-03)
+
+
+### Features
+
+* Added new icon for size 16 ([507705c](https://github.com/haiilo/catalyst-icons/commit/507705c6a1fbd16fb6dcf4659c5b52632e944457))
+
 ### 0.3.32 (2023-03-30)
 
 
