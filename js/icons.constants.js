@@ -747,6 +747,14 @@ export const ciAppleSafari = {
     name: 'apple-safari',
     data: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.815 11.807a9.79 9.79 0 0 1-9.79 9.789c-5.405 0-9.788-4.383-9.788-9.79 0-5.406 4.383-9.788 9.789-9.788a9.79 9.79 0 0 1 9.789 9.789Z" fill="#E4E3E3"/><path d="M21.048 11.807a9.022 9.022 0 1 1-18.044 0 9.022 9.022 0 0 1 18.044 0Z" fill="#0BA2E2"/><path clip-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" stroke="#fff" stroke-width=".75" stroke-linecap="round" stroke-dasharray="1 2.3"/><path d="m18.191 6.545-7.196 4.182 2.106 2.233 5.09-6.415Z" fill="#CF1D13"/><path d="M10.995 10.727 6.444 17.89l6.657-4.93-2.106-2.233Z" fill="#F1F1F1"/></svg>`
 };
+export const ciArchiveFilled = {
+    name: 'archive-filled',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" d="M3 4.25a.75.75 0 0 0-.75.75v2c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V5a.75.75 0 0 0-.75-.75H3Z"/><path fill="#000" fill-rule="evenodd" d="M3.25 9.25h17.5V18A1.75 1.75 0 0 1 19 19.75H5A1.75 1.75 0 0 1 3.25 18V9.25Zm6 3.75a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>`
+};
+export const ciArchiveOutlined = {
+    name: 'archive-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" d="M10 12.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5h-4Z"/><path fill="#000" fill-rule="evenodd" d="M2.25 5A.75.75 0 0 1 3 4.25h18a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75h-.25V18A1.75 1.75 0 0 1 19 19.75H5A1.75 1.75 0 0 1 3.25 18V9.75H3A.75.75 0 0 1 2.25 9V5Zm2.5 4.75h14.5V18a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25V9.75Zm15.5-4v2.5H3.75v-2.5h16.5Z" clip-rule="evenodd"/></svg>`
+};
 export const ciArmeniaCircle = {
     name: 'armenia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="#1A47B8" d="M23.333 2H.667A2.667 2.667 0 0 0-2 4.667v14.666A2.667 2.667 0 0 0 .667 22h22.666A2.667 2.667 0 0 0 26 19.333V4.667A2.667 2.667 0 0 0 23.333 2Z"/><path fill="#FFDA2C" fill-rule="evenodd" d="M2 15.333h28V22H2v-6.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 2h28v6.667H2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
@@ -1635,6 +1643,8 @@ export const completeIconSet = [
     ciAlertBoxOutlined,
     ciAlertCircleOutlined,
     ciAppleSafari,
+    ciArchiveFilled,
+    ciArchiveOutlined,
     ciArmeniaCircle,
     ciArrowDownOutlined,
     ciArrowLeftOutlined,
