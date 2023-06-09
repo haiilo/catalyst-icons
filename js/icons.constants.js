@@ -749,7 +749,7 @@ export const ciAppleSafari = {
 };
 export const ciArchiveFilled = {
     name: 'archive-filled',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" d="M3 4.25a.75.75 0 0 0-.75.75v2c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V5a.75.75 0 0 0-.75-.75H3Z"/><path fill="#000" fill-rule="evenodd" d="M3.25 9.25h17.5V18A1.75 1.75 0 0 1 19 19.75H5A1.75 1.75 0 0 1 3.25 18V9.25Zm6 3.75a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>`
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 4.25a.75.75 0 0 0-.75.75v2c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V5a.75.75 0 0 0-.75-.75H3Z"/><path fill-rule="evenodd" d="M3.25 9.25h17.5V18A1.75 1.75 0 0 1 19 19.75H5A1.75 1.75 0 0 1 3.25 18V9.25Zm6 3.75a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>`
 };
 export const ciArchiveOutlined = {
     name: 'archive-outlined',
