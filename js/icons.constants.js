@@ -1191,6 +1191,10 @@ export const ciSocialMediaOutlined = {
     name: 'social-media-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.25 6a3.75 3.75 0 1 1 1.042 2.594l-2.781 2.085a3.757 3.757 0 0 1-.001 2.641l2.782 2.086a3.75 3.75 0 1 1-.803 1.273l-2.78-2.085a3.75 3.75 0 1 1 0-5.187l2.78-2.086A3.741 3.741 0 0 1 12.25 6ZM16 3.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Zm0 12a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5ZM4.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0Z"/></svg>`
 };
+export const ciSortingOutlined = {
+    name: 'sorting-outlined',
+    data: `<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.28 4.22a.75.75 0 0 0-1.06 0l-5 5a.75.75 0 1 0 1.06 1.06L7 6.56v10.19a.75.75 0 0 0 1.5 0V6.56l3.72 3.72a.75.75 0 1 0 1.06-1.06l-5-5Z" fill="#000"/><path d="M16.5 7.75a.75.75 0 0 0-1.5 0v10.19l-3.72-3.72a.75.75 0 1 0-1.06 1.06l5 5a.75.75 0 0 0 1.06 0l5-5a.75.75 0 1 0-1.06-1.06l-3.72 3.72V7.75Z" fill="#000"/></svg>`
+};
 export const ciSouthKoreaCircle = {
     name: 'south-korea-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="21" height="21" x="1.5" y="1.5" fill="#fff" rx="10.5"/><path fill="#232C80" fill-rule="evenodd" d="M16.667 12a4.667 4.667 0 1 1-9.334 0c0-1.493 3.134-2.12 5.771-1.884.28-.075.581-.116.896-.116 1.473 0 2.667.896 2.667 2Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M11.333 11.333S12.527 10 14 10c1.473 0 2.667.896 2.667 2a4.667 4.667 0 0 0-8.886-1.997c-.448 1.33-.448 1.72-.448 1.997.667.667 1.408.667 2 .667.592 0 1.124-.258 1.491-.667l.51-.667Z" clip-rule="evenodd"/><path fill="#151515" fill-rule="evenodd" d="M18 8.667h2.667L18 6h-1.333L18 8.667Zm-12 0H3.333L6 6h1.333L6 8.667Zm12 6.666h2.667L18 18h-1.333L18 15.333Zm-12 0H3.333L6 18h1.333L6 15.333Z" clip-rule="evenodd"/><rect width="21" height="21" x="1.5" y="1.5" stroke="#EBECF0" rx="10.5"/></svg>`
@@ -1758,6 +1762,7 @@ export const completeIconSet = [
     ciSlovakiaCircle,
     ciSloveniaCircle,
     ciSocialMediaOutlined,
+    ciSortingOutlined,
     ciSouthKoreaCircle,
     ciSpainCircle,
     ciStatusAvailable,
