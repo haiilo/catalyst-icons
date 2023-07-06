@@ -735,6 +735,10 @@ export const ciAlbaniaCircle = {
     name: 'albania-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#F93939" d="M23.333 2H.667A2.667 2.667 0 0 0-2 4.667v14.666A2.667 2.667 0 0 0 .667 22h22.666A2.667 2.667 0 0 0 26 19.333V4.667A2.667 2.667 0 0 0 23.333 2Z"/><path fill="#151515" fill-rule="evenodd" d="m12 8.1-1.671-1.114-1.114 1.115h1.114L9.215 9.215 6.986 8.1v5.57l3.343-1.114-1.114 2.228H8.1L9.215 15.9l1.114-1.114L12 17.014V8.1Zm1.671-1.114 1.114 1.115h-1.114l1.114 1.114L17.014 8.1v5.57l-3.343-1.114 1.114 2.228H15.9L14.785 15.9l-1.114-1.114L12 17.014V8.1l1.671-1.115Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciAlbania = {
+    name: 'albania',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#F93939" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5Z"/><path fill="#151515" fill-rule="evenodd" d="M12 8.733 10.571 7.8l-.952.933h.952l-.952.934-1.905-.934V13.4l2.857-.933-.952 1.866h-.952l.952.934.952-.934L12 16.2V8.733Zm1.429-.933.952.933h-.952l.952.934 1.905-.934V13.4l-2.857-.933.952 1.866h.952l-.952.934-.952-.934L12 16.2V8.733l1.429-.933Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciAlertBoxOutlined = {
     name: 'alert-box-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v14c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 19V5A1.75 1.75 0 0 0 19 3.25H5ZM4.75 5A.25.25 0 0 1 5 4.75h14a.25.25 0 0 1 .25.25v14a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25V5ZM12 7.25a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75ZM13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>`
@@ -758,6 +762,10 @@ export const ciArchiveOutlined = {
 export const ciArmeniaCircle = {
     name: 'armenia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="#1A47B8" d="M23.333 2H.667A2.667 2.667 0 0 0-2 4.667v14.666A2.667 2.667 0 0 0 .667 22h22.666A2.667 2.667 0 0 0 26 19.333V4.667A2.667 2.667 0 0 0 23.333 2Z"/><path fill="#FFDA2C" fill-rule="evenodd" d="M2 15.333h28V22H2v-6.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 2h28v6.667H2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciArmenia = {
+    name: 'armenia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="#1A47B8" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5Z"/><path fill="#FFDA2C" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 5h20v4.667H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciArrowDownOutlined = {
     name: 'arrow-down-outlined',
@@ -819,6 +827,10 @@ export const ciBulgariaCircle = {
     name: 'bulgaria-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="#249F58" d="M27.333 2H4.667A2.667 2.667 0 0 0 2 4.667v14.666A2.667 2.667 0 0 0 4.667 22h22.666A2.667 2.667 0 0 0 30 19.333V4.667A2.667 2.667 0 0 0 27.333 2Z"/><path fill="#F93939" fill-rule="evenodd" d="M2 15.333h28V22H2v-6.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 2h28v6.667H2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciBulgaria = {
+    name: 'bulgaria',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="#249F58" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5Z"/><path fill="#F93939" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v4.667H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciCalendarCheckOutlined = {
     name: 'calendar-check-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M17.75 3a.75.75 0 0 0-1.5 0v.25h-8.5V3a.75.75 0 0 0-1.5 0v.25H6A2.75 2.75 0 0 0 3.25 6v12A2.75 2.75 0 0 0 6 20.75h4a.75.75 0 0 0 0-1.5H6c-.69 0-1.25-.56-1.25-1.25V9.75h14.5V10a.75.75 0 0 0 1.5 0V6A2.75 2.75 0 0 0 18 3.25h-.25V3ZM6 4.75h12c.69 0 1.25.56 1.25 1.25v2.25H4.75V6c0-.69.56-1.25 1.25-1.25Z" clip-rule="evenodd"/><path fill="#000" d="M20.609 15.438a.75.75 0 1 0-1.218-.876l-3.13 4.347-1.78-1.485a.75.75 0 0 0-.961 1.152l2.4 2a.75.75 0 0 0 1.089-.138l3.6-5Z"/></svg>`
@@ -842,6 +854,10 @@ export const ciCheckDoubleOutlined = {
 export const ciChinaCircle = {
     name: 'china-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#F93939" d="M27.333 2H4.667A2.667 2.667 0 0 0 2 4.667v14.666A2.667 2.667 0 0 0 4.667 22h22.666A2.667 2.667 0 0 0 30 19.333V4.667A2.667 2.667 0 0 0 27.333 2Z"/><path fill="#FFDA2C" fill-rule="evenodd" d="m9.33 11.64-1.96 1.03.374-2.182L6.16 8.941l2.19-.316.98-1.986.98 1.986 2.19.316-1.586 1.547.376 2.181-1.96-1.029ZM14 6h1.334v1.333H14V6Zm1.334 2.667h1.333V10h-1.334V8.667Zm0 2.666h1.333v1.334h-1.334v-1.334ZM14 14h1.334v1.333H14V14Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciChina = {
+    name: 'china',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#F93939" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5Z"/><path fill="#FFDA2C" fill-rule="evenodd" d="m7.236 11.748-1.4.722.267-1.528-1.131-1.083 1.564-.221.7-1.39.7 1.39 1.564.22-1.133 1.084.268 1.527-1.399-.721ZM10.572 7.8h.952v.933h-.952V7.8Zm.952 1.867h.952v.933h-.952v-.933Zm0 1.866h.952v.934h-.952v-.934Zm-.952 1.867h.952v.933h-.952V13.4Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciCircleFilledS = {
     name: 'circle-filled-s',
@@ -875,17 +891,33 @@ export const ciCroatiaCircle = {
     name: 'croatia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#1A47B8" fill-rule="evenodd" d="M-2 15.333h28V22H-2v-6.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M-2 2h28v6.667H-2V2Z" clip-rule="evenodd"/><path fill="#3A99FF" fill-rule="evenodd" d="M8.667 7.333H10v1.334H8.667V7.333ZM11.333 6h1.334v2.667h-1.334V6ZM14 7.333h1.333v1.334H14V7.333Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M12.667 6H14v2.667h-1.333V6ZM10 6h1.333v2.667H10V6Z" clip-rule="evenodd"/><mask id="b" width="8" height="9" x="8" y="8" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#fff" d="M15.333 13.333A3.335 3.335 0 0 1 12 16.667a3.335 3.335 0 0 1-3.333-3.334V8.667h6.666v4.666Z"/></mask><g mask="url(#b)"><path fill="#F93939" d="M15.333 13.333A3.335 3.335 0 0 1 12 16.667a3.335 3.335 0 0 1-3.333-3.334V8.667h6.666v4.666Z"/><path fill="#fff" fill-rule="evenodd" d="M10 15.333h1.333v1.334H10v-1.334Zm2.667 0H14v1.334h-1.333v-1.334ZM11.333 14h1.334v1.333h-1.334V14ZM10 12.667h1.333V14H10v-1.333Zm2.667 0H14V14h-1.333v-1.333Zm-1.334-1.334h1.334v1.334h-1.334v-1.334ZM10 10h1.333v1.333H10V10Zm2.667 0H14v1.333h-1.333V10Zm-1.334-1.333h1.334V10h-1.334V8.667Zm2.667 0h1.333V10H14V8.667Zm0 2.666h1.333v1.334H14v-1.334ZM14 14h1.333v1.333H14V14Zm-5.333 0H10v1.333H8.667V14Zm0-2.667H10v1.334H8.667v-1.334Zm0-2.666H10V10H8.667V8.667Z" clip-rule="evenodd"/></g></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciCroatia = {
+    name: 'croatia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="21" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M2 5h21v4.667H2V5Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M2 14.333h21V19H2v-4.667Z" clip-rule="evenodd"/><mask id="b" width="5" height="8" x="10" y="8" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#fff" d="M15 12.239c0 1.671-1.12 3.028-2.5 3.028S10 13.91 10 12.239V8h5v4.239Z"/></mask><g mask="url(#b)"><path fill="#F93939" d="M15 12.933c0 1.288-1.12 2.334-2.5 2.334S10 14.22 10 12.933V9.667h5v3.266Z"/><path fill="#fff" fill-rule="evenodd" d="M11 14.333h1v.934h-1v-.934Zm2 0h1v.934h-1v-.934Zm-1-.933h1v.933h-1V13.4Zm-1-.933h1v.933h-1v-.933Zm2 0h1v.933h-1v-.933Zm-1-.934h1v.934h-1v-.934Zm-1-.933h1v.933h-1V10.6Zm2 0h1v.933h-1V10.6Zm-1-.933h1v.933h-1v-.933Zm2 0h1v.933h-1v-.933Zm0 1.866h1v.934h-1v-.934Zm0 1.867h1v.933h-1V13.4Zm-4 0h1v.933h-1V13.4Zm0-1.867h1v.934h-1v-.934Zm0-1.866h1v.933h-1v-.933Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 5h21v4.667H2V5Z" clip-rule="evenodd"/><path fill="#3A99FF" fill-rule="evenodd" d="M10 8.733h1v.934h-1v-.934Zm2-.933h1v1.867h-1V7.8Zm2 .933h1v.934h-1v-.934Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M13 7.8h1v1.867h-1V7.8Zm-2 0h1v1.867h-1V7.8Z" clip-rule="evenodd"/></g></g><defs><clipPath id="a"><rect width="21" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciCzechRepublicCircle = {
     name: 'czech-republic-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M2 2h28v9.333H2V2Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="m2 2 13.333 10L2 22V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciCzechRepublic = {
+    name: 'czech-republic',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v6.533H2V5Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="m2 5 9.524 7L2 19V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciDenmarkCircle = {
     name: 'denmark-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M10 14H2v-4h8V2h4v8h16v4H14v8h-4v-8Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciDenmark = {
+    name: 'denmark',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M7.714 13.4H2v-2.8h5.714V5h2.857v5.6H22v2.8H10.571V19H7.714v-5.6Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciEstoniaCircle = {
     name: 'estonia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="#151515" d="M23.333 2H.667A2.667 2.667 0 0 0-2 4.667v14.666A2.667 2.667 0 0 0 .667 22h22.666A2.667 2.667 0 0 0 26 19.333V4.667A2.667 2.667 0 0 0 23.333 2Z"/><path fill="#fff" fill-rule="evenodd" d="M-2 15.333h28V22H-2v-6.667Z" clip-rule="evenodd"/><path fill="#3A99FF" fill-rule="evenodd" d="M-2 2h28v6.667H-2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciEstonia = {
+    name: 'estonia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="#151515" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5Z"/><path fill="#fff" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#3A99FF" fill-rule="evenodd" d="M2 5h20v4.667H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciEyeClosedOutlined = {
     name: 'eye-closed-outlined',
@@ -919,6 +951,10 @@ export const ciFinlandCircle = {
     name: 'finland-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#1A47B8" fill-rule="evenodd" d="M10 14H2v-4h8V2h4v8h16v4H14v8h-4v-8Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciFinland = {
+    name: 'finland',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#1A47B8" fill-rule="evenodd" d="M7.714 13.4H2v-2.8h5.714V5h2.857v5.6H22v2.8H10.571V19H7.714v-5.6Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciFlagOutlined = {
     name: 'flag-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.55 4.4a.75.75 0 0 1 1.2.6v8.78a.75.75 0 0 1-.164.467c-.946 1.187-2.164 1.476-3.39 1.336-1.159-.132-2.39-.653-3.485-1.111-1.154-.483-2.174-.902-3.077-1.005-.756-.087-1.365.053-1.884.593V19a.75.75 0 0 1-1.5 0V5a.75.75 0 0 1 .3-.6c2.33-1.748 4.693-.86 6.611-.14 2.116.794 3.734 1.381 5.389.14Zm-10.8 7.848c.649-.29 1.35-.352 2.054-.272 1.138.13 2.345.635 3.426 1.087 1.179.493 2.217.925 3.136 1.03.756.086 1.365-.054 1.884-.594V6.281c-1.97.784-3.903.025-5.513-.579C9.8 4.976 8.276 4.447 6.75 5.395v6.853Z"/></svg>`
@@ -927,9 +963,17 @@ export const ciFranceCircle = {
     name: 'france-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#1A47B8" fill-rule="evenodd" d="M-2 2h9.333v20H-2V2Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M16.667 2H26v20h-9.333V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciFrance = {
+    name: 'france',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M15.333 5H22v14h-6.667V5Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M2 5h6.667v14H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciGermanyCircle = {
     name: 'germany-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#FFDA2C" fill-rule="evenodd" d="M-2 15.333h28V22H-2v-6.667Z" clip-rule="evenodd"/><path fill="#151515" fill-rule="evenodd" d="M-2 2h28v6.667H-2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciGermany = {
+    name: 'germany',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#FFDA2C" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#151515" fill-rule="evenodd" d="M2 5h20v4.667H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciGoogleCalendar = {
     name: 'google-calendar',
@@ -954,6 +998,10 @@ export const ciGoogle = {
 export const ciGreeceCircle = {
     name: 'greece-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#1A47B8" fill-rule="evenodd" d="M2 2h5.333v5.333H2V2Zm8 0h5.333v5.333H10V2Zm-8 8h5.333v5.333H2V10Zm8 0h5.333v5.333H10V10Zm5.333-8H30v2.667H15.333V2Zm0 5.333H30V10H15.333V7.333Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M2 12.667h28v2.666H2v-2.666Zm5.333 0H10v2.666H7.333v-2.666ZM2 18h28v2.667H2V18Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciGreece = {
+    name: 'greece',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#1A47B8" fill-rule="evenodd" d="M2 5h3.81v3.733H2V5Zm5.714 0h3.81v3.733h-3.81V5ZM2 10.6h3.81v3.733H2V10.6Zm5.714 0h3.81v3.733h-3.81V10.6Zm3.81-5.6H22v1.867H11.524V5Zm0 3.733H22V10.6H11.524V8.733Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M2 12.467h20v1.866H2v-1.866Zm3.81 0h1.904v1.866H5.81v-1.866ZM2 16.2h20v1.867H2V16.2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciGroupOutlined = {
     name: 'group-outlined',
@@ -987,9 +1035,17 @@ export const ciHungaryCircle = {
     name: 'hungary-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#249F58" fill-rule="evenodd" d="M-2 15.333h28V22H-2v-6.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M-2 2h28v6.667H-2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciHungary = {
+    name: 'hungary',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#249F58" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 5h20v4.667H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciIcelandCircle = {
     name: 'iceland-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#1A47B8" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M6 14h-8v-4h8V2h4v8h16v4H10v8H6v-8Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M7.333 11.333H-2v1.334h9.333V22h1.334v-9.333H26v-1.334H8.667V2H7.333v9.333Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciIceland = {
+    name: 'iceland',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#1A47B8" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M7.714 13.4H2v-2.8h5.714V5h2.857v5.6H22v2.8H10.571V19H7.714v-5.6Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M8.667 11.533H2v.934h6.667V19h.952v-6.533H22v-.934H9.62V5h-.953v6.533Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciInfoCircleFilled = {
     name: 'info-circle-filled',
@@ -1011,13 +1067,25 @@ export const ciItalyCircle = {
     name: 'italy-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#249F58" fill-rule="evenodd" d="M-2 2h9.333v20H-2V2Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M16.667 2H26v20h-9.333V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciItaly = {
+    name: 'italy',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M15.333 5H22v14h-6.667V5Z" clip-rule="evenodd"/><path fill="#249F58" fill-rule="evenodd" d="M2 5h6.667v14H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciJapanCircle = {
     name: 'japan-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="21" height="21" x="1.5" y="1.5" fill="#fff" rx="10.5"/><path fill="#F93939" d="M12 16.667a4.667 4.667 0 1 0 0-9.334 4.667 4.667 0 0 0 0 9.334Z"/><rect width="21" height="21" x="1.5" y="1.5" stroke="#EBECF0" rx="10.5"/></svg>`
 };
+export const ciJapan = {
+    name: 'japan',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#F93939" d="M12 15.267c1.841 0 3.333-1.463 3.333-3.267 0-1.804-1.492-3.267-3.333-3.267-1.84 0-3.333 1.463-3.333 3.267 0 1.804 1.492 3.267 3.333 3.267Z"/><rect width="21" height="15" x="1.5" y="4.5" stroke="#000" stroke-opacity=".07" rx="3.5"/></svg>`
+};
 export const ciLatviaCircle = {
     name: 'latvia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#AF010D" fill-rule="evenodd" d="M-2 14h28v8H-2v-8Zm0-12h28v8H-2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciLatvia = {
+    name: 'latvia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#AF010D" fill-rule="evenodd" d="M2 13.4h20V19H2v-5.6ZM2 5h20v5.6H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciLinkBreakOutlined = {
     name: 'link-break-outlined',
@@ -1107,13 +1175,25 @@ export const ciNetherlandsCircle = {
     name: 'netherlands-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#1E448D" fill-rule="evenodd" d="M-2 15.333h28V22H-2v-6.667Z" clip-rule="evenodd"/><path fill="#B01923" fill-rule="evenodd" d="M-2 2h28v6.667H-2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciNetherlands = {
+    name: 'netherlands',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#1E448D" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#B01923" fill-rule="evenodd" d="M2 5h20v4.667H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciNorthMacedoniaCircle = {
     name: 'north-macedonia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#AF010D" rx="10"/><path fill="#FFDA2C" fill-rule="evenodd" d="m-2 2 13.333 9.333h1.334L3.333 2H-2Zm0 20 13.333-9.333h1.334L3.333 22H-2Z" clip-rule="evenodd"/><path fill="#FFDA2C" fill-rule="evenodd" d="M12.667 11.333h-1.334L20.667 2H26l-13.333 9.333Zm0 1.334h-1.334L20.667 22H26l-13.333-9.333Zm-4-1.334L-2 10v4l10.667-1.333v-1.334Zm6.666 0L26 10v4l-10.667-1.333v-1.334Zm-4-2.666L10 2h4l-1.333 6.667h-1.334Zm0 6.666L10 22h4l-1.333-6.667" clip-rule="evenodd"/><path fill="#AF010D" d="M12 15.333a3.333 3.333 0 1 0 0-6.666 3.333 3.333 0 0 0 0 6.666Z"/><path fill="#FFDA2C" d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciNorthMacedonia = {
+    name: 'north-macedonia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#AF010D" rx="3"/><path fill="#FFDA2C" fill-rule="evenodd" d="m2 5 9.524 6.533h.952L5.81 5H2Zm0 14 9.524-6.533h.952L5.81 19H2Z" clip-rule="evenodd"/><path fill="#FFDA2C" fill-rule="evenodd" d="M12.476 11.533h-.952L18.19 5H22l-9.524 6.533Zm0 .934h-.952L18.19 19H22l-9.524-6.533Zm-2.857-.934L2 10.6v2.8l7.619-.933v-.934Zm4.762 0L22 10.6v2.8l-7.619-.933v-.934Zm-2.857-1.866L10.57 5h2.858l-.953 4.667h-.952Zm0 4.666L10.57 19h2.858l-.953-4.667" clip-rule="evenodd"/><path fill="#AF010D" d="M12 14.333c1.315 0 2.38-1.044 2.38-2.333 0-1.289-1.065-2.333-2.38-2.333S9.619 10.71 9.619 12c0 1.289 1.066 2.333 2.381 2.333Z"/><path fill="#FFDA2C" d="M12 13.4c.789 0 1.429-.627 1.429-1.4 0-.773-.64-1.4-1.429-1.4s-1.429.627-1.429 1.4c0 .773.64 1.4 1.429 1.4Z"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciNorwayCircle = {
     name: 'norway-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#AF010D" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M6 14h-8v-4h8V2h4v8h16v4H10v8H6v-8Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M7.333 12.667H-2v-1.334h9.333V2h1.334v9.333H26v1.334H8.667V22H7.333v-9.333Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciNorway = {
+    name: 'norway',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#AF010D" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M7.714 13.4H2v-2.8h5.714V5h2.857v5.6H22v2.8H10.571V19H7.714v-5.6Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M8.667 12.467H2v-.934h6.667V5h.952v6.533H22v.934H9.62V19h-.953v-6.533Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciOpenai = {
     name: 'openai',
@@ -1143,9 +1223,17 @@ export const ciPolandCircle = {
     name: 'poland-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#AF010D" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M-2 2h28v10.667H-2V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciPoland = {
+    name: 'poland',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#AF010D" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v7.467H2V5Z" clip-rule="evenodd"/></svg>`
+};
 export const ciPortugalCircle = {
     name: 'portugal-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#249F58" fill-rule="evenodd" d="M-.667 2h9.334v20H-.667V2Z" clip-rule="evenodd"/><path fill="#FFDA2C" d="M8.667 15.333a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/><path fill="#F93939" fill-rule="evenodd" d="M11.333 12.667v-4H6v4C6 13.403 7.193 14 8.667 14c1.473 0 2.666-.597 2.666-1.333Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M7.333 10H10v2.667H7.333V10Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M7.333 10h1.334v1.333H7.333V10Zm1.334 1.333H10v1.334H8.667v-1.334Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciPortugal = {
+    name: 'portugal',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#F93939" d="M8 5h11a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H8V5Z"/><path fill="#249F58" fill-rule="evenodd" d="M2 8a3 3 0 0 1 3-3h3.667v14H5a3 3 0 0 1-3-3V8Z" clip-rule="evenodd"/><path fill="#FFDA2C" d="M8.667 14.333c1.578 0 2.857-1.253 2.857-2.8 0-1.546-1.28-2.8-2.857-2.8-1.578 0-2.857 1.254-2.857 2.8 0 1.547 1.279 2.8 2.857 2.8Z"/><path fill="#F93939" fill-rule="evenodd" d="M10.572 12.467v-2.8h-3.81v2.8c0 .515.852.933 1.905.933 1.052 0 1.905-.418 1.905-.933Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M7.714 10.6H9.62v1.867H7.714V10.6Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M7.714 10.6h.953v.933h-.953V10.6Zm.953.933h.952v.934h-.952v-.934Z" clip-rule="evenodd"/></svg>`
 };
 export const ciPushNotification = {
     name: 'push-notification',
@@ -1167,13 +1255,25 @@ export const ciRomaniaCircle = {
     name: 'romania-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#FFDA2C" rx="10"/><path fill="#1A47B8" fill-rule="evenodd" d="M-2 2h9.333v20H-2V2Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M16.667 2H26v20h-9.333V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciRomania = {
+    name: 'romania',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#FFDA2C" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M15.333 5H22v14h-6.667V5Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M2 5h6.667v14H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciRussiaCircle = {
     name: 'russia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#1A47B8" rx="10"/><path fill="#F93939" fill-rule="evenodd" d="M-.667 15.333h28V22h-28v-6.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M-.667 2h28v6.667h-28V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciRussia = {
+    name: 'russia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#1A47B8" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v4.667H2V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciSerbiaCircle = {
     name: 'serbia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#1A47B8" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M2 15.333h28V22H2v-6.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 2h28v6.667H2V2Zm10.667 13.333V8.667H7.333v6.666a2.666 2.666 0 1 0 5.334 0Z" clip-rule="evenodd"/><path fill="#FFDA2C" fill-rule="evenodd" d="M8.667 8.667 7.333 7.333S8.667 6 10 6c1.333 0 2.667 1.333 2.667 1.333l-1.334 1.334H8.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="m8.667 10-1.334 1.333L10 12.667l-1.333 2.666L10 18l1.333-2.667L10 12.667l2.667-1.334L11.333 10 10 11.333 8.667 10Z" clip-rule="evenodd"/><path fill="#FFDA2C" fill-rule="evenodd" d="M8.667 10H7.333v1.333L8.667 10Zm2.666 0h1.334v1.333L11.333 10Z" clip-rule="evenodd"/><path fill="#A75835" fill-rule="evenodd" d="M10 6 8.667 7.333 10 8.667l1.333-1.334L10 6Z" clip-rule="evenodd"/><path fill="#88605F" fill-rule="evenodd" d="M10 12.667 7.333 14h5.334L10 12.667Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciSerbia = {
+    name: 'serbia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#1A47B8" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 5h20v4.667H2V5Zm7.619 9.333V9.667h-3.81v4.666c0 1.032.853 1.867 1.905 1.867 1.053 0 1.905-.835 1.905-1.867Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="m6.762 10.6-.952.933 1.904.934-.952 1.866.952 1.867.953-1.867-.953-1.866 1.905-.934-.952-.933-.953.933-.952-.933Z" clip-rule="evenodd"/><path fill="#88605F" fill-rule="evenodd" d="M7.714 12.467 5.81 13.4h3.81l-1.906-.933Z" clip-rule="evenodd"/><path fill="#FFDA2C" fill-rule="evenodd" d="M6.762 10.6H5.81v.933l.952-.933Zm1.905 0h.952v.933l-.952-.933Zm-1.905-.933-.952-.934S6.762 7.8 7.714 7.8c.953 0 1.905.933 1.905.933l-.952.934H6.762Z" clip-rule="evenodd"/><path fill="#A75835" fill-rule="evenodd" d="m7.714 7.8-.952.933.952.934.953-.934-.953-.933Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciSlidersOutlined = {
     name: 'sliders-outlined',
@@ -1183,9 +1283,17 @@ export const ciSlovakiaCircle = {
     name: 'slovakia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#1A47B8" rx="10"/><path fill="#F93939" fill-rule="evenodd" d="M.667 15.333h28V22h-28v-6.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M.667 2h28v6.667h-28V2Zm13.24 13.333H14V8.667H4.667v6.666h.093a2.44 2.44 0 0 0-.093.667c0 1.84 4.666 3.333 4.666 3.333S14 17.84 14 16c0-.227-.032-.45-.093-.667Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M12.667 15.333v-8H6v8C6 16.807 9.333 18 9.333 18s3.334-1.193 3.334-2.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M8.667 12.667v-1.334H7.333V10h1.334V8.667H10V10h1.333v1.333H10v1.334h2V14h-2v1.333H8.667V14h-2v-1.333h2Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M9.333 18s3.334-1.193 3.334-2.667c0-1.473-1.334-1.333-3.334 0C7.333 14 6 13.86 6 15.333 6 16.807 9.333 18 9.333 18Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciSlovakia = {
+    name: 'slovakia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#1A47B8" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v4.667H2V5Zm9.457 9.333h.067V9.667H4.857v4.666h.067a1.676 1.676 0 0 0-.067.467c0 1.288 3.333 2.333 3.333 2.333s3.334-1.045 3.334-2.333c0-.159-.023-.316-.067-.467Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M10.572 14.333v-5.6H5.81v5.6c0 1.032 2.38 1.867 2.38 1.867s2.382-.835 2.382-1.867Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M7.714 12.467v-.934h-.952V10.6h.952v-.933h.953v.933h.952v.933h-.952v.934h1.428v.933H8.667v.933h-.953V13.4H6.286v-.933h1.428Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M8.19 16.2s2.382-.835 2.382-1.867c0-1.031-.953-.933-2.381 0-1.43-.933-2.381-1.031-2.381 0 0 1.032 2.38 1.867 2.38 1.867Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciSloveniaCircle = {
     name: 'slovenia-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#1A47B8" rx="10"/><path fill="#F93939" fill-rule="evenodd" d="M2 15.333h28V22H2v-6.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 2h28v6.667H2V2Z" clip-rule="evenodd"/><path fill="#F93939" d="M10.667 6H8c-.736 0-1.333.597-1.333 1.333v3.334C6.667 11.403 7.264 12 8 12h2.667c.736 0 1.333-.597 1.333-1.333V7.333C12 6.597 11.403 6 10.667 6Z"/><path fill="#1A47B8" d="M10 6H8.667c-.737 0-1.334.597-1.334 1.333V10c0 .736.597 1.333 1.334 1.333H10c.736 0 1.333-.597 1.333-1.333V7.333C11.333 6.597 10.736 6 10 6Z"/><path fill="#FFDA2C" fill-rule="evenodd" d="M8.667 7.333H10v1.334H8.667V7.333Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="m7.333 10 2-.667 2 .667L10 11.333H8.667L7.333 10Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciSlovenia = {
+    name: 'slovenia',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#1A47B8" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M2 14.333h20V19H2v-4.667Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v4.667H2V5Z" clip-rule="evenodd"/><path fill="#F93939" d="M8.19 7.8H6.287a.943.943 0 0 0-.953.933v2.334c0 .515.427.933.953.933H8.19a.943.943 0 0 0 .952-.933V8.733A.943.943 0 0 0 8.19 7.8Z"/><path fill="#1A47B8" d="M7.714 7.8h-.952a.943.943 0 0 0-.952.933V10.6c0 .516.426.933.952.933h.952a.943.943 0 0 0 .953-.933V8.733a.943.943 0 0 0-.953-.933Z"/><path fill="#fff" fill-rule="evenodd" d="m5.81 10.6 1.428-.467 1.429.467-.953.933h-.952L5.81 10.6Z" clip-rule="evenodd"/><path fill="#FFDA2C" fill-rule="evenodd" d="M6.762 8.733h.952v.934h-.952v-.934Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciSocialMediaOutlined = {
     name: 'social-media-outlined',
@@ -1199,9 +1307,17 @@ export const ciSouthKoreaCircle = {
     name: 'south-korea-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="21" height="21" x="1.5" y="1.5" fill="#fff" rx="10.5"/><path fill="#232C80" fill-rule="evenodd" d="M16.667 12a4.667 4.667 0 1 1-9.334 0c0-1.493 3.134-2.12 5.771-1.884.28-.075.581-.116.896-.116 1.473 0 2.667.896 2.667 2Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M11.333 11.333S12.527 10 14 10c1.473 0 2.667.896 2.667 2a4.667 4.667 0 0 0-8.886-1.997c-.448 1.33-.448 1.72-.448 1.997.667.667 1.408.667 2 .667.592 0 1.124-.258 1.491-.667l.51-.667Z" clip-rule="evenodd"/><path fill="#151515" fill-rule="evenodd" d="M18 8.667h2.667L18 6h-1.333L18 8.667Zm-12 0H3.333L6 6h1.333L6 8.667Zm12 6.666h2.667L18 18h-1.333L18 15.333Zm-12 0H3.333L6 18h1.333L6 15.333Z" clip-rule="evenodd"/><rect width="21" height="21" x="1.5" y="1.5" stroke="#EBECF0" rx="10.5"/></svg>`
 };
+export const ciSouthKorea = {
+    name: 'south-korea',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#232C80" fill-rule="evenodd" d="M15.333 12c0 1.804-1.492 3.267-3.333 3.267-1.841 0-3.333-1.463-3.333-3.267 0-1.045 2.238-1.484 4.122-1.319.2-.052.415-.081.64-.081 1.052 0 1.904.627 1.904 1.4Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M11.524 11.533s.852-.933 1.905-.933c1.052 0 1.904.627 1.904 1.4 0-1.804-1.492-3.267-3.333-3.267-1.33 0-2.48.764-3.013 1.869-.32.931-.32 1.204-.32 1.398.476.467 1.005.467 1.428.467.423 0 .803-.18 1.065-.467l.364-.467Z" clip-rule="evenodd"/><path fill="#151515" fill-rule="evenodd" d="M16.286 9.667h1.904L16.287 7.8h-.953l.953 1.867Zm-8.572 0H5.81L7.714 7.8h.953l-.953 1.867Zm8.572 4.666h1.904L16.287 16.2h-.953l.953-1.867Zm-8.572 0H5.81L7.714 16.2h.953l-.953-1.867Z" clip-rule="evenodd"/><rect width="21" height="15" x="1.5" y="4.5" stroke="#000" stroke-opacity=".07" rx="3.5"/></svg>`
+};
 export const ciSpainCircle = {
     name: 'spain-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#F93939" d="M27.333 2H4.667A2.667 2.667 0 0 0 2 4.667v14.666A2.667 2.667 0 0 0 4.667 22h22.666A2.667 2.667 0 0 0 30 19.333V4.667A2.667 2.667 0 0 0 27.333 2Z"/><path fill="#FFDA2C" fill-rule="evenodd" d="M2 7.333h28v9.334H2V7.333Z" clip-rule="evenodd"/><path fill="#D4AF2C" fill-rule="evenodd" d="M14 10.296v3.36c0 .933-.896 1.68-2 1.68H9.333c-1.101-.003-2-.753-2-1.683v-3.36c0-.762.598-1.4 1.419-1.606.248-.694 1.01-.072 1.915-.072.909 0 1.666-.618 1.914.073C13.4 8.9 14 9.538 14 10.296Z" clip-rule="evenodd"/><path fill="#CBCBCB" fill-rule="evenodd" d="M14 11.333h1.333v4H14v-4Zm-8 0h1.333v4H6v-4Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M14 14h1.333v1.333H14V14Zm-8 0h1.333v1.333H6V14Z" clip-rule="evenodd"/><path fill="#D4AF2C" fill-rule="evenodd" d="M14 10h1.333v1.333H14V10Zm-8 0h1.333v1.333H6V10Z" clip-rule="evenodd"/><path fill="#AF010D" fill-rule="evenodd" d="M8.667 10H10v2H8.667v-2Zm2.666 2.667h1.334v2h-1.334v-2Z" clip-rule="evenodd"/><path fill="#AE6A3E" fill-rule="evenodd" d="M11.333 10h1.334v2h-1.334v-2Z" clip-rule="evenodd"/><path fill="#FFDA2C" fill-rule="evenodd" d="M8.667 12.667H10v2H8.667v-2Z" clip-rule="evenodd"/><path fill="#AF010D" fill-rule="evenodd" d="M10 10 8.667 8.667h4L11.333 10H10Z" clip-rule="evenodd"/><path fill="#D4AF2C" fill-rule="evenodd" d="M10 7.333h1.333v1.334H10V7.333Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciSpain = {
+    name: 'spain',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#F93939" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5Z"/><path fill="#FFDA2C" fill-rule="evenodd" d="M2 8.733h20v6.534H2V8.733Z" clip-rule="evenodd"/><path fill="#D4AF2C" fill-rule="evenodd" d="M10.572 10.807v2.352c0 .653-.64 1.176-1.43 1.176H7.239c-.787-.002-1.428-.527-1.428-1.178v-2.352c0-.534.426-.98 1.013-1.124.177-.486.722-.05 1.368-.05.649 0 1.19-.433 1.367.05.585.149 1.014.596 1.014 1.126Z" clip-rule="evenodd"/><path fill="#CBCBCB" fill-rule="evenodd" d="M10.572 11.533h.952v2.8h-.952v-2.8Zm-5.715 0h.953v2.8h-.953v-2.8Z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="M10.572 13.4h.952v.933h-.952V13.4Zm-5.715 0h.953v.933h-.953V13.4Z" clip-rule="evenodd"/><path fill="#D4AF2C" fill-rule="evenodd" d="M10.572 10.6h.952v.933h-.952V10.6Zm-5.715 0h.953v.933h-.953V10.6Z" clip-rule="evenodd"/><path fill="#AF010D" fill-rule="evenodd" d="M6.762 10.6h.952V12h-.952v-1.4Zm1.905 1.867h.952v1.4h-.952v-1.4Z" clip-rule="evenodd"/><path fill="#FFDA2C" fill-rule="evenodd" d="M6.762 12.467h.952v1.4h-.952v-1.4Z" clip-rule="evenodd"/><path fill="#AE6A3E" fill-rule="evenodd" d="M8.667 10.6h.952V12h-.952v-1.4Z" clip-rule="evenodd"/><path fill="#AF010D" fill-rule="evenodd" d="m7.714 10.6-.952-.933h2.857l-.952.933h-.953Z" clip-rule="evenodd"/><path fill="#D4AF2C" fill-rule="evenodd" d="M7.714 8.733h.953v.934h-.953v-.934Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciStatusAvailable = {
     name: 'status-available',
@@ -1239,6 +1355,10 @@ export const ciSwedenCircle = {
     name: 'sweden-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#3A99FF" rx="10"/><path fill="#FFDA2C" fill-rule="evenodd" d="M7.333 14h-8v-4h8V2h4v8h16v4h-16v8h-4v-8Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciSweden = {
+    name: 'sweden',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#3A99FF" rx="3"/><path fill="#FFDA2C" fill-rule="evenodd" d="M7.714 13.4H2v-2.8h5.714V5h2.857v5.6H22v2.8H10.571V19H7.714v-5.6Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciTagOutlined = {
     name: 'tag-outlined',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 6.25a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5ZM13.75 9a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12.828 3.25c-.729 0-1.428.29-1.944.805l-7.707 7.708a1.75 1.75 0 0 0 0 2.474l6.586 6.586a1.75 1.75 0 0 0 2.474 0l7.708-7.707a2.75 2.75 0 0 0 .805-1.944V6A2.75 2.75 0 0 0 18 3.25h-5.172Zm-.883 1.866a1.25 1.25 0 0 1 .883-.366H18c.69 0 1.25.56 1.25 1.25v5.172c0 .331-.132.649-.366.883l-7.707 7.708a.25.25 0 0 1-.354 0l-6.586-6.586a.25.25 0 0 1 0-.354l7.707-7.707Z"/></svg>`
@@ -1263,6 +1383,10 @@ export const ciThailandCircle = {
     name: 'thailand-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#F93939" fill-rule="evenodd" d="M2 2h28v4H2V2Zm0 16h28v4H2v-4Z" clip-rule="evenodd"/><path fill="#232C80" fill-rule="evenodd" d="M2 8.667h28v6.666H2V8.667Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
+export const ciThailand = {
+    name: 'thailand',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M2 5h20v2.8H2V5Zm0 11.2h20V19H2v-2.8Z" clip-rule="evenodd"/><path fill="#232C80" fill-rule="evenodd" d="M2 9.667h20v4.666H2V9.667Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciTranslateBoxFilled = {
     name: 'translate-box-filled',
     data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m15.5 12.872-.793 2.378h1.586l-.793-2.378Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6Zm4 2.25a.75.75 0 0 1 .75.75v.85H14a.75.75 0 0 1 0 1.5h-.968a11.543 11.543 0 0 1-2.277 4.903c.28.197.585.367.909.502l.818.343-.58 1.384-.818-.343a6.32 6.32 0 0 1-1.343-.768 11.54 11.54 0 0 1-2.865 2.03l-.54.27a.75.75 0 1 1-.671-1.342l.54-.27a10.039 10.039 0 0 0 2.45-1.724 6.319 6.319 0 0 1-1.4-3.242l1.49-.186c.105.848.431 1.635.927 2.296a10.044 10.044 0 0 0 1.825-3.853H6a.75.75 0 0 1 0-1.5h3.25V6a.75.75 0 0 1 .75-.75Zm3.711 12.987.496-1.487h2.586l.495 1.487a.75.75 0 0 0 1.424-.474l-2-6A.75.75 0 0 0 16 11.25h-1a.75.75 0 0 0-.711.513l-2 6a.75.75 0 0 0 1.422.474Z"/></svg>`
@@ -1270,6 +1394,10 @@ export const ciTranslateBoxFilled = {
 export const ciTurkeyCircle = {
     name: 'turkey-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#fff" fill-rule="evenodd" d="m16.67 13.536-1.55.813.296-1.724-1.253-1.222 1.733-.254.773-1.568.774 1.57 1.733.253-1.253 1.22.296 1.724" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M10.667 16.667a4.667 4.667 0 1 0 0-9.334 4.667 4.667 0 0 0 0 9.334ZM12 15.333a3.334 3.334 0 0 0 0-6.666 3.335 3.335 0 0 0 0 6.666Z" clip-rule="evenodd"/></svg>`
+};
+export const ciTurkey = {
+    name: 'turkey',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="m15.335 13.075-1.106.57.211-1.207-.895-.856 1.238-.178.552-1.097.553 1.098 1.238.178-.896.854.212 1.207" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M11.048 15.267c1.84 0 3.333-1.463 3.333-3.267 0-1.804-1.492-3.267-3.333-3.267-1.841 0-3.334 1.463-3.334 3.267 0 1.804 1.493 3.267 3.334 3.267Zm.952-.934c1.314 0 2.38-1.045 2.38-2.333 0-1.288-1.066-2.333-2.38-2.333-1.314 0-2.381 1.045-2.381 2.333 0 1.288 1.067 2.333 2.38 2.333Z" clip-rule="evenodd"/></svg>`
 };
 export const ciTwitter = {
     name: 'twitter',
@@ -1286,6 +1414,10 @@ export const ciUndoOutlined = {
 export const ciUnitedKingdomCircle = {
     name: 'united-kingdom-circle',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="20" x="2" y="2" fill="#1A47B8" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M.979 2H-2v3.333L23.005 22H26v-3.333L.979 2Z" clip-rule="evenodd"/><path fill="#F93939" d="M-1.007 2 26 20.047V22h-.97L-2 3.934V2h.993Z"/><path fill="#fff" fill-rule="evenodd" d="M23.333 2H26v3.333S8.68 16.437.667 22H-2v-3.333L23.333 2Z" clip-rule="evenodd"/><path fill="#F93939" d="M26 2h-.904L-2 20.063V22h.993L26 3.949V2Z"/><path fill="#fff" fill-rule="evenodd" d="M8.183 2h7.658v6.17H26v7.657H15.84V22H8.184v-6.173H-2V8.169H8.183V2Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M9.79 2h4.42v7.692H26v4.616H14.21V22H9.79v-7.692H-2V9.692H9.79V2Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+};
+export const ciUnitedKingdom = {
+    name: 'united-kingdom',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><rect width="20" height="14" x="2" y="5" fill="#1A47B8" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M4.128 5H2v2.333L19.86 19H22v-2.333L4.128 5Z" clip-rule="evenodd"/><path fill="#F93939" d="M2.71 5 22 17.633V19h-.693L2 6.354V5h.71Z"/><path fill="#fff" fill-rule="evenodd" d="M20.095 5H22v2.333S9.628 15.106 3.905 19H2v-2.333L20.095 5Z" clip-rule="evenodd"/><path fill="#F93939" d="M22 5h-.646L2 17.644V19h.71L22 6.364V5Z"/><path fill="#fff" fill-rule="evenodd" d="M9.273 5h5.47v4.318H22v5.36h-7.257V19h-5.47v-4.321H2v-5.36h7.273V5Z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M10.421 5h3.158v5.385H22v3.23h-8.421V19H10.42v-5.385H2v-3.23h8.421V5Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciVideoOutlined = {
     name: 'video-outlined',
@@ -1648,12 +1780,14 @@ export const completeIconSet = [
     ciAiFilled,
     ciAiOutlined,
     ciAlbaniaCircle,
+    ciAlbania,
     ciAlertBoxOutlined,
     ciAlertCircleOutlined,
     ciAppleSafari,
     ciArchiveFilled,
     ciArchiveOutlined,
     ciArmeniaCircle,
+    ciArmenia,
     ciArrowDownOutlined,
     ciArrowLeftOutlined,
     ciArrowPointingBoxOutlined,
@@ -1669,12 +1803,14 @@ export const completeIconSet = [
     ciBoldOutlined,
     ciBrushBracketsOutlined,
     ciBulgariaCircle,
+    ciBulgaria,
     ciCalendarCheckOutlined,
     ciCalendarCrossOutlined,
     ciCalendarOutlined,
     ciCalendarPenOutlined,
     ciCheckDoubleOutlined,
     ciChinaCircle,
+    ciChina,
     ciCircleFilledS,
     ciCircleFilled,
     ciCircleOutlinedS,
@@ -1683,9 +1819,13 @@ export const completeIconSet = [
     ciCompassOutlined,
     ciCopyOutlined,
     ciCroatiaCircle,
+    ciCroatia,
     ciCzechRepublicCircle,
+    ciCzechRepublic,
     ciDenmarkCircle,
+    ciDenmark,
     ciEstoniaCircle,
+    ciEstonia,
     ciEyeClosedOutlined,
     ciEyeOpenOutlined,
     ciFacebook,
@@ -1694,15 +1834,19 @@ export const completeIconSet = [
     ciFilterOutlined,
     ciFingerprintOutlined,
     ciFinlandCircle,
+    ciFinland,
     ciFlagOutlined,
     ciFranceCircle,
+    ciFrance,
     ciGermanyCircle,
+    ciGermany,
     ciGoogleCalendar,
     ciGoogleChrome,
     ciGoogleDrive,
     ciGoogleMail,
     ciGoogle,
     ciGreeceCircle,
+    ciGreece,
     ciGroupOutlined,
     ciHaiiloHome,
     ciHaiiloInsights,
@@ -1711,14 +1855,19 @@ export const completeIconSet = [
     ciHaiiloStories,
     ciHistoryOutlined,
     ciHungaryCircle,
+    ciHungary,
     ciIcelandCircle,
+    ciIceland,
     ciInfoCircleFilled,
     ciInfoCircleOutlined,
     ciInstagram,
     ciItalicOutlined,
     ciItalyCircle,
+    ciItaly,
     ciJapanCircle,
+    ciJapan,
     ciLatviaCircle,
+    ciLatvia,
     ciLinkBreakOutlined,
     ciLinkedin,
     ciListOrderedOutlined,
@@ -1741,8 +1890,11 @@ export const completeIconSet = [
     ciMoreHorizontalFilled,
     ciMozillaFirefox,
     ciNetherlandsCircle,
+    ciNetherlands,
     ciNorthMacedoniaCircle,
+    ciNorthMacedonia,
     ciNorwayCircle,
+    ciNorway,
     ciOpenai,
     ciPaperplaneTiltOutlined,
     ciPenOutlined,
@@ -1750,21 +1902,30 @@ export const completeIconSet = [
     ciPlanetFilled,
     ciPlanetOutlined,
     ciPolandCircle,
+    ciPoland,
     ciPortugalCircle,
+    ciPortugal,
     ciPushNotification,
     ciPuzzlePieceOutlined,
     ciQuoteOutlined,
     ciRedoOutlined,
     ciRomaniaCircle,
+    ciRomania,
     ciRussiaCircle,
+    ciRussia,
     ciSerbiaCircle,
+    ciSerbia,
     ciSlidersOutlined,
     ciSlovakiaCircle,
+    ciSlovakia,
     ciSloveniaCircle,
+    ciSlovenia,
     ciSocialMediaOutlined,
     ciSortingOutlined,
     ciSouthKoreaCircle,
+    ciSouthKorea,
     ciSpainCircle,
+    ciSpain,
     ciStatusAvailable,
     ciStatusAway,
     ciStatusDnd,
@@ -1774,18 +1935,22 @@ export const completeIconSet = [
     ciStreamOutlined,
     ciStrikethroughOutlined,
     ciSwedenCircle,
+    ciSweden,
     ciTagOutlined,
     ciTargetedOutlined,
     ciTextExtendOutlined,
     ciTextShortenOutlined,
     ciTextSummaryOutlined,
     ciThailandCircle,
+    ciThailand,
     ciTranslateBoxFilled,
     ciTurkeyCircle,
+    ciTurkey,
     ciTwitter,
     ciUnderlinedOutlined,
     ciUndoOutlined,
     ciUnitedKingdomCircle,
+    ciUnitedKingdom,
     ciVideoOutlined,
     ciWAlertOutlined,
     ciWBirthdaysUpcomingOutlined,
