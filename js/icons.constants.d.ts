@@ -730,14 +730,6 @@ export declare const ciAiOutlined: {
     name: 'ai-outlined';
     data: string;
 };
-export declare const ciAlbaniaCircle: {
-    name: 'albania-circle';
-    data: string;
-};
-export declare const ciAlbania: {
-    name: 'albania';
-    data: string;
-};
 export declare const ciAlertBoxOutlined: {
     name: 'alert-box-outlined';
     data: string;
@@ -756,14 +748,6 @@ export declare const ciArchiveFilled: {
 };
 export declare const ciArchiveOutlined: {
     name: 'archive-outlined';
-    data: string;
-};
-export declare const ciArmeniaCircle: {
-    name: 'armenia-circle';
-    data: string;
-};
-export declare const ciArmenia: {
-    name: 'armenia';
     data: string;
 };
 export declare const ciArrowDownOutlined: {
@@ -822,14 +806,6 @@ export declare const ciBrushBracketsOutlined: {
     name: 'brush-brackets-outlined';
     data: string;
 };
-export declare const ciBulgariaCircle: {
-    name: 'bulgaria-circle';
-    data: string;
-};
-export declare const ciBulgaria: {
-    name: 'bulgaria';
-    data: string;
-};
 export declare const ciCalendarCheckOutlined: {
     name: 'calendar-check-outlined';
     data: string;
@@ -848,14 +824,6 @@ export declare const ciCalendarPenOutlined: {
 };
 export declare const ciCheckDoubleOutlined: {
     name: 'check-double-outlined';
-    data: string;
-};
-export declare const ciChinaCircle: {
-    name: 'china-circle';
-    data: string;
-};
-export declare const ciChina: {
-    name: 'china';
     data: string;
 };
 export declare const ciCircleFilledS: {
@@ -886,46 +854,6 @@ export declare const ciCopyOutlined: {
     name: 'copy-outlined';
     data: string;
 };
-export declare const ciCroatiaCircle: {
-    name: 'croatia-circle';
-    data: string;
-};
-export declare const ciCroatia: {
-    name: 'croatia';
-    data: string;
-};
-export declare const ciCzechRepublicCircle: {
-    name: 'czech-republic-circle';
-    data: string;
-};
-export declare const ciCzechRepublic: {
-    name: 'czech-republic';
-    data: string;
-};
-export declare const ciDenmarkCircle: {
-    name: 'denmark-circle';
-    data: string;
-};
-export declare const ciDenmark: {
-    name: 'denmark';
-    data: string;
-};
-export declare const ciEnglishMixedCircle: {
-    name: 'english-mixed-circle';
-    data: string;
-};
-export declare const ciEnglishMixed: {
-    name: 'english-mixed';
-    data: string;
-};
-export declare const ciEstoniaCircle: {
-    name: 'estonia-circle';
-    data: string;
-};
-export declare const ciEstonia: {
-    name: 'estonia';
-    data: string;
-};
 export declare const ciEyeClosedOutlined: {
     name: 'eye-closed-outlined';
     data: string;
@@ -954,32 +882,280 @@ export declare const ciFingerprintOutlined: {
     name: 'fingerprint-outlined';
     data: string;
 };
-export declare const ciFinlandCircle: {
-    name: 'finland-circle';
+export declare const ciFlagAl: {
+    name: 'flag-al';
     data: string;
 };
-export declare const ciFinland: {
-    name: 'finland';
+export declare const ciFlagAm: {
+    name: 'flag-am';
+    data: string;
+};
+export declare const ciFlagBg: {
+    name: 'flag-bg';
+    data: string;
+};
+export declare const ciFlagCircleAl: {
+    name: 'flag-circle-al';
+    data: string;
+};
+export declare const ciFlagCircleAm: {
+    name: 'flag-circle-am';
+    data: string;
+};
+export declare const ciFlagCircleBg: {
+    name: 'flag-circle-bg';
+    data: string;
+};
+export declare const ciFlagCircleCn: {
+    name: 'flag-circle-cn';
+    data: string;
+};
+export declare const ciFlagCircleCz: {
+    name: 'flag-circle-cz';
+    data: string;
+};
+export declare const ciFlagCircleDe: {
+    name: 'flag-circle-de';
+    data: string;
+};
+export declare const ciFlagCircleDk: {
+    name: 'flag-circle-dk';
+    data: string;
+};
+export declare const ciFlagCircleEe: {
+    name: 'flag-circle-ee';
+    data: string;
+};
+export declare const ciFlagCircleEn: {
+    name: 'flag-circle-en';
+    data: string;
+};
+export declare const ciFlagCircleEs: {
+    name: 'flag-circle-es';
+    data: string;
+};
+export declare const ciFlagCircleFi: {
+    name: 'flag-circle-fi';
+    data: string;
+};
+export declare const ciFlagCircleFr: {
+    name: 'flag-circle-fr';
+    data: string;
+};
+export declare const ciFlagCircleGb: {
+    name: 'flag-circle-gb';
+    data: string;
+};
+export declare const ciFlagCircleGr: {
+    name: 'flag-circle-gr';
+    data: string;
+};
+export declare const ciFlagCircleHr: {
+    name: 'flag-circle-hr';
+    data: string;
+};
+export declare const ciFlagCircleHu: {
+    name: 'flag-circle-hu';
+    data: string;
+};
+export declare const ciFlagCircleIs: {
+    name: 'flag-circle-is';
+    data: string;
+};
+export declare const ciFlagCircleIt: {
+    name: 'flag-circle-it';
+    data: string;
+};
+export declare const ciFlagCircleJp: {
+    name: 'flag-circle-jp';
+    data: string;
+};
+export declare const ciFlagCircleKr: {
+    name: 'flag-circle-kr';
+    data: string;
+};
+export declare const ciFlagCircleLv: {
+    name: 'flag-circle-lv';
+    data: string;
+};
+export declare const ciFlagCircleMk: {
+    name: 'flag-circle-mk';
+    data: string;
+};
+export declare const ciFlagCircleNl: {
+    name: 'flag-circle-nl';
+    data: string;
+};
+export declare const ciFlagCircleNo: {
+    name: 'flag-circle-no';
+    data: string;
+};
+export declare const ciFlagCirclePl: {
+    name: 'flag-circle-pl';
+    data: string;
+};
+export declare const ciFlagCirclePt: {
+    name: 'flag-circle-pt';
+    data: string;
+};
+export declare const ciFlagCircleRo: {
+    name: 'flag-circle-ro';
+    data: string;
+};
+export declare const ciFlagCircleRs: {
+    name: 'flag-circle-rs';
+    data: string;
+};
+export declare const ciFlagCircleRu: {
+    name: 'flag-circle-ru';
+    data: string;
+};
+export declare const ciFlagCircleSe: {
+    name: 'flag-circle-se';
+    data: string;
+};
+export declare const ciFlagCircleSi: {
+    name: 'flag-circle-si';
+    data: string;
+};
+export declare const ciFlagCircleSk: {
+    name: 'flag-circle-sk';
+    data: string;
+};
+export declare const ciFlagCircleTh: {
+    name: 'flag-circle-th';
+    data: string;
+};
+export declare const ciFlagCircleTr: {
+    name: 'flag-circle-tr';
+    data: string;
+};
+export declare const ciFlagCn: {
+    name: 'flag-cn';
+    data: string;
+};
+export declare const ciFlagCz: {
+    name: 'flag-cz';
+    data: string;
+};
+export declare const ciFlagDe: {
+    name: 'flag-de';
+    data: string;
+};
+export declare const ciFlagDk: {
+    name: 'flag-dk';
+    data: string;
+};
+export declare const ciFlagEe: {
+    name: 'flag-ee';
+    data: string;
+};
+export declare const ciFlagEn: {
+    name: 'flag-en';
+    data: string;
+};
+export declare const ciFlagEs: {
+    name: 'flag-es';
+    data: string;
+};
+export declare const ciFlagFi: {
+    name: 'flag-fi';
+    data: string;
+};
+export declare const ciFlagFr: {
+    name: 'flag-fr';
+    data: string;
+};
+export declare const ciFlagGb: {
+    name: 'flag-gb';
+    data: string;
+};
+export declare const ciFlagGr: {
+    name: 'flag-gr';
+    data: string;
+};
+export declare const ciFlagHr: {
+    name: 'flag-hr';
+    data: string;
+};
+export declare const ciFlagHu: {
+    name: 'flag-hu';
+    data: string;
+};
+export declare const ciFlagIs: {
+    name: 'flag-is';
+    data: string;
+};
+export declare const ciFlagIt: {
+    name: 'flag-it';
+    data: string;
+};
+export declare const ciFlagJp: {
+    name: 'flag-jp';
+    data: string;
+};
+export declare const ciFlagKr: {
+    name: 'flag-kr';
+    data: string;
+};
+export declare const ciFlagLv: {
+    name: 'flag-lv';
+    data: string;
+};
+export declare const ciFlagMk: {
+    name: 'flag-mk';
+    data: string;
+};
+export declare const ciFlagNl: {
+    name: 'flag-nl';
+    data: string;
+};
+export declare const ciFlagNo: {
+    name: 'flag-no';
     data: string;
 };
 export declare const ciFlagOutlined: {
     name: 'flag-outlined';
     data: string;
 };
-export declare const ciFranceCircle: {
-    name: 'france-circle';
+export declare const ciFlagPl: {
+    name: 'flag-pl';
     data: string;
 };
-export declare const ciFrance: {
-    name: 'france';
+export declare const ciFlagPt: {
+    name: 'flag-pt';
     data: string;
 };
-export declare const ciGermanyCircle: {
-    name: 'germany-circle';
+export declare const ciFlagRo: {
+    name: 'flag-ro';
     data: string;
 };
-export declare const ciGermany: {
-    name: 'germany';
+export declare const ciFlagRs: {
+    name: 'flag-rs';
+    data: string;
+};
+export declare const ciFlagRu: {
+    name: 'flag-ru';
+    data: string;
+};
+export declare const ciFlagSe: {
+    name: 'flag-se';
+    data: string;
+};
+export declare const ciFlagSi: {
+    name: 'flag-si';
+    data: string;
+};
+export declare const ciFlagSk: {
+    name: 'flag-sk';
+    data: string;
+};
+export declare const ciFlagTh: {
+    name: 'flag-th';
+    data: string;
+};
+export declare const ciFlagTr: {
+    name: 'flag-tr';
     data: string;
 };
 export declare const ciGoogleCalendar: {
@@ -1000,14 +1176,6 @@ export declare const ciGoogleMail: {
 };
 export declare const ciGoogle: {
     name: 'google';
-    data: string;
-};
-export declare const ciGreeceCircle: {
-    name: 'greece-circle';
-    data: string;
-};
-export declare const ciGreece: {
-    name: 'greece';
     data: string;
 };
 export declare const ciGroupOutlined: {
@@ -1038,22 +1206,6 @@ export declare const ciHistoryOutlined: {
     name: 'history-outlined';
     data: string;
 };
-export declare const ciHungaryCircle: {
-    name: 'hungary-circle';
-    data: string;
-};
-export declare const ciHungary: {
-    name: 'hungary';
-    data: string;
-};
-export declare const ciIcelandCircle: {
-    name: 'iceland-circle';
-    data: string;
-};
-export declare const ciIceland: {
-    name: 'iceland';
-    data: string;
-};
 export declare const ciInfoCircleFilled: {
     name: 'info-circle-filled';
     data: string;
@@ -1068,30 +1220,6 @@ export declare const ciInstagram: {
 };
 export declare const ciItalicOutlined: {
     name: 'italic-outlined';
-    data: string;
-};
-export declare const ciItalyCircle: {
-    name: 'italy-circle';
-    data: string;
-};
-export declare const ciItaly: {
-    name: 'italy';
-    data: string;
-};
-export declare const ciJapanCircle: {
-    name: 'japan-circle';
-    data: string;
-};
-export declare const ciJapan: {
-    name: 'japan';
-    data: string;
-};
-export declare const ciLatviaCircle: {
-    name: 'latvia-circle';
-    data: string;
-};
-export declare const ciLatvia: {
-    name: 'latvia';
     data: string;
 };
 export declare const ciLinkBreakOutlined: {
@@ -1178,30 +1306,6 @@ export declare const ciMozillaFirefox: {
     name: 'mozilla-firefox';
     data: string;
 };
-export declare const ciNetherlandsCircle: {
-    name: 'netherlands-circle';
-    data: string;
-};
-export declare const ciNetherlands: {
-    name: 'netherlands';
-    data: string;
-};
-export declare const ciNorthMacedoniaCircle: {
-    name: 'north-macedonia-circle';
-    data: string;
-};
-export declare const ciNorthMacedonia: {
-    name: 'north-macedonia';
-    data: string;
-};
-export declare const ciNorwayCircle: {
-    name: 'norway-circle';
-    data: string;
-};
-export declare const ciNorway: {
-    name: 'norway';
-    data: string;
-};
 export declare const ciOpenai: {
     name: 'openai';
     data: string;
@@ -1226,22 +1330,6 @@ export declare const ciPlanetOutlined: {
     name: 'planet-outlined';
     data: string;
 };
-export declare const ciPolandCircle: {
-    name: 'poland-circle';
-    data: string;
-};
-export declare const ciPoland: {
-    name: 'poland';
-    data: string;
-};
-export declare const ciPortugalCircle: {
-    name: 'portugal-circle';
-    data: string;
-};
-export declare const ciPortugal: {
-    name: 'portugal';
-    data: string;
-};
 export declare const ciPushNotification: {
     name: 'push-notification';
     data: string;
@@ -1258,48 +1346,8 @@ export declare const ciRedoOutlined: {
     name: 'redo-outlined';
     data: string;
 };
-export declare const ciRomaniaCircle: {
-    name: 'romania-circle';
-    data: string;
-};
-export declare const ciRomania: {
-    name: 'romania';
-    data: string;
-};
-export declare const ciRussiaCircle: {
-    name: 'russia-circle';
-    data: string;
-};
-export declare const ciRussia: {
-    name: 'russia';
-    data: string;
-};
-export declare const ciSerbiaCircle: {
-    name: 'serbia-circle';
-    data: string;
-};
-export declare const ciSerbia: {
-    name: 'serbia';
-    data: string;
-};
 export declare const ciSlidersOutlined: {
     name: 'sliders-outlined';
-    data: string;
-};
-export declare const ciSlovakiaCircle: {
-    name: 'slovakia-circle';
-    data: string;
-};
-export declare const ciSlovakia: {
-    name: 'slovakia';
-    data: string;
-};
-export declare const ciSloveniaCircle: {
-    name: 'slovenia-circle';
-    data: string;
-};
-export declare const ciSlovenia: {
-    name: 'slovenia';
     data: string;
 };
 export declare const ciSocialMediaOutlined: {
@@ -1308,22 +1356,6 @@ export declare const ciSocialMediaOutlined: {
 };
 export declare const ciSortingOutlined: {
     name: 'sorting-outlined';
-    data: string;
-};
-export declare const ciSouthKoreaCircle: {
-    name: 'south-korea-circle';
-    data: string;
-};
-export declare const ciSouthKorea: {
-    name: 'south-korea';
-    data: string;
-};
-export declare const ciSpainCircle: {
-    name: 'spain-circle';
-    data: string;
-};
-export declare const ciSpain: {
-    name: 'spain';
     data: string;
 };
 export declare const ciStatusAvailable: {
@@ -1358,14 +1390,6 @@ export declare const ciStrikethroughOutlined: {
     name: 'strikethrough-outlined';
     data: string;
 };
-export declare const ciSwedenCircle: {
-    name: 'sweden-circle';
-    data: string;
-};
-export declare const ciSweden: {
-    name: 'sweden';
-    data: string;
-};
 export declare const ciTagOutlined: {
     name: 'tag-outlined';
     data: string;
@@ -1386,24 +1410,8 @@ export declare const ciTextSummaryOutlined: {
     name: 'text-summary-outlined';
     data: string;
 };
-export declare const ciThailandCircle: {
-    name: 'thailand-circle';
-    data: string;
-};
-export declare const ciThailand: {
-    name: 'thailand';
-    data: string;
-};
 export declare const ciTranslateBoxFilled: {
     name: 'translate-box-filled';
-    data: string;
-};
-export declare const ciTurkeyCircle: {
-    name: 'turkey-circle';
-    data: string;
-};
-export declare const ciTurkey: {
-    name: 'turkey';
     data: string;
 };
 export declare const ciTwitter: {
@@ -1416,14 +1424,6 @@ export declare const ciUnderlinedOutlined: {
 };
 export declare const ciUndoOutlined: {
     name: 'undo-outlined';
-    data: string;
-};
-export declare const ciUnitedKingdomCircle: {
-    name: 'united-kingdom-circle';
-    data: string;
-};
-export declare const ciUnitedKingdom: {
-    name: 'united-kingdom';
     data: string;
 };
 export declare const ciVideoOutlined: {
@@ -1602,7 +1602,7 @@ export declare const ciXing: {
     name: 'xing';
     data: string;
 };
-export declare type coyoIcon = '16-chevron-down' | '16-chevron-left' | '16-chevron-right' | '16-chevron-up' | '16-editor-h-1' | '16-editor-h-2' | '16-editor-h-3' | '16-editor-h-4' | '16-editor-h-5' | '16-editor-h-6' | '16-editor-headline' | '16-editor-indent-decrease' | '16-editor-indent-increase' | '16-editor-ol' | '16-editor-ul' | '16-flash-circle-outlined' | '16-lock-outlined' | '16-thumbs-up-outlined' | '16-translate-box-outlined' | 'article-filled' | 'article-outlined' | 'bar-chart-outlined' | 'bell-check-outlined' | 'bell-dot-filled' | 'bell-dot-outlined' | 'bell-filled' | 'bell-outlined' | 'bell-plus-outlined' | 'bell-ringing-filled' | 'bell-ringing-outlined' | 'book-filled' | 'book-outlined' | 'bookmark-check-outlined' | 'bookmark-filled' | 'bookmark-outlined' | 'bookmark-plus-outlined' | 'chat-filled' | 'chat-outlined' | 'check-circle-filled' | 'check-circle-outlined' | 'check-outlined' | 'chevron-down-outlined' | 'chevron-left-outlined' | 'chevron-right-outlined' | 'chevron-up-outlined' | 'clock-filled' | 'clock-outlined' | 'communities-filled' | 'communities-outlined' | 'content-filled' | 'content-outlined' | 'cross-circle-filled' | 'cross-circle-outlined' | 'cross-outlined' | 'cross-square-filled' | 'cross-square-outlined' | 'danger-filled' | 'danger-outlined' | 'dots-circle-outlined' | 'download-outlined' | 'earth-outlined' | 'events-filled' | 'events-outlined' | 'external-link-outlined' | 'flash-circle-outlined' | 'flash-outlined' | 'folder-minus-outlined' | 'folder-outlined' | 'folder-plus-outlined' | 'gift-outlined' | 'globe-outlined' | 'gradient-outlined' | 'hashtag-outlined' | 'home-filled' | 'home-outlined' | 'layers-filled' | 'layers-outlined' | 'likes-circle-filled' | 'link-outlined' | 'location-outlined' | 'lock-filled' | 'lock-open-filled' | 'lock-open-outlined' | 'lock-outlined' | 'marketplace-filled' | 'marketplace-outlined' | 'maybe-circle-outlined' | 'megaphone-filled' | 'megaphone-outlined' | 'microsoft-teams' | 'microsoft-yammer' | 'paperclip-box-outlined' | 'paperclip-outlined' | 'photo-add-outlined' | 'photo-filled' | 'photo-outlined' | 'photo-remove-outlined' | 'plus-circle-filled' | 'plus-circle-outlined' | 'plus-outlined' | 'plus-square-filled' | 'plus-square-outlined' | 'printer-filled' | 'printer-outlined' | 'profile-box-outlined' | 'profile-circle-outlined' | 'profiles-filled' | 'profiles-outlined' | 'question-mark-circle-outlined' | 'reading-glasses-filled' | 'reading-glasses-outlined' | 'restart-outlined' | 'search-filled' | 'search-outlined' | 'search-restart-outlined' | 'settings-outlined' | 'share-filled' | 'share-outlined' | 'sign-in-outlined' | 'sign-out-outlined' | 'signal-outlined' | 'slack' | 'smile' | 'sp-grid-2-cols' | 'sp-grid-3-cols' | 'sp-grid-4-cols' | 'sp-grid-full' | 'sp-grid-sidebar-left-lg' | 'sp-grid-sidebar-left' | 'sp-grid-sidebar-right-lg' | 'sp-grid-sidebar-right' | 'sp-grid-social' | 'sparkle-filled' | 'sparkle-outlined' | 'star-circle-filled' | 'star-circle-outlined' | 'sticker-filled' | 'sticker-outlined' | 'thumbs-up-filled' | 'thumbs-up-outlined' | 'translate-box-outlined' | 'translate-outlined' | 'trash-filled' | 'trash-outlined' | 'upload-outlined' | 'video-camera-filled' | 'video-camera-outlined' | 'w-blog-article-recommended-outlined' | 'write-outlined' | '16-bell-strikethrough' | '16-bell' | '16-check-circle-filled' | '16-check-circle-outlined' | '16-check-double' | '16-check' | '16-clock-outlined' | '16-cross' | '16-earth-outlined' | '16-editor-arrow-down' | '16-editor-arrow-up' | '16-editor-bold' | '16-editor-delete' | '16-editor-image' | '16-editor-italic' | '16-editor-link-break' | '16-editor-link' | '16-editor-paragraph' | '16-editor-plus' | '16-editor-search' | '16-editor-settings' | '16-external-link' | '16-flag' | '16-info-circle-outlined' | '16-link-large' | '16-link-medium' | '16-link-small' | '16-pen-outlined' | '16-pin-outlined' | '16-targeted-outlined' | '16-warning-circle-outlined' | 'a-11-y-outlined' | 'ai-filled' | 'ai-outlined' | 'albania-circle' | 'albania' | 'alert-box-outlined' | 'alert-circle-outlined' | 'apple-safari' | 'archive-filled' | 'archive-outlined' | 'armenia-circle' | 'armenia' | 'arrow-down-outlined' | 'arrow-left-outlined' | 'arrow-pointing-box-outlined' | 'arrow-redo-outlined' | 'arrow-right-outlined' | 'arrow-up-outlined' | 'blank' | 'block-align-center-outlined' | 'block-align-fw-outlined' | 'block-align-left-outlined' | 'block-align-right-outlined' | 'block-caption-outlined' | 'bold-outlined' | 'brush-brackets-outlined' | 'bulgaria-circle' | 'bulgaria' | 'calendar-check-outlined' | 'calendar-cross-outlined' | 'calendar-outlined' | 'calendar-pen-outlined' | 'check-double-outlined' | 'china-circle' | 'china' | 'circle-filled-s' | 'circle-filled' | 'circle-outlined-s' | 'circle-outlined' | 'comment-outlined' | 'compass-outlined' | 'copy-outlined' | 'croatia-circle' | 'croatia' | 'czech-republic-circle' | 'czech-republic' | 'denmark-circle' | 'denmark' | 'english-mixed-circle' | 'english-mixed' | 'estonia-circle' | 'estonia' | 'eye-closed-outlined' | 'eye-open-outlined' | 'facebook' | 'feed-filled' | 'feed-outlined' | 'filter-outlined' | 'fingerprint-outlined' | 'finland-circle' | 'finland' | 'flag-outlined' | 'france-circle' | 'france' | 'germany-circle' | 'germany' | 'google-calendar' | 'google-chrome' | 'google-drive' | 'google-mail' | 'google' | 'greece-circle' | 'greece' | 'group-outlined' | 'haiilo-home' | 'haiilo-insights' | 'haiilo-outlined' | 'haiilo-share' | 'haiilo-stories' | 'history-outlined' | 'hungary-circle' | 'hungary' | 'iceland-circle' | 'iceland' | 'info-circle-filled' | 'info-circle-outlined' | 'instagram' | 'italic-outlined' | 'italy-circle' | 'italy' | 'japan-circle' | 'japan' | 'latvia-circle' | 'latvia' | 'link-break-outlined' | 'linkedin' | 'list-ordered-outlined' | 'list-unordered-outlined' | 'loop-outlined' | 'mail-open-outlined' | 'mail-outlined' | 'menu-left-outlined' | 'menu-outlined' | 'menu-right-outlined' | 'microsoft-edge' | 'microsoft-excel' | 'microsoft-onenote' | 'microsoft-outlook' | 'microsoft-planner' | 'microsoft-powerpoint' | 'microsoft-sharepoint' | 'microsoft-word' | 'microsoft' | 'more-horizontal-filled' | 'mozilla-firefox' | 'netherlands-circle' | 'netherlands' | 'north-macedonia-circle' | 'north-macedonia' | 'norway-circle' | 'norway' | 'openai' | 'paperplane-tilt-outlined' | 'pen-outlined' | 'pen-writing' | 'planet-filled' | 'planet-outlined' | 'poland-circle' | 'poland' | 'portugal-circle' | 'portugal' | 'push-notification' | 'puzzle-piece-outlined' | 'quote-outlined' | 'redo-outlined' | 'romania-circle' | 'romania' | 'russia-circle' | 'russia' | 'serbia-circle' | 'serbia' | 'sliders-outlined' | 'slovakia-circle' | 'slovakia' | 'slovenia-circle' | 'slovenia' | 'social-media-outlined' | 'sorting-outlined' | 'south-korea-circle' | 'south-korea' | 'spain-circle' | 'spain' | 'status-available' | 'status-away' | 'status-dnd' | 'status-invisible' | 'status-ooo' | 'stream-filled' | 'stream-outlined' | 'strikethrough-outlined' | 'sweden-circle' | 'sweden' | 'tag-outlined' | 'targeted-outlined' | 'text-extend-outlined' | 'text-shorten-outlined' | 'text-summary-outlined' | 'thailand-circle' | 'thailand' | 'translate-box-filled' | 'turkey-circle' | 'turkey' | 'twitter' | 'underlined-outlined' | 'undo-outlined' | 'united-kingdom-circle' | 'united-kingdom' | 'video-outlined' | 'w-alert-outlined' | 'w-birthdays-upcoming-outlined' | 'w-blog-article-new-outlined' | 'w-blog-article-outlined' | 'w-bookmarks-outlined' | 'w-button-outlined' | 'w-colleagues-new-outlined' | 'w-complete-profile-outlined' | 'w-divider-outlined' | 'w-do-you-know-outlined' | 'w-document-outlined' | 'w-documents-m-365-outlined' | 'w-documents-new-outlined' | 'w-download-outlined' | 'w-events-upcoming-outlined' | 'w-facegame-outlined' | 'w-feed-outlined' | 'w-gallery-outlined' | 'w-hashtags-outlined' | 'w-headline-outlined' | 'w-hero-teaser-outlined' | 'w-html-outlined' | 'w-iframe-outlined' | 'w-image-outlined' | 'w-launchpad-outlined' | 'w-media-outlined' | 'w-online-users-outlined' | 'w-plugin-trello-outlined' | 'w-plugin-twitter-outlined' | 'w-poll-outlined' | 'w-profile-outlined' | 'w-rss-feed-outlined' | 'w-subscriptions-outlined' | 'w-suggested-communities-outlined' | 'w-suggested-pages-outlined' | 'w-teaser-outlined' | 'w-text-outlined' | 'w-video-outlined' | 'w-welcome-outlined' | 'w-wiki-article-new-outlined' | 'w-wiki-article-outlined' | 'wechat' | 'xing';
+export declare type coyoIcon = '16-chevron-down' | '16-chevron-left' | '16-chevron-right' | '16-chevron-up' | '16-editor-h-1' | '16-editor-h-2' | '16-editor-h-3' | '16-editor-h-4' | '16-editor-h-5' | '16-editor-h-6' | '16-editor-headline' | '16-editor-indent-decrease' | '16-editor-indent-increase' | '16-editor-ol' | '16-editor-ul' | '16-flash-circle-outlined' | '16-lock-outlined' | '16-thumbs-up-outlined' | '16-translate-box-outlined' | 'article-filled' | 'article-outlined' | 'bar-chart-outlined' | 'bell-check-outlined' | 'bell-dot-filled' | 'bell-dot-outlined' | 'bell-filled' | 'bell-outlined' | 'bell-plus-outlined' | 'bell-ringing-filled' | 'bell-ringing-outlined' | 'book-filled' | 'book-outlined' | 'bookmark-check-outlined' | 'bookmark-filled' | 'bookmark-outlined' | 'bookmark-plus-outlined' | 'chat-filled' | 'chat-outlined' | 'check-circle-filled' | 'check-circle-outlined' | 'check-outlined' | 'chevron-down-outlined' | 'chevron-left-outlined' | 'chevron-right-outlined' | 'chevron-up-outlined' | 'clock-filled' | 'clock-outlined' | 'communities-filled' | 'communities-outlined' | 'content-filled' | 'content-outlined' | 'cross-circle-filled' | 'cross-circle-outlined' | 'cross-outlined' | 'cross-square-filled' | 'cross-square-outlined' | 'danger-filled' | 'danger-outlined' | 'dots-circle-outlined' | 'download-outlined' | 'earth-outlined' | 'events-filled' | 'events-outlined' | 'external-link-outlined' | 'flash-circle-outlined' | 'flash-outlined' | 'folder-minus-outlined' | 'folder-outlined' | 'folder-plus-outlined' | 'gift-outlined' | 'globe-outlined' | 'gradient-outlined' | 'hashtag-outlined' | 'home-filled' | 'home-outlined' | 'layers-filled' | 'layers-outlined' | 'likes-circle-filled' | 'link-outlined' | 'location-outlined' | 'lock-filled' | 'lock-open-filled' | 'lock-open-outlined' | 'lock-outlined' | 'marketplace-filled' | 'marketplace-outlined' | 'maybe-circle-outlined' | 'megaphone-filled' | 'megaphone-outlined' | 'microsoft-teams' | 'microsoft-yammer' | 'paperclip-box-outlined' | 'paperclip-outlined' | 'photo-add-outlined' | 'photo-filled' | 'photo-outlined' | 'photo-remove-outlined' | 'plus-circle-filled' | 'plus-circle-outlined' | 'plus-outlined' | 'plus-square-filled' | 'plus-square-outlined' | 'printer-filled' | 'printer-outlined' | 'profile-box-outlined' | 'profile-circle-outlined' | 'profiles-filled' | 'profiles-outlined' | 'question-mark-circle-outlined' | 'reading-glasses-filled' | 'reading-glasses-outlined' | 'restart-outlined' | 'search-filled' | 'search-outlined' | 'search-restart-outlined' | 'settings-outlined' | 'share-filled' | 'share-outlined' | 'sign-in-outlined' | 'sign-out-outlined' | 'signal-outlined' | 'slack' | 'smile' | 'sp-grid-2-cols' | 'sp-grid-3-cols' | 'sp-grid-4-cols' | 'sp-grid-full' | 'sp-grid-sidebar-left-lg' | 'sp-grid-sidebar-left' | 'sp-grid-sidebar-right-lg' | 'sp-grid-sidebar-right' | 'sp-grid-social' | 'sparkle-filled' | 'sparkle-outlined' | 'star-circle-filled' | 'star-circle-outlined' | 'sticker-filled' | 'sticker-outlined' | 'thumbs-up-filled' | 'thumbs-up-outlined' | 'translate-box-outlined' | 'translate-outlined' | 'trash-filled' | 'trash-outlined' | 'upload-outlined' | 'video-camera-filled' | 'video-camera-outlined' | 'w-blog-article-recommended-outlined' | 'write-outlined' | '16-bell-strikethrough' | '16-bell' | '16-check-circle-filled' | '16-check-circle-outlined' | '16-check-double' | '16-check' | '16-clock-outlined' | '16-cross' | '16-earth-outlined' | '16-editor-arrow-down' | '16-editor-arrow-up' | '16-editor-bold' | '16-editor-delete' | '16-editor-image' | '16-editor-italic' | '16-editor-link-break' | '16-editor-link' | '16-editor-paragraph' | '16-editor-plus' | '16-editor-search' | '16-editor-settings' | '16-external-link' | '16-flag' | '16-info-circle-outlined' | '16-link-large' | '16-link-medium' | '16-link-small' | '16-pen-outlined' | '16-pin-outlined' | '16-targeted-outlined' | '16-warning-circle-outlined' | 'a-11-y-outlined' | 'ai-filled' | 'ai-outlined' | 'alert-box-outlined' | 'alert-circle-outlined' | 'apple-safari' | 'archive-filled' | 'archive-outlined' | 'arrow-down-outlined' | 'arrow-left-outlined' | 'arrow-pointing-box-outlined' | 'arrow-redo-outlined' | 'arrow-right-outlined' | 'arrow-up-outlined' | 'blank' | 'block-align-center-outlined' | 'block-align-fw-outlined' | 'block-align-left-outlined' | 'block-align-right-outlined' | 'block-caption-outlined' | 'bold-outlined' | 'brush-brackets-outlined' | 'calendar-check-outlined' | 'calendar-cross-outlined' | 'calendar-outlined' | 'calendar-pen-outlined' | 'check-double-outlined' | 'circle-filled-s' | 'circle-filled' | 'circle-outlined-s' | 'circle-outlined' | 'comment-outlined' | 'compass-outlined' | 'copy-outlined' | 'eye-closed-outlined' | 'eye-open-outlined' | 'facebook' | 'feed-filled' | 'feed-outlined' | 'filter-outlined' | 'fingerprint-outlined' | 'flag-al' | 'flag-am' | 'flag-bg' | 'flag-circle-al' | 'flag-circle-am' | 'flag-circle-bg' | 'flag-circle-cn' | 'flag-circle-cz' | 'flag-circle-de' | 'flag-circle-dk' | 'flag-circle-ee' | 'flag-circle-en' | 'flag-circle-es' | 'flag-circle-fi' | 'flag-circle-fr' | 'flag-circle-gb' | 'flag-circle-gr' | 'flag-circle-hr' | 'flag-circle-hu' | 'flag-circle-is' | 'flag-circle-it' | 'flag-circle-jp' | 'flag-circle-kr' | 'flag-circle-lv' | 'flag-circle-mk' | 'flag-circle-nl' | 'flag-circle-no' | 'flag-circle-pl' | 'flag-circle-pt' | 'flag-circle-ro' | 'flag-circle-rs' | 'flag-circle-ru' | 'flag-circle-se' | 'flag-circle-si' | 'flag-circle-sk' | 'flag-circle-th' | 'flag-circle-tr' | 'flag-cn' | 'flag-cz' | 'flag-de' | 'flag-dk' | 'flag-ee' | 'flag-en' | 'flag-es' | 'flag-fi' | 'flag-fr' | 'flag-gb' | 'flag-gr' | 'flag-hr' | 'flag-hu' | 'flag-is' | 'flag-it' | 'flag-jp' | 'flag-kr' | 'flag-lv' | 'flag-mk' | 'flag-nl' | 'flag-no' | 'flag-outlined' | 'flag-pl' | 'flag-pt' | 'flag-ro' | 'flag-rs' | 'flag-ru' | 'flag-se' | 'flag-si' | 'flag-sk' | 'flag-th' | 'flag-tr' | 'google-calendar' | 'google-chrome' | 'google-drive' | 'google-mail' | 'google' | 'group-outlined' | 'haiilo-home' | 'haiilo-insights' | 'haiilo-outlined' | 'haiilo-share' | 'haiilo-stories' | 'history-outlined' | 'info-circle-filled' | 'info-circle-outlined' | 'instagram' | 'italic-outlined' | 'link-break-outlined' | 'linkedin' | 'list-ordered-outlined' | 'list-unordered-outlined' | 'loop-outlined' | 'mail-open-outlined' | 'mail-outlined' | 'menu-left-outlined' | 'menu-outlined' | 'menu-right-outlined' | 'microsoft-edge' | 'microsoft-excel' | 'microsoft-onenote' | 'microsoft-outlook' | 'microsoft-planner' | 'microsoft-powerpoint' | 'microsoft-sharepoint' | 'microsoft-word' | 'microsoft' | 'more-horizontal-filled' | 'mozilla-firefox' | 'openai' | 'paperplane-tilt-outlined' | 'pen-outlined' | 'pen-writing' | 'planet-filled' | 'planet-outlined' | 'push-notification' | 'puzzle-piece-outlined' | 'quote-outlined' | 'redo-outlined' | 'sliders-outlined' | 'social-media-outlined' | 'sorting-outlined' | 'status-available' | 'status-away' | 'status-dnd' | 'status-invisible' | 'status-ooo' | 'stream-filled' | 'stream-outlined' | 'strikethrough-outlined' | 'tag-outlined' | 'targeted-outlined' | 'text-extend-outlined' | 'text-shorten-outlined' | 'text-summary-outlined' | 'translate-box-filled' | 'twitter' | 'underlined-outlined' | 'undo-outlined' | 'video-outlined' | 'w-alert-outlined' | 'w-birthdays-upcoming-outlined' | 'w-blog-article-new-outlined' | 'w-blog-article-outlined' | 'w-bookmarks-outlined' | 'w-button-outlined' | 'w-colleagues-new-outlined' | 'w-complete-profile-outlined' | 'w-divider-outlined' | 'w-do-you-know-outlined' | 'w-document-outlined' | 'w-documents-m-365-outlined' | 'w-documents-new-outlined' | 'w-download-outlined' | 'w-events-upcoming-outlined' | 'w-facegame-outlined' | 'w-feed-outlined' | 'w-gallery-outlined' | 'w-hashtags-outlined' | 'w-headline-outlined' | 'w-hero-teaser-outlined' | 'w-html-outlined' | 'w-iframe-outlined' | 'w-image-outlined' | 'w-launchpad-outlined' | 'w-media-outlined' | 'w-online-users-outlined' | 'w-plugin-trello-outlined' | 'w-plugin-twitter-outlined' | 'w-poll-outlined' | 'w-profile-outlined' | 'w-rss-feed-outlined' | 'w-subscriptions-outlined' | 'w-suggested-communities-outlined' | 'w-suggested-pages-outlined' | 'w-teaser-outlined' | 'w-text-outlined' | 'w-video-outlined' | 'w-welcome-outlined' | 'w-wiki-article-new-outlined' | 'w-wiki-article-outlined' | 'wechat' | 'xing';
 export interface CoyoIcon {
     name: coyoIcon;
     data: string;
@@ -2158,12 +2158,6 @@ export declare const completeIconSet: ({
     name: 'ai-outlined';
     data: string;
 } | {
-    name: 'albania-circle';
-    data: string;
-} | {
-    name: 'albania';
-    data: string;
-} | {
     name: 'alert-box-outlined';
     data: string;
 } | {
@@ -2177,12 +2171,6 @@ export declare const completeIconSet: ({
     data: string;
 } | {
     name: 'archive-outlined';
-    data: string;
-} | {
-    name: 'armenia-circle';
-    data: string;
-} | {
-    name: 'armenia';
     data: string;
 } | {
     name: 'arrow-down-outlined';
@@ -2227,12 +2215,6 @@ export declare const completeIconSet: ({
     name: 'brush-brackets-outlined';
     data: string;
 } | {
-    name: 'bulgaria-circle';
-    data: string;
-} | {
-    name: 'bulgaria';
-    data: string;
-} | {
     name: 'calendar-check-outlined';
     data: string;
 } | {
@@ -2246,12 +2228,6 @@ export declare const completeIconSet: ({
     data: string;
 } | {
     name: 'check-double-outlined';
-    data: string;
-} | {
-    name: 'china-circle';
-    data: string;
-} | {
-    name: 'china';
     data: string;
 } | {
     name: 'circle-filled-s';
@@ -2275,36 +2251,6 @@ export declare const completeIconSet: ({
     name: 'copy-outlined';
     data: string;
 } | {
-    name: 'croatia-circle';
-    data: string;
-} | {
-    name: 'croatia';
-    data: string;
-} | {
-    name: 'czech-republic-circle';
-    data: string;
-} | {
-    name: 'czech-republic';
-    data: string;
-} | {
-    name: 'denmark-circle';
-    data: string;
-} | {
-    name: 'denmark';
-    data: string;
-} | {
-    name: 'english-mixed-circle';
-    data: string;
-} | {
-    name: 'english-mixed';
-    data: string;
-} | {
-    name: 'estonia-circle';
-    data: string;
-} | {
-    name: 'estonia';
-    data: string;
-} | {
     name: 'eye-closed-outlined';
     data: string;
 } | {
@@ -2326,25 +2272,211 @@ export declare const completeIconSet: ({
     name: 'fingerprint-outlined';
     data: string;
 } | {
-    name: 'finland-circle';
+    name: 'flag-al';
     data: string;
 } | {
-    name: 'finland';
+    name: 'flag-am';
+    data: string;
+} | {
+    name: 'flag-bg';
+    data: string;
+} | {
+    name: 'flag-circle-al';
+    data: string;
+} | {
+    name: 'flag-circle-am';
+    data: string;
+} | {
+    name: 'flag-circle-bg';
+    data: string;
+} | {
+    name: 'flag-circle-cn';
+    data: string;
+} | {
+    name: 'flag-circle-cz';
+    data: string;
+} | {
+    name: 'flag-circle-de';
+    data: string;
+} | {
+    name: 'flag-circle-dk';
+    data: string;
+} | {
+    name: 'flag-circle-ee';
+    data: string;
+} | {
+    name: 'flag-circle-en';
+    data: string;
+} | {
+    name: 'flag-circle-es';
+    data: string;
+} | {
+    name: 'flag-circle-fi';
+    data: string;
+} | {
+    name: 'flag-circle-fr';
+    data: string;
+} | {
+    name: 'flag-circle-gb';
+    data: string;
+} | {
+    name: 'flag-circle-gr';
+    data: string;
+} | {
+    name: 'flag-circle-hr';
+    data: string;
+} | {
+    name: 'flag-circle-hu';
+    data: string;
+} | {
+    name: 'flag-circle-is';
+    data: string;
+} | {
+    name: 'flag-circle-it';
+    data: string;
+} | {
+    name: 'flag-circle-jp';
+    data: string;
+} | {
+    name: 'flag-circle-kr';
+    data: string;
+} | {
+    name: 'flag-circle-lv';
+    data: string;
+} | {
+    name: 'flag-circle-mk';
+    data: string;
+} | {
+    name: 'flag-circle-nl';
+    data: string;
+} | {
+    name: 'flag-circle-no';
+    data: string;
+} | {
+    name: 'flag-circle-pl';
+    data: string;
+} | {
+    name: 'flag-circle-pt';
+    data: string;
+} | {
+    name: 'flag-circle-ro';
+    data: string;
+} | {
+    name: 'flag-circle-rs';
+    data: string;
+} | {
+    name: 'flag-circle-ru';
+    data: string;
+} | {
+    name: 'flag-circle-se';
+    data: string;
+} | {
+    name: 'flag-circle-si';
+    data: string;
+} | {
+    name: 'flag-circle-sk';
+    data: string;
+} | {
+    name: 'flag-circle-th';
+    data: string;
+} | {
+    name: 'flag-circle-tr';
+    data: string;
+} | {
+    name: 'flag-cn';
+    data: string;
+} | {
+    name: 'flag-cz';
+    data: string;
+} | {
+    name: 'flag-de';
+    data: string;
+} | {
+    name: 'flag-dk';
+    data: string;
+} | {
+    name: 'flag-ee';
+    data: string;
+} | {
+    name: 'flag-en';
+    data: string;
+} | {
+    name: 'flag-es';
+    data: string;
+} | {
+    name: 'flag-fi';
+    data: string;
+} | {
+    name: 'flag-fr';
+    data: string;
+} | {
+    name: 'flag-gb';
+    data: string;
+} | {
+    name: 'flag-gr';
+    data: string;
+} | {
+    name: 'flag-hr';
+    data: string;
+} | {
+    name: 'flag-hu';
+    data: string;
+} | {
+    name: 'flag-is';
+    data: string;
+} | {
+    name: 'flag-it';
+    data: string;
+} | {
+    name: 'flag-jp';
+    data: string;
+} | {
+    name: 'flag-kr';
+    data: string;
+} | {
+    name: 'flag-lv';
+    data: string;
+} | {
+    name: 'flag-mk';
+    data: string;
+} | {
+    name: 'flag-nl';
+    data: string;
+} | {
+    name: 'flag-no';
     data: string;
 } | {
     name: 'flag-outlined';
     data: string;
 } | {
-    name: 'france-circle';
+    name: 'flag-pl';
     data: string;
 } | {
-    name: 'france';
+    name: 'flag-pt';
     data: string;
 } | {
-    name: 'germany-circle';
+    name: 'flag-ro';
     data: string;
 } | {
-    name: 'germany';
+    name: 'flag-rs';
+    data: string;
+} | {
+    name: 'flag-ru';
+    data: string;
+} | {
+    name: 'flag-se';
+    data: string;
+} | {
+    name: 'flag-si';
+    data: string;
+} | {
+    name: 'flag-sk';
+    data: string;
+} | {
+    name: 'flag-th';
+    data: string;
+} | {
+    name: 'flag-tr';
     data: string;
 } | {
     name: 'google-calendar';
@@ -2360,12 +2492,6 @@ export declare const completeIconSet: ({
     data: string;
 } | {
     name: 'google';
-    data: string;
-} | {
-    name: 'greece-circle';
-    data: string;
-} | {
-    name: 'greece';
     data: string;
 } | {
     name: 'group-outlined';
@@ -2389,18 +2515,6 @@ export declare const completeIconSet: ({
     name: 'history-outlined';
     data: string;
 } | {
-    name: 'hungary-circle';
-    data: string;
-} | {
-    name: 'hungary';
-    data: string;
-} | {
-    name: 'iceland-circle';
-    data: string;
-} | {
-    name: 'iceland';
-    data: string;
-} | {
     name: 'info-circle-filled';
     data: string;
 } | {
@@ -2411,24 +2525,6 @@ export declare const completeIconSet: ({
     data: string;
 } | {
     name: 'italic-outlined';
-    data: string;
-} | {
-    name: 'italy-circle';
-    data: string;
-} | {
-    name: 'italy';
-    data: string;
-} | {
-    name: 'japan-circle';
-    data: string;
-} | {
-    name: 'japan';
-    data: string;
-} | {
-    name: 'latvia-circle';
-    data: string;
-} | {
-    name: 'latvia';
     data: string;
 } | {
     name: 'link-break-outlined';
@@ -2494,24 +2590,6 @@ export declare const completeIconSet: ({
     name: 'mozilla-firefox';
     data: string;
 } | {
-    name: 'netherlands-circle';
-    data: string;
-} | {
-    name: 'netherlands';
-    data: string;
-} | {
-    name: 'north-macedonia-circle';
-    data: string;
-} | {
-    name: 'north-macedonia';
-    data: string;
-} | {
-    name: 'norway-circle';
-    data: string;
-} | {
-    name: 'norway';
-    data: string;
-} | {
     name: 'openai';
     data: string;
 } | {
@@ -2530,18 +2608,6 @@ export declare const completeIconSet: ({
     name: 'planet-outlined';
     data: string;
 } | {
-    name: 'poland-circle';
-    data: string;
-} | {
-    name: 'poland';
-    data: string;
-} | {
-    name: 'portugal-circle';
-    data: string;
-} | {
-    name: 'portugal';
-    data: string;
-} | {
     name: 'push-notification';
     data: string;
 } | {
@@ -2554,55 +2620,13 @@ export declare const completeIconSet: ({
     name: 'redo-outlined';
     data: string;
 } | {
-    name: 'romania-circle';
-    data: string;
-} | {
-    name: 'romania';
-    data: string;
-} | {
-    name: 'russia-circle';
-    data: string;
-} | {
-    name: 'russia';
-    data: string;
-} | {
-    name: 'serbia-circle';
-    data: string;
-} | {
-    name: 'serbia';
-    data: string;
-} | {
     name: 'sliders-outlined';
-    data: string;
-} | {
-    name: 'slovakia-circle';
-    data: string;
-} | {
-    name: 'slovakia';
-    data: string;
-} | {
-    name: 'slovenia-circle';
-    data: string;
-} | {
-    name: 'slovenia';
     data: string;
 } | {
     name: 'social-media-outlined';
     data: string;
 } | {
     name: 'sorting-outlined';
-    data: string;
-} | {
-    name: 'south-korea-circle';
-    data: string;
-} | {
-    name: 'south-korea';
-    data: string;
-} | {
-    name: 'spain-circle';
-    data: string;
-} | {
-    name: 'spain';
     data: string;
 } | {
     name: 'status-available';
@@ -2629,12 +2653,6 @@ export declare const completeIconSet: ({
     name: 'strikethrough-outlined';
     data: string;
 } | {
-    name: 'sweden-circle';
-    data: string;
-} | {
-    name: 'sweden';
-    data: string;
-} | {
     name: 'tag-outlined';
     data: string;
 } | {
@@ -2650,19 +2668,7 @@ export declare const completeIconSet: ({
     name: 'text-summary-outlined';
     data: string;
 } | {
-    name: 'thailand-circle';
-    data: string;
-} | {
-    name: 'thailand';
-    data: string;
-} | {
     name: 'translate-box-filled';
-    data: string;
-} | {
-    name: 'turkey-circle';
-    data: string;
-} | {
-    name: 'turkey';
     data: string;
 } | {
     name: 'twitter';
@@ -2672,12 +2678,6 @@ export declare const completeIconSet: ({
     data: string;
 } | {
     name: 'undo-outlined';
-    data: string;
-} | {
-    name: 'united-kingdom-circle';
-    data: string;
-} | {
-    name: 'united-kingdom';
     data: string;
 } | {
     name: 'video-outlined';
