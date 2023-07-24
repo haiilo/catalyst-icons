@@ -2729,15 +2729,6 @@
 	height: 40px;
 }
 
-.ci-rt-lg-image {
-	background-position: 40.98360655737705% 0;
-}
-
-.ci-rt-lg-image-size {
-	width: 40px;
-	height: 40px;
-}
-
 .ci-rte-blockquote {
 	background-position: 23.80952380952381% 83.87096774193549%;
 }
@@ -2793,10 +2784,19 @@
 }
 
 .ci-rte-lg-h-2 {
-	background-position: 40.98360655737705% 8.333333333333334%;
+	background-position: 40.98360655737705% 0;
 }
 
 .ci-rte-lg-h-2-size {
+	width: 40px;
+	height: 40px;
+}
+
+.ci-rte-lg-image {
+	background-position: 40.98360655737705% 8.333333333333334%;
+}
+
+.ci-rte-lg-image-size {
 	width: 40px;
 	height: 40px;
 }
