@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.6 (2023-08-08)
+
+
+### Features
+
+* added basic (tw)emojis for the search page ([266297f](https://github.com/haiilo/catalyst-icons/commit/266297f14b422ccf3dca5a7099ab0a036579eb48))
+
 ### 1.0.5 (2023-07-24)
 
 ### 1.0.4 (2023-07-24)
