@@ -189,7 +189,7 @@ export const ciClockOutlined = {
 };
 export const ciCommunitiesFilled = {
     name: 'communities-filled',
-    data: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-3 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm9 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-6 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg>`
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-6 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm8.5 3.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0ZM12 14.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z"/></svg>`
 };
 export const ciCommunitiesOutlined = {
     name: 'communities-outlined',
