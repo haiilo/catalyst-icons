@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.7 (2023-08-16)
+
+
+### Features
+
+* added brand icon for "github" ([e0bc436](https://github.com/haiilo/catalyst-icons/commit/e0bc4369ca8bd02afe454d958ae1ca0c2b392d3d))
+
 ### 1.0.6 (2023-08-08)
 
 
