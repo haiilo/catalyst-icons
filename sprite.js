@@ -3,15 +3,16 @@
 const mkdirp = require('mkdirp');
 const path = require('path');
 const fs = require('fs');
-const glob = require('glob');
+const { glob } = require('glob');
 const cwd = path.resolve('src');
 const SVGSpriter = require('svg-sprite');
 const config = require('./sprite.config');
 const spriter = new SVGSpriter(config);
 const _ = require('lodash');
 
-// Find SVG files recursively via `glob`
-glob.glob('**/*.svg', { cwd: cwd }, function (err, files) {
+(async function () {
+  // Find SVG files recursively via `glob`
+  const files = await glob('**/*.svg', { cwd: cwd });
 
   // Create temporary assets folder
   if (!fs.existsSync('tmp/assets')) {
@@ -37,4 +38,4 @@ glob.glob('**/*.svg', { cwd: cwd }, function (err, files) {
       }
     }
   });
-});
+})();
