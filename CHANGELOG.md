@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.8 (2023-09-20)
+
+
+### Features
+
+* new icon for generic browsers ([8f2fbf9](https://github.com/haiilo/catalyst-icons/commit/8f2fbf95bb6969b2c8732d4b0deacc25081aabb2))
+
 ### 1.0.7 (2023-08-16)
 
 
