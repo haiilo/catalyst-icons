@@ -867,6 +867,10 @@ export const ciFolderPlusOutlined = {
     name: 'folder-plus-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.25 6v12c0 .966.784 1.75 1.75 1.75h12a.75.75 0 0 0 0-1.5H4a.25.25 0 0 1-.25-.25V9.75H16a.75.75 0 0 0 0-1.5h-1.537l-1.516-3.033a1.75 1.75 0 0 0-1.565-.967H4A1.75 1.75 0 0 0 2.25 6ZM4 5.75a.25.25 0 0 0-.25.25v2.25h9.037l-1.181-2.362a.25.25 0 0 0-.224-.138H4Z" clip-rule="evenodd"/><path d="M18.75 11a.75.75 0 0 0-1.5 0v2.25H15a.75.75 0 0 0 0 1.5h2.25V17a.75.75 0 0 0 1.5 0v-2.25H21a.75.75 0 0 0 0-1.5h-2.25V11Z"/></svg>`
 };
+export const ciGenericBrowserOutlined = {
+    name: 'generic-browser-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4 3.25A2.75 2.75 0 0 0 1.25 6v12A2.75 2.75 0 0 0 4 20.75h16A2.75 2.75 0 0 0 22.75 18V6A2.75 2.75 0 0 0 20 3.25H4ZM2.75 6c0-.69.56-1.25 1.25-1.25h16c.69 0 1.25.56 1.25 1.25v12c0 .69-.56 1.25-1.25 1.25H4c-.69 0-1.25-.56-1.25-1.25V6Zm3 .5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5ZM8 7.75a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Zm4.75-1.25a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Zm.41 9.654a.5.5 0 0 1-.839-.232l-.998-3.992a.5.5 0 0 1 .607-.607l3.991.998a.5.5 0 0 1 .233.839l-.967.966 2.343 2.344-1.06 1.06-2.343-2.343-.967.967Z" clip-rule="evenodd"/></svg>`
+};
 export const ciGiftOutlined = {
     name: 'gift-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.25 6.5A3.25 3.25 0 0 1 12 4.423a3.25 3.25 0 0 1 5.24 3.827H20a.75.75 0 0 1 0 1.5h-.25V19A1.75 1.75 0 0 1 18 20.75H6A1.75 1.75 0 0 1 4.25 19V9.75H4a.75.75 0 0 1 0-1.5h2.76a3.235 3.235 0 0 1-.51-1.75Zm6.5 12.75H18a.25.25 0 0 0 .25-.25V9.75h-5.5v9.5Zm-1.5-9.5v9.5H6a.25.25 0 0 1-.25-.25V9.75h5.5Zm5-3.25a1.75 1.75 0 0 1-1.75 1.75h-1.75V6.5a1.75 1.75 0 1 1 3.5 0Zm-5 0v1.75H9.5a1.75 1.75 0 1 1 1.75-1.75Z" clip-rule="evenodd"/></svg>`
@@ -1937,6 +1941,7 @@ export const completeIconSet = [
     ciFolderMinusOutlined,
     ciFolderOutlined,
     ciFolderPlusOutlined,
+    ciGenericBrowserOutlined,
     ciGiftOutlined,
     ciGithub,
     ciGlobeOutlined,
