@@ -15,7 +15,6 @@ jobs:
         uses: ericcornelissen/svgo-action@v3
         id: svgo
         with:
-          dry-run: true
           repo-token: ${{secrets.GITHUB_TOKEN}}
           svgo-config: svgo.js
       - name: Commit
