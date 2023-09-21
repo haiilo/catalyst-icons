@@ -17,7 +17,6 @@ jobs:
         with:
           dry-run: true
           repo-token: ${{secrets.GITHUB_TOKEN}}
-          svgo-version: 3
           svgo-config: svgo.js
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
