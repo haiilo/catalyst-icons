@@ -8,12 +8,14 @@
         padding: 0;
         margin: 0;
         list-style: none;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(min(8rem,100%),1fr));
       }
       .icon {
       }
       .icon svg {
+        width: 4rem;
+        height: 4rem;
       }
     </style>
   </head>
