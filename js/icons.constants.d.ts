@@ -1728,7 +1728,7 @@ export interface CoyoIcon {
     data: string;
 }
 export type CoyoIconNameSubset<T extends Readonly<CoyoIcon[]>> = T[number]['name'];
-export declare const completeIconSet: ({
+export declare const ciAll: ({
     name: '16-bell-strikethrough';
     data: string;
 } | {
