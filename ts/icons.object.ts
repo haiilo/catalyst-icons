@@ -110,6 +110,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v14c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 19V5A1.75 1.75 0 0 0 19 3.25H5ZM4.75 5A.25.25 0 0 1 5 4.75h14a.25.25 0 0 1 .25.25v14a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25V5ZM12 7.25a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75ZM13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" clip-rule="evenodd"/></svg>',
   'alert-circle-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25-8a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0V8Z"/><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Z" clip-rule="evenodd"/></svg>',
+  'app-directory':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M5.5 7.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm8-1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM12 19.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM20 6a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm-1.5 7.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM20 18a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM7 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm-1.5 7.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" clip-rule="evenodd"/></svg>',
   'apple-safari':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#E4E3E3" d="M21.815 11.807a9.79 9.79 0 0 1-9.79 9.789c-5.405 0-9.788-4.383-9.788-9.79 0-5.406 4.383-9.788 9.789-9.788a9.79 9.79 0 0 1 9.789 9.789Z"/><path fill="#0BA2E2" d="M21.048 11.807a9.022 9.022 0 1 1-18.044 0 9.022 9.022 0 0 1 18.044 0Z"/><path stroke="#fff" stroke-dasharray="1 2.3" stroke-linecap="round" stroke-width=".75" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" clip-rule="evenodd"/><path fill="#CF1D13" d="m18.191 6.545-7.196 4.182 2.106 2.233 5.09-6.415Z"/><path fill="#F1F1F1" d="M10.995 10.727 6.444 17.89l6.657-4.93-2.106-2.233Z"/></svg>',
   'archive-filled':
@@ -918,6 +920,7 @@ export type MyIconType =
   | 'ai-outlined'
   | 'alert-box-outlined'
   | 'alert-circle-outlined'
+  | 'app-directory'
   | 'apple-safari'
   | 'archive-filled'
   | 'archive-outlined'
