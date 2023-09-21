@@ -31,10 +31,6 @@
     "clean": "rm -rf ./dist ./tmp",
     "reset": "rm -rf ./dist ./tmp ./node_modules"
   },
-  "engines": {
-    "npm": ">=8.0.0",
-    "node": ">=18.0.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",

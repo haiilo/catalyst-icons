@@ -18,6 +18,7 @@
     </style>
   </head>
   <body>
+    <input type="text" class="search" placeholder="Search...">
     <ul class="icons"></ul>
     <script type="module">
       ${CI}
@@ -29,6 +30,19 @@
         li.innerHTML = `${ci[key]}<span class="icon-name">${key}</div>`;
         iconList.appendChild(li);
       }
+      const searchInput = document.querySelector('.search');
+      searchInput.addEventListener('input', () => {
+        const query = searchInput.value.toLowerCase();
+        const icons = document.querySelectorAll('ul.icons li');
+        for (const icon of icons) {
+          const name = icon.dataset.name.toLowerCase();
+          if (name.includes(query)) {
+            icon.style.display = 'initial';
+          } else {
+            icon.style.display = 'none';
+          }
+        }
+      });
     </script>
   </body>
 </html>
