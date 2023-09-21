@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Icon Overview</title>
+    <style>
+      .icons {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .icon {
+      }
+      .icon svg {
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="icons"></ul>
+    <script type="module">
+      ${CI}
+      const iconList = document.querySelector('ul.icons');
+      for (const key in ci) {
+        const li = document.createElement('li');
+        li.dataset.name = key;
+        li.className = 'icon';
+        li.innerHTML = `${ci[key]}<span class="icon-name">${key}</div>`;
+        iconList.appendChild(li);
+      }
+    </script>
+  </body>
+</html>

@@ -7,18 +7,17 @@ permissions:
   contents: write
 jobs:
   svgs:
-    name: SVGs
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
-      - name: Optimize SVGs
+      - name: Optimize
         uses: ericcornelissen/svgo-action@v3
         id: svgo
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
-      - name: Commit optimizations
+      - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         if: ${{steps.svgo.outputs.DID_OPTIMIZE}}
         with:
-          commit_message: Optimize ${{steps.svgo.outputs.OPTIMIZED_COUNT}} SVG(s)
+          commit_message: "fix: optimize ${{steps.svgo.outputs.OPTIMIZED_COUNT}} svg(s)"

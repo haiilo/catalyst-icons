@@ -9,24 +9,21 @@
   },
   "main": "dist/js/index.js",
   "files": [
-    "tmp/assets",
-    "dist/style",
-    "dist/svg",
-    "dist/js"
+    "dist/js",
+    "dist/ts"
   ],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "prepare": "node ./prepare.js",
-    "sprite": "node sprite.js",
-    "svgo": "node svgo.js",
-    "svgts:object": "svg-to-ts-object -s './src/**/*.svg' -f icons.object -o ./tmp -d KEBAB --objectName ci",
-    "svgts:constants": "svg-to-ts-constants -s './src/**/*.svg' -i CoyoIcon -t coyoIcon -p ci -f icons.constants -o ./tmp -d KEBAB",
+    "prepare": "node prepare.js",
+    "svgts:object": "svg-to-ts-object -s './src/**/*.svg' -f icons.object -o ./dist/ts -d KEBAB --objectName ci",
+    "svgts:constants": "svg-to-ts-constants -s './src/**/*.svg' -i CoyoIcon -t coyoIcon -p ci -f icons.constants -o ./dist/ts -d KEBAB --completeIconSetName ciAll",
     "transpile": "node transpile.js",
     "tsc": "tsc",
+    "docs": "cp index.html dist && sed -e '/${CI}/r ./dist/js/icons.object.js' -e '/${CI}/d' index.html > ./dist/index.html",
     "prebuild": "npm run clean",
-    "build": "run-s sprite svgts:** transpile tsc",
+    "build": "run-s svgts:** transpile tsc docs",
     "release": "standard-version",
     "release:patch": "standard-version --release-as patch",
     "release:minor": "standard-version --release-as minor",
@@ -41,13 +38,9 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
-    "glob": "^10.3.4",
     "husky": "^8.0.3",
-    "lodash": "^4.17.21",
-    "mkdirp": "^3.0.1",
     "npm-run-all": "^4.1.5",
     "standard-version": "^9.5.0",
-    "svg-sprite": "^2.0.2",
     "svg-to-ts": "^10.1.0",
     "typescript": "^5.2.2"
   }

@@ -2,11 +2,11 @@
 
 const fs = require('fs');
 
-fs.writeFileSync('tmp/public-api.ts', `
-  export * from './icons.constants';
-  export * from './icons.object';
+fs.writeFileSync('dist/ts/public-api.ts',
+  `export * from './icons.constants';
+export * from './icons.object';
 `);
 
-fs.writeFileSync('tmp/index.ts', `
-  export * from './public-api';
+fs.writeFileSync('dist/ts/index.ts',
+  `export * from './public-api';
 `);
