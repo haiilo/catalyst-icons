@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-  <g clip-path="url(#a)">
-    <rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/>
-    <path fill="#fff" fill-rule="evenodd" d="M10 14H2v-4h8V2h4v8h16v4H14v8h-4v-8Z" clip-rule="evenodd"/>
-  </g>
-  <defs>
-    <clipPath id="a">
-      <rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/>
-    </clipPath>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-circle-dk_svg__a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M10 14H2v-4h8V2h4v8h16v4H14v8h-4v-8Z" clip-rule="evenodd"/></g><defs><clipPath id="flag-circle-dk_svg__a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>
