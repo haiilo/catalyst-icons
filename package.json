@@ -17,7 +17,7 @@
   },
   "scripts": {
     "prepare": "node prepare.js",
-    "svgo": "svgo -f ./src -o ./tmp",
+    "svgo": "svgo -f ./src -o ./src",
     "svgts:object": "svg-to-ts-object -s './src/**/*.svg' -f icons.object -o ./dist/ts -d KEBAB --objectName ci",
     "svgts:constants": "svg-to-ts-constants -s './src/**/*.svg' -i CoyoIcon -t coyoIcon -p ci -f icons.constants -o ./dist/ts -d KEBAB --completeIconSetName ciAll",
     "transpile": "node transpile.js",
