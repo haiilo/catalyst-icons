@@ -16,6 +16,7 @@ jobs:
         id: svgo
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
+          svgo-config: ./svgo-config.js
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         if: ${{steps.svgo.outputs.DID_OPTIMIZE}}
