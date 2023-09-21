@@ -11,6 +11,14 @@
         --muted: #515C6C;
       }
 
+      a{
+        color: #0071FF;
+        text-decoration: none;
+      }
+
+      a.slack{
+      }
+
       body{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background: var(--canvas);
@@ -150,6 +158,16 @@
         width: 48px;
       }
 
+      .empty-state{
+        height: 200px;
+        display: none;
+        flex-direction: column;
+        gap: .5rem;
+        justify-content: center;
+        align-items: center; 
+        color: var(--muted);
+      }
+
     </style>
   </head>
   <body>
@@ -161,6 +179,10 @@
         <input type="checkbox" id="checkbox-1">
         <label for="checkbox-1">Show large icons</label>
       </div>
+    </div>
+    <div class="empty-state">
+      <span>Missing an icon?</span>
+      <span><a class="slack" target="_blank" href="https://app.slack.com/client/T03BH7BHD/C02JFK9BM0F">Ping us on Slack</a> and we will help you out (:</span>
     </div>
     <ul class="icons"></ul>
     <script type="module">
@@ -182,17 +204,25 @@
 
       const searchInput = document.querySelector('.search');
       const iconCountTotal = Object.keys(ci).length;
+      const emptyState = document.querySelector('.empty-state');
       searchInput.setAttribute('placeholder', `Search ${iconCountTotal} icons...`);
       searchInput.addEventListener('input', () => {
         const query = searchInput.value.toLowerCase();
         const icons = document.querySelectorAll('ul.icons li');
+        let matchingIconsCount = 0;
         for (const icon of icons) {
           const name = icon.dataset.name.toLowerCase();
           if (name.includes(query)) {
             icon.style.display = 'flex';
+            matchingIconsCount++;
           } else {
             icon.style.display = 'none';
           }
+        }
+        if(matchingIconsCount === 0){
+          emptyState.style.display = 'flex';
+        }else{
+          emptyState.style.display = 'none';
         }
       });
 
