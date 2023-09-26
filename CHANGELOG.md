@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.0.1 (2023-09-26)
+
+
+### Features
+
+* New "Play" icon in size 16 ([1da863a](https://github.com/haiilo/catalyst-icons/commit/1da863a3116decd5b51c9b8411146d279ff29186))
+
 ## 2.0.0 (2023-09-21)
 
 
