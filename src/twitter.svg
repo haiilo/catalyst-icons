@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-  <rect width="22" height="22" x="1" y="1" fill="#000" rx="6"/>
-  <g clip-path="url(#x__a)">
-    <path fill="#fff" d="M15.446 6h1.831l-4 5.093L18 18h-3.71l-2.892-4.187L8.072 18H6.241l4.29-5.44L6 6h3.807l2.627 3.84L15.446 6Zm-.65 10.773h1.011L9.253 7.147H8.145l6.65 9.626Z"/>
-  </g>
-  <defs>
-    <clipPath id="x__a">
-      <path fill="#fff" d="M6 6h12v12H6z"/>
-    </clipPath>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="22" height="22" x="1" y="1" fill="#000" rx="6"/><g clip-path="url(#twitter_svg__a)"><path fill="#fff" d="M15.446 6h1.831l-4 5.093L18 18h-3.71l-2.892-4.187L8.072 18H6.241l4.29-5.44L6 6h3.807l2.627 3.84L15.446 6Zm-.65 10.773h1.011L9.253 7.147H8.145l6.65 9.626Z"/></g><defs><clipPath id="twitter_svg__a"><path fill="#fff" d="M6 6h12v12H6z"/></clipPath></defs></svg>
