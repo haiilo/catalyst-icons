@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.1.0 (2023-10-09)
+
+
+### Bug Fixes
+
+* add missing raw icons to build ([22d14ab](https://github.com/haiilo/catalyst-icons/commit/22d14ab3868e977110935425fbc0e491932ac13f))
+
 ### 2.0.1 (2023-09-26)
 
 
