@@ -2183,6 +2183,13 @@ export const ciRestartOutlined: {
   name: 'restart-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 12a7.25 7.25 0 0 1 13.664-3.383l.2.376h-2.357a.75.75 0 1 0 0 1.5H20.5a.75.75 0 0 0 .75-.75V5.5a.75.75 0 0 0-1.5 0v2.434l-.01-.019a8.75 8.75 0 1 0 .835 5.834l-1.47-.298A7.25 7.25 0 0 1 4.75 12Z"/></svg>`
 };
+export const ciResultsOutlined: {
+  name: 'results-outlined';
+  data: string;
+} = {
+  name: 'results-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 11.75H8v-1.5h2v1.5Zm-2 3h2v-1.5H8v1.5Zm2 3H8v-1.5h2v1.5Zm1-6h5v-1.5h-5v1.5Zm5 3h-5v-1.5h5v1.5Zm-5 3h5v-1.5h-5v1.5Z"/><path fill-rule="evenodd" d="M8 2.25a.75.75 0 0 0-.75.75v1.25H6A1.75 1.75 0 0 0 4.25 6v14c0 .966.784 1.75 1.75 1.75h12A1.75 1.75 0 0 0 19.75 20V6A1.75 1.75 0 0 0 18 4.25h-1.25V3a.75.75 0 0 0-.75-.75H8Zm8.75 3.5V7a.75.75 0 0 1-.75.75H8A.75.75 0 0 1 7.25 7V5.75H6a.25.25 0 0 0-.25.25v14c0 .138.112.25.25.25h12a.25.25 0 0 0 .25-.25V6a.25.25 0 0 0-.25-.25h-1.25Zm-8 .5v-2.5h6.5v2.5h-6.5Z" clip-rule="evenodd"/></svg>`
+};
 export const ciRteBlockquote: {
   name: 'rte-blockquote';
   data: string;
@@ -3343,6 +3350,7 @@ export type coyoIcon =
   | 'redo-outlined'
   | 'replace-outlined'
   | 'restart-outlined'
+  | 'results-outlined'
   | 'rte-blockquote'
   | 'rte-bold'
   | 'rte-emoji'
@@ -3784,6 +3792,7 @@ export const ciAll = [
   ciRedoOutlined,
   ciReplaceOutlined,
   ciRestartOutlined,
+  ciResultsOutlined,
   ciRteBlockquote,
   ciRteBold,
   ciRteEmoji,
