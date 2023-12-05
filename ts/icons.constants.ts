@@ -2372,6 +2372,13 @@ export const ciShareOutlined: {
   name: 'share-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.75 4.742V8.5a.75.75 0 0 1-.512.711l-.065.022c-1.604.535-3.435 1.147-4.892 2.344-1.169.961-2.12 2.322-2.427 4.416a9.777 9.777 0 0 1 2.112-1.005c1.308-.436 2.865-.641 5.034-.641a.75.75 0 0 1 .75.75v3.678l7.177-7.242-7.177-6.79Zm-1.5-.58c0-1.098 1.312-1.663 2.11-.908l7.784 7.366c.51.482.522 1.29.029 1.788l-7.785 7.854c-.786.793-2.138.236-2.138-.88v-3.526c-1.673.043-2.85.235-3.81.555-1.09.364-1.953.91-2.99 1.689a.75.75 0 0 1-1.2-.6c0-3.426 1.303-5.622 3.078-7.081 1.546-1.27 3.42-1.954 4.922-2.46V4.162Z" clip-rule="evenodd"/></svg>`
 };
+export const ciShieldOutlined: {
+  name: 'shield-outlined';
+  data: string;
+} = {
+  name: 'shield-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M11.73 2.3a.75.75 0 0 1 .54 0l7 2.7c.29.112.48.39.48.7V12c0 3.026-1.951 5.465-3.748 7.082a19.76 19.76 0 0 1-3.567 2.536l-.065.035-.019.01-.005.003h-.002s-.001.001-.344-.666l-.344.667-.002-.002-.005-.002-.019-.01a8.858 8.858 0 0 1-.302-.166 19.756 19.756 0 0 1-3.33-2.404C6.201 17.465 4.25 15.025 4.25 12V5.7c0-.31.19-.588.48-.7l7-2.7ZM12 21l-.344.667c.216.11.472.11.687 0L12 21Zm0-.857a18.264 18.264 0 0 0 2.998-2.175c1.703-1.533 3.252-3.594 3.252-5.968V6.215L12 3.804l-6.25 2.41V12c0 2.374 1.549 4.435 3.252 5.968A18.266 18.266 0 0 0 12 20.143Z" clip-rule="evenodd"/></svg>`
+};
 export const ciSignInOutlined: {
   name: 'sign-in-outlined';
   data: string;
@@ -3377,6 +3384,7 @@ export type coyoIcon =
   | 'settings-outlined'
   | 'share-filled'
   | 'share-outlined'
+  | 'shield-outlined'
   | 'sign-in-outlined'
   | 'sign-out-outlined'
   | 'signal-outlined'
@@ -3819,6 +3827,7 @@ export const ciAll = [
   ciSettingsOutlined,
   ciShareFilled,
   ciShareOutlined,
+  ciShieldOutlined,
   ciSignInOutlined,
   ciSignOutOutlined,
   ciSignalOutlined,
