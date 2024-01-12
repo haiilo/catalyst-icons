@@ -475,6 +475,13 @@ export const ciArticleOutlined: {
   name: 'article-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.75 9.75H15a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0V9.75Z"/><path fill-rule="evenodd" d="M3.25 6A2.75 2.75 0 0 1 6 3.25h12A2.75 2.75 0 0 1 20.75 6v12A2.75 2.75 0 0 1 18 20.75H6A2.75 2.75 0 0 1 3.25 18V6ZM6 4.75c-.69 0-1.25.56-1.25 1.25v12c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25V6c0-.69-.56-1.25-1.25-1.25H6Z" clip-rule="evenodd"/></svg>`
 };
+export const ciAudioOutlined: {
+  name: 'audio-outlined';
+  data: string;
+} = {
+  name: 'audio-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75v.563a.754.754 0 0 1-.008.112l-.61 4.035a4.75 4.75 0 0 1-4.698 4.04h-1.043a1.75 1.75 0 0 1-1.735-1.98l.837-6.32a1.75 1.75 0 0 1 2.06-1.49l3.69.696a8.25 8.25 0 0 0-16.486 0l3.69-.697a1.75 1.75 0 0 1 2.06 1.49l.837 6.321a1.75 1.75 0 0 1-1.735 1.98H7.565a4.75 4.75 0 0 1-4.696-4.04l-.61-4.035a.751.751 0 0 1-.009-.113V12Zm1.6 1.165.502 3.321a3.25 3.25 0 0 0 3.213 2.764H8.61a.25.25 0 0 0 .248-.283l-.837-6.321a.25.25 0 0 0-.294-.213l-3.876.732Zm16.3 0-3.876-.732a.25.25 0 0 0-.294.213l-.837 6.321a.25.25 0 0 0 .248.283h1.043a3.25 3.25 0 0 0 3.214-2.764l.502-3.32Z" clip-rule="evenodd"/></svg>`
+};
 export const ciBarChartOutlined: {
   name: 'bar-chart-outlined';
   data: string;
@@ -999,6 +1006,27 @@ export const ciFeedOutlined: {
 } = {
   name: 'feed-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M3.25 4.5c0-.69.56-1.25 1.25-1.25h15c.69 0 1.25.56 1.25 1.25v7c0 .69-.56 1.25-1.25 1.25h-15c-.69 0-1.25-.56-1.25-1.25v-7Zm1.5.25v6.5h14.5v-6.5H4.75Z" clip-rule="evenodd"/><path d="M3.25 16a.75.75 0 0 1 .75-.75h12a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1-.75-.75ZM4 19.25a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5H4Z"/></svg>`
+};
+export const ciFileGeneric: {
+  name: 'file-generic';
+  data: string;
+} = {
+  name: 'file-generic',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.75 8c0-.675-.248-1.366-.594-1.99a8.278 8.278 0 0 0-1.376-1.79 8.28 8.28 0 0 0-1.79-1.376c-.624-.346-1.315-.594-1.99-.594H7A2.75 2.75 0 0 0 4.25 5v14A2.75 2.75 0 0 0 7 21.75h10A2.75 2.75 0 0 0 19.75 19V8Zm-14-3c0-.69.56-1.25 1.25-1.25h6.25V8c0 .414.336.75.75.75h4.25V19c0 .69-.56 1.25-1.25 1.25H7c-.69 0-1.25-.56-1.25-1.25V5Zm12.336 2.25H14.75V3.914c.16.062.331.142.51.242.493.273 1 .666 1.46 1.124a6.79 6.79 0 0 1 1.124 1.46c.1.179.18.35.242.51Z" clip-rule="evenodd"/></svg>`
+};
+export const ciFilePdf: {
+  name: 'file-pdf';
+  data: string;
+} = {
+  name: 'file-pdf',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M19.75 8c0-.675-.248-1.366-.594-1.99a8.278 8.278 0 0 0-1.376-1.79 8.28 8.28 0 0 0-1.79-1.376c-.624-.346-1.315-.594-1.99-.594H7A2.75 2.75 0 0 0 4.25 5v14A2.75 2.75 0 0 0 7 21.75h10A2.75 2.75 0 0 0 19.75 19V8Zm-14-3c0-.69.56-1.25 1.25-1.25h6.25V8c0 .414.336.75.75.75h4.25V19c0 .69-.56 1.25-1.25 1.25H7c-.69 0-1.25-.56-1.25-1.25V5Zm12.336 2.25H14.75V3.914c.16.062.331.142.51.242.493.273 1 .666 1.46 1.124a6.79 6.79 0 0 1 1.124 1.46c.1.179.18.35.242.51Z" clip-rule="evenodd"/><rect width="18" height="10" x="3" y="12" fill="red" rx="1"/><path fill="#fff" fill-rule="evenodd" d="M4.666 14.182V20h1.23v-1.886H6.93c.447 0 .828-.083 1.142-.248a1.72 1.72 0 0 0 .725-.69 2.05 2.05 0 0 0 .25-1.023 2.06 2.06 0 0 0-.248-1.022c-.163-.298-.4-.53-.71-.696-.31-.169-.686-.253-1.128-.253H4.666Zm1.23 2.946h.835c.237 0 .432-.04.585-.122a.81.81 0 0 0 .347-.344c.078-.148.116-.317.116-.509a1.05 1.05 0 0 0-.116-.505.778.778 0 0 0-.347-.338 1.265 1.265 0 0 0-.59-.123h-.83v1.94ZM11.908 20H9.846v-5.818h2.08c.584 0 1.088.116 1.51.35.423.23.748.563.975.996.229.434.344.953.344 1.557 0 .606-.115 1.127-.344 1.563-.227.435-.554.77-.98 1.003-.424.233-.932.349-1.523.349Zm-.832-1.054h.78c.364 0 .67-.064.918-.193.25-.13.438-.332.563-.605.127-.275.19-.63.19-1.063 0-.43-.063-.781-.19-1.054a1.232 1.232 0 0 0-.56-.602c-.248-.129-.554-.193-.917-.193h-.784v3.71Z" clip-rule="evenodd"/><path fill="#fff" d="M15.666 20v-5.818h3.852v1.014h-2.622v1.386h2.366v1.015h-2.366V20h-1.23Z"/></svg>`
+};
+export const ciFileText: {
+  name: 'file-text';
+  data: string;
+} = {
+  name: 'file-text',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.75 15.25h-7.5v1.5h7.5v-1.5Zm-7.5-3h5.5v1.5h-5.5v-1.5Zm3.5-3h-3.5v1.5h3.5v-1.5Z"/><path fill-rule="evenodd" d="M19.156 6.01c.346.624.594 1.315.594 1.99v11A2.75 2.75 0 0 1 17 21.75H7A2.75 2.75 0 0 1 4.25 19V5A2.75 2.75 0 0 1 7 2.25h7c.675 0 1.366.248 1.99.594a8.28 8.28 0 0 1 1.79 1.376 8.278 8.278 0 0 1 1.376 1.79ZM7 3.75c-.69 0-1.25.56-1.25 1.25v14c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25V8.75H14a.75.75 0 0 1-.75-.75V3.75H7Zm7.75 3.5h3.336a4.116 4.116 0 0 0-.242-.51 6.79 6.79 0 0 0-1.124-1.46 6.789 6.789 0 0 0-1.46-1.124c-.179-.1-.35-.18-.51-.242V7.25Z" clip-rule="evenodd"/></svg>`
 };
 export const ciFilterOutlined: {
   name: 'filter-outlined';
@@ -1560,6 +1588,13 @@ export const ciGlobeOutlined: {
   name: 'globe-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM9.376 4.176A8.275 8.275 0 0 0 4.65 8.25h3.196c.197-1.016.472-1.942.813-2.737.21-.489.448-.94.717-1.337ZM7.62 9.75H4.06A8.256 8.256 0 0 0 3.75 12c0 .78.108 1.535.31 2.25h3.56A20.787 20.787 0 0 1 7.5 12c0-.773.041-1.527.12-2.25Zm1.51 4.5A19.187 19.187 0 0 1 9 12c0-.783.046-1.538.13-2.25h5.74c.084.712.13 1.467.13 2.25 0 .783-.046 1.538-.13 2.25H9.13Zm-1.284 1.5H4.65a8.275 8.275 0 0 0 4.726 4.074 8.04 8.04 0 0 1-.717-1.337 13.564 13.564 0 0 1-.813-2.737Zm6.778 4.074a8.275 8.275 0 0 0 4.726-4.074h-3.196a13.56 13.56 0 0 1-.813 2.737c-.21.489-.448.94-.717 1.337Zm0-4.074c-.173.806-.398 1.53-.662 2.146-.315.737-.672 1.285-1.03 1.639-.354.35-.668.471-.932.471s-.578-.122-.933-.471c-.357-.354-.714-.902-1.03-1.639a11.723 11.723 0 0 1-.66-2.146h5.246Zm1.756-1.5h3.56a8.26 8.26 0 0 0 .31-2.25 8.26 8.26 0 0 0-.31-2.25h-3.56c.079.723.12 1.477.12 2.25 0 .773-.041 1.527-.12 2.25Zm-.226-6h3.196a8.275 8.275 0 0 0-4.726-4.074c.269.397.508.848.717 1.337.34.795.616 1.721.813 2.737Zm-1.53 0H9.375c.173-.806.398-1.53.662-2.146.315-.737.672-1.285 1.03-1.639.354-.35.668-.471.932-.471s.578.121.933.471c.357.354.714.902 1.03 1.639.263.616.488 1.34.66 2.146Z" clip-rule="evenodd"/></svg>`
 };
+export const ciGoogleAppsScript: {
+  name: 'google-apps-script';
+  data: string;
+} = {
+  name: 'google-apps-script',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#1A73E8" rx="2"/><path fill="#fff" d="M5 10.5a.5.5 0 0 1 .5-.5H10V7l6 5-6 5v-3H5.5a.5.5 0 0 1-.5-.5v-3Z"/></svg>`
+};
 export const ciGoogleCalendar: {
   name: 'google-calendar';
   data: string;
@@ -1574,6 +1609,20 @@ export const ciGoogleChrome: {
   name: 'google-chrome',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><mask id="google-chrome_svg__a" width="22" height="22" x="1" y="1" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#fff" d="M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11Z"/></mask><g mask="url(#google-chrome_svg__a)"><path fill="#E8E8E8" d="M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11Z"/><path fill="#DB4437" d="M2.75 1v13.531h4.937l4.338-7.517h11.026V1H2.75Z"/><path fill="#0F9D58" d="M1 23.05h10.495l4.872-4.87v-3.65H7.684L1 3.066V23.05Z"/><path fill="#FFCD40" d="m12.025 7.014 4.342 7.517-4.872 8.52h11.556V7.014H12.025Z"/><path fill="#FFCD40" d="m12.025 7.014 4.342 7.517-4.872 8.52h11.556V7.014H12.025Z"/><path fill="#fff" d="M12.025 17.037a5.012 5.012 0 1 0 0-10.024 5.012 5.012 0 0 0 0 10.024Z"/><path fill="#4285F4" d="M12.025 16.034a4.009 4.009 0 1 0 0-8.018 4.009 4.009 0 0 0 0 8.018Z"/></g></svg>`
 };
+export const ciGoogleDocs: {
+  name: 'google-docs';
+  data: string;
+} = {
+  name: 'google-docs',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#4183F1" rx="2"/><path stroke="#fff" stroke-linecap="round" stroke-width="1.5" d="M7 8h10M7 12h10M7 16h7"/></svg>`
+};
+export const ciGoogleDrawings: {
+  name: 'google-drawings';
+  data: string;
+} = {
+  name: 'google-drawings',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#D93025" rx="2"/><rect width="6" height="6" x="12" y="12" fill="#fff" rx=".5"/><rect width="7" height="7" x="6" y="6" fill="#fff" rx="3.5"/></svg>`
+};
 export const ciGoogleDrive: {
   name: 'google-drive';
   data: string;
@@ -1581,12 +1630,54 @@ export const ciGoogleDrive: {
   name: 'google-drive',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><mask id="google-drive_svg__a" width="22" height="19" x="2" y="2" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#C4C4C4" fill-rule="evenodd" d="M10.386 2c-.85 0-1.636.455-2.06 1.192L2.335 13.624a2.512 2.512 0 0 0 .003 2.51l2.024 3.498A2.74 2.74 0 0 0 6.733 21h11.772a2.74 2.74 0 0 0 2.356-1.34l2.062-3.473c.463-.78.47-1.748.02-2.534l-6.008-10.46A2.375 2.375 0 0 0 14.876 2h-4.489ZM8.692 14.88l3.928-6.828 3.928 6.828H8.692Z" clip-rule="evenodd"/></mask><g mask="url(#google-drive_svg__a)"><path fill="#34A853" d="M17.987-1.286 2.8 25.018l-5.275-3.045L12.712-4.331z"/><path fill="#4285F4" d="M-3.207 14.925h30.373v6.091H-3.207z"/><path fill="#1967D2" d="m-1.923 21.017 3.516-6.091h7.034l-3.517 6.09h-7.033Z"/><path fill="#FBBC04" d="m10.075 3.604 10 17.32 5.197-3-10-17.32z"/><path fill="#EA4335" d="M23.645 14.925h-7.033l3.517 6.092h7.033l-3.517-6.091Z"/><path fill="#188038" d="m9.103 1.92 3.516-6.092 3.517 6.091-3.517 6.091-3.516-6.09Z"/></g></svg>`
 };
+export const ciGoogleForms: {
+  name: 'google-forms';
+  data: string;
+} = {
+  name: 'google-forms',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#7627BB" rx="2"/><path stroke="#fff" stroke-linecap="round" stroke-width="1.5" d="M11 8h6M7 8h1m3 4h6M7 12h1m3 4h6M7 16h1"/></svg>`
+};
 export const ciGoogleMail: {
   name: 'google-mail';
   data: string;
 } = {
   name: 'google-mail',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g clip-path="url(#google-mail_svg__a)"><path fill="#4285F4" d="M3.364 20h3.181v-8.242L2 8.12v10.425C2 19.35 2.611 20 3.364 20Z"/><path fill="#34A853" d="M17.455 20h3.181c.755 0 1.364-.652 1.364-1.454V8.12l-4.545 3.637"/><path fill="#FBBC04" d="M17.455 5.455v6.303L22 8.12V6.18c0-1.798-1.925-2.823-3.273-1.745"/><path fill="#EA4335" d="M6.545 11.758V5.455L12 9.818l5.454-4.363v6.303L12 16.12"/><path fill="#C5221F" d="M2 6.182v1.94l4.545 3.636V5.455L5.273 4.436C3.923 3.358 2 4.383 2 6.182"/></g><defs><clipPath id="google-mail_svg__a"><path fill="#fff" d="M2 4h20v16H2z"/></clipPath></defs></svg>`
+};
+export const ciGoogleMyMaps: {
+  name: 'google-my-maps';
+  data: string;
+} = {
+  name: 'google-my-maps',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#D93025" rx="2"/><path fill="#fff" d="M16 10c0 3-4 7-4 7s-4-3.79-4-7a4 4 0 1 1 8 0Z"/></svg>`
+};
+export const ciGoogleSheets: {
+  name: 'google-sheets';
+  data: string;
+} = {
+  name: 'google-sheets',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#0F9D58" rx="2"/><path stroke="#fff" stroke-linecap="round" stroke-width="1.5" d="M10 6v12m-4-8h12"/></svg>`
+};
+export const ciGoogleSites: {
+  name: 'google-sites';
+  data: string;
+} = {
+  name: 'google-sites',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#3F51B5" rx="2"/><rect width="12" height="2" x="6" y="8" fill="#fff" rx=".5"/><rect width="7" height="4" x="6" y="12" fill="#fff" rx=".5"/><rect width="3" height="4" x="15" y="12" fill="#fff" rx=".5"/></svg>`
+};
+export const ciGoogleSlides: {
+  name: 'google-slides';
+  data: string;
+} = {
+  name: 'google-slides',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#F4B400" rx="2"/><rect width="14" height="8" x="5" y="8" fill="#fff" rx=".5"/></svg>`
+};
+export const ciGoogleVideos: {
+  name: 'google-videos';
+  data: string;
+} = {
+  name: 'google-videos',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" fill="#C84031" rx="2"/><path fill="#fff" d="M9 16V8l7 4-7 4Z"/></svg>`
 };
 export const ciGoogle: {
   name: 'google';
@@ -3113,6 +3204,7 @@ export type coyoIcon =
   | 'arrow-up-outlined'
   | 'article-filled'
   | 'article-outlined'
+  | 'audio-outlined'
   | 'bar-chart-outlined'
   | 'bell-check-outlined'
   | 'bell-dot-filled'
@@ -3188,6 +3280,9 @@ export type coyoIcon =
   | 'facebook'
   | 'feed-filled'
   | 'feed-outlined'
+  | 'file-generic'
+  | 'file-pdf'
+  | 'file-text'
   | 'filter-outlined'
   | 'fingerprint-outlined'
   | 'flag-al'
@@ -3268,10 +3363,19 @@ export type coyoIcon =
   | 'gift-outlined'
   | 'github'
   | 'globe-outlined'
+  | 'google-apps-script'
   | 'google-calendar'
   | 'google-chrome'
+  | 'google-docs'
+  | 'google-drawings'
   | 'google-drive'
+  | 'google-forms'
   | 'google-mail'
+  | 'google-my-maps'
+  | 'google-sheets'
+  | 'google-sites'
+  | 'google-slides'
+  | 'google-videos'
   | 'google'
   | 'gradient-outlined'
   | 'group-outlined'
@@ -3556,6 +3660,7 @@ export const ciAll = [
   ciArrowUpOutlined,
   ciArticleFilled,
   ciArticleOutlined,
+  ciAudioOutlined,
   ciBarChartOutlined,
   ciBellCheckOutlined,
   ciBellDotFilled,
@@ -3631,6 +3736,9 @@ export const ciAll = [
   ciFacebook,
   ciFeedFilled,
   ciFeedOutlined,
+  ciFileGeneric,
+  ciFilePdf,
+  ciFileText,
   ciFilterOutlined,
   ciFingerprintOutlined,
   ciFlagAl,
@@ -3711,10 +3819,19 @@ export const ciAll = [
   ciGiftOutlined,
   ciGithub,
   ciGlobeOutlined,
+  ciGoogleAppsScript,
   ciGoogleCalendar,
   ciGoogleChrome,
+  ciGoogleDocs,
+  ciGoogleDrawings,
   ciGoogleDrive,
+  ciGoogleForms,
   ciGoogleMail,
+  ciGoogleMyMaps,
+  ciGoogleSheets,
+  ciGoogleSites,
+  ciGoogleSlides,
+  ciGoogleVideos,
   ciGoogle,
   ciGradientOutlined,
   ciGroupOutlined,
