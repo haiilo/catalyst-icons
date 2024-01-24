@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.2.1 (2024-01-24)
+
+
+### Features
+
+* Added new icon "money" ([72c2d7c](https://github.com/haiilo/catalyst-icons/commit/72c2d7c2d2e7c14c0eebb42d11ba5ae1fa98b79f))
+
 ## 2.2.0 (2024-01-12)
 
 
