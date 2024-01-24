@@ -583,6 +583,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#0E51A3" d="M19.5 12.322c0 3.82-1.728 7.261-4.492 9.678l-9.883-9.678H19.5Z"/><path fill="#2292E2" d="M19.5 12.323H5.125L15.008 2A14.073 14.073 0 0 1 19.5 12.323Z"/><path fill="#176FE0" d="M21.27 16.839c.474-1.52.73-3.147.73-4.839 0-1.691-.256-3.318-.73-4.839L5.126 12.323l16.146 4.516Z"/><rect width="11.25" height="11.613" x="2" y="5.871" fill="#084C8A" rx="2"/><path fill="#fff" d="M7.485 11.027 6.012 8.452H4.5l2.398 4.156v2.295h1.444v-2.295l2.408-4.156H9.228l-1.473 2.575h-.27Z"/></svg>',
   microsoft:
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFB900" d="M22 13h-9v9h9v-9Z"/><path fill="#01A4EF" d="M11 13H2v9h9v-9Z"/><path fill="#7FBA00" d="M22 2h-9v9h9V2Z"/><path fill="#F25022" d="M11 2H2v9h9V2Z"/></svg>',
+  'money-outlined':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 8.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5ZM9.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0Z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M3 4.25A1.75 1.75 0 0 0 1.25 6v12c0 .966.784 1.75 1.75 1.75h18A1.75 1.75 0 0 0 22.75 18V6A1.75 1.75 0 0 0 21 4.25H3ZM2.75 6A.25.25 0 0 1 3 5.75h1.25V6c0 .69-.56 1.25-1.25 1.25h-.25V6Zm0 2.75v6.5H3A2.75 2.75 0 0 1 5.75 18v.25h12.5V18A2.75 2.75 0 0 1 21 15.25h.25v-6.5H21A2.75 2.75 0 0 1 18.25 6v-.25H5.75V6A2.75 2.75 0 0 1 3 8.75h-.25Zm0 9.25v-1.25H3c.69 0 1.25.56 1.25 1.25v.25H3a.25.25 0 0 1-.25-.25ZM21 16.75h.25V18a.25.25 0 0 1-.25.25h-1.25V18c0-.69.56-1.25 1.25-1.25Zm.25-9.5V6a.25.25 0 0 0-.25-.25h-1.25V6c0 .69.56 1.25 1.25 1.25h.25Z" clip-rule="evenodd"/></svg>',
   'more-horizontal-filled':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm8-1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm6.5 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/></svg>',
   'mozilla-firefox':
@@ -1191,6 +1193,7 @@ export type MyIconType =
   | 'microsoft-word'
   | 'microsoft-yammer'
   | 'microsoft'
+  | 'money-outlined'
   | 'more-horizontal-filled'
   | 'mozilla-firefox'
   | 'openai'

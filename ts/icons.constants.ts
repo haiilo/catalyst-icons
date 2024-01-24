@@ -2036,6 +2036,13 @@ export const ciMicrosoft: {
   name: 'microsoft',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFB900" d="M22 13h-9v9h9v-9Z"/><path fill="#01A4EF" d="M11 13H2v9h9v-9Z"/><path fill="#7FBA00" d="M22 2h-9v9h9V2Z"/><path fill="#F25022" d="M11 2H2v9h9V2Z"/></svg>`
 };
+export const ciMoneyOutlined: {
+  name: 'money-outlined';
+  data: string;
+} = {
+  name: 'money-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 8.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5ZM9.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0Z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M3 4.25A1.75 1.75 0 0 0 1.25 6v12c0 .966.784 1.75 1.75 1.75h18A1.75 1.75 0 0 0 22.75 18V6A1.75 1.75 0 0 0 21 4.25H3ZM2.75 6A.25.25 0 0 1 3 5.75h1.25V6c0 .69-.56 1.25-1.25 1.25h-.25V6Zm0 2.75v6.5H3A2.75 2.75 0 0 1 5.75 18v.25h12.5V18A2.75 2.75 0 0 1 21 15.25h.25v-6.5H21A2.75 2.75 0 0 1 18.25 6v-.25H5.75V6A2.75 2.75 0 0 1 3 8.75h-.25Zm0 9.25v-1.25H3c.69 0 1.25.56 1.25 1.25v.25H3a.25.25 0 0 1-.25-.25ZM21 16.75h.25V18a.25.25 0 0 1-.25.25h-1.25V18c0-.69.56-1.25 1.25-1.25Zm.25-9.5V6a.25.25 0 0 0-.25-.25h-1.25V6c0 .69.56 1.25 1.25 1.25h.25Z" clip-rule="evenodd"/></svg>`
+};
 export const ciMoreHorizontalFilled: {
   name: 'more-horizontal-filled';
   data: string;
@@ -3427,6 +3434,7 @@ export type coyoIcon =
   | 'microsoft-word'
   | 'microsoft-yammer'
   | 'microsoft'
+  | 'money-outlined'
   | 'more-horizontal-filled'
   | 'mozilla-firefox'
   | 'openai'
@@ -3883,6 +3891,7 @@ export const ciAll = [
   ciMicrosoftWord,
   ciMicrosoftYammer,
   ciMicrosoft,
+  ciMoneyOutlined,
   ciMoreHorizontalFilled,
   ciMozillaFirefox,
   ciOpenai,
