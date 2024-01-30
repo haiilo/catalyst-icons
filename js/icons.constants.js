@@ -1585,7 +1585,7 @@ export const ciTrashFilled = {
 };
 export const ciTrashOutlined = {
     name: 'trash-outlined',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.25 4A.75.75 0 0 1 8 3.25h8a.75.75 0 0 1 .75.75v2.25H20a.75.75 0 0 1 0 1.5h-.308l-.942 11.637a1.353 1.353 0 0 1-.497.998 1.61 1.61 0 0 1-1.03.365H6.777a1.61 1.61 0 0 1-1.031-.365 1.353 1.353 0 0 1-.497-.998L4.308 7.75H4a.75.75 0 0 1 0-1.5h3.25V4ZM5.813 7.75l.931 11.497h10.512l.93-11.497H5.814Zm9.437-3v1.5h-6.5v-1.5h6.5Z" clip-rule="evenodd"/></svg>`
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.25 4.25A.75.75 0 0 1 9 3.5h6a.75.75 0 0 1 .75.75V6.5H19A.75.75 0 0 1 19 8h-.308l-.942 10.637a1.353 1.353 0 0 1-.497.998 1.61 1.61 0 0 1-1.03.365H7.777a1.61 1.61 0 0 1-1.031-.365 1.353 1.353 0 0 1-.497-.998L5.308 8H5a.75.75 0 0 1 0-1.5h3.25V4.25ZM6.813 8l.931 10.497h8.512L17.186 8H6.814Zm7.437-3v1.5h-4.5V5h4.5Z" clip-rule="evenodd"/></svg>`
 };
 export const ciTwitter = {
     name: 'twitter',
