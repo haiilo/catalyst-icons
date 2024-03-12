@@ -41,6 +41,13 @@ export const ci16Check: {
   name: '16-check',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" fill-rule="evenodd" d="M12.322 3.464a.625.625 0 0 1 .214.858l-4.8 8a.625.625 0 0 1-.978.12l-3.2-3.2a.625.625 0 1 1 .884-.884l2.634 2.634 4.388-7.314a.625.625 0 0 1 .858-.214Z" clip-rule="evenodd"/></svg>`
 };
+export const ci16ChevronDoubleRight: {
+  name: '16-chevron-double-right';
+  data: string;
+} = {
+  name: '16-chevron-double-right',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.53 3.47a.75.75 0 0 0-1.06 1.06L6.94 8l-3.47 3.47a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4Z"/><path d="M9.53 3.47a.75.75 0 0 0-1.06 1.06L11.94 8l-3.47 3.47a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4Z"/></svg>`
+};
 export const ci16ChevronDown: {
   name: '16-chevron-down';
   data: string;
@@ -3170,6 +3177,7 @@ export type coyoIcon =
   | '16-check-circle-outlined'
   | '16-check-double'
   | '16-check'
+  | '16-chevron-double-right'
   | '16-chevron-down'
   | '16-chevron-left'
   | '16-chevron-right'
@@ -3630,6 +3638,7 @@ export const ciAll = [
   ci16CheckCircleOutlined,
   ci16CheckDouble,
   ci16Check,
+  ci16ChevronDoubleRight,
   ci16ChevronDown,
   ci16ChevronLeft,
   ci16ChevronRight,

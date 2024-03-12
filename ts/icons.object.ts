@@ -12,6 +12,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9.536 4.322 7.459 7.784l-.222-.221a1.742 1.742 0 0 0-.825-.464l2.052-3.42a.625.625 0 0 1 1.072.643Zm-4.773 5.715.84.84-.867 1.445a.625.625 0 0 1-.978.12l-3.2-3.2a.625.625 0 1 1 .884-.884l2.634 2.634.617-1.028c.022.025.046.05.07.073Z"/><path d="M14.536 4.322a.625.625 0 0 0-1.072-.644l-4.388 7.314-2.634-2.634a.625.625 0 1 0-.884.884l3.2 3.2a.625.625 0 0 0 .978-.12l4.8-8Z"/></svg>',
   '16-check':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" fill-rule="evenodd" d="M12.322 3.464a.625.625 0 0 1 .214.858l-4.8 8a.625.625 0 0 1-.978.12l-3.2-3.2a.625.625 0 1 1 .884-.884l2.634 2.634 4.388-7.314a.625.625 0 0 1 .858-.214Z" clip-rule="evenodd"/></svg>',
+  '16-chevron-double-right':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.53 3.47a.75.75 0 0 0-1.06 1.06L6.94 8l-3.47 3.47a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4Z"/><path d="M9.53 3.47a.75.75 0 0 0-1.06 1.06L11.94 8l-3.47 3.47a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4Z"/></svg>',
   '16-chevron-down':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.47 5.47a.75.75 0 0 1 1.06 0L8 8.94l3.47-3.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg>',
   '16-chevron-left':
@@ -911,6 +913,7 @@ export type MyIconType =
   | '16-check-circle-outlined'
   | '16-check-double'
   | '16-check'
+  | '16-chevron-double-right'
   | '16-chevron-down'
   | '16-chevron-left'
   | '16-chevron-right'
