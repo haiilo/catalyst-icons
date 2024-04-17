@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.2.7 (2024-04-17)
+
+
+### Bug Fixes
+
+* optimize svgs ([9be032b](https://github.com/haiilo/catalyst-icons/commit/9be032bce214f83451038cd9247fbf487e0a74a7))
+
 ### 2.2.6 (2024-03-19)
 
 
