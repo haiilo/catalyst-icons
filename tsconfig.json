@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "module": "es2020",
+    "module": "nodenext",
     "target": "es2020",
     "declaration": true,
-    "outDir": "./dist/js"
+    "outDir": "./dist/js",
+    "moduleResolution": "nodenext"
   },
   "include": [
     "src/*",

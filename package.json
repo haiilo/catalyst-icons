@@ -17,7 +17,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "node prepare.js",
+    "prepare": "husky",
     "svgo": "svgo -f ./src -o ./src",
     "svgts:object": "svg-to-ts-object -s './src/**/*.svg' -f icons.object -o ./dist/ts -d KEBAB --objectName ci",
     "svgts:constants": "svg-to-ts-constants -s './src/**/*.svg' -i CoyoIcon -t coyoIcon -p ci -f icons.constants -o ./dist/ts -d KEBAB --completeIconSetName ciAll",
@@ -34,9 +34,9 @@
     "reset": "rm -rf ./dist ./tmp ./node_modules"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
-    "husky": "^8.0.3",
+    "@commitlint/cli": "^19.2.2",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11",
     "npm-run-all": "^4.1.5",
     "standard-version": "^9.5.0",
     "svg-to-ts": "^10.1.0",
