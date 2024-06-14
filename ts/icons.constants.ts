@@ -2981,6 +2981,20 @@ export const ciUploadOutlined: {
   name: 'upload-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.47 9.53a.75.75 0 0 0 1.06 0l2.72-2.72V15a.75.75 0 0 0 1.5 0V6.81l2.72 2.72a.75.75 0 1 0 1.06-1.06l-4-4a.75.75 0 0 0-1.06 0l-4 4a.75.75 0 0 0 0 1.06"/><path d="M4.75 14a.75.75 0 0 0-1.5 0v5.25c0 .39.15.77.425 1.052.275.284.653.448 1.052.448h14.546c.4 0 .777-.164 1.052-.448.275-.282.425-.662.425-1.052V14a.75.75 0 0 0-1.5 0v5.25H4.75z"/></svg>`
 };
+export const ciUserCheckOutlined: {
+  name: 'user-check-outlined';
+  data: string;
+} = {
+  name: 'user-check-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 5.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5M14.75 9c0 1.548-.74 2.923-1.886 3.79.576.23 1.109.527 1.584.882a.75.75 0 0 1-.896 1.202c-.927-.69-2.17-1.124-3.552-1.124-3.033 0-5.25 2.025-5.25 4.25a.75.75 0 0 1-1.5 0c0-2.373 1.634-4.309 3.89-5.207A4.75 4.75 0 1 1 14.75 9m5.859 5.438a.75.75 0 0 0-1.218-.876l-3.13 4.347-1.78-1.485a.75.75 0 0 0-.961 1.152l2.4 2a.75.75 0 0 0 1.089-.138z" clip-rule="evenodd"/></svg>`
+};
+export const ciUserPlusOutlined: {
+  name: 'user-plus-outlined';
+  data: string;
+} = {
+  name: 'user-plus-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 5.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5M14.75 9c0 1.548-.74 2.923-1.886 3.79.576.23 1.109.527 1.584.882a.75.75 0 0 1-.896 1.202c-.927-.69-2.17-1.124-3.552-1.124-3.033 0-5.25 2.025-5.25 4.25a.75.75 0 0 1-1.5 0c0-2.373 1.634-4.309 3.89-5.207A4.75 4.75 0 1 1 14.75 9m4 5a.75.75 0 0 0-1.5 0v2.25H15a.75.75 0 0 0 0 1.5h2.25V20a.75.75 0 0 0 1.5 0v-2.25H21a.75.75 0 0 0 0-1.5h-2.25z" clip-rule="evenodd"/></svg>`
+};
 export const ciVideoCameraFilled: {
   name: 'video-camera-filled';
   data: string;
@@ -3744,6 +3758,8 @@ export type coyoIcon =
   | 'underlined-outlined'
   | 'undo-outlined'
   | 'upload-outlined'
+  | 'user-check-outlined'
+  | 'user-plus-outlined'
   | 'video-camera-filled'
   | 'video-camera-outlined'
   | 'video-outlined'
@@ -4226,6 +4242,8 @@ export const ciAll = [
   ciUnderlinedOutlined,
   ciUndoOutlined,
   ciUploadOutlined,
+  ciUserCheckOutlined,
+  ciUserPlusOutlined,
   ciVideoCameraFilled,
   ciVideoCameraOutlined,
   ciVideoOutlined,
