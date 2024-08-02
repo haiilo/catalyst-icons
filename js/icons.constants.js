@@ -1659,6 +1659,18 @@ export const ciTargetedOutlined = {
     name: 'targeted-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.157 4.378A8.25 8.25 0 1 0 12 20.25a.75.75 0 0 1 0 1.5A9.75 9.75 0 1 1 21.75 12a.75.75 0 0 1-1.5 0 8.25 8.25 0 0 0-5.093-7.622"/><path d="M12.644 7.8a4.25 4.25 0 0 0-2.44 8.052.75.75 0 0 1-.634 1.36 5.75 5.75 0 1 1 7.566-7.797.75.75 0 0 1-1.34.675 4.25 4.25 0 0 0-3.152-2.29"/><path d="M12.25 13a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-2.19l4.72 4.72a.75.75 0 1 1-1.06 1.06l-4.72-4.72V17a.75.75 0 0 1-1.5 0z"/></svg>`
 };
+export const ciTextAlignCenterOutlined = {
+    name: 'text-align-center-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4.25 17a.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75m2-5a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75m-4-5A.75.75 0 0 1 3 6.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 7" clip-rule="evenodd"/></svg>`
+};
+export const ciTextAlignLeftOutlined = {
+    name: 'text-align-left-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.25 17a.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m0-5a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m0-5A.75.75 0 0 1 3 6.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 7" clip-rule="evenodd"/></svg>`
+};
+export const ciTextAlignRightOutlined = {
+    name: 'text-align-right-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.25 17a.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75m4-5a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1-.75-.75m-9-5A.75.75 0 0 1 3 6.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 7" clip-rule="evenodd"/></svg>`
+};
 export const ciTextExtendOutlined = {
     name: 'text-extend-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.25 6A.75.75 0 0 1 3 5.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 6m0 4A.75.75 0 0 1 3 9.25h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75M3 13.25a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5zM2.25 18a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m16.28 2.53a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06l1.72 1.72V13a.75.75 0 0 1 1.5 0v5.19l1.72-1.72a.75.75 0 1 1 1.06 1.06z"/></svg>`
@@ -1666,6 +1678,10 @@ export const ciTextExtendOutlined = {
 export const ciTextShortenOutlined = {
     name: 'text-shorten-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.25 10A.75.75 0 0 1 3 9.25h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m0 4a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m16.28-1.53 3 3a.75.75 0 1 1-1.06 1.06l-1.72-1.72V20a.75.75 0 0 1-1.5 0v-5.19l-1.72 1.72a.75.75 0 1 1-1.06-1.06l3-3a.75.75 0 0 1 1.06 0"/></svg>`
+};
+export const ciTextSizeOutlined = {
+    name: 'text-size-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.666 18H14l3.034-8.727h1.928L22 18h-1.666l-2.302-6.938h-.068zm.055-3.422h4.545v1.27h-4.545zM3.98 18H2L6.45 5.636h2.154L13.054 18h-1.98L7.577 7.882h-.096zm.332-4.842h6.423v1.57H4.312z"/></svg>`
 };
 export const ciTextSummaryOutlined = {
     name: 'text-summary-outlined',
@@ -2339,8 +2355,12 @@ export const ciAll = [
     ciStrikethroughOutlined,
     ciTagOutlined,
     ciTargetedOutlined,
+    ciTextAlignCenterOutlined,
+    ciTextAlignLeftOutlined,
+    ciTextAlignRightOutlined,
     ciTextExtendOutlined,
     ciTextShortenOutlined,
+    ciTextSizeOutlined,
     ciTextSummaryOutlined,
     ciThumbsUpFilled,
     ciThumbsUpOutlined,
