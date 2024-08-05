@@ -90,6 +90,13 @@ export const ci32ReactionSmile: {
   name: '32-reaction-smile',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFD97A" stroke="#AF6408" stroke-width="1.5" d="M23 12c0 6.075-4.925 11-11 11-6.074 0-11-4.925-11-11C1 5.926 5.926 1 12 1c6.075 0 11 4.926 11 11Z"/><path stroke="#AF6408" stroke-linecap="round" stroke-width="1.5" d="M6 10v0c.824-1.648 3.176-1.648 4 0v0m4 0v0c.824-1.648 3.176-1.648 4 0v0"/><path fill="#AF6408" d="M6 13c0-.5.48-.86.96-.72l.312.09c3.088.902 6.368.902 9.457 0l.311-.09c.48-.14.96.22.96.72a6 6 0 0 1-12 0"/></svg>`
 };
+export const ci32ReactionThumbsDown: {
+  name: '32-reaction-thumbs-down';
+  data: string;
+} = {
+  name: '32-reaction-thumbs-down',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="#697687" d="m23.54 18.82-2.46.093c-3.255 3.509-2.664 4.58-3.724 7.557-.2.56-.805.903-1.392.808-1.213-.196-2.22-.87-2.878-7.041H8.462a2.46 2.46 0 0 1-2.343-3.21l2.15-6.712a3.69 3.69 0 0 1 3.513-2.565h11.759A2.46 2.46 0 0 1 26 10.21v6.15a2.46 2.46 0 0 1-2.46 2.46" opacity=".2"/><path fill="#697687" fill-rule="evenodd" d="M16.083 26.537a.53.53 0 0 0 .566-.319 19 19 0 0 0 .58-1.991c.132-.524.264-1.05.46-1.593.419-1.15 1.11-2.328 2.642-4.013V8.5h-8.549a2.94 2.94 0 0 0-2.8 2.043l-2.148 6.712a1.71 1.71 0 0 0 1.628 2.232h4.624a.75.75 0 0 1 .746.67c.328 3.08.735 4.67 1.154 5.504.2.398.385.583.53.682.147.1.315.154.567.194M21.831 8.5v9.634l1.681-.064h.029a1.71 1.71 0 0 0 1.71-1.71v-6.15a1.71 1.71 0 0 0-1.71-1.71zm-.41 11.15c-1.427 1.575-1.99 2.583-2.321 3.497-.17.467-.285.922-.42 1.463l-.026.1a21 21 0 0 1-.592 2.011c-.326.917-1.288 1.447-2.218 1.297-.354-.057-.767-.16-1.171-.435-.406-.276-.742-.682-1.027-1.248-.51-1.014-.912-2.658-1.23-5.348H8.462a3.21 3.21 0 0 1-3.057-4.189l2.149-6.712A4.44 4.44 0 0 1 11.782 7h11.759a3.21 3.21 0 0 1 3.21 3.21v6.15a3.21 3.21 0 0 1-3.195 3.21l-2.134.08Z" clip-rule="evenodd"/></svg>`
+};
 export const ci32ReactionThumbsUp: {
   name: '32-reaction-thumbs-up';
   data: string;
@@ -3450,6 +3457,7 @@ export type coyoIcon =
   | '32-reaction-lightbulb'
   | '32-reaction-mood'
   | '32-reaction-smile'
+  | '32-reaction-thumbs-down'
   | '32-reaction-thumbs-up'
   | 'reaction-clapping'
   | 'reaction-heart'
@@ -3949,6 +3957,7 @@ export const ciAll = [
   ci32ReactionLightbulb,
   ci32ReactionMood,
   ci32ReactionSmile,
+  ci32ReactionThumbsDown,
   ci32ReactionThumbsUp,
   ciReactionClapping,
   ciReactionHeart,
