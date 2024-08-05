@@ -76,6 +76,13 @@ export const ci32ReactionMood: {
   name: '32-reaction-mood',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="#FFD97A" d="M27 16c0 6.075-4.925 11-11 11-6.074 0-11-4.925-11-11C5 9.926 9.926 5 16 5c6.075 0 11 4.926 11 11"/><path fill="#AF6408" d="M13.778 15.167c0 1.074-.622 1.944-1.39 1.944-.766 0-1.388-.87-1.388-1.944s.622-1.945 1.389-1.945 1.389.87 1.389 1.945m5.833-.056c.767 0 1.389-.87 1.389-1.944s-.622-1.945-1.389-1.945-1.389.87-1.389 1.945c0 1.074.622 1.944 1.39 1.944Zm-5.949 7.036c2.147-1.754 4.206-2.67 7.227-2.967a.75.75 0 1 0-.147-1.493c-3.324.327-5.66 1.363-8.029 3.298a.75.75 0 1 0 .95 1.162Z"/><path fill="#AF6408" fill-rule="evenodd" d="M16 4.25C9.511 4.25 4.25 9.511 4.25 16c0 6.49 5.261 11.75 11.75 11.75 6.49 0 11.75-5.26 11.75-11.75 0-6.489-5.26-11.75-11.75-11.75M5.75 16c0-5.66 4.59-10.25 10.25-10.25S26.25 10.34 26.25 16 21.66 26.25 16 26.25 5.75 21.66 5.75 16" clip-rule="evenodd"/></svg>`
 };
+export const ci32ReactionSmile: {
+  name: '32-reaction-smile';
+  data: string;
+} = {
+  name: '32-reaction-smile',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFD97A" stroke="#AF6408" stroke-width="1.5" d="M23 12c0 6.075-4.925 11-11 11-6.074 0-11-4.925-11-11C1 5.926 5.926 1 12 1c6.075 0 11 4.926 11 11Z"/><path stroke="#AF6408" stroke-linecap="round" stroke-width="1.5" d="M6 10v0c.824-1.648 3.176-1.648 4 0v0m4 0v0c.824-1.648 3.176-1.648 4 0v0"/><path fill="#AF6408" d="M6 13c0-.5.48-.86.96-.72l.312.09c3.088.902 6.368.902 9.457 0l.311-.09c.48-.14.96.22.96.72a6 6 0 0 1-12 0"/></svg>`
+};
 export const ci32ReactionThumbsUp: {
   name: '32-reaction-thumbs-up';
   data: string;
@@ -3427,6 +3434,7 @@ export type coyoIcon =
   | '32-reaction-laughing'
   | '32-reaction-lightbulb'
   | '32-reaction-mood'
+  | '32-reaction-smile'
   | '32-reaction-thumbs-up'
   | 'reaction-clapping'
   | 'reaction-heart'
@@ -3923,6 +3931,7 @@ export const ciAll = [
   ci32ReactionLaughing,
   ci32ReactionLightbulb,
   ci32ReactionMood,
+  ci32ReactionSmile,
   ci32ReactionThumbsUp,
   ciReactionClapping,
   ciReactionHeart,
