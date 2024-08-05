@@ -13,6 +13,13 @@ export const ci16ReactionHeart: {
   name: '16-reaction-heart',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#D02E25" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"/><path fill="#fff" d="M10.8 9.4c.596-.584 1.2-1.284 1.2-2.2A2.2 2.2 0 0 0 9.8 5c-.704 0-1.2.2-1.8.8-.6-.6-1.096-.8-1.8-.8A2.2 2.2 0 0 0 4 7.2c0 .92.6 1.62 1.2 2.2l2.093 2.093a1 1 0 0 0 1.414 0z"/></svg>`
 };
+export const ci16ReactionLaughing: {
+  name: '16-reaction-laughing';
+  data: string;
+} = {
+  name: '16-reaction-laughing',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16"><path fill="#FFD97A" d="M17 8A8 8 0 1 1 1 8a8 8 0 0 1 16 0"/><path fill="#AF6408" fill-rule="evenodd" d="M7.197 7.258a1.05 1.05 0 0 0-1.485 0 .75.75 0 0 1-1.06-1.061 2.55 2.55 0 0 1 3.606 0 .75.75 0 0 1-1.061 1.06Z" clip-rule="evenodd"/><path fill="#AF6408" fill-rule="evenodd" d="M6.464 4.76a1.22 1.22 0 0 0-1.145.722.5.5 0 0 1-.913-.408A2.22 2.22 0 0 1 6.49 3.76a.5.5 0 0 1-.026 1m5.072 0a1.22 1.22 0 0 1 1.145.722.5.5 0 1 0 .913-.408A2.22 2.22 0 0 0 11.51 3.76a.5.5 0 1 0 .026 1" clip-rule="evenodd"/><path fill="#AF6408" fill-rule="evenodd" d="M12.288 7.258a1.05 1.05 0 0 0-1.485 0 .75.75 0 0 1-1.06-1.061 2.55 2.55 0 0 1 3.605 0 .75.75 0 0 1-1.06 1.06Z" clip-rule="evenodd"/><path fill="#AF6408" d="M5.182 8.636c0-.318.305-.547.61-.458l.199.058c1.965.573 4.053.573 6.018 0l.198-.058a.477.477 0 0 1 .611.458 3.818 3.818 0 0 1-7.636 0"/><path fill="#71AAFF" d="M17.033 8.13c.403.772.073 1.74-.735 2.161-.809.421-1.79.136-2.193-.637-.402-.773-1.535-2.165-.727-2.586.81-.421 3.253.289 3.655 1.062m-16.066 0c-.403.772-.073 1.74.735 2.161.809.421 1.79.136 2.193-.637s1.535-2.165.727-2.586c-.809-.421-3.253.289-3.655 1.062"/></svg>`
+};
 export const ci16ReactionLightbulb: {
   name: '16-reaction-lightbulb';
   data: string;
@@ -3411,6 +3418,7 @@ export const ciXing: {
 export type coyoIcon =
   | '16-reaction-clapping'
   | '16-reaction-heart'
+  | '16-reaction-laughing'
   | '16-reaction-lightbulb'
   | '16-reaction-mood'
   | '16-reaction-thumbs-up'
@@ -3906,6 +3914,7 @@ export type CoyoIconNameSubset<
 export const ciAll = [
   ci16ReactionClapping,
   ci16ReactionHeart,
+  ci16ReactionLaughing,
   ci16ReactionLightbulb,
   ci16ReactionMood,
   ci16ReactionThumbsUp,
