@@ -125,6 +125,13 @@ export const ciReactionMood: {
   name: 'reaction-mood',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFD97A" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"/><path fill="#AF6408" d="M10.182 11.318c0 .879-.509 1.591-1.137 1.591-.627 0-1.136-.712-1.136-1.59 0-.88.509-1.592 1.136-1.592.628 0 1.137.713 1.137 1.591m4.772-.045c.628 0 1.137-.713 1.137-1.591 0-.879-.509-1.591-1.137-1.591-.627 0-1.136.712-1.136 1.59 0 .88.509 1.592 1.136 1.592m-4.78 5.862c1.736-1.419 3.395-2.157 5.84-2.398a.75.75 0 0 0-.147-1.492c-2.748.27-4.685 1.129-6.643 2.729a.75.75 0 1 0 .95 1.161"/><path fill="#AF6408" fill-rule="evenodd" d="M12 2.25c-5.384 0-9.75 4.366-9.75 9.75s4.366 9.75 9.75 9.75A9.75 9.75 0 0 0 21.75 12c0-5.384-4.365-9.75-9.75-9.75M3.75 12a8.25 8.25 0 1 1 16.501.001A8.25 8.25 0 0 1 3.75 12" clip-rule="evenodd"/></svg>`
 };
+export const ciReactionSmile: {
+  name: 'reaction-smile';
+  data: string;
+} = {
+  name: 'reaction-smile',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFD97A" stroke="#AF6408" stroke-width="1.263" d="M21.518 12.26A9.26 9.26 0 1 1 3 12.258a9.26 9.26 0 0 1 18.518 0Z"/><path stroke="#AF6408" stroke-linecap="round" stroke-width="1.263" d="M7.209 10.576v0c.693-1.388 2.673-1.388 3.367 0v0m3.367 0v0c.693-1.388 2.673-1.388 3.367 0v0"/><path fill="#AF6408" d="M7.209 13.101c0-.42.404-.724.808-.606l.262.076c2.6.759 5.361.759 7.96 0l.263-.076a.63.63 0 0 1 .808.606 5.05 5.05 0 1 1-10.101 0"/></svg>`
+};
 export const ciReactionThumbsUp: {
   name: 'reaction-thumbs-up';
   data: string;
@@ -3441,6 +3448,7 @@ export type coyoIcon =
   | 'reaction-laughing'
   | 'reaction-lightbulb'
   | 'reaction-mood'
+  | 'reaction-smile'
   | 'reaction-thumbs-up'
   | '16-bell-strikethrough'
   | '16-bell'
@@ -3938,6 +3946,7 @@ export const ciAll = [
   ciReactionLaughing,
   ciReactionLightbulb,
   ciReactionMood,
+  ciReactionSmile,
   ciReactionThumbsUp,
   ci16BellStrikethrough,
   ci16Bell,
