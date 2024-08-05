@@ -23,6 +23,10 @@ export const ci16ReactionSmile = {
     name: '16-reaction-smile',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#fff" d="M0 0h16v16H0z"/><path fill="#FFD97A" d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/><path stroke="#AF6408" stroke-linecap="round" stroke-width=".955" d="M4.182 6.727v0c.524-1.049 2.02-1.049 2.545 0v0m2.546 0v0c.524-1.049 2.02-1.049 2.545 0v0"/><path fill="#AF6408" d="M4.182 8.636c0-.318.305-.547.61-.458l.199.058c1.965.573 4.053.573 6.018 0l.198-.058a.477.477 0 0 1 .611.458 3.818 3.818 0 0 1-7.636 0"/></svg>`
 };
+export const ci16ReactionThumbsDown = {
+    name: '16-reaction-thumbs-down',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#697687" d="M8 0c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8"/><path fill="#fff" d="m4.852 5.9-1.05 3.26c-.14.45.19.9.67.9h2.24c.26 0 .47.2.5.45.16 1.49.35 2.25.54 2.63.09.17.17.24.22.28.04.03.1.05.22.07.02 0 .05 0 .08-.02.02-.01.04-.03.04-.05.12-.34.2-.62.27-.9.06-.27.13-.55.24-.84.21-.56.54-1.15 1.27-1.95V5h-4.01c-.56 0-1.06.36-1.23.9m6.24-.9v4.4l.68-.02h.02a.7.7 0 0 0 .69-.7V5.7c0-.39-.31-.7-.69-.7z"/></svg>`
+};
 export const ci16ReactionThumbsUp = {
     name: '16-reaction-thumbs-up',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="var(--link-color)" d="M8 0c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8"/><path fill="#fff" d="m11.4 10.59 1.05-3.26c.14-.45-.19-.9-.67-.9H9.54c-.26 0-.47-.2-.5-.45-.16-1.49-.35-2.25-.54-2.63a.8.8 0 0 0-.22-.28c-.04-.03-.1-.05-.22-.07-.02 0-.05 0-.08.02-.02.01-.04.03-.04.05-.12.34-.2.62-.27.9-.06.27-.13.55-.24.84-.21.56-.54 1.15-1.27 1.95v4.73h4.01c.56 0 1.06-.36 1.23-.9m-6.24.9v-4.4l-.68.02h-.02a.7.7 0 0 0-.69.7v2.98c0 .39.31.7.69.7z"/></svg>`
@@ -1978,6 +1982,7 @@ export const ciAll = [
     ci16ReactionLightbulb,
     ci16ReactionMood,
     ci16ReactionSmile,
+    ci16ReactionThumbsDown,
     ci16ReactionThumbsUp,
     ci32ReactionClapping,
     ci32ReactionHeart,
