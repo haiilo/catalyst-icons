@@ -53,7 +53,7 @@ export const ci32ReactionMood = {
 };
 export const ci32ReactionSmile = {
     name: '32-reaction-smile',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFD97A" stroke="#AF6408" stroke-width="1.5" d="M23 12c0 6.075-4.925 11-11 11-6.074 0-11-4.925-11-11C1 5.926 5.926 1 12 1c6.075 0 11 4.926 11 11Z"/><path stroke="#AF6408" stroke-linecap="round" stroke-width="1.5" d="M6 10v0c.824-1.648 3.176-1.648 4 0v0m4 0v0c.824-1.648 3.176-1.648 4 0v0"/><path fill="#AF6408" d="M6 13c0-.5.48-.86.96-.72l.312.09c3.088.902 6.368.902 9.457 0l.311-.09c.48-.14.96.22.96.72a6 6 0 0 1-12 0"/></svg>`
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="#FFD97A" stroke="#AF6408" stroke-width="1.5" d="M27 16c0 6.075-4.925 11-11 11-6.074 0-11-4.925-11-11C5 9.926 9.926 5 16 5c6.075 0 11 4.926 11 11Z"/><path stroke="#AF6408" stroke-linecap="round" stroke-width="1.5" d="M10 14v0c.824-1.648 3.176-1.648 4 0v0m4 0v0c.824-1.648 3.176-1.648 4 0v0"/><path fill="#AF6408" d="M10 17c0-.5.48-.86.96-.72l.311.09c3.088.901 6.37.901 9.457 0l.312-.09c.48-.14.96.22.96.72a6 6 0 0 1-12 0"/></svg>`
 };
 export const ci32ReactionThumbsDown = {
     name: '32-reaction-thumbs-down',
