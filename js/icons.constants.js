@@ -1503,9 +1503,17 @@ export const ciRteRedo = {
     name: 'rte-redo',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 6.53a.75.75 0 0 1 1.06-1.06l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H10a3.25 3.25 0 0 0 0 6.5h1.923a.75.75 0 0 1 0 1.5H10a4.75 4.75 0 1 1 0-9.5h6.19z"/></svg>`
 };
+export const ciRteTextColor = {
+    name: 'rte-text-color',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10.773 5.46a.74.74 0 0 1 .68-.46h.844c.298 0 .566.181.68.46l4.216 10.255a.75.75 0 0 1-.397.977.734.734 0 0 1-.964-.402l-3.957-9.624L7.92 16.29a.734.734 0 0 1-.965.402.75.75 0 0 1-.397-.977z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M8.186 11.836h7.378v1.496H8.186zM3.75 19c0-.69.56-1.25 1.25-1.25h14a1.25 1.25 0 1 1 0 2.5H5c-.69 0-1.25-.56-1.25-1.25" clip-rule="evenodd"/></svg>`
+};
 export const ciRteTextSize = {
     name: 'rte-text-size',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.192 6.163A.875.875 0 0 1 7 5.625h1c.353 0 .672.212.808.538l5 12a.875.875 0 1 1-1.616.674l-1.442-3.462h-6.5l-1.442 3.462a.875.875 0 1 1-1.616-.674zM4.98 13.625h5.042L7.5 7.575zm12.505-3.402a.75.75 0 0 1 .697-.473h.636a.75.75 0 0 1 .697.473l3.182 8a.75.75 0 1 1-1.394.554l-.806-2.027h-3.994l-.806 2.027a.75.75 0 1 1-1.394-.554zM17.1 15.25h2.8l-1.4-3.52z" clip-rule="evenodd"/></svg>`
+};
+export const ciRteText = {
+    name: 'rte-text',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10.692 6.163a.875.875 0 0 1 .808-.538h1c.353 0 .672.212.808.538l5 12a.875.875 0 1 1-1.616.674L12 7.575 7.308 18.837a.875.875 0 1 1-1.616-.674z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M7.625 13.625h8.75v1.75h-8.75z" clip-rule="evenodd"/></svg>`
 };
 export const ciRteUl = {
     name: 'rte-ul',
@@ -2352,7 +2360,9 @@ export const ciAll = [
     ciRteLink,
     ciRteOl,
     ciRteRedo,
+    ciRteTextColor,
     ciRteTextSize,
+    ciRteText,
     ciRteUl,
     ciRteUndo,
     ciRteVariable,
