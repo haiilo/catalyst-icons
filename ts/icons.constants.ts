@@ -2631,6 +2631,13 @@ export const ciRteRedo: {
   name: 'rte-redo',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 6.53a.75.75 0 0 1 1.06-1.06l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H10a3.25 3.25 0 0 0 0 6.5h1.923a.75.75 0 0 1 0 1.5H10a4.75 4.75 0 1 1 0-9.5h6.19z"/></svg>`
 };
+export const ciRteTextSize: {
+  name: 'rte-text-size';
+  data: string;
+} = {
+  name: 'rte-text-size',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.666 18H14l3.034-8.727h1.928L22 18h-1.666l-2.302-6.938h-.068zm.055-3.422h4.545v1.27h-4.545zM3.98 18H2L6.45 5.636h2.154L13.054 18h-1.98L7.577 7.882h-.096zm.332-4.842h6.423v1.57H4.312z"/></svg>`
+};
 export const ciRteUl: {
   name: 'rte-ul';
   data: string;
@@ -3001,13 +3008,6 @@ export const ciTextShortenOutlined: {
 } = {
   name: 'text-shorten-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.25 10A.75.75 0 0 1 3 9.25h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m0 4a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m16.28-1.53 3 3a.75.75 0 1 1-1.06 1.06l-1.72-1.72V20a.75.75 0 0 1-1.5 0v-5.19l-1.72 1.72a.75.75 0 1 1-1.06-1.06l3-3a.75.75 0 0 1 1.06 0"/></svg>`
-};
-export const ciTextSizeOutlined: {
-  name: 'text-size-outlined';
-  data: string;
-} = {
-  name: 'text-size-outlined',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.666 18H14l3.034-8.727h1.928L22 18h-1.666l-2.302-6.938h-.068zm.055-3.422h4.545v1.27h-4.545zM3.98 18H2L6.45 5.636h2.154L13.054 18h-1.98L7.577 7.882h-.096zm.332-4.842h6.423v1.57H4.312z"/></svg>`
 };
 export const ciTextSummaryOutlined: {
   name: 'text-summary-outlined';
@@ -3834,6 +3834,7 @@ export type coyoIcon =
   | 'rte-link'
   | 'rte-ol'
   | 'rte-redo'
+  | 'rte-text-size'
   | 'rte-ul'
   | 'rte-undo'
   | 'rte-variable'
@@ -3887,7 +3888,6 @@ export type coyoIcon =
   | 'text-align-right-outlined'
   | 'text-extend-outlined'
   | 'text-shorten-outlined'
-  | 'text-size-outlined'
   | 'text-summary-outlined'
   | 'thumbs-up-filled'
   | 'thumbs-up-outlined'
@@ -4336,6 +4336,7 @@ export const ciAll = [
   ciRteLink,
   ciRteOl,
   ciRteRedo,
+  ciRteTextSize,
   ciRteUl,
   ciRteUndo,
   ciRteVariable,
@@ -4389,7 +4390,6 @@ export const ciAll = [
   ciTextAlignRightOutlined,
   ciTextExtendOutlined,
   ciTextShortenOutlined,
-  ciTextSizeOutlined,
   ciTextSummaryOutlined,
   ciThumbsUpFilled,
   ciThumbsUpOutlined,
