@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.10.3 (2024-09-03)
+
+
+### Features
+
+* new icon for number in form app ([34836c7](https://github.com/haiilo/catalyst-icons/commit/34836c7bcc7552dc70a20fe09e300f4cb2a8bf01))
+
 ### 2.10.2 (2024-08-29)
 
 ### 2.10.1 (2024-08-28)
