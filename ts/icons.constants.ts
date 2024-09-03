@@ -1959,6 +1959,13 @@ export const ciHaiiloStories: {
   name: 'haiilo-stories',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#1B6C75" fill-rule="evenodd" d="M14.025 11.999a2.024 2.024 0 1 0-4.048 0 2.024 2.024 0 0 0 4.048 0m0-6.974a2.024 2.024 0 1 0-4.049 0 2.024 2.024 0 0 0 4.049 0m0 13.95a2.025 2.025 0 1 0-4.05 0 2.025 2.025 0 0 0 4.05 0M7.05 12a2.024 2.024 0 1 0-4.049 0 2.024 2.024 0 0 0 4.049 0M21 18.975a2.025 2.025 0 1 0-4.05 0 2.025 2.025 0 0 0 4.05 0m0-13.948a2.024 2.024 0 1 0-4.048-.002A2.024 2.024 0 0 0 21 5.027" clip-rule="evenodd"/></svg>`
 };
+export const ciHashBoxOutlined: {
+  name: 'hash-box-outlined';
+  data: string;
+} = {
+  name: 'hash-box-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="m12.502 14.405-.385 2.345h1.477l.385-2.345h1.291l.245-1.477h-1.293l.296-1.81h1.292l.25-1.477h-1.3l.386-2.346h-1.478l-.384 2.346h-1.847l.385-2.346h-1.478L9.96 9.641H8.673l-.249 1.477h1.293l-.297 1.81H8.13l-.245 1.477h1.294l-.385 2.345h1.478l.384-2.345zm.242-1.477.297-1.81h-1.846l-.297 1.81z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M5 2.25A2.75 2.75 0 0 0 2.25 5v14A2.75 2.75 0 0 0 5 21.75h14A2.75 2.75 0 0 0 21.75 19V5A2.75 2.75 0 0 0 19 2.25zM3.75 5c0-.69.56-1.25 1.25-1.25h14c.69 0 1.25.56 1.25 1.25v14c0 .69-.56 1.25-1.25 1.25H5c-.69 0-1.25-.56-1.25-1.25z" clip-rule="evenodd"/></svg>`
+};
 export const ciHashtagOutlined: {
   name: 'hashtag-outlined';
   data: string;
@@ -3787,6 +3794,7 @@ export type coyoIcon =
   | 'haiilo-outlined'
   | 'haiilo-share'
   | 'haiilo-stories'
+  | 'hash-box-outlined'
   | 'hashtag-outlined'
   | 'history-outlined'
   | 'home-filled'
@@ -4296,6 +4304,7 @@ export const ciAll = [
   ciHaiiloOutlined,
   ciHaiiloShare,
   ciHaiiloStories,
+  ciHashBoxOutlined,
   ciHashtagOutlined,
   ciHistoryOutlined,
   ciHomeFilled,
