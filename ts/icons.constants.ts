@@ -1546,11 +1546,11 @@ export const ciFlagCircleTr: {
   name: 'flag-circle-tr',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#fff" fill-rule="evenodd" d="m16.67 13.536-1.55.813.296-1.724-1.253-1.222 1.733-.254.773-1.568.774 1.57 1.733.253-1.253 1.22.296 1.724" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M10.667 16.667a4.667 4.667 0 1 0 0-9.334 4.667 4.667 0 0 0 0 9.334M12 15.333a3.334 3.334 0 0 0 0-6.666 3.335 3.335 0 0 0 0 6.666" clip-rule="evenodd"/></svg>`
 };
-export const ciFlagCircleVi: {
-  name: 'flag-circle-vi';
+export const ciFlagCircleVn: {
+  name: 'flag-circle-vn';
   data: string;
 } = {
-  name: 'flag-circle-vi',
+  name: 'flag-circle-vn',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#FFDA2C" fill-rule="evenodd" d="m12.003 14.44-2.787 1.467.533-3.103-2.253-2.196 3.115-.453 1.392-2.822 1.393 2.822 3.113.453-2.253 2.196.533 3.101" clip-rule="evenodd"/></svg>`
 };
 export const ciFlagCn: {
@@ -3777,7 +3777,7 @@ export type coyoIcon =
   | 'flag-circle-sk'
   | 'flag-circle-th'
   | 'flag-circle-tr'
-  | 'flag-circle-vi'
+  | 'flag-circle-vn'
   | 'flag-cn'
   | 'flag-cz'
   | 'flag-de'
@@ -4293,7 +4293,7 @@ export const ciAll = [
   ciFlagCircleSk,
   ciFlagCircleTh,
   ciFlagCircleTr,
-  ciFlagCircleVi,
+  ciFlagCircleVn,
   ciFlagCn,
   ciFlagCz,
   ciFlagDe,

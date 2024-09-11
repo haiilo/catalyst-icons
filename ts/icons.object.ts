@@ -441,7 +441,7 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-circle-th_svg__a)"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/><path fill="#F93939" fill-rule="evenodd" d="M2 2h28v4H2zm0 16h28v4H2z" clip-rule="evenodd"/><path fill="#232C80" fill-rule="evenodd" d="M2 8.667h28v6.666H2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-circle-th_svg__a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>',
   'flag-circle-tr':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#fff" fill-rule="evenodd" d="m16.67 13.536-1.55.813.296-1.724-1.253-1.222 1.733-.254.773-1.568.774 1.57 1.733.253-1.253 1.22.296 1.724" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M10.667 16.667a4.667 4.667 0 1 0 0-9.334 4.667 4.667 0 0 0 0 9.334M12 15.333a3.334 3.334 0 0 0 0-6.666 3.335 3.335 0 0 0 0 6.666" clip-rule="evenodd"/></svg>',
-  'flag-circle-vi':
+  'flag-circle-vn':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#FFDA2C" fill-rule="evenodd" d="m12.003 14.44-2.787 1.467.533-3.103-2.253-2.196 3.115-.453 1.392-2.822 1.393 2.822 3.113.453-2.253 2.196.533 3.101" clip-rule="evenodd"/></svg>',
   'flag-cn':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-cn_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#F93939" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5"/><path fill="#FFDA2C" fill-rule="evenodd" d="m7.236 11.748-1.4.722.267-1.528-1.131-1.083 1.564-.221.7-1.39.7 1.39 1.564.22-1.133 1.084.268 1.527zM10.572 7.8h.952v.933h-.952zm.952 1.867h.952v.933h-.952zm0 1.866h.952v.934h-.952zm-.952 1.867h.952v.933h-.952z" clip-rule="evenodd"/></g><defs><clipPath id="flag-cn_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>',
@@ -1238,7 +1238,7 @@ export type MyIconType =
   | 'flag-circle-sk'
   | 'flag-circle-th'
   | 'flag-circle-tr'
-  | 'flag-circle-vi'
+  | 'flag-circle-vn'
   | 'flag-cn'
   | 'flag-cz'
   | 'flag-de'
