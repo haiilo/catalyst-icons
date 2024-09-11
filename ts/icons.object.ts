@@ -509,7 +509,7 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-th_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#F93939" fill-rule="evenodd" d="M2 5h20v2.8H2zm0 11.2h20V19H2z" clip-rule="evenodd"/><path fill="#232C80" fill-rule="evenodd" d="M2 9.667h20v4.666H2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-th_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>',
   'flag-tr':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="m15.335 13.075-1.107.57.212-1.207-.895-.856 1.238-.178.552-1.097.552 1.098 1.239.178-.896.854.212 1.207" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M11.048 15.267c1.84 0 3.333-1.463 3.333-3.267s-1.492-3.267-3.333-3.267S7.714 10.196 7.714 12s1.493 3.267 3.334 3.267m.952-.934c1.314 0 2.38-1.045 2.38-2.333S13.314 9.667 12 9.667 9.619 10.712 9.619 12s1.067 2.333 2.38 2.333Z" clip-rule="evenodd"/></svg>',
-  'flag-vi':
+  'flag-vn':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#FFDA2C" fill-rule="evenodd" d="m12.002 13.708-1.99 1.027.38-2.172-1.609-1.537 2.225-.318.994-1.975.995 1.975 2.224.318-1.61 1.537.381 2.17" clip-rule="evenodd"/></svg>',
   'flash-circle-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.46 6.983-3.72 4.185a.5.5 0 0 0 .373.832h1.554l-.643 4.341a.5.5 0 0 0 .868.406l4.368-4.915a.5.5 0 0 0-.373-.832h-1.554V7.315a.5.5 0 0 0-.873-.332"/><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0" clip-rule="evenodd"/></svg>',
@@ -1272,7 +1272,7 @@ export type MyIconType =
   | 'flag-sk'
   | 'flag-th'
   | 'flag-tr'
-  | 'flag-vi'
+  | 'flag-vn'
   | 'flash-circle-outlined'
   | 'flash-outlined'
   | 'folder-minus-outlined'

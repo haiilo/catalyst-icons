@@ -1019,8 +1019,8 @@ export const ciFlagTr = {
     name: 'flag-tr',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="m15.335 13.075-1.107.57.212-1.207-.895-.856 1.238-.178.552-1.097.552 1.098 1.239.178-.896.854.212 1.207" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M11.048 15.267c1.84 0 3.333-1.463 3.333-3.267s-1.492-3.267-3.333-3.267S7.714 10.196 7.714 12s1.493 3.267 3.334 3.267m.952-.934c1.314 0 2.38-1.045 2.38-2.333S13.314 9.667 12 9.667 9.619 10.712 9.619 12s1.067 2.333 2.38 2.333Z" clip-rule="evenodd"/></svg>`
 };
-export const ciFlagVi = {
-    name: 'flag-vi',
+export const ciFlagVn = {
+    name: 'flag-vn',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#FFDA2C" fill-rule="evenodd" d="m12.002 13.708-1.99 1.027.38-2.172-1.609-1.537 2.225-.318.994-1.975.995 1.975 2.224.318-1.61 1.537.381 2.17" clip-rule="evenodd"/></svg>`
 };
 export const ciFlashCircleOutlined = {
@@ -2287,7 +2287,7 @@ export const ciAll = [
     ciFlagSk,
     ciFlagTh,
     ciFlagTr,
-    ciFlagVi,
+    ciFlagVn,
     ciFlashCircleOutlined,
     ciFlashOutlined,
     ciFolderMinusOutlined,
