@@ -1672,12 +1672,12 @@ export const ciFlagKr: {
   name: 'flag-kr',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" style="fill:none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/><path fill="#232C80" fill-rule="evenodd" d="M15.333 12c0 1.804-1.492 3.267-3.333 3.267S8.667 13.804 8.667 12c0-1.045 2.238-1.484 4.122-1.319q.301-.08.64-.081c1.052 0 1.904.627 1.904 1.4" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M11.524 11.533s.852-.933 1.905-.933 1.904.627 1.904 1.4c0-1.804-1.492-3.267-3.333-3.267-1.33 0-2.48.764-3.013 1.869-.32.931-.32 1.204-.32 1.398.476.467 1.005.467 1.428.467s.803-.18 1.065-.467z" clip-rule="evenodd"/><path fill="#151515" fill-rule="evenodd" d="M16.286 9.667h1.904L16.287 7.8h-.953zm-8.572 0H5.81L7.714 7.8h.953zm8.572 4.666h1.904L16.287 16.2h-.953zm-8.572 0H5.81L7.714 16.2h.953z" clip-rule="evenodd"/><rect width="21" height="15" x="1.5" y="4.5" stroke="#000" stroke-opacity=".07" rx="3.5"/></svg>`
 };
-export const ciFlagLo: {
-  name: 'flag-lo';
+export const ciFlagLa: {
+  name: 'flag-la';
   data: string;
 } = {
-  name: 'flag-lo',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-lo_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#232C80" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M12 14.333c1.314 0 2.381-1.045 2.381-2.333s-1.067-2.333-2.38-2.333c-1.315 0-2.382 1.045-2.382 2.333s1.067 2.333 2.381 2.333" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 15.267h20V19H2zM2 5h20v3.733H2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-lo_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+  name: 'flag-la',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-la_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#232C80" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M12 14.333c1.314 0 2.381-1.045 2.381-2.333s-1.067-2.333-2.38-2.333c-1.315 0-2.382 1.045-2.382 2.333s1.067 2.333 2.381 2.333" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 15.267h20V19H2zM2 5h20v3.733H2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-la_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciFlagLv: {
   name: 'flag-lv';
@@ -3795,7 +3795,7 @@ export type coyoIcon =
   | 'flag-it'
   | 'flag-jp'
   | 'flag-kr'
-  | 'flag-lo'
+  | 'flag-la'
   | 'flag-lv'
   | 'flag-mk'
   | 'flag-nl'
@@ -4311,7 +4311,7 @@ export const ciAll = [
   ciFlagIt,
   ciFlagJp,
   ciFlagKr,
-  ciFlagLo,
+  ciFlagLa,
   ciFlagLv,
   ciFlagMk,
   ciFlagNl,
