@@ -1280,19 +1280,19 @@ export const ciFlagAm: {
   name: 'flag-am',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-am_svg__a)"><path fill="#1A47B8" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5"/><path fill="#FFDA2C" fill-rule="evenodd" d="M2 14.333h20V19H2z" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M2 5h20v4.667H2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-am_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
+export const ciFlagBa: {
+  name: 'flag-ba';
+  data: string;
+} = {
+  name: 'flag-ba',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-ba_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#FFDA2C" rx="3"/><path fill="#FFDA2C" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5"/><path fill="#1A47B8" fill-rule="evenodd" d="m2 5 20 13.067-.117 1.026L2 19z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2.952 7.8h.953v.933h-.953zM5.81 9.667h.952v.933H5.81zm2.857 1.866h.952v.934h-.952zm2.857 1.867h.952v.933h-.952zm2.857 1.867h.952v.933h-.952zm2.857 1.866h.953v.934h-.953z" clip-rule="evenodd"/></g><defs><clipPath id="flag-ba_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
+};
 export const ciFlagBg: {
   name: 'flag-bg';
   data: string;
 } = {
   name: 'flag-bg',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-bg_svg__a)"><path fill="#249F58" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5"/><path fill="#F93939" fill-rule="evenodd" d="M2 14.333h20V19H2z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v4.667H2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-bg_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
-};
-export const ciFlagBs: {
-  name: 'flag-bs';
-  data: string;
-} = {
-  name: 'flag-bs',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-bs_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#FFDA2C" rx="3"/><path fill="#FFDA2C" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5"/><path fill="#1A47B8" fill-rule="evenodd" d="m2 5 20 13.067-.117 1.026L2 19z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2.952 7.8h.953v.933h-.953zM5.81 9.667h.952v.933H5.81zm2.857 1.866h.952v.934h-.952zm2.857 1.867h.952v.933h-.952zm2.857 1.867h.952v.933h-.952zm2.857 1.866h.953v.934h-.953z" clip-rule="evenodd"/></g><defs><clipPath id="flag-bs_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>`
 };
 export const ciFlagCircleAl: {
   name: 'flag-circle-al';
@@ -3739,8 +3739,8 @@ export type coyoIcon =
   | 'fingerprint-outlined'
   | 'flag-al'
   | 'flag-am'
+  | 'flag-ba'
   | 'flag-bg'
-  | 'flag-bs'
   | 'flag-circle-al'
   | 'flag-circle-am'
   | 'flag-circle-bg'
@@ -4255,8 +4255,8 @@ export const ciAll = [
   ciFingerprintOutlined,
   ciFlagAl,
   ciFlagAm,
+  ciFlagBa,
   ciFlagBg,
-  ciFlagBs,
   ciFlagCircleAl,
   ciFlagCircleAm,
   ciFlagCircleBg,
