@@ -823,9 +823,9 @@ export const ciFlagCircleKr = {
     name: 'flag-circle-kr',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" style="fill:none" viewBox="0 0 24 24"><rect width="21" height="21" x="1.5" y="1.5" fill="#fff" rx="10.5"/><path fill="#232C80" fill-rule="evenodd" d="M16.667 12a4.667 4.667 0 1 1-9.334 0c0-1.493 3.134-2.12 5.771-1.884q.422-.114.896-.116c1.473 0 2.667.896 2.667 2" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M11.333 11.333S12.527 10 14 10s2.667.896 2.667 2a4.667 4.667 0 0 0-8.886-1.997c-.448 1.33-.448 1.72-.448 1.997.667.667 1.408.667 2 .667s1.124-.258 1.491-.667l.51-.667Z" clip-rule="evenodd"/><path fill="#151515" fill-rule="evenodd" d="M18 8.667h2.667L18 6h-1.333zm-12 0H3.333L6 6h1.333zm12 6.666h2.667L18 18h-1.333zm-12 0H3.333L6 18h1.333z" clip-rule="evenodd"/><rect width="21" height="21" x="1.5" y="1.5" stroke="#EBECF0" rx="10.5"/></svg>`
 };
-export const ciFlagCircleLo = {
-    name: 'flag-circle-lo',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-circle-lo_svg__a)"><rect width="20" height="20" x="2" y="2" fill="#232C80" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M12 15.333a3.334 3.334 0 0 0 0-6.666 3.335 3.335 0 0 0 0 6.666" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M-2 16.667h28V22H-2zM-2 2h28v5.333H-2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-circle-lo_svg__a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
+export const ciFlagCircleLa = {
+    name: 'flag-circle-la',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-circle-la_svg__a)"><rect width="20" height="20" x="2" y="2" fill="#232C80" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M12 15.333a3.334 3.334 0 0 0 0-6.666 3.335 3.335 0 0 0 0 6.666" clip-rule="evenodd"/><path fill="#F93939" fill-rule="evenodd" d="M-2 16.667h28V22H-2zM-2 2h28v5.333H-2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-circle-la_svg__a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>`
 };
 export const ciFlagCircleLv = {
     name: 'flag-circle-lv',
@@ -2238,7 +2238,7 @@ export const ciAll = [
     ciFlagCircleIt,
     ciFlagCircleJp,
     ciFlagCircleKr,
-    ciFlagCircleLo,
+    ciFlagCircleLa,
     ciFlagCircleLv,
     ciFlagCircleMk,
     ciFlagCircleNl,
