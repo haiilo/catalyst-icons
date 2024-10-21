@@ -2001,6 +2001,13 @@ export const ciHaiiloStories: {
   name: 'haiilo-stories',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#1B6C75" fill-rule="evenodd" d="M14.025 11.999a2.024 2.024 0 1 0-4.048 0 2.024 2.024 0 0 0 4.048 0m0-6.974a2.024 2.024 0 1 0-4.049 0 2.024 2.024 0 0 0 4.049 0m0 13.95a2.025 2.025 0 1 0-4.05 0 2.025 2.025 0 0 0 4.05 0M7.05 12a2.024 2.024 0 1 0-4.049 0 2.024 2.024 0 0 0 4.049 0M21 18.975a2.025 2.025 0 1 0-4.05 0 2.025 2.025 0 0 0 4.05 0m0-13.948a2.024 2.024 0 1 0-4.048-.002A2.024 2.024 0 0 0 21 5.027" clip-rule="evenodd"/></svg>`
 };
+export const ciHalfStarFilled: {
+  name: 'half-star-filled';
+  data: string;
+} = {
+  name: 'half-star-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.1 3.206a.74.74 0 0 0-.788.456L9.535 7.933a.75.75 0 0 1-.632.46l-4.612.37a.75.75 0 0 0-.428 1.317l3.514 3.01a.75.75 0 0 1 .241.743l-1.073 4.5a.75.75 0 0 0 1.12.814l3.948-2.411a.75.75 0 0 1 .487-.104z" clip-rule="evenodd"/></svg>`
+};
 export const ciHashBoxOutlined: {
   name: 'hash-box-outlined';
   data: string;
@@ -3842,6 +3849,7 @@ export type coyoIcon =
   | 'haiilo-outlined'
   | 'haiilo-share'
   | 'haiilo-stories'
+  | 'half-star-filled'
   | 'hash-box-outlined'
   | 'hashtag-outlined'
   | 'history-outlined'
@@ -4358,6 +4366,7 @@ export const ciAll = [
   ciHaiiloOutlined,
   ciHaiiloShare,
   ciHaiiloStories,
+  ciHalfStarFilled,
   ciHashBoxOutlined,
   ciHashtagOutlined,
   ciHistoryOutlined,
