@@ -2035,6 +2035,10 @@ export const ciXing = {
     name: 'xing',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="22" height="22" x="1" y="1" fill="#026466" rx="6"/><path fill="#fff" d="m8.782 10.866-2.2 3.88H9.21l2.2-3.887-1.467-2.53h-2.64zm5.135 7.551h2.61l-2.818-5.17 4.314-7.664h-2.637l-4.316 7.665z"/></svg>`
 };
+export const ciZive = {
+    name: 'zive',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g filter="url(#zive_svg__a)"><path fill="url(#zive_svg__b)" d="M3.075 14.03a3.16 3.16 0 0 1 0-4.467l6.699-6.698a3.16 3.16 0 0 1 4.466 0l6.699 6.698a3.16 3.16 0 0 1 0 4.466l-6.7 6.7a3.16 3.16 0 0 1-4.465 0z"/></g><g filter="url(#zive_svg__c)"><path fill="#100A4F" d="M4.39 13.298a2.105 2.105 0 0 1 0-2.978l6.141-6.14a2.105 2.105 0 0 1 2.977 0l6.14 6.14a2.105 2.105 0 0 1 0 2.978l-6.14 6.14a2.105 2.105 0 0 1-2.977 0z"/></g><path fill="#fff" d="M7.04 13.165v-.596l1.465-1.662H7.057v-.614H9.35v.597l-1.488 1.66H9.38v.614zm3.066-3.318a.48.48 0 0 1-.336-.121.4.4 0 0 1-.127-.307q0-.185.127-.301a.48.48 0 0 1 .336-.122q.202 0 .33.122a.38.38 0 0 1 .133.301.4.4 0 0 1-.133.307.46.46 0 0 1-.33.121m-.37 3.318v-2.872h.74v2.872zm2 0-1.054-2.872h.776l.73 2.171.73-2.17h.775l-1.06 2.87h-.897Zm3.389.069q-.434 0-.77-.185a1.34 1.34 0 0 1-.527-.521 1.54 1.54 0 0 1-.191-.776q0-.445.185-.793a1.37 1.37 0 0 1 .521-.538 1.5 1.5 0 0 1 .787-.197q.423 0 .747.185t.504.51a1.4 1.4 0 0 1 .18.845q0 .069-.006.145h-2.183a.75.75 0 0 0 .232.526.75.75 0 0 0 .515.191.67.67 0 0 0 .376-.098.64.64 0 0 0 .232-.266h.753a1.4 1.4 0 0 1-.273.498 1.3 1.3 0 0 1-.463.347 1.45 1.45 0 0 1-.62.127Zm.005-2.408a.78.78 0 0 0-.48.156q-.209.15-.266.463h1.43a.63.63 0 0 0-.209-.451.7.7 0 0 0-.475-.168m2.088 2.379a.47.47 0 0 1-.335-.127.42.42 0 0 1-.128-.307q0-.185.128-.313a.47.47 0 0 1 .335-.127q.204 0 .33.128a.41.41 0 0 1 .134.312.4.4 0 0 1-.133.307.45.45 0 0 1-.33.127Z"/><defs><filter id="zive_svg__a" width="23.924" height="23.924" x=".045" y=".045" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy=".211"/><feGaussianBlur stdDeviation="1.053"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_3123_4410"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_3123_4410" result="shape"/></filter><filter id="zive_svg__c" width="18.597" height="18.597" x="2.721" y="2.721" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy=".211"/><feGaussianBlur stdDeviation=".526"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_3123_4410"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_3123_4410" result="shape"/></filter><linearGradient id="zive_svg__b" x1="1.849" x2="22.165" y1="11.796" y2="11.796" gradientUnits="userSpaceOnUse"><stop stop-color="#968DF0"/><stop offset="1" stop-color="#73EEDC"/></linearGradient></defs></svg>`
+};
 export const ciAll = [
     ci16ReactionClapping,
     ci16ReactionHeart,
@@ -2544,5 +2548,6 @@ export const ciAll = [
     ciWWikiArticleOutlined,
     ciWechat,
     ciWriteOutlined,
-    ciXing
+    ciXing,
+    ciZive
 ];
