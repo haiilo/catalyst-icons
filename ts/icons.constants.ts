@@ -692,6 +692,13 @@ export const ciAudioOutlined: {
   name: 'audio-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75v.563a1 1 0 0 1-.008.112l-.61 4.035a4.75 4.75 0 0 1-4.698 4.04h-1.043a1.75 1.75 0 0 1-1.735-1.98l.837-6.32a1.75 1.75 0 0 1 2.06-1.49l3.69.696a8.25 8.25 0 0 0-16.486 0l3.69-.697a1.75 1.75 0 0 1 2.06 1.49l.837 6.321a1.75 1.75 0 0 1-1.735 1.98H7.565a4.75 4.75 0 0 1-4.696-4.04l-.61-4.035a1 1 0 0 1-.009-.113zm1.6 1.165.502 3.321a3.25 3.25 0 0 0 3.213 2.764H8.61a.25.25 0 0 0 .248-.283l-.837-6.321a.25.25 0 0 0-.294-.213zm16.3 0-3.876-.732a.25.25 0 0 0-.294.213l-.837 6.321a.25.25 0 0 0 .248.283h1.043a3.25 3.25 0 0 0 3.214-2.764l.502-3.32Z" clip-rule="evenodd"/></svg>`
 };
+export const ciAvaSparkleOutlined: {
+  name: 'ava-sparkle-outlined';
+  data: string;
+} = {
+  name: 'ava-sparkle-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M10.396 4.108c.583-1.477 2.674-1.477 3.256 0l1.74 4.409a.25.25 0 0 0 .14.14l4.409 1.74c1.477.582 1.477 2.673 0 3.255l-4.409 1.74a.25.25 0 0 0-.14.14l-1.74 4.409c-.582 1.477-2.673 1.477-3.256 0l-1.738-4.409a.25.25 0 0 0-.141-.14l-4.41-1.74c-1.476-.582-1.476-2.673 0-3.256l4.41-1.738a.25.25 0 0 0 .14-.141l1.74-4.41Zm1.861.55a.25.25 0 0 0-.465 0l-1.739 4.41a1.75 1.75 0 0 1-.986.985l-4.409 1.739a.25.25 0 0 0 0 .465l4.41 1.739c.45.178.807.535.985.986l1.739 4.409a.25.25 0 0 0 .465 0l1.739-4.41a1.75 1.75 0 0 1 .986-.985l4.409-1.739a.25.25 0 0 0 0-.465l-4.41-1.739a1.75 1.75 0 0 1-.985-.986z" clip-rule="evenodd"/><path fill="url(#ava-sparkle-outlined_svg__a)" fill-rule="evenodd" d="M10.396 4.108c.583-1.477 2.674-1.477 3.256 0l1.74 4.409a.25.25 0 0 0 .14.14l4.409 1.74c1.477.582 1.477 2.673 0 3.255l-4.409 1.74a.25.25 0 0 0-.14.14l-1.74 4.409c-.582 1.477-2.673 1.477-3.256 0l-1.738-4.409a.25.25 0 0 0-.141-.14l-4.41-1.74c-1.476-.582-1.476-2.673 0-3.256l4.41-1.738a.25.25 0 0 0 .14-.141l1.74-4.41Zm1.861.55a.25.25 0 0 0-.465 0l-1.739 4.41a1.75 1.75 0 0 1-.986.985l-4.409 1.739a.25.25 0 0 0 0 .465l4.41 1.739c.45.178.807.535.985.986l1.739 4.409a.25.25 0 0 0 .465 0l1.739-4.41a1.75 1.75 0 0 1 .986-.985l4.409-1.739a.25.25 0 0 0 0-.465l-4.41-1.739a1.75 1.75 0 0 1-.985-.986z" clip-rule="evenodd"/><path fill="#000" d="M21.024 18.024a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/><path fill="url(#ava-sparkle-outlined_svg__b)" d="M21.024 18.024a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/><path fill="#000" d="M4.524 6.024a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/><path fill="url(#ava-sparkle-outlined_svg__c)" d="M4.524 6.024a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/><defs><linearGradient id="ava-sparkle-outlined_svg__a" x1="5.043" x2="21.746" y1="3" y2="3.671" gradientUnits="userSpaceOnUse"><stop stop-color="#4D54FF"/><stop offset="1" stop-color="#F634C0"/></linearGradient><linearGradient id="ava-sparkle-outlined_svg__b" x1="5.043" x2="21.746" y1="3" y2="3.671" gradientUnits="userSpaceOnUse"><stop stop-color="#4D54FF"/><stop offset="1" stop-color="#F634C0"/></linearGradient><linearGradient id="ava-sparkle-outlined_svg__c" x1="5.043" x2="21.746" y1="3" y2="3.671" gradientUnits="userSpaceOnUse"><stop stop-color="#4D54FF"/><stop offset="1" stop-color="#F634C0"/></linearGradient></defs></svg>`
+};
 export const ciBarChartOutlined: {
   name: 'bar-chart-outlined';
   data: string;
@@ -3893,6 +3900,7 @@ export type coyoIcon =
   | 'article-filled'
   | 'article-outlined'
   | 'audio-outlined'
+  | 'ava-sparkle-outlined'
   | 'bar-chart-outlined'
   | 'bell-check-outlined'
   | 'bell-dot-filled'
@@ -4443,6 +4451,7 @@ export const ciAll = [
   ciArticleFilled,
   ciArticleOutlined,
   ciAudioOutlined,
+  ciAvaSparkleOutlined,
   ciBarChartOutlined,
   ciBellCheckOutlined,
   ciBellDotFilled,
