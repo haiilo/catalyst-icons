@@ -265,6 +265,13 @@ export const ci16Cross: {
   name: '16-cross',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.53 3.47a.75.75 0 0 0-1.06 1.06L6.94 8l-3.47 3.47a.75.75 0 1 0 1.06 1.06L8 9.06l3.47 3.47a.75.75 0 1 0 1.06-1.06L9.06 8l3.47-3.47a.75.75 0 0 0-1.06-1.06L8 6.94z"/></svg>`
 };
+export const ci16DoubleChevronDown: {
+  name: '16-double-chevron-down';
+  data: string;
+} = {
+  name: '16-double-chevron-down',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M12.28 4.28a.75.75 0 0 0-1.06-1.06L7.75 6.69 4.28 3.22a.75.75 0 0 0-1.06 1.06l4 4a.75.75 0 0 0 1.06 0z"/><path d="M12.28 9.28a.75.75 0 0 0-1.06-1.06l-3.47 3.47-3.47-3.47a.75.75 0 0 0-1.06 1.06l4 4a.75.75 0 0 0 1.06 0z"/></svg>`
+};
 export const ci16EarthOutlined: {
   name: '16-earth-outlined';
   data: string;
@@ -1125,6 +1132,13 @@ export const ciDotsCircleOutlined: {
 } = {
   name: 'dots-circle-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2m5-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0" clip-rule="evenodd"/></svg>`
+};
+export const ciDoubleChevronDown: {
+  name: 'double-chevron-down';
+  data: string;
+} = {
+  name: 'double-chevron-down',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.53 5.47a.75.75 0 0 0-1.06 1.06l5 5a.75.75 0 0 0 1.06 0l5-5a.75.75 0 0 0-1.06-1.06L12 9.94zm0 7a.75.75 0 0 0-1.06 1.06l5 5a.75.75 0 0 0 1.06 0l5-5a.75.75 0 1 0-1.06-1.06L12 16.94z"/></svg>`
 };
 export const ciDownloadOutlined: {
   name: 'download-outlined';
@@ -3839,6 +3853,7 @@ export type coyoIcon =
   | '16-chevron-up'
   | '16-clock-outlined'
   | '16-cross'
+  | '16-double-chevron-down'
   | '16-earth-outlined'
   | '16-editor-arrow-down'
   | '16-editor-arrow-up'
@@ -3962,6 +3977,7 @@ export type coyoIcon =
   | 'danger-filled'
   | 'danger-outlined'
   | 'dots-circle-outlined'
+  | 'double-chevron-down'
   | 'download-outlined'
   | 'earth-outlined'
   | 'emoji-angry'
@@ -4390,6 +4406,7 @@ export const ciAll = [
   ci16ChevronUp,
   ci16ClockOutlined,
   ci16Cross,
+  ci16DoubleChevronDown,
   ci16EarthOutlined,
   ci16EditorArrowDown,
   ci16EditorArrowUp,
@@ -4513,6 +4530,7 @@ export const ciAll = [
   ciDangerFilled,
   ciDangerOutlined,
   ciDotsCircleOutlined,
+  ciDoubleChevronDown,
   ciDownloadOutlined,
   ciEarthOutlined,
   ciEmojiAngry,
