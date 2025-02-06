@@ -3471,6 +3471,13 @@ export const ciUserFilled: {
   name: 'user-filled',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 8.086c0 1.704-1.343 3.414-3 3.414S9 9.79 9 8.086 10.343 5 12 5s3 1.382 3 3.086"/><path fill-rule="evenodd" d="M12 5.75c-1.223 0-2.25 1.026-2.25 2.336 0 .662.265 1.347.7 1.861.436.513.99.803 1.55.803s1.114-.29 1.55-.803.7-1.199.7-1.861c0-1.31-1.027-2.336-2.25-2.336M8.25 8.086C8.25 5.987 9.91 4.25 12 4.25s3.75 1.737 3.75 3.836c0 1.041-.407 2.064-1.056 2.83-.651.769-1.597 1.334-2.694 1.334s-2.043-.565-2.693-1.333c-.65-.767-1.057-1.79-1.057-2.831m-2.202 8.005c.937-1.441 2.663-2.841 5.692-2.841 3.028 0 4.754 1.4 5.691 2.841a7.1 7.1 0 0 1 1.015 2.562c.044.245.016.666-.15.85a.75.75 0 0 1-.556.247h-12a.75.75 0 0 1-.556-.247c-.22-.242-.204-.552-.15-.85a7.1 7.1 0 0 1 1.015-2.562Z" clip-rule="evenodd"/></svg>`
 };
+export const ciUserOutlined: {
+  name: 'user-outlined';
+  data: string;
+} = {
+  name: 'user-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 5.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5m2.86 7.043a4.75 4.75 0 1 0-5.72 0c-2.256.899-3.89 2.834-3.89 5.207a.75.75 0 0 0 1.5 0c0-2.225 2.217-4.25 5.25-4.25s5.25 2.025 5.25 4.25a.75.75 0 0 0 1.5 0c0-2.373-1.634-4.309-3.89-5.207" clip-rule="evenodd"/></svg>`
+};
 export const ciUserPlusOutlined: {
   name: 'user-plus-outlined';
   data: string;
@@ -4325,6 +4332,7 @@ export type coyoIcon =
   | 'upload-outlined'
   | 'user-check-outlined'
   | 'user-filled'
+  | 'user-outlined'
   | 'user-plus-outlined'
   | 'variable-box-outlined'
   | 'video-camera-filled'
@@ -4880,6 +4888,7 @@ export const ciAll = [
   ciUploadOutlined,
   ciUserCheckOutlined,
   ciUserFilled,
+  ciUserOutlined,
   ciUserPlusOutlined,
   ciVariableBoxOutlined,
   ciVideoCameraFilled,
