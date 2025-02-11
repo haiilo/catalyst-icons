@@ -454,6 +454,13 @@ export const ci16ExternalLink: {
   name: '16-external-link',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4 2.75c-.69 0-1.25.56-1.25 1.25v8c0 .69.56 1.25 1.25 1.25h8c.69 0 1.25-.56 1.25-1.25v-1a.75.75 0 0 1 1.5 0v1A2.75 2.75 0 0 1 12 14.75H4A2.75 2.75 0 0 1 1.25 12V4A2.75 2.75 0 0 1 4 1.25h1a.75.75 0 0 1 0 1.5z"/><path d="M8.25 2A.75.75 0 0 1 9 1.25h4c.966 0 1.75.784 1.75 1.75v4a.75.75 0 0 1-1.5 0V3.81L8.53 8.53a.75.75 0 0 1-1.06-1.06l4.72-4.72H9A.75.75 0 0 1 8.25 2"/></svg>`
 };
+export const ci16FlagFilled: {
+  name: '16-flag-filled';
+  data: string;
+} = {
+  name: '16-flag-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3 3v7c2.5-3 7.5 3 10 0V3C10 5.5 5.5 0 3 3"/><path d="M2.25 14a.75.75 0 0 0 1.5 0zM3 3l-.576-.48A.75.75 0 0 0 2.25 3zm10 0h.75a.75.75 0 0 0-1.23-.576zm0 7 .576.48a.75.75 0 0 0 .174-.48zm-9.25 4v-4h-1.5v4zm0-4V3h-1.5v7zm-.174-6.52c.445-.534.945-.687 1.57-.646.688.046 1.471.327 2.4.68.88.333 1.891.731 2.879.862 1.025.136 2.1-.003 3.055-.8l-.96-1.152c-.544.453-1.157.564-1.898.465-.778-.103-1.61-.424-2.544-.778-.883-.335-1.88-.71-2.833-.773C4.23 1.27 3.23 1.554 2.424 2.52zM12.25 3v7h1.5V3zm.174 6.52c-.425.51-.93.652-1.608.578-.737-.08-1.572-.408-2.537-.794-.91-.364-1.95-.786-2.932-.893-1.041-.114-2.098.119-2.923 1.109l1.152.96c.425-.51.93-.652 1.608-.578.737.08 1.572.408 2.537.794.91.364 1.95.786 2.932.893 1.041.114 2.098-.119 2.923-1.109z"/></svg>`
+};
 export const ci16Flag: {
   name: '16-flag';
   data: string;
@@ -3908,6 +3915,7 @@ export type coyoIcon =
   | '16-editor-settings'
   | '16-editor-ul'
   | '16-external-link'
+  | '16-flag-filled'
   | '16-flag'
   | '16-flash-circle-outlined'
   | '16-info-circle-outlined'
@@ -4465,6 +4473,7 @@ export const ciAll = [
   ci16EditorSettings,
   ci16EditorUl,
   ci16ExternalLink,
+  ci16FlagFilled,
   ci16Flag,
   ci16FlashCircleOutlined,
   ci16InfoCircleOutlined,
