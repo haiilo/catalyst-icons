@@ -325,6 +325,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 3.25c-.429 0-.85.113-1.22.328a2.5 2.5 0 0 0-.899.891L2.577 16.981a2.55 2.55 0 0 0-.007 2.491c.212.381.519.7.891.926a2.44 2.44 0 0 0 1.234.352h14.61a2.44 2.44 0 0 0 1.233-.352 2.5 2.5 0 0 0 .892-.926 2.55 2.55 0 0 0-.007-2.491L14.119 4.469a2.5 2.5 0 0 0-.899-.891A2.44 2.44 0 0 0 12 3.25M12 8a1 1 0 0 1 1 1v3.5a1 1 0 1 1-2 0V9a1 1 0 0 1 1-1m1 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0" clip-rule="evenodd"/></svg>',
   'danger-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8.25a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/><path fill-rule="evenodd" d="M12 3.25c-.429 0-.85.113-1.22.328a2.5 2.5 0 0 0-.899.891L2.577 16.981a2.55 2.55 0 0 0-.007 2.491c.212.381.519.7.891.926a2.44 2.44 0 0 0 1.234.352h14.61a2.44 2.44 0 0 0 1.233-.352 2.5 2.5 0 0 0 .892-.926 2.55 2.55 0 0 0-.007-2.491L14.119 4.469a2.5 2.5 0 0 0-.899-.891A2.44 2.44 0 0 0 12 3.25m-.826 1.981a1 1 0 0 1 .356-.354.94.94 0 0 1 .94 0 1 1 0 0 1 .356.354l7.292 12.49a1.05 1.05 0 0 1 0 1.023 1 1 0 0 1-.355.37.94.94 0 0 1-.472.136H4.71a.94.94 0 0 1-.472-.136 1 1 0 0 1-.355-.37 1.05 1.05 0 0 1 0-1.023l7.292-12.49Z" clip-rule="evenodd"/></svg>',
+  'dash-filled':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="4" height="16" x="10" y="4" rx="2"/></svg>',
   'dots-circle-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2m5-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0" clip-rule="evenodd"/></svg>',
   'double-chevron-down':
@@ -1264,6 +1266,7 @@ export type MyIconType =
   | 'cross-square-outlined'
   | 'danger-filled'
   | 'danger-outlined'
+  | 'dash-filled'
   | 'dots-circle-outlined'
   | 'double-chevron-down'
   | 'download-outlined'

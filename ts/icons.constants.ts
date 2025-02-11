@@ -1140,6 +1140,13 @@ export const ciDangerOutlined: {
   name: 'danger-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8.25a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/><path fill-rule="evenodd" d="M12 3.25c-.429 0-.85.113-1.22.328a2.5 2.5 0 0 0-.899.891L2.577 16.981a2.55 2.55 0 0 0-.007 2.491c.212.381.519.7.891.926a2.44 2.44 0 0 0 1.234.352h14.61a2.44 2.44 0 0 0 1.233-.352 2.5 2.5 0 0 0 .892-.926 2.55 2.55 0 0 0-.007-2.491L14.119 4.469a2.5 2.5 0 0 0-.899-.891A2.44 2.44 0 0 0 12 3.25m-.826 1.981a1 1 0 0 1 .356-.354.94.94 0 0 1 .94 0 1 1 0 0 1 .356.354l7.292 12.49a1.05 1.05 0 0 1 0 1.023 1 1 0 0 1-.355.37.94.94 0 0 1-.472.136H4.71a.94.94 0 0 1-.472-.136 1 1 0 0 1-.355-.37 1.05 1.05 0 0 1 0-1.023l7.292-12.49Z" clip-rule="evenodd"/></svg>`
 };
+export const ciDashFilled: {
+  name: 'dash-filled';
+  data: string;
+} = {
+  name: 'dash-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="4" height="16" x="10" y="4" rx="2"/></svg>`
+};
 export const ciDotsCircleOutlined: {
   name: 'dots-circle-outlined';
   data: string;
@@ -4013,6 +4020,7 @@ export type coyoIcon =
   | 'cross-square-outlined'
   | 'danger-filled'
   | 'danger-outlined'
+  | 'dash-filled'
   | 'dots-circle-outlined'
   | 'double-chevron-down'
   | 'download-outlined'
@@ -4571,6 +4579,7 @@ export const ciAll = [
   ciCrossSquareOutlined,
   ciDangerFilled,
   ciDangerOutlined,
+  ciDashFilled,
   ciDotsCircleOutlined,
   ciDoubleChevronDown,
   ciDownloadOutlined,
