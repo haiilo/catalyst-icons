@@ -55,6 +55,13 @@ export const ci16ReactionThumbsUp: {
   name: '16-reaction-thumbs-up',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="var(--link-color)" d="M8 0c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8"/><path fill="#fff" d="m11.4 10.59 1.05-3.26c.14-.45-.19-.9-.67-.9H9.54c-.26 0-.47-.2-.5-.45-.16-1.49-.35-2.25-.54-2.63a.8.8 0 0 0-.22-.28c-.04-.03-.1-.05-.22-.07-.02 0-.05 0-.08.02-.02.01-.04.03-.04.05-.12.34-.2.62-.27.9-.06.27-.13.55-.24.84-.21.56-.54 1.15-1.27 1.95v4.73h4.01c.56 0 1.06-.36 1.23-.9m-6.24.9v-4.4l-.68.02h-.02a.7.7 0 0 0-.69.7v2.98c0 .39.31.7.69.7z"/></svg>`
 };
+export const ci16StickyFilled: {
+  name: '16-sticky-filled';
+  data: string;
+} = {
+  name: '16-sticky-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="m6.646 10.544 1.415 1.415v-.022a.648.648 0 0 0 1.035-.147l1.507-2.766c.067-.135.168-.247.28-.337l2.868-2.227a.643.643 0 0 0 .056-.967l-3.306-3.306a.657.657 0 0 0-.978.067l-2.226 2.89a1 1 0 0 1-.304.27L4.272 7.022a.655.655 0 0 0-.124 1.024l1.437 1.437L2.47 12.6a.75.75 0 1 0 1.06 1.06z"/></svg>`
+};
 export const ci32ReactionClapping: {
   name: '32-reaction-clapping';
   data: string;
@@ -3844,6 +3851,7 @@ export type coyoIcon =
   | '16-reaction-smile'
   | '16-reaction-thumbs-down'
   | '16-reaction-thumbs-up'
+  | '16-sticky-filled'
   | '32-reaction-clapping'
   | '32-reaction-heart'
   | '32-reaction-laughing'
@@ -4400,6 +4408,7 @@ export const ciAll = [
   ci16ReactionSmile,
   ci16ReactionThumbsDown,
   ci16ReactionThumbsUp,
+  ci16StickyFilled,
   ci32ReactionClapping,
   ci32ReactionHeart,
   ci32ReactionLaughing,
