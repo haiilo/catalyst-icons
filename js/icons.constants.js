@@ -1495,6 +1495,10 @@ export const ciMoreHorizontalFilled = {
     name: 'more-horizontal-filled',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m8-1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m6.5 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>`
 };
+export const ciMoveHandleOutlined = {
+    name: 'move-handle-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.5 7a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M9 10.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m0 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m6 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M13.5 12a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M15 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" clip-rule="evenodd"/></svg>`
+};
 export const ciMoveOutlined = {
     name: 'move-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.713 3.307a.8.8 0 0 0-.243.163l-2 2a.75.75 0 0 0 1.06 1.06l.72-.72v5.44H5.81l.72-.72a.75.75 0 1 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 0 0 1.06-1.06l-.72-.72h5.44v5.44l-.72-.72a.75.75 0 1 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l2-2a.75.75 0 1 0-1.06-1.06l-.72.72v-5.44h5.44l-.72.72a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 1 0-1.06 1.06l.72.72h-5.44V5.81l.72.72a.75.75 0 1 0 1.06-1.06l-2-2a.75.75 0 0 0-.817-.163"/></svg>`
@@ -2578,6 +2582,7 @@ export const ciAll = [
     ciModulePlusOutlined,
     ciMoneyOutlined,
     ciMoreHorizontalFilled,
+    ciMoveHandleOutlined,
     ciMoveOutlined,
     ciMozillaFirefox,
     ciOpenai,

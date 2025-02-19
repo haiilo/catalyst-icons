@@ -747,6 +747,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 8.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5M9.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0" clip-rule="evenodd"/><path fill-rule="evenodd" d="M3 4.25A1.75 1.75 0 0 0 1.25 6v12c0 .966.784 1.75 1.75 1.75h18A1.75 1.75 0 0 0 22.75 18V6A1.75 1.75 0 0 0 21 4.25zM2.75 6A.25.25 0 0 1 3 5.75h1.25V6c0 .69-.56 1.25-1.25 1.25h-.25zm0 2.75v6.5H3A2.75 2.75 0 0 1 5.75 18v.25h12.5V18A2.75 2.75 0 0 1 21 15.25h.25v-6.5H21A2.75 2.75 0 0 1 18.25 6v-.25H5.75V6A2.75 2.75 0 0 1 3 8.75zm0 9.25v-1.25H3c.69 0 1.25.56 1.25 1.25v.25H3a.25.25 0 0 1-.25-.25M21 16.75h.25V18a.25.25 0 0 1-.25.25h-1.25V18c0-.69.56-1.25 1.25-1.25m.25-9.5V6a.25.25 0 0 0-.25-.25h-1.25V6c0 .69.56 1.25 1.25 1.25z" clip-rule="evenodd"/></svg>',
   'more-horizontal-filled':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m8-1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m6.5 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>',
+  'move-handle-outlined':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.5 7a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M9 10.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m0 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m6 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M13.5 12a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M15 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" clip-rule="evenodd"/></svg>',
   'move-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.713 3.307a.8.8 0 0 0-.243.163l-2 2a.75.75 0 0 0 1.06 1.06l.72-.72v5.44H5.81l.72-.72a.75.75 0 1 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 0 0 1.06-1.06l-.72-.72h5.44v5.44l-.72-.72a.75.75 0 1 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l2-2a.75.75 0 1 0-1.06-1.06l-.72.72v-5.44h5.44l-.72.72a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 1 0-1.06 1.06l.72.72h-5.44V5.81l.72.72a.75.75 0 1 0 1.06-1.06l-2-2a.75.75 0 0 0-.817-.163"/></svg>',
   'mozilla-firefox':
@@ -1477,6 +1479,7 @@ export type MyIconType =
   | 'module-plus-outlined'
   | 'money-outlined'
   | 'more-horizontal-filled'
+  | 'move-handle-outlined'
   | 'move-outlined'
   | 'mozilla-firefox'
   | 'openai'
