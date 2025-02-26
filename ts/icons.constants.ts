@@ -671,6 +671,13 @@ export const ciArrowPointingBoxOutlined: {
   name: 'arrow-pointing-box-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4.75c-.69 0-1.25.56-1.25 1.25v5a.75.75 0 0 1-1.5 0V6A2.75 2.75 0 0 1 6 3.25h12A2.75 2.75 0 0 1 20.75 6v12A2.75 2.75 0 0 1 18 20.75h-5a.75.75 0 0 1 0-1.5h5c.69 0 1.25-.56 1.25-1.25V6c0-.69-.56-1.25-1.25-1.25z"/><path d="M8.25 10A.75.75 0 0 1 9 9.25h4c.966 0 1.75.784 1.75 1.75v4a.75.75 0 0 1-1.5 0v-3.19l-6.72 6.72a.75.75 0 0 1-1.06-1.06l6.72-6.72H9a.75.75 0 0 1-.75-.75"/></svg>`
 };
+export const ciArrowPointingImportOutlined: {
+  name: 'arrow-pointing-import-outlined';
+  data: string;
+} = {
+  name: 'arrow-pointing-import-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="#000" d="M18 19.25c.69 0 1.25-.56 1.25-1.25v-5a.75.75 0 0 1 1.5 0v5A2.75 2.75 0 0 1 18 20.75H6A2.75 2.75 0 0 1 3.25 18V6A2.75 2.75 0 0 1 6 3.25h5a.75.75 0 0 1 0 1.5H6c-.69 0-1.25.56-1.25 1.25v12c0 .69.56 1.25 1.25 1.25z"/><path fill="#000" d="M15.75 14a.75.75 0 0 1-.75.75h-4A1.75 1.75 0 0 1 9.25 13V9a.75.75 0 0 1 1.5 0v3.19l6.72-6.72a.75.75 0 1 1 1.06 1.06l-6.72 6.72H15a.75.75 0 0 1 .75.75"/></svg>`
+};
 export const ciArrowRedoOutlined: {
   name: 'arrow-redo-outlined';
   data: string;
@@ -3960,6 +3967,7 @@ export type coyoIcon =
   | 'arrow-down-outlined'
   | 'arrow-left-outlined'
   | 'arrow-pointing-box-outlined'
+  | 'arrow-pointing-import-outlined'
   | 'arrow-redo-outlined'
   | 'arrow-right-outlined'
   | 'arrow-up-outlined'
@@ -4520,6 +4528,7 @@ export const ciAll = [
   ciArrowDownOutlined,
   ciArrowLeftOutlined,
   ciArrowPointingBoxOutlined,
+  ciArrowPointingImportOutlined,
   ciArrowRedoOutlined,
   ciArrowRightOutlined,
   ciArrowUpOutlined,
