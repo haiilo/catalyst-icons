@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.15.1 (2025-03-07)
+
+
+### Features
+
+* add sticky-filled.svg ([c1b58d9](https://github.com/haiilo/catalyst-icons/commit/c1b58d92f69ffc91cee0c92035f9298956e9a561))
+
 ## 2.15.0 (2025-02-26)
 
 ## 2.14.0 (2025-02-19)
