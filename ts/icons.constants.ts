@@ -1280,6 +1280,13 @@ export const ciFeedOutlined: {
   name: 'feed-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M3.25 4.5c0-.69.56-1.25 1.25-1.25h15c.69 0 1.25.56 1.25 1.25v7c0 .69-.56 1.25-1.25 1.25h-15c-.69 0-1.25-.56-1.25-1.25zm1.5.25v6.5h14.5v-6.5z" clip-rule="evenodd"/><path d="M3.25 16a.75.75 0 0 1 .75-.75h12a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1-.75-.75M4 19.25a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5z"/></svg>`
 };
+export const ciFileGenericFilled: {
+  name: 'file-generic-filled';
+  data: string;
+} = {
+  name: 'file-generic-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M13 2.25H6.75A2.75 2.75 0 0 0 4 5v14a2.75 2.75 0 0 0 2.75 2.75h10A2.75 2.75 0 0 0 19.5 19V8.75h-5.89c-.346 0-.61-.351-.61-.75zm1.5 5V3.846c.701.217 1.455.723 2.136 1.462.443.48.8 1.003 1.04 1.485q.125.255.196.457z" clip-rule="evenodd"/></svg>`
+};
 export const ciFileGeneric: {
   name: 'file-generic';
   data: string;
@@ -2890,6 +2897,13 @@ export const ciResultsOutlined: {
   name: 'results-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 11.75H8v-1.5h2zm-2 3h2v-1.5H8zm2 3H8v-1.5h2zm1-6h5v-1.5h-5zm5 3h-5v-1.5h5zm-5 3h5v-1.5h-5z"/><path fill-rule="evenodd" d="M8 2.25a.75.75 0 0 0-.75.75v1.25H6A1.75 1.75 0 0 0 4.25 6v14c0 .966.784 1.75 1.75 1.75h12A1.75 1.75 0 0 0 19.75 20V6A1.75 1.75 0 0 0 18 4.25h-1.25V3a.75.75 0 0 0-.75-.75zm8.75 3.5V7a.75.75 0 0 1-.75.75H8A.75.75 0 0 1 7.25 7V5.75H6a.25.25 0 0 0-.25.25v14c0 .138.112.25.25.25h12a.25.25 0 0 0 .25-.25V6a.25.25 0 0 0-.25-.25zm-8 .5v-2.5h6.5v2.5z" clip-rule="evenodd"/></svg>`
 };
+export const ciRteBlockquoteFilled: {
+  name: 'rte-blockquote-filled';
+  data: string;
+} = {
+  name: 'rte-blockquote-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M3.25 7A3.75 3.75 0 0 1 7 3.25h10A3.75 3.75 0 0 1 20.75 7v10A3.75 3.75 0 0 1 17 20.75H7A3.75 3.75 0 0 1 3.25 17zm7.957 3.652v2.137a2.75 2.75 0 0 1-2.418 2.73l-.104.013a.75.75 0 1 1-.18-1.49l.103-.012a1.25 1.25 0 0 0 1.1-1.24v-.487a2 2 0 0 1-.208.011c-.966 0-1.75-.744-1.75-1.662S8.534 8.99 9.5 8.99s1.707.744 1.707 1.662m5 0v2.137a2.75 2.75 0 0 1-2.418 2.73l-.104.013a.75.75 0 1 1-.18-1.49l.103-.012a1.25 1.25 0 0 0 1.1-1.24v-.487a2 2 0 0 1-.208.011c-.966 0-1.75-.744-1.75-1.662s.784-1.662 1.75-1.662 1.707.744 1.707 1.662" clip-rule="evenodd"/></svg>`
+};
 export const ciRteBlockquote: {
   name: 'rte-blockquote';
   data: string;
@@ -4054,6 +4068,7 @@ export type coyoIcon =
   | 'facebook'
   | 'feed-filled'
   | 'feed-outlined'
+  | 'file-generic-filled'
   | 'file-generic'
   | 'file-pdf'
   | 'file-text'
@@ -4284,6 +4299,7 @@ export type coyoIcon =
   | 'replace-outlined'
   | 'restart-outlined'
   | 'results-outlined'
+  | 'rte-blockquote-filled'
   | 'rte-blockquote'
   | 'rte-bold'
   | 'rte-emoji'
@@ -4615,6 +4631,7 @@ export const ciAll = [
   ciFacebook,
   ciFeedFilled,
   ciFeedOutlined,
+  ciFileGenericFilled,
   ciFileGeneric,
   ciFilePdf,
   ciFileText,
@@ -4845,6 +4862,7 @@ export const ciAll = [
   ciReplaceOutlined,
   ciRestartOutlined,
   ciResultsOutlined,
+  ciRteBlockquoteFilled,
   ciRteBlockquote,
   ciRteBold,
   ciRteEmoji,
