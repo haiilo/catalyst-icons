@@ -2120,6 +2120,13 @@ export const ciFlashCircleOutlined: {
   name: 'flash-circle-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.46 6.983-3.72 4.185a.5.5 0 0 0 .373.832h1.554l-.643 4.341a.5.5 0 0 0 .868.406l4.368-4.915a.5.5 0 0 0-.373-.832h-1.554V7.315a.5.5 0 0 0-.873-.332"/><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0" clip-rule="evenodd"/></svg>`
 };
+export const ciFlashFilled: {
+  name: 'flash-filled';
+  data: string;
+} = {
+  name: 'flash-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke="#000" stroke-linejoin="round" stroke-width="1.5" d="m6 13 8.273-10 .09 8H18L8.818 21l.818-8z"/></svg>`
+};
 export const ciFlashOutlined: {
   name: 'flash-outlined';
   data: string;
@@ -4195,6 +4202,7 @@ export type coyoIcon =
   | 'flag-tr'
   | 'flag-vn'
   | 'flash-circle-outlined'
+  | 'flash-filled'
   | 'flash-outlined'
   | 'folder-minus-outlined'
   | 'folder-outlined'
@@ -4759,6 +4767,7 @@ export const ciAll = [
   ciFlagTr,
   ciFlagVn,
   ciFlashCircleOutlined,
+  ciFlashFilled,
   ciFlashOutlined,
   ciFolderMinusOutlined,
   ciFolderOutlined,

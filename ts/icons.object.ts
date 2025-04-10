@@ -607,6 +607,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#FFDA2C" fill-rule="evenodd" d="m12.002 13.708-1.99 1.027.38-2.172-1.609-1.537 2.225-.318.994-1.975.995 1.975 2.224.318-1.61 1.537.381 2.17" clip-rule="evenodd"/></svg>',
   'flash-circle-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.46 6.983-3.72 4.185a.5.5 0 0 0 .373.832h1.554l-.643 4.341a.5.5 0 0 0 .868.406l4.368-4.915a.5.5 0 0 0-.373-.832h-1.554V7.315a.5.5 0 0 0-.873-.332"/><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0" clip-rule="evenodd"/></svg>',
+  'flash-filled':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke="#000" stroke-linejoin="round" stroke-width="1.5" d="m6 13 8.273-10 .09 8H18L8.818 21l.818-8z"/></svg>',
   'flash-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M14.523 2.293a.75.75 0 0 1 .5.698l.082 7.259H18a.75.75 0 0 1 .552 1.257l-9.181 10a.75.75 0 0 1-1.299-.583l.734-7.174H6a.75.75 0 0 1-.578-1.228l8.273-10a.75.75 0 0 1 .828-.23Zm-6.93 9.957h2.043a.75.75 0 0 1 .747.826l-.589 5.752 6.5-7.078h-1.93a.75.75 0 0 1-.75-.742l-.068-5.953z" clip-rule="evenodd"/></svg>',
   'folder-minus-outlined':
@@ -1419,6 +1421,7 @@ export type MyIconType =
   | 'flag-tr'
   | 'flag-vn'
   | 'flash-circle-outlined'
+  | 'flash-filled'
   | 'flash-outlined'
   | 'folder-minus-outlined'
   | 'folder-outlined'
