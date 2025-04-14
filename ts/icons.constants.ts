@@ -2393,6 +2393,13 @@ export const ciLayersOutlined: {
   name: 'layers-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.426 3.383a.75.75 0 0 0-.852 0l-7 4.833a.75.75 0 0 0 0 1.235l7 4.833a.75.75 0 0 0 .852 0l7-4.833a.75.75 0 0 0 0-1.235zM12 12.755 6.32 8.833 12 4.911l5.68 3.922z" clip-rule="evenodd"/><path d="M5.436 14.39a.75.75 0 1 0-.872 1.22l7 5a.75.75 0 0 0 .872 0l7-5a.75.75 0 1 0-.872-1.22L12 19.078z"/></svg>`
 };
+export const ciLightbulbOutlined: {
+  name: 'lightbulb-outlined';
+  data: string;
+} = {
+  name: 'lightbulb-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.75 3.132v-1c0-.41-.34-.75-.75-.75s-.75.34-.75.75v1c0 .41.34.75.75.75s.75-.34.75-.75m-7.22 4.53c.29-.29.29-.77 0-1.06l-1-1a.754.754 0 0 0-1.06 0c-.29.29-.29.77 0 1.06l1 1c.15.15.34.22.53.22s.38-.07.53-.22"/><path fill-rule="evenodd" d="M17.88 9.732a6.2 6.2 0 0 0-2.35-3.02 6.25 6.25 0 0 0-3.68-1.08c-3.38.08-6.12 2.88-6.1 6.24 0 .93.23 1.86.64 2.7.41.83 1.02 1.58 1.76 2.15a.86.86 0 0 1 .35.7v.41c0 .35.14.67.38.92.24.24.58.38.92.38h4.4c.34 0 .68-.14.92-.38s.38-.57.38-.92v-.4c0-.14.03-.28.09-.4.07-.12.15-.23.27-.32 1.04-.81 1.78-1.9 2.15-3.16.36-1.26.32-2.58-.13-3.82m-1.31 3.4c-.28.96-.84 1.79-1.63 2.4a2.4 2.4 0 0 0-.69.83c-.16.33-.25.7-.25 1.06v.21h-1.25v-4.84l1.19-.59c.37-.18.52-.64.33-1.01a.747.747 0 0 0-1.01-.33l-1.26.63-1.26-.63a.747.747 0 0 0-1.01.33c-.19.38-.04.83.33 1.01l1.19.59v4.84H10v-.21c0-.36-.09-.72-.25-1.05-.16-.32-.39-.61-.68-.83-.56-.44-1.02-1-1.34-1.64-.31-.63-.48-1.34-.48-2.04-.01-2.55 2.06-4.67 4.64-4.73a4.74 4.74 0 0 1 4.58 3.11c.34.94.37 1.94.1 2.89" clip-rule="evenodd"/><path d="M14.4 21.882H9.6c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h4.8c.41 0 .75.34.75.75s-.34.75-.75.75m6.13-15.22-1 1c-.15.15-.34.22-.53.22s-.38-.07-.53-.22a.754.754 0 0 1 0-1.06l1-1c.29-.29.77-.29 1.06 0s.29.77 0 1.06"/></svg>`
+};
 export const ciLikesCircleFilled: {
   name: 'likes-circle-filled';
   data: string;
@@ -4248,6 +4255,7 @@ export type coyoIcon =
   | 'italic-outlined'
   | 'layers-filled'
   | 'layers-outlined'
+  | 'lightbulb-outlined'
   | 'likes-circle-filled'
   | 'link-break-outlined'
   | 'link-outlined'
@@ -4814,6 +4822,7 @@ export const ciAll = [
   ciItalicOutlined,
   ciLayersFilled,
   ciLayersOutlined,
+  ciLightbulbOutlined,
   ciLikesCircleFilled,
   ciLinkBreakOutlined,
   ciLinkOutlined,
