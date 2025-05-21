@@ -2568,6 +2568,13 @@ export const ciMicrosoftExcel: {
   name: 'microsoft-excel',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#185C37" d="M14 12H7l.08 7.614c0 .467.37.846.828.846h13.263a.84.84 0 0 0 .829-.846v-3.598z"/><path fill="#21A366" d="M14.54 3H7.908a.837.837 0 0 0-.829.845v3.591L7 12h15V7.436z"/><path fill="#107C41" d="M7 11.984 22 12v4.016L7 16z"/><path fill="#107C41" d="M2.833 6h8.334c.46 0 .833.41.833.917v9.166c0 .507-.373.917-.833.917H2.833a.8.8 0 0 1-.589-.268.97.97 0 0 1-.244-.649V6.917C2 6.41 2.373 6 2.833 6"/><path fill="#fff" d="m4 15 2.173-3.51L4.183 8h1.602l1.086 2.23q.15.319.206.474h.014q.108-.253.225-.493L8.478 8h1.47l-2.042 3.47L10 15H8.436L7.18 12.55a2 2 0 0 1-.15-.328h-.018a1.6 1.6 0 0 1-.145.318L5.574 15z"/><path fill="#33C481" d="M21.153 3h-6.772v4.444H22V3.847A.846.846 0 0 0 21.153 3"/></svg>`
 };
+export const ciMicrosoftForms: {
+  name: 'microsoft-forms';
+  data: string;
+} = {
+  name: 'microsoft-forms',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#036C70" d="M20 12v8.177c0 .454-.343.823-.766.823H6.952c-.423 0-.766-.369-.766-.823V12l7.116-.9z"/><path fill="#37C6D0" d="M6.952 3h12.282c.423 0 .766.369.766.824V12H6.186V3.823c0-.454.343-.823.766-.823"/><path fill="#1A9BA1" d="M13.72 14.25h4.187v4.5h-4.186zm2.094-4.05c1.387 0 2.512-1.209 2.512-2.7S17.2 4.8 15.814 4.8s-2.512 1.209-2.512 2.7 1.125 2.7 2.512 2.7"/><path fill="#036C70" d="M15.814 8.85c.694 0 1.256-.604 1.256-1.35s-.563-1.35-1.256-1.35-1.256.604-1.256 1.35.562 1.35 1.256 1.35"/><path fill="url(#microsoft-forms_svg__a)" d="M2.766 7.05h7.673c.423 0 .766.369.766.823v8.249c0 .454-.343.823-.766.823H2.766c-.423.005-.766-.364-.766-.819V7.873c0-.454.343-.823.766-.823"/><path fill="#fff" d="M8.158 10.191h-2.16v1.462H8.01v.869H5.998v2.16h-.976V9.318h3.14z"/><defs><linearGradient id="microsoft-forms_svg__a" x1="5.128" x2="16.88" y1="1.828" y2="22.18" gradientUnits="userSpaceOnUse"><stop stop-color="#058F92"/><stop offset=".5" stop-color="#038489"/><stop offset="1" stop-color="#026D71"/></linearGradient></defs></svg>`
+};
 export const ciMicrosoftOnedrive: {
   name: 'microsoft-onedrive';
   data: string;
@@ -4287,6 +4294,7 @@ export type coyoIcon =
   | 'menu-right-outlined'
   | 'microsoft-edge'
   | 'microsoft-excel'
+  | 'microsoft-forms'
   | 'microsoft-onedrive'
   | 'microsoft-onenote'
   | 'microsoft-outlook'
@@ -4855,6 +4863,7 @@ export const ciAll = [
   ciMenuRightOutlined,
   ciMicrosoftEdge,
   ciMicrosoftExcel,
+  ciMicrosoftForms,
   ciMicrosoftOnedrive,
   ciMicrosoftOnenote,
   ciMicrosoftOutlook,
