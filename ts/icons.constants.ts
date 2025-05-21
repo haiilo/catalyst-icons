@@ -3114,6 +3114,13 @@ export const ciSearchRestartOutlined: {
   name: 'search-restart-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.5 4.75a6.75 6.75 0 1 0 6.615 8.1l1.47.3a8.2 8.2 0 0 1-1.745 3.63l2.69 2.69a.75.75 0 1 1-1.06 1.06l-2.69-2.69a8.25 8.25 0 1 1 1.47-11.084V4.5a.75.75 0 0 1 1.5 0v4.243a.75.75 0 0 1-.75.75h-4.243a.75.75 0 1 1 0-1.5h2.511A6.75 6.75 0 0 0 11.5 4.75"/></svg>`
 };
+export const ciServicenow: {
+  name: 'servicenow';
+  data: string;
+} = {
+  name: 'servicenow',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#62D84E" fill-rule="evenodd" d="M12.098 3C6.642 3 2.082 7.48 2 13.017c0 2.932 1.222 5.538 3.176 7.411a2.086 2.086 0 0 0 2.606.163c1.14-.896 2.606-1.385 4.316-1.385s3.177.57 4.317 1.385c.814.57 1.873.57 2.606-.163 1.954-1.873 3.095-4.398 3.095-7.33C22.034 7.48 17.636 3 12.098 3m-.081 15.066c-3.013 0-5.05-2.28-5.05-5.049s2.037-5.05 5.05-5.05 5.05 2.281 5.05 5.05c0 2.85-2.037 5.05-5.05 5.05Z" clip-rule="evenodd"/></svg>`
+};
 export const ciSettingsOutlined: {
   name: 'settings-outlined';
   data: string;
@@ -4358,6 +4365,7 @@ export type coyoIcon =
   | 'search-filled'
   | 'search-outlined'
   | 'search-restart-outlined'
+  | 'servicenow'
   | 'settings-outlined'
   | 'share-filled'
   | 'share-outlined'
@@ -4925,6 +4933,7 @@ export const ciAll = [
   ciSearchFilled,
   ciSearchOutlined,
   ciSearchRestartOutlined,
+  ciServicenow,
   ciSettingsOutlined,
   ciShareFilled,
   ciShareOutlined,
