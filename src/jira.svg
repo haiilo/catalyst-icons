@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-  <path fill="#2684FF" d="M20.133 3H11.02a3.86 3.86 0 0 0 1.205 2.788 4.206 4.206 0 0 0 2.909 1.154h1.678v1.553c.002 2.176 1.842 3.939 4.111 3.94V3.758c0-.419-.353-.758-.79-.758Z"/>
-  <path fill="url(#jira__a)" d="M15.624 7.351H6.511c.002 2.176 1.842 3.939 4.111 3.94h1.679v1.558c.003 2.175 1.844 3.937 4.114 3.937V8.11c0-.419-.354-.758-.791-.758Z"/>
-  <path fill="url(#jira__b)" d="M11.113 11.7H2c0 2.177 1.842 3.942 4.114 3.942h1.683v1.553c.002 2.174 1.838 3.936 4.106 3.94v-8.677c0-.419-.354-.758-.79-.758Z"/>
-  <defs>
-    <linearGradient id="jira__a" x1="16.709" x2="9.628" y1="-.52" y2="7.145" gradientUnits="userSpaceOnUse">
-      <stop offset=".18" stop-color="#0052CC"/>
-      <stop offset="1" stop-color="#2684FF"/>
-    </linearGradient>
-    <linearGradient id="jira__b" x1="290.42" x2="131.867" y1="259.03" y2="422.764" gradientUnits="userSpaceOnUse">
-      <stop offset=".18" stop-color="#0052CC"/>
-      <stop offset="1" stop-color="#2684FF"/>
-    </linearGradient>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#2684FF" d="M20.133 3H11.02a3.86 3.86 0 0 0 1.205 2.788 4.2 4.2 0 0 0 2.909 1.154h1.678v1.553c.002 2.176 1.842 3.939 4.111 3.94V3.758c0-.419-.353-.758-.79-.758"/><path fill="url(#jira_svg__a)" d="M15.624 7.351H6.511c.002 2.176 1.842 3.939 4.111 3.94h1.679v1.558c.003 2.175 1.844 3.937 4.114 3.937V8.11c0-.419-.354-.758-.791-.758Z"/><path fill="url(#jira_svg__b)" d="M11.113 11.7H2c0 2.177 1.842 3.942 4.114 3.942h1.683v1.553c.002 2.174 1.838 3.936 4.106 3.94v-8.677c0-.419-.354-.758-.79-.758"/><defs><linearGradient id="jira_svg__a" x1="16.709" x2="9.628" y1="-.52" y2="7.145" gradientUnits="userSpaceOnUse"><stop offset=".18" stop-color="#0052CC"/><stop offset="1" stop-color="#2684FF"/></linearGradient><linearGradient id="jira_svg__b" x1="290.42" x2="131.867" y1="259.03" y2="422.764" gradientUnits="userSpaceOnUse"><stop offset=".18" stop-color="#0052CC"/><stop offset="1" stop-color="#2684FF"/></linearGradient></defs></svg>
