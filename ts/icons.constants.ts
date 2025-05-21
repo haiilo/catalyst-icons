@@ -2379,6 +2379,13 @@ export const ciItalicOutlined: {
   name: 'italic-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 4.25a.75.75 0 0 1 0 1.5h-2.434l-3.572 12.5H13a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1 0-1.5h2.434l3.572-12.5H11a.75.75 0 0 1 0-1.5z"/></svg>`
 };
+export const ciJiraServiceManagement: {
+  name: 'jira-service-management';
+  data: string;
+} = {
+  name: 'jira-service-management',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#1868DB" d="M14.647 9.916h5.556c.834 0 1.119.791.61 1.42l-8.69 10.682c-2.808-2.23-2.543-5.757-.488-8.331l3.012-3.77Zm-4.294 4.257H4.798c-.835 0-1.12-.79-.61-1.419l8.689-10.682c2.808 2.23 2.503 5.716.468 8.31z"/></svg>`
+};
 export const ciLayersFilled: {
   name: 'layers-filled';
   data: string;
@@ -4267,6 +4274,7 @@ export type coyoIcon =
   | 'info-circle-outlined'
   | 'instagram'
   | 'italic-outlined'
+  | 'jira-service-management'
   | 'layers-filled'
   | 'layers-outlined'
   | 'lightbulb-outlined'
@@ -4836,6 +4844,7 @@ export const ciAll = [
   ciInfoCircleOutlined,
   ciInstagram,
   ciItalicOutlined,
+  ciJiraServiceManagement,
   ciLayersFilled,
   ciLayersOutlined,
   ciLightbulbOutlined,
