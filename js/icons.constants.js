@@ -1363,6 +1363,10 @@ export const ciJiraServiceManagement = {
     name: 'jira-service-management',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#1868DB" d="M14.647 9.916h5.556c.834 0 1.119.791.61 1.42l-8.69 10.682c-2.808-2.23-2.543-5.757-.488-8.331l3.012-3.77Zm-4.294 4.257H4.798c-.835 0-1.12-.79-.61-1.419l8.689-10.682c2.808 2.23 2.503 5.716.468 8.31z"/></svg>`
 };
+export const ciJira = {
+    name: 'jira',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#2684FF" d="M20.133 3H11.02a3.86 3.86 0 0 0 1.205 2.788 4.2 4.2 0 0 0 2.909 1.154h1.678v1.553c.002 2.176 1.842 3.939 4.111 3.94V3.758c0-.419-.353-.758-.79-.758"/><path fill="url(#jira_svg__a)" d="M15.624 7.351H6.511c.002 2.176 1.842 3.939 4.111 3.94h1.679v1.558c.003 2.175 1.844 3.937 4.114 3.937V8.11c0-.419-.354-.758-.791-.758Z"/><path fill="url(#jira_svg__b)" d="M11.113 11.7H2c0 2.177 1.842 3.942 4.114 3.942h1.683v1.553c.002 2.174 1.838 3.936 4.106 3.94v-8.677c0-.419-.354-.758-.79-.758"/><defs><linearGradient id="jira_svg__a" x1="16.709" x2="9.628" y1="-.52" y2="7.145" gradientUnits="userSpaceOnUse"><stop offset=".18" stop-color="#0052CC"/><stop offset="1" stop-color="#2684FF"/></linearGradient><linearGradient id="jira_svg__b" x1="290.42" x2="131.867" y1="259.03" y2="422.764" gradientUnits="userSpaceOnUse"><stop offset=".18" stop-color="#0052CC"/><stop offset="1" stop-color="#2684FF"/></linearGradient></defs></svg>`
+};
 export const ciLayersFilled = {
     name: 'layers-filled',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.568 3.177a1 1 0 0 0-1.136 0l-7 4.833a1 1 0 0 0 0 1.646l7 4.834a1 1 0 0 0 1.136 0l7-4.834a1 1 0 0 0 0-1.646z"/><path d="M5.581 14.186a1 1 0 0 0-1.162 1.628l7 5a1 1 0 0 0 1.162 0l7-5a1 1 0 0 0-1.162-1.628L12 18.771z"/></svg>`
@@ -2589,6 +2593,7 @@ export const ciAll = [
     ciInstagram,
     ciItalicOutlined,
     ciJiraServiceManagement,
+    ciJira,
     ciLayersFilled,
     ciLayersOutlined,
     ciLightbulbOutlined,
