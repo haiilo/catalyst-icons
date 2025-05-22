@@ -545,6 +545,13 @@ export const ci16Play: {
   name: '16-play',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3 2.674a1 1 0 0 1 1.474-.88l9.89 5.326a1 1 0 0 1 0 1.76l-9.89 5.326A1 1 0 0 1 3 13.326z"/></svg>`
 };
+export const ci16Servicenow: {
+  name: '16-servicenow';
+  data: string;
+} = {
+  name: '16-servicenow',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#62D84E" fill-rule="evenodd" d="M8.029 1.486c-3.825 0-7.022 3.14-7.079 7.022a7.15 7.15 0 0 0 2.226 5.194 1.46 1.46 0 0 0 1.827.114c.8-.628 1.827-.97 3.026-.97s2.226.4 3.025.97c.57.4 1.313.4 1.827-.114 1.37-1.313 2.169-3.082 2.169-5.137-.057-3.939-3.14-7.079-7.021-7.079m-.058 10.56c-2.112 0-3.539-1.598-3.539-3.538 0-1.941 1.427-3.54 3.54-3.54s3.539 1.599 3.539 3.54c0 1.998-1.427 3.539-3.54 3.539Z" clip-rule="evenodd"/></svg>`
+};
 export const ci16StickyOutlined: {
   name: '16-sticky-outlined';
   data: string;
@@ -4026,6 +4033,7 @@ export type coyoIcon =
   | '16-pen-outlined'
   | '16-pin-outlined'
   | '16-play'
+  | '16-servicenow'
   | '16-sticky-outlined'
   | '16-targeted-outlined'
   | '16-thumbs-up-outlined'
@@ -4598,6 +4606,7 @@ export const ciAll = [
   ci16PenOutlined,
   ci16PinOutlined,
   ci16Play,
+  ci16Servicenow,
   ci16StickyOutlined,
   ci16TargetedOutlined,
   ci16ThumbsUpOutlined,
