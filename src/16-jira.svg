@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
+  <path fill="#2684FF" d="M13.329 2.154H7.173c0 .697.293 1.365.814 1.858.521.493 1.228.77 1.965.77h1.134v1.035c0 1.45 1.243 2.625 2.777 2.626V2.66c0-.28-.24-.505-.534-.505Z"/>
+  <path fill="url(#16-jira__a)" d="M10.283 5.054H4.128c0 1.45 1.243 2.626 2.776 2.627h1.134v1.038c.002 1.45 1.246 2.625 2.78 2.625V5.559c0-.279-.24-.505-.535-.505Z"/>
+  <path fill="url(#16-jira__b)" d="M7.236 7.953H1.08c0 1.452 1.244 2.628 2.779 2.628h1.137v1.036c.001 1.448 1.242 2.623 2.774 2.626V8.458c0-.279-.24-.505-.534-.505Z"/>
+  <defs>
+    <linearGradient id="16-jira__a" x1="11.016" x2="6.301" y1="-.193" y2="4.979" gradientUnits="userSpaceOnUse">
+      <stop offset=".18" stop-color="#0052CC"/>
+      <stop offset="1" stop-color="#2684FF"/>
+    </linearGradient>
+    <linearGradient id="16-jira__b" x1="195.906" x2="90.264" y1="172.831" y2="283.376" gradientUnits="userSpaceOnUse">
+      <stop offset=".18" stop-color="#0052CC"/>
+      <stop offset="1" stop-color="#2684FF"/>
+    </linearGradient>
+  </defs>
+</svg>
