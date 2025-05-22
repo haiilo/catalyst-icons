@@ -283,6 +283,10 @@ export const ci16JiraServiceManagement = {
     name: '16-jira-service-management',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#1868DB" d="M9.507 6.504h3.876c.582 0 .78.552.426.99l-6.062 7.452c-1.96-1.556-1.775-4.016-.34-5.812zm-2.995 2.97H2.636c-.582 0-.78-.552-.426-.99l6.062-7.452c1.96 1.555 1.746 3.987.327 5.797z"/></svg>`
 };
+export const ci16Jira = {
+    name: '16-jira',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#2684FF" d="M13.329 2.154H7.173c0 .697.293 1.365.814 1.858s1.228.77 1.965.77h1.134v1.035c0 1.45 1.243 2.625 2.777 2.626V2.66c0-.28-.24-.505-.534-.505Z"/><path fill="url(#16-jira_svg__a)" d="M10.283 5.054H4.128c0 1.45 1.243 2.626 2.776 2.627h1.134v1.038c.002 1.45 1.246 2.625 2.78 2.625V5.559c0-.279-.24-.505-.535-.505"/><path fill="url(#16-jira_svg__b)" d="M7.236 7.953H1.08c0 1.452 1.244 2.628 2.779 2.628h1.137v1.036c.001 1.448 1.242 2.623 2.774 2.626V8.458c0-.279-.24-.505-.534-.505"/><defs><linearGradient id="16-jira_svg__a" x1="11.016" x2="6.301" y1="-.193" y2="4.979" gradientUnits="userSpaceOnUse"><stop offset=".18" stop-color="#0052CC"/><stop offset="1" stop-color="#2684FF"/></linearGradient><linearGradient id="16-jira_svg__b" x1="195.906" x2="90.264" y1="172.831" y2="283.376" gradientUnits="userSpaceOnUse"><stop offset=".18" stop-color="#0052CC"/><stop offset="1" stop-color="#2684FF"/></linearGradient></defs></svg>`
+};
 export const ci16LinkLarge = {
     name: '16-link-large',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3 1.25A1.75 1.75 0 0 0 1.25 3v10c0 .966.784 1.75 1.75 1.75h10A1.75 1.75 0 0 0 14.75 13V3A1.75 1.75 0 0 0 13 1.25zM2.75 3A.25.25 0 0 1 3 2.75h10a.25.25 0 0 1 .25.25v5.25H2.75zm0 6.75V13c0 .138.112.25.25.25h10a.25.25 0 0 0 .25-.25V9.75z" clip-rule="evenodd"/></svg>`
@@ -2331,6 +2335,7 @@ export const ciAll = [
     ci16FlashCircleOutlined,
     ci16InfoCircleOutlined,
     ci16JiraServiceManagement,
+    ci16Jira,
     ci16LinkLarge,
     ci16LinkMedium,
     ci16LinkSmall,
