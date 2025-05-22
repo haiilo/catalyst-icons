@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.17.0 (2025-05-22)
+
+
+### Bug Fixes
+
+* remove deprecated husky lines ([a0d13a5](https://github.com/haiilo/catalyst-icons/commit/a0d13a5cfeccdc99f4d798b7d45f0b64f3e93343))
+
 ### 2.16.5 (2025-05-22)
 
 ### 2.16.4 (2025-05-22)
