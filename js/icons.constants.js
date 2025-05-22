@@ -279,6 +279,10 @@ export const ci16InfoCircleOutlined = {
     name: '16-info-circle-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M7.25 12V7h1.5v5zM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/><path fill-rule="evenodd" d="M.25 8a7.75 7.75 0 1 1 15.5 0A7.75 7.75 0 0 1 .25 8M8 1.75a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5" clip-rule="evenodd"/></svg>`
 };
+export const ci16JiraServiceManagement = {
+    name: '16-jira-service-management',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#1868DB" d="M9.507 6.504h3.876c.582 0 .78.552.426.99l-6.062 7.452c-1.96-1.556-1.775-4.016-.34-5.812zm-2.995 2.97H2.636c-.582 0-.78-.552-.426-.99l6.062-7.452c1.96 1.555 1.746 3.987.327 5.797z"/></svg>`
+};
 export const ci16LinkLarge = {
     name: '16-link-large',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3 1.25A1.75 1.75 0 0 0 1.25 3v10c0 .966.784 1.75 1.75 1.75h10A1.75 1.75 0 0 0 14.75 13V3A1.75 1.75 0 0 0 13 1.25zM2.75 3A.25.25 0 0 1 3 2.75h10a.25.25 0 0 1 .25.25v5.25H2.75zm0 6.75V13c0 .138.112.25.25.25h10a.25.25 0 0 0 .25-.25V9.75z" clip-rule="evenodd"/></svg>`
@@ -2322,6 +2326,7 @@ export const ciAll = [
     ci16Flag,
     ci16FlashCircleOutlined,
     ci16InfoCircleOutlined,
+    ci16JiraServiceManagement,
     ci16LinkLarge,
     ci16LinkMedium,
     ci16LinkSmall,

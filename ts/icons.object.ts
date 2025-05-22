@@ -142,6 +142,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.491 3.79 4.922 7.134A.5.5 0 0 0 5.264 8h1.403l-.626 3.519a.5.5 0 0 0 .834.452l4.203-3.94a.5.5 0 0 0-.342-.864H9.333V4.154a.5.5 0 0 0-.842-.365Z"/><path fill-rule="evenodd" d="M8 .25a7.75 7.75 0 1 0 0 15.5A7.75 7.75 0 0 0 8 .25M1.75 8a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0" clip-rule="evenodd"/></svg>',
   '16-info-circle-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M7.25 12V7h1.5v5zM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/><path fill-rule="evenodd" d="M.25 8a7.75 7.75 0 1 1 15.5 0A7.75 7.75 0 0 1 .25 8M8 1.75a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5" clip-rule="evenodd"/></svg>',
+  '16-jira-service-management':
+    '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#1868DB" d="M9.507 6.504h3.876c.582 0 .78.552.426.99l-6.062 7.452c-1.96-1.556-1.775-4.016-.34-5.812zm-2.995 2.97H2.636c-.582 0-.78-.552-.426-.99l6.062-7.452c1.96 1.555 1.746 3.987.327 5.797z"/></svg>',
   '16-link-large':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3 1.25A1.75 1.75 0 0 0 1.25 3v10c0 .966.784 1.75 1.75 1.75h10A1.75 1.75 0 0 0 14.75 13V3A1.75 1.75 0 0 0 13 1.25zM2.75 3A.25.25 0 0 1 3 2.75h10a.25.25 0 0 1 .25.25v5.25H2.75zm0 6.75V13c0 .138.112.25.25.25h10a.25.25 0 0 0 .25-.25V9.75z" clip-rule="evenodd"/></svg>',
   '16-link-medium':
@@ -1200,6 +1202,7 @@ export type MyIconType =
   | '16-flag'
   | '16-flash-circle-outlined'
   | '16-info-circle-outlined'
+  | '16-jira-service-management'
   | '16-link-large'
   | '16-link-medium'
   | '16-link-small'
