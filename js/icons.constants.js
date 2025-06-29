@@ -2127,6 +2127,10 @@ export const ciWButtonOutlined = {
     name: 'w-button-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 12.75h10v-1.5H7z"/><path fill-rule="evenodd" d="M6 4.25A3.75 3.75 0 0 0 2.25 8v8A3.75 3.75 0 0 0 6 19.75h12A3.75 3.75 0 0 0 21.75 16V8A3.75 3.75 0 0 0 18 4.25zM3.75 8A2.25 2.25 0 0 1 6 5.75h12A2.25 2.25 0 0 1 20.25 8v8A2.25 2.25 0 0 1 18 18.25H6A2.25 2.25 0 0 1 3.75 16z" clip-rule="evenodd"/></svg>`,
 };
+export const ciWCodeOutlined = {
+    name: 'w-code-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.721 5.206a.75.75 0 1 0-1.442-.412l-4 14a.75.75 0 1 0 1.442.412zM7.53 7.47a.75.75 0 0 1 0 1.06L4.06 12l3.47 3.47a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 0m8.94 0a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L19.94 12l-3.47-3.47a.75.75 0 0 1 0-1.06"/></svg>`,
+};
 export const ciWColleaguesNewOutlined = {
     name: 'w-colleagues-new-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M11.86 12.793a4.75 4.75 0 1 0-5.72 0c-2.256.899-3.89 2.834-3.89 5.207a.75.75 0 0 0 1.5 0c0-2.225 2.217-4.25 5.25-4.25s5.25 2.025 5.25 4.25a.75.75 0 0 0 1.5 0c0-2.373-1.634-4.309-3.89-5.207M5.75 9a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0" clip-rule="evenodd"/><path fill-rule="evenodd" d="M14.25 10.5a3.25 3.25 0 1 1 5.517 2.33c1.168.646 1.983 1.787 1.983 3.17a.75.75 0 0 1-1.5 0c0-1.138-1.119-2.25-2.75-2.25-.636 0-1.212.177-1.67.465a.75.75 0 1 1-.799-1.27q.099-.06.2-.118a3.24 3.24 0 0 1-.981-2.327m3.25-1.75a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5" clip-rule="evenodd"/></svg>`,
@@ -2186,10 +2190,6 @@ export const ciWHeadlineOutlined = {
 export const ciWHeroTeaserOutlined = {
     name: 'w-hero-teaser-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.643 7.613a.75.75 0 0 0-1.286 0L10.205 9.53l-2.178.504a.75.75 0 0 0-.398 1.223l1.466 1.688-.193 2.227a.75.75 0 0 0 1.04.756L12 15.055l2.059.872a.75.75 0 0 0 1.04-.756l-.194-2.227 1.466-1.688a.75.75 0 0 0-.398-1.223l-2.178-.504zm-1.317 2.962L12 9.454l.674 1.12a.75.75 0 0 0 .473.344l1.274.294-.857.988a.75.75 0 0 0-.18.556l.112 1.302-1.204-.51a.75.75 0 0 0-.585 0l-1.203.51.113-1.302a.75.75 0 0 0-.181-.556l-.857-.988 1.274-.294a.75.75 0 0 0 .473-.345Z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M4.25 5A2.75 2.75 0 0 1 7 2.25h10A2.75 2.75 0 0 1 19.75 5v14A2.75 2.75 0 0 1 17 21.75H7A2.75 2.75 0 0 1 4.25 19zM7 3.75c-.69 0-1.25.56-1.25 1.25v14c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25z" clip-rule="evenodd"/><path d="M2.75 8a.75.75 0 0 0-1.5 0v8a.75.75 0 0 0 1.5 0zm20 0a.75.75 0 0 0-1.5 0v8a.75.75 0 0 0 1.5 0z"/></svg>`,
-};
-export const ciWHtmlOutlined = {
-    name: 'w-html-outlined',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.721 5.206a.75.75 0 1 0-1.442-.412l-4 14a.75.75 0 1 0 1.442.412zM7.53 7.47a.75.75 0 0 1 0 1.06L4.06 12l3.47 3.47a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 0m8.94 0a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L19.94 12l-3.47-3.47a.75.75 0 0 1 0-1.06"/></svg>`,
 };
 export const ciWIframeOutlined = {
     name: 'w-iframe-outlined',
@@ -2816,6 +2816,7 @@ export const ciAll = [
     ciWBlogArticleRecommendedOutlined,
     ciWBookmarksOutlined,
     ciWButtonOutlined,
+    ciWCodeOutlined,
     ciWColleaguesNewOutlined,
     ciWCompleteProfileOutlined,
     ciWDividerOutlined,
@@ -2831,7 +2832,6 @@ export const ciAll = [
     ciWHashtagsOutlined,
     ciWHeadlineOutlined,
     ciWHeroTeaserOutlined,
-    ciWHtmlOutlined,
     ciWIframeOutlined,
     ciWImageOutlined,
     ciWLaunchpadOutlined,
