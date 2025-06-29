@@ -2249,7 +2249,7 @@ export const ciWSuggestedCommunitiesOutlined = {
 };
 export const ciWSuggestedPagesOutlined = {
     name: 'w-suggested-pages-outlined',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.426 3.383a.75.75 0 0 0-.852 0l-7 4.833a.75.75 0 0 0 0 1.235l7 4.833a.75.75 0 0 0 .852 0l7-4.833a.75.75 0 0 0 0-1.235zM12 12.755 6.32 8.833 12 4.911l5.68 3.922z" clip-rule="evenodd"/><path d="M17 13.25a.75.75 0 0 1 .75.75v2.25H20a.75.75 0 0 1 0 1.5h-2.25V20a.75.75 0 0 1-1.5 0v-2.25H14a.75.75 0 0 1 0-1.5h2.25V14a.75.75 0 0 1 .75-.75M4.393 14.559a.75.75 0 0 1 1.048-.166l5.5 4a.75.75 0 0 1-.882 1.214l-5.5-4a.75.75 0 0 1-.166-1.048"/></svg>`,
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.564 14.39a.75.75 0 0 1 .872 1.22l-7 5a.75.75 0 0 1-.871 0l-7-5-.061-.048a.75.75 0 0 1 .932-1.173L12 19.078l6.564-4.689Zm-6.89-11.065a.75.75 0 0 1 .752.058l7 4.833a.75.75 0 0 1 0 1.234l-7 4.834a.75.75 0 0 1-.852 0l-7-4.834a.75.75 0 0 1 0-1.234l7-4.833zM6.319 8.833 12 12.755l5.68-3.922L12 4.91 6.32 8.833Z"/></svg>`,
 };
 export const ciWTeaserOutlined = {
     name: 'w-teaser-outlined',
