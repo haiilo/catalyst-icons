@@ -3954,6 +3954,13 @@ export const ciWTextOutlined: {
   name: 'w-text-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 5.25a.75.75 0 0 0 0 1.5h4.25V18a.75.75 0 0 0 1.5 0V6.75H17a.75.75 0 0 0 0-1.5z"/></svg>`,
 };
+export const ciWTimeOffOutlined: {
+  name: 'w-time-off-outlined';
+  data: string;
+} = {
+  name: 'w-time-off-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.963 4.25A2.75 2.75 0 0 0 6.213 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2.312a2.75 2.75 0 0 0-2.75-2.75zM16.188 7c0-.69-.56-1.25-1.25-1.25H8.963c-.69 0-1.25.56-1.25 1.25zM7.713 8.5h8.475v10H7.713zm-1.5 0H4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h2.213zm11.475 10v-10H20a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5z" clip-rule="evenodd"/></svg>`,
+};
 export const ciWVideoOutlined: {
   name: 'w-video-outlined';
   data: string;
@@ -4576,6 +4583,7 @@ export type coyoIcon =
   | 'w-suggested-pages-outlined'
   | 'w-teaser-outlined'
   | 'w-text-outlined'
+  | 'w-time-off-outlined'
   | 'w-video-outlined'
   | 'w-welcome-outlined'
   | 'w-wiki-article-new-outlined'
@@ -5156,6 +5164,7 @@ export const ciAll = [
   ciWSuggestedPagesOutlined,
   ciWTeaserOutlined,
   ciWTextOutlined,
+  ciWTimeOffOutlined,
   ciWVideoOutlined,
   ciWWelcomeOutlined,
   ciWWikiArticleNewOutlined,
