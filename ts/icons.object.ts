@@ -1049,8 +1049,6 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M5 5.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h9c.69 0 1.25-.56 1.25-1.25v-3a.75.75 0 0 1 1.136-.643l3.864 2.318v-7.35l-3.864 2.318A.75.75 0 0 1 15.25 10V7c0-.69-.56-1.25-1.25-1.25zM2.25 7A2.75 2.75 0 0 1 5 4.25h9A2.75 2.75 0 0 1 16.75 7v1.675l3.864-2.318A.75.75 0 0 1 21.75 7v10a.75.75 0 0 1-1.136.643l-3.864-2.318V17A2.75 2.75 0 0 1 14 19.75H5A2.75 2.75 0 0 1 2.25 17z" clip-rule="evenodd"/></svg>',
   'video-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.757 9.454a.5.5 0 0 0-.757.43v4.233a.5.5 0 0 0 .757.429l3.528-2.117a.5.5 0 0 0 0-.858z"/><path fill-rule="evenodd" d="M5 4.25A2.75 2.75 0 0 0 2.25 7v10A2.75 2.75 0 0 0 5 19.75h14A2.75 2.75 0 0 0 21.75 17V7A2.75 2.75 0 0 0 19 4.25zM3.75 7c0-.69.56-1.25 1.25-1.25h14c.69 0 1.25.56 1.25 1.25v10c0 .69-.56 1.25-1.25 1.25H5c-.69 0-1.25-.56-1.25-1.25z" clip-rule="evenodd"/></svg>',
-  'w-alert-outlined':
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7.25a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/><path fill-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v14c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 19V5A1.75 1.75 0 0 0 19 3.25zM4.75 5A.25.25 0 0 1 5 4.75h14a.25.25 0 0 1 .25.25v14a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25z" clip-rule="evenodd"/></svg>',
   'w-birthdays-upcoming-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 4.423a3.25 3.25 0 0 1 5.24 3.827H20a.75.75 0 0 1 0 1.5h-.25V19A1.75 1.75 0 0 1 18 20.75H6A1.75 1.75 0 0 1 4.25 19V9.75H4a.75.75 0 0 1 0-1.5h2.76A3.25 3.25 0 0 1 12 4.423m.75 2.077v1.75h1.75a1.75 1.75 0 1 0-1.75-1.75m-1.5 3.25h-5.5V19c0 .138.112.25.25.25h5.25zM9.5 8.25h1.75V6.5A1.75 1.75 0 1 0 9.5 8.25m3.25 11v-9.5h5.5V19a.25.25 0 0 1-.25.25z" clip-rule="evenodd"/></svg>',
   'w-blog-article-new-outlined':
@@ -1063,6 +1061,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4.25 6A2.75 2.75 0 0 1 7 3.25h10A2.75 2.75 0 0 1 19.75 6v14a.75.75 0 0 1-1.081.673L12 17.39l-6.669 3.282A.75.75 0 0 1 4.25 20zM7 4.75c-.69 0-1.25.56-1.25 1.25v12.795l5.919-2.912a.75.75 0 0 1 .662 0l5.919 2.912V6c0-.69-.56-1.25-1.25-1.25z" clip-rule="evenodd"/></svg>',
   'w-button-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 12.75h10v-1.5H7z"/><path fill-rule="evenodd" d="M6 4.25A3.75 3.75 0 0 0 2.25 8v8A3.75 3.75 0 0 0 6 19.75h12A3.75 3.75 0 0 0 21.75 16V8A3.75 3.75 0 0 0 18 4.25zM3.75 8A2.25 2.25 0 0 1 6 5.75h12A2.25 2.25 0 0 1 20.25 8v8A2.25 2.25 0 0 1 18 18.25H6A2.25 2.25 0 0 1 3.75 16z" clip-rule="evenodd"/></svg>',
+  'w-callout-outlined':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7.25a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/><path fill-rule="evenodd" d="M5 3.25A1.75 1.75 0 0 0 3.25 5v14c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 19V5A1.75 1.75 0 0 0 19 3.25zM4.75 5A.25.25 0 0 1 5 4.75h14a.25.25 0 0 1 .25.25v14a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25z" clip-rule="evenodd"/></svg>',
   'w-code-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.721 5.206a.75.75 0 1 0-1.442-.412l-4 14a.75.75 0 1 0 1.442.412zM7.53 7.47a.75.75 0 0 1 0 1.06L4.06 12l3.47 3.47a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 0m8.94 0a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L19.94 12l-3.47-3.47a.75.75 0 0 1 0-1.06"/></svg>',
   'w-colleagues-new-outlined':
@@ -1667,13 +1667,13 @@ export type MyIconType =
   | 'video-camera-filled'
   | 'video-camera-outlined'
   | 'video-outlined'
-  | 'w-alert-outlined'
   | 'w-birthdays-upcoming-outlined'
   | 'w-blog-article-new-outlined'
   | 'w-blog-article-outlined'
   | 'w-blog-article-recommended-outlined'
   | 'w-bookmarks-outlined'
   | 'w-button-outlined'
+  | 'w-callout-outlined'
   | 'w-code-outlined'
   | 'w-colleagues-new-outlined'
   | 'w-complete-profile-outlined'
