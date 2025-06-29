@@ -2253,7 +2253,7 @@ export const ciWSuggestedPagesOutlined = {
 };
 export const ciWTeaserOutlined = {
     name: 'w-teaser-outlined',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8 3.25A2.75 2.75 0 0 0 5.25 6v12A2.75 2.75 0 0 0 8 20.75h8A2.75 2.75 0 0 0 18.75 18V6A2.75 2.75 0 0 0 16 3.25zM6.75 6c0-.69.56-1.25 1.25-1.25h8c.69 0 1.25.56 1.25 1.25v12c0 .69-.56 1.25-1.25 1.25H8c-.69 0-1.25-.56-1.25-1.25z" clip-rule="evenodd"/><path d="M3 7.25a.75.75 0 0 1 .75.75v8a.75.75 0 0 1-1.5 0V8A.75.75 0 0 1 3 7.25m18 0a.75.75 0 0 1 .75.75v8a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75"/></svg>`,
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 18.25a.75.75 0 0 1 0 1.5H6a.75.75 0 1 1 0-1.5zm5 0a.75.75 0 0 1 0 1.5h-2a.75.75 0 1 1 0-1.5zm5 0a.75.75 0 0 1 0 1.5h-2a.75.75 0 1 1 0-1.5zM19.25 7c0-.691-.56-1.25-1.25-1.25H6c-.69 0-1.25.559-1.25 1.25v6c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25zm1.5 6A2.75 2.75 0 0 1 18 15.75H6A2.75 2.75 0 0 1 3.25 13V7A2.75 2.75 0 0 1 6 4.25h12A2.75 2.75 0 0 1 20.75 7z"/></svg>`,
 };
 export const ciWTextOutlined = {
     name: 'w-text-outlined',
