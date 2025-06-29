@@ -2205,7 +2205,7 @@ export const ciWImageOutlined = {
 };
 export const ciWLaunchpadOutlined = {
     name: 'w-launchpad-outlined',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 6.25a5.75 5.75 0 1 0 0 11.5h1a.75.75 0 0 0 0-1.5H8a4.25 4.25 0 0 1 0-8.5h1a.75.75 0 0 0 0-1.5zM21.75 12A5.75 5.75 0 0 0 16 6.25h-1a.75.75 0 0 0 0 1.5h1a4.25 4.25 0 0 1 0 8.5h-1a.75.75 0 0 0 0 1.5h1A5.75 5.75 0 0 0 21.75 12"/><path d="M8.25 12a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75"/></svg>`,
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.374 16.683a.5.5 0 0 1-.93.07l-1.618-3.412a.5.5 0 0 0-.237-.238l-3.413-1.617a.5.5 0 0 1 .07-.93l7.865-2.36a.5.5 0 0 1 .622.623z"/><path fill-rule="evenodd" d="M12 2.18a9.75 9.75 0 0 0-9.75 9.75c0 5.384 4.365 9.75 9.75 9.75s9.75-4.366 9.75-9.75A9.75 9.75 0 0 0 12 2.18m-8.25 9.75a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0" clip-rule="evenodd"/></svg>`,
 };
 export const ciWMediaOutlined = {
     name: 'w-media-outlined',
