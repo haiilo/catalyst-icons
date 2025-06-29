@@ -3805,7 +3805,7 @@ export const ciWFeedOutlined: {
   data: string;
 } = {
   name: 'w-feed-outlined',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4 3.25a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h7a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75zm.75 6v-4.5h5.5v4.5z" clip-rule="evenodd"/><path d="M14.25 5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75M15 8.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5z"/><path fill-rule="evenodd" d="M3.25 14a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 .75.75v6a.75.75 0 0 1-.75.75H4a.75.75 0 0 1-.75-.75zm1.5.75v4.5h5.5v-4.5z" clip-rule="evenodd"/><path d="M15 14.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5zm0 4a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5z"/></svg>`,
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25"><path d="M12 19.85a.75.75 0 1 1 0 1.5H4a.75.75 0 0 1 0-1.5zm4-4a.75.75 0 1 1 0 1.5H4a.75.75 0 0 1 0-1.5zm-11.25-4h14.5v-6.5H4.75zm16 .25c0 .69-.56 1.25-1.25 1.25h-15c-.69 0-1.25-.56-1.25-1.25v-7c0-.69.56-1.25 1.25-1.25h15c.69 0 1.25.56 1.25 1.25z"/></svg>`,
 };
 export const ciWGalleryOutlined: {
   name: 'w-gallery-outlined';
