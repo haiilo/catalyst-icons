@@ -2187,6 +2187,10 @@ export const ciWHeadlineOutlined = {
     name: 'w-headline-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 5.25a.75.75 0 0 1 .75.75v12a.75.75 0 0 1-1.5 0v-5.25h-8.5V18a.75.75 0 0 1-1.5 0V6a.75.75 0 0 1 1.5 0v5.25h8.5V6a.75.75 0 0 1 .75-.75"/></svg>`,
 };
+export const ciWHeroImageOutlined = {
+    name: 'w-hero-image-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.571 8.712a.5.5 0 0 1 .858 0l.778 1.294c.07.116.184.199.316.23l1.472.34a.5.5 0 0 1 .265.816l-.99 1.14a.5.5 0 0 0-.122.371l.131 1.505a.5.5 0 0 1-.693.504l-1.39-.59a.5.5 0 0 0-.391 0l-1.39.59a.5.5 0 0 1-.694-.504l.13-1.505a.5.5 0 0 0-.12-.37l-.99-1.141a.5.5 0 0 1 .264-.816l1.472-.34a.5.5 0 0 0 .316-.23z"/><path fill-rule="evenodd" d="M19 3.25A2.75 2.75 0 0 1 21.75 6v12A2.75 2.75 0 0 1 19 20.75H5A2.75 2.75 0 0 1 2.25 18V6A2.75 2.75 0 0 1 5 3.25zM5 4.75c-.69 0-1.25.56-1.25 1.25v12c0 .69.56 1.25 1.25 1.25h14c.69 0 1.25-.56 1.25-1.25V6c0-.69-.56-1.25-1.25-1.25z" clip-rule="evenodd"/></svg>`,
+};
 export const ciWHeroTeaserOutlined = {
     name: 'w-hero-teaser-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.571 8.712a.5.5 0 0 1 .858 0l.778 1.294c.07.116.184.199.316.23l1.472.34a.5.5 0 0 1 .265.815l-.99 1.141a.5.5 0 0 0-.122.371l.131 1.505a.5.5 0 0 1-.693.504l-1.39-.59a.5.5 0 0 0-.391 0l-1.39.59a.5.5 0 0 1-.694-.504l.13-1.505a.5.5 0 0 0-.12-.37l-.99-1.142a.5.5 0 0 1 .264-.815l1.472-.34a.5.5 0 0 0 .316-.23z"/><path fill-rule="evenodd" d="M17 2.25A2.75 2.75 0 0 1 19.75 5v14A2.75 2.75 0 0 1 17 21.75H7A2.75 2.75 0 0 1 4.25 19V5A2.75 2.75 0 0 1 7 2.25zM7 3.75c-.69 0-1.25.56-1.25 1.25v14c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25z" clip-rule="evenodd"/><path d="M2 7.25a.75.75 0 0 1 .75.75v8a.75.75 0 0 1-1.5 0V8A.75.75 0 0 1 2 7.25m20 0a.75.75 0 0 1 .75.75v8a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75"/></svg>`,
@@ -2831,6 +2835,7 @@ export const ciAll = [
     ciWGalleryOutlined,
     ciWHashtagsOutlined,
     ciWHeadlineOutlined,
+    ciWHeroImageOutlined,
     ciWHeroTeaserOutlined,
     ciWIframeOutlined,
     ciWImageOutlined,
