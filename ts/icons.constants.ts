@@ -923,6 +923,13 @@ export const ciCheckOutlined: {
   name: 'check-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M18.45 6.4a.75.75 0 0 1 .15 1.05l-7.5 10a.75.75 0 0 1-1.157.052l-4.5-5a.75.75 0 1 1 1.114-1.004l3.89 4.322L17.4 6.55a.75.75 0 0 1 1.05-.15" clip-rule="evenodd"/></svg>`,
 };
+export const ciCheckSquareOutlined: {
+  name: 'check-square-outlined';
+  data: string;
+} = {
+  name: 'check-square-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.424 8.52a.75.75 0 0 1 1.152.96l-5 6a.75.75 0 0 1-1.106.05l-3-3a.75.75 0 0 1 1.004-1.112l.056.052 2.42 2.419z"/><path fill-rule="evenodd" d="M19 3.25c.966 0 1.75.784 1.75 1.75v14A1.75 1.75 0 0 1 19 20.75H5A1.75 1.75 0 0 1 3.25 19V5c0-.966.784-1.75 1.75-1.75zM5 4.75a.25.25 0 0 0-.25.25v14c0 .138.112.25.25.25h14a.25.25 0 0 0 .25-.25V5a.25.25 0 0 0-.25-.25z" clip-rule="evenodd"/></svg>`,
+};
 export const ciChevronDownOutlined: {
   name: 'chevron-down-outlined';
   data: string;
@@ -4185,6 +4192,7 @@ export type coyoIcon =
   | 'check-circle-outlined'
   | 'check-double-outlined'
   | 'check-outlined'
+  | 'check-square-outlined'
   | 'chevron-down-outlined'
   | 'chevron-left-outlined'
   | 'chevron-right-outlined'
@@ -4771,6 +4779,7 @@ export const ciAll = [
   ciCheckCircleOutlined,
   ciCheckDoubleOutlined,
   ciCheckOutlined,
+  ciCheckSquareOutlined,
   ciChevronDownOutlined,
   ciChevronLeftOutlined,
   ciChevronRightOutlined,
