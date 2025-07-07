@@ -2134,6 +2134,13 @@ export const ciFolderPlusOutlined: {
   name: 'folder-plus-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.25 6v12c0 .966.784 1.75 1.75 1.75h12a.75.75 0 0 0 0-1.5H4a.25.25 0 0 1-.25-.25V9.75H16a.75.75 0 0 0 0-1.5h-1.537l-1.516-3.033a1.75 1.75 0 0 0-1.565-.967H4A1.75 1.75 0 0 0 2.25 6M4 5.75a.25.25 0 0 0-.25.25v2.25h9.037l-1.181-2.362a.25.25 0 0 0-.224-.138z" clip-rule="evenodd"/><path d="M18.75 11a.75.75 0 0 0-1.5 0v2.25H15a.75.75 0 0 0 0 1.5h2.25V17a.75.75 0 0 0 1.5 0v-2.25H21a.75.75 0 0 0 0-1.5h-2.25z"/></svg>`,
 };
+export const ciFreshservice: {
+  name: 'freshservice';
+  data: string;
+} = {
+  name: 'freshservice',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#09C6FA" d="M14.83 3c1.23 0 2.46.004 3.69 0 .621-.005 1.174.161 1.644.573.516.451.815 1.018.818 1.702.01 2.488.039 4.977-.008 7.464-.042 2.24-.845 4.216-2.325 5.902-1.548 1.764-3.495 2.815-5.822 3.143a9.15 9.15 0 0 1-5.195-.756c-2.31-1.061-3.94-2.786-4.89-5.134a9.06 9.06 0 0 1-.608-4.412 9.32 9.32 0 0 1 2.3-5.263C5.712 4.763 7.295 3.794 9.17 3.301a9.5 9.5 0 0 1 2.447-.3h3.213Zm-1.829 8.403c-.721 0-1.442-.003-2.163.002-.126 0-.165-.022-.12-.156.178-.52.346-1.045.517-1.568l.53-1.616c.045-.14 0-.252-.123-.321-.121-.069-.244-.043-.336.07q-.074.098-.146.199l-2.52 3.506q-.502.698-1.007 1.392a.34.34 0 0 0-.04.37c.062.134.177.185.318.19q.09.003.18.002h4.064c.246 0 .25 0 .172.24q-.495 1.515-.995 3.028c-.06.183-.032.296.1.369.131.073.246.041.365-.11q.025-.031.049-.065l3.578-4.944c.09-.124.134-.253.059-.396s-.205-.195-.368-.194q-1.057.004-2.114.002"/></svg>`,
+};
 export const ciGenericBrowserOutlined: {
   name: 'generic-browser-outlined';
   data: string;
@@ -4372,6 +4379,7 @@ export type coyoIcon =
   | 'folder-minus-outlined'
   | 'folder-outlined'
   | 'folder-plus-outlined'
+  | 'freshservice'
   | 'generic-browser-outlined'
   | 'gift-outlined'
   | 'github'
@@ -4960,6 +4968,7 @@ export const ciAll = [
   ciFolderMinusOutlined,
   ciFolderOutlined,
   ciFolderPlusOutlined,
+  ciFreshservice,
   ciGenericBrowserOutlined,
   ciGiftOutlined,
   ciGithub,
