@@ -259,6 +259,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M17 2.25a.75.75 0 0 1 .75.75v.25H18A2.75 2.75 0 0 1 20.75 6v12A2.75 2.75 0 0 1 18 20.75H6A2.75 2.75 0 0 1 3.25 18V6A2.75 2.75 0 0 1 6 3.25h.25V3a.75.75 0 0 1 1.5 0v.25h8.5V3a.75.75 0 0 1 .75-.75M6 4.75c-.69 0-1.25.56-1.25 1.25v2.25h14.5V6c0-.69-.56-1.25-1.25-1.25zm-1.25 5V18c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25V9.75z" clip-rule="evenodd"/></svg>',
   'calendar-pen-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 2.25a.75.75 0 0 1 .75.75v.25H18A2.75 2.75 0 0 1 20.75 6a.75.75 0 0 1-1.5 0c0-.69-.56-1.25-1.25-1.25H6c-.69 0-1.25.56-1.25 1.25v2.25H10a.75.75 0 0 1 0 1.5H4.75V19c0 .138.112.25.25.25a.75.75 0 0 1 0 1.5A1.75 1.75 0 0 1 3.25 19V6A2.75 2.75 0 0 1 6 3.25h.25V3a.75.75 0 0 1 1.5 0v.25h8.5V3a.75.75 0 0 1 .75-.75"/><path fill-rule="evenodd" d="M16.993 8.177a1.75 1.75 0 0 1 2.475 0l1.355 1.355a1.75 1.75 0 0 1 0 2.475l-7.6 7.6a.75.75 0 0 1-.349.198l-3.692.923a.75.75 0 0 1-.91-.91l.923-3.692a.75.75 0 0 1 .198-.349zm1.415 1.06a.25.25 0 0 0-.354 0l-1.378 1.378 1.709 1.709 1.377-1.378a.25.25 0 0 0 0-.354l-1.355-1.355Zm-1.084 4.148-1.709-1.709-5.015 5.015-.57 2.278 2.279-.57z" clip-rule="evenodd"/></svg>',
+  'camera-filled':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6"/><path fill-rule="evenodd" d="M15 3a2 2 0 0 1 2 2h2a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3h2a2 2 0 0 1 2-2zm-3 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10" clip-rule="evenodd"/></svg>',
   'chat-filled':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-12.235 6.788L4 20l1.212-3.765A8 8 0 1 1 20 12"/></svg>',
   'chat-outlined':
@@ -1303,6 +1305,7 @@ export type MyIconType =
   | 'calendar-cross-outlined'
   | 'calendar-outlined'
   | 'calendar-pen-outlined'
+  | 'camera-filled'
   | 'chat-filled'
   | 'chat-outlined'
   | 'check-circle-filled'
