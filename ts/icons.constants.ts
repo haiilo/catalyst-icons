@@ -2610,6 +2610,13 @@ export const ciMenuRightOutlined: {
   name: 'menu-right-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 5.25a.75.75 0 0 0 0 1.5h18a.75.75 0 0 0 0-1.5zm0 6a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5zM2.25 18a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m15.28-6.53a.75.75 0 1 0-1.06 1.06L18.94 15l-2.47 2.47a.75.75 0 1 0 1.06 1.06l3-3a.75.75 0 0 0 0-1.06z"/></svg>`,
 };
+export const ciMicrosoftCopilot: {
+  name: 'microsoft-copilot';
+  data: string;
+} = {
+  name: 'microsoft-copilot',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g filter="url(#microsoft-copilot_svg__a)"><path fill="url(#microsoft-copilot_svg__b)" d="M19.273 7.964c-3.275.025-1.404-4.72-4.847-4.72h-3.192l-.127 6.89c.255-1.617 1.128-2.127 2.509-2.127z"/><path fill="url(#microsoft-copilot_svg__c)" d="m10.376 13.396.008-.03c.127-.51.342-1.446.85-3.743 1.063-4.806 2.17-6.38 3.105-6.38H7.243c-.479 0-.961.105-1.344.394C4.077 5.012 3.416 7.53 2.833 9.53c-.802 2.746-1.084 4.459-.499 5.508.564 1.135 2.095 1.007 4.86 1.007 2.52 0 2.855-1.34 3.182-2.649"/><path fill="url(#microsoft-copilot_svg__d)" d="M5.025 16.035c3.275-.024 1.319 4.721 4.549 4.721h3.192l.127-6.89c-.255 1.617-1.128 2.127-2.509 2.127z"/><path fill="url(#microsoft-copilot_svg__e)" d="M16.806 7.955c-2.54 0-2.637.893-3.147 2.679-.145.506-.385 1.446-.893 3.743-1.063 4.806-2.17 6.38-3.105 6.38h5.348c1.627 0 3.357-.324 4.289-1.658.96-1.376 1.436-3.145 1.87-4.63.8-2.745 1.083-4.458.498-5.507-.564-1.135-1.797-1.007-4.86-1.007"/></g><defs><linearGradient id="microsoft-copilot_svg__b" x1="7.534" x2="15.749" y1="6.451" y2="15.671" gradientUnits="userSpaceOnUse"><stop stop-color="#013EA9"/><stop offset=".178" stop-color="#013EA9"/><stop offset=".448" stop-color="#0250B4"/><stop offset=".933" stop-color="#1F7FE3"/></linearGradient><linearGradient id="microsoft-copilot_svg__c" x1="8.477" x2="7.664" y1="3.651" y2="20.797" gradientUnits="userSpaceOnUse"><stop stop-color="#0CB4F5"/><stop offset=".18" stop-color="#0196E4"/><stop offset=".619" stop-color="#50B954"/><stop offset=".935" stop-color="#F2C300"/></linearGradient><linearGradient id="microsoft-copilot_svg__d" x1="8.587" x2="15.653" y1="8.359" y2="15.488" gradientUnits="userSpaceOnUse"><stop stop-color="#E72831"/><stop offset=".933" stop-color="#FD9B2B"/></linearGradient><linearGradient id="microsoft-copilot_svg__e" x1="14.807" x2="18.776" y1="19.991" y2="7.764" gradientUnits="userSpaceOnUse"><stop stop-color="#FFAB39"/><stop offset=".429" stop-color="#F74A9D"/><stop offset=".879" stop-color="#A352E6"/><stop offset="1" stop-color="#AC57E9"/></linearGradient><filter id="microsoft-copilot_svg__a" width="19.953" height="17.993" x="2.023" y="3.243" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy=".48"/><feGaussianBlur stdDeviation=".24"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/><feBlend in2="shape" result="effect1_innerShadow_4228_715"/></filter></defs></svg>`,
+};
 export const ciMicrosoftEdge: {
   name: 'microsoft-edge';
   data: string;
@@ -4489,6 +4496,7 @@ export type coyoIcon =
   | 'menu-left-outlined'
   | 'menu-outlined'
   | 'menu-right-outlined'
+  | 'microsoft-copilot'
   | 'microsoft-edge'
   | 'microsoft-emails'
   | 'microsoft-excel'
@@ -5084,6 +5092,7 @@ export const ciAll = [
   ciMenuLeftOutlined,
   ciMenuOutlined,
   ciMenuRightOutlined,
+  ciMicrosoftCopilot,
   ciMicrosoftEdge,
   ciMicrosoftEmails,
   ciMicrosoftExcel,
