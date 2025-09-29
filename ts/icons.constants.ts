@@ -601,6 +601,27 @@ export const ciAlertCircleOutlined: {
   name: 'alert-circle-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-.25-8a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0z"/><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12M12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5" clip-rule="evenodd"/></svg>`,
 };
+export const ciAlignLeft: {
+  name: 'align-left';
+  data: string;
+} = {
+  name: 'align-left',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.25 4a.75.75 0 0 1 1.5 0v16a.75.75 0 0 1-1.5 0zm4.008 7.892a.75.75 0 0 1 .212-.422l4-4a.75.75 0 1 1 1.06 1.06l-2.72 2.72H19a.75.75 0 0 1 0 1.5h-8.19l2.72 2.72a.75.75 0 0 1-1.06 1.06l-4-4-.047-.051a.75.75 0 0 1-.165-.587"/></svg>`,
+};
+export const ciAlignMiddle: {
+  name: 'align-middle';
+  data: string;
+} = {
+  name: 'align-middle',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.25 4a.75.75 0 0 1 1.5 0v16a.75.75 0 0 1-1.5 0zM3 12.75h4.19l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H3a.75.75 0 0 0 0 1.5m15.53 2.78a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 0 1 0-1.06l3-3a.75.75 0 1 1 1.06 1.06l-1.72 1.72H21a.75.75 0 0 1 0 1.5h-4.19l1.72 1.72a.75.75 0 0 1 0 1.06"/></svg>`,
+};
+export const ciAlignRight: {
+  name: 'align-right';
+  data: string;
+} = {
+  name: 'align-right',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.25 4a.75.75 0 0 1 1.5 0v16a.75.75 0 0 1-1.5 0zM5 12.75h8.19l-2.72 2.72a.75.75 0 0 0 1.06 1.06l4-4 .047-.051a.77.77 0 0 0 .173-.468V12a.76.76 0 0 0-.22-.53l-4-4a.75.75 0 1 0-1.06 1.06l2.72 2.72H5a.75.75 0 0 0 0 1.5"/></svg>`,
+};
 export const ciAppDirectory: {
   name: 'app-directory';
   data: string;
@@ -4209,6 +4230,9 @@ export type coyoIcon =
   | 'ai-outlined'
   | 'alert-box-outlined'
   | 'alert-circle-outlined'
+  | 'align-left'
+  | 'align-middle'
+  | 'align-right'
   | 'app-directory'
   | 'apple-safari'
   | 'archive-filled'
@@ -4805,6 +4829,9 @@ export const ciAll = [
   ciAiOutlined,
   ciAlertBoxOutlined,
   ciAlertCircleOutlined,
+  ciAlignLeft,
+  ciAlignMiddle,
+  ciAlignRight,
   ciAppDirectory,
   ciAppleSafari,
   ciArchiveFilled,
