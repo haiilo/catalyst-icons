@@ -3366,6 +3366,20 @@ export const ciSlack: {
   name: 'slack',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#2EB67D" d="M20.077 11.23a1.923 1.923 0 1 0-1.923-1.922v1.923zm-5.385 0a1.923 1.923 0 0 0 1.923-1.922V3.923a1.923 1.923 0 0 0-3.846 0v5.385c0 1.062.861 1.923 1.923 1.923Z"/><path fill="#E01E5A" d="M3.923 12.77a1.923 1.923 0 1 0 1.923 1.922V12.77zm5.385 0a1.923 1.923 0 0 0-1.923 1.923v5.384a1.923 1.923 0 1 0 3.846 0v-5.385a1.923 1.923 0 0 0-1.923-1.923Z"/><path fill="#ECB22E" d="M12.77 20.077a1.923 1.923 0 1 0 1.922-1.923H12.77zm0-5.385c0 1.062.86 1.923 1.923 1.923h5.384a1.923 1.923 0 1 0 0-3.846h-5.385a1.923 1.923 0 0 0-1.923 1.923Z"/><path fill="#36C5F0" d="M11.23 3.923a1.923 1.923 0 1 0-1.922 1.923h1.923zm0 5.385a1.923 1.923 0 0 0-1.923-1.923H3.923a1.923 1.923 0 0 0 0 3.846h5.384a1.923 1.923 0 0 0 1.924-1.923Z"/></svg>`,
 };
+export const ciSliderAltOutlined: {
+  name: 'slider-alt-outlined';
+  data: string;
+} = {
+  name: 'slider-alt-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M20.75 4a.75.75 0 0 0-1.5 0v.25H19A2.75 2.75 0 0 0 16.25 7v10A2.75 2.75 0 0 0 19 19.75h.25V20a.75.75 0 0 0 1.5 0zm-1.5 1.75H19c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h.25zM2.25 7A2.75 2.75 0 0 1 5 4.25h7A2.75 2.75 0 0 1 14.75 7v10A2.75 2.75 0 0 1 12 19.75H5A2.75 2.75 0 0 1 2.25 17zM5 5.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h7c.69 0 1.25-.56 1.25-1.25V7c0-.69-.56-1.25-1.25-1.25z" clip-rule="evenodd"/></svg>`,
+};
+export const ciSliderOutlined: {
+  name: 'slider-outlined';
+  data: string;
+} = {
+  name: 'slider-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 18.25a.75.75 0 0 1 0 1.5H6a.75.75 0 1 1 0-1.5zm5 0a.75.75 0 0 1 0 1.5h-2a.75.75 0 1 1 0-1.5zm5 0a.75.75 0 0 1 0 1.5h-2a.75.75 0 1 1 0-1.5zM19.25 7c0-.691-.56-1.25-1.25-1.25H6c-.69 0-1.25.559-1.25 1.25v6c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25zm1.5 6A2.75 2.75 0 0 1 18 15.75H6A2.75 2.75 0 0 1 3.25 13V7A2.75 2.75 0 0 1 6 4.25h12A2.75 2.75 0 0 1 20.75 7z"/></svg>`,
+};
 export const ciSlidersOutlined: {
   name: 'sliders-outlined';
   data: string;
@@ -4625,6 +4639,8 @@ export type coyoIcon =
   | 'sign-out-outlined'
   | 'signal-outlined'
   | 'slack'
+  | 'slider-alt-outlined'
+  | 'slider-outlined'
   | 'sliders-outlined'
   | 'smartphone-outlined'
   | 'smile'
@@ -5224,6 +5240,8 @@ export const ciAll = [
   ciSignOutOutlined,
   ciSignalOutlined,
   ciSlack,
+  ciSliderAltOutlined,
+  ciSliderOutlined,
   ciSlidersOutlined,
   ciSmartphoneOutlined,
   ciSmile,
