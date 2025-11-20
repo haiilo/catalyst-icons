@@ -874,6 +874,13 @@ export const ciBookmarkFilled: {
   name: 'bookmark-filled',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 3H7a3 3 0 0 0-3 3v13.404a1 1 0 0 0 1.436.9l6.128-2.968a1 1 0 0 1 .872 0l6.128 2.969a1 1 0 0 0 1.436-.9V6a3 3 0 0 0-3-3"/></svg>`,
 };
+export const ciBookmarkMinusOutlined: {
+  name: 'bookmark-minus-outlined';
+  data: string;
+} = {
+  name: 'bookmark-minus-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.25 6A2.75 2.75 0 0 1 7 3.25h6a.75.75 0 0 1 0 1.5H7c-.69 0-1.25.56-1.25 1.25v12.795l5.919-2.912.08-.034a.75.75 0 0 1 .582.034l5.919 2.912V15a.75.75 0 0 1 1.5 0v5a.75.75 0 0 1-1.081.673L12 17.39l-6.669 3.282A.75.75 0 0 1 4.25 20zM21 8.25a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5z"/></svg>`,
+};
 export const ciBookmarkOutlined: {
   name: 'bookmark-outlined';
   data: string;
@@ -4360,6 +4367,7 @@ export type coyoIcon =
   | 'book-outlined'
   | 'bookmark-check-outlined'
   | 'bookmark-filled'
+  | 'bookmark-minus-outlined'
   | 'bookmark-outlined'
   | 'bookmark-plus-outlined'
   | 'brush-brackets-outlined'
@@ -4972,6 +4980,7 @@ export const ciAll = [
   ciBookOutlined,
   ciBookmarkCheckOutlined,
   ciBookmarkFilled,
+  ciBookmarkMinusOutlined,
   ciBookmarkOutlined,
   ciBookmarkPlusOutlined,
   ciBrushBracketsOutlined,
