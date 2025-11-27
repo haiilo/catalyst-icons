@@ -1643,8 +1643,8 @@ export const ciPaperplaneTiltOutlined = {
     name: 'paperplane-tilt-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.952 3.043a1.4 1.4 0 0 0-.732.012L4.03 7.333a1.402 1.402 0 0 0-.214 2.626l6.942 3.284 3.284 6.942a1.402 1.402 0 0 0 2.626-.213c.933-3.381 1.89-6.756 2.846-10.13q.719-2.53 1.432-5.061a1.394 1.394 0 0 0-.994-1.738M4.68 8.708l14.773-4.16-4.16 14.773-3.068-6.484 3.313-3.313a.75.75 0 1 0-1.06-1.06l-3.314 3.312z" clip-rule="evenodd"/></svg>`,
 };
-export const ciPauseOutlined1 = {
-    name: 'pause-outlined-1',
+export const ciPauseOutlined = {
+    name: 'pause-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.25 19h-2.5V5h2.5zm8 0h-2.5V5h2.5z"/></svg>`,
 };
 export const ciPaylocity = {
@@ -2835,7 +2835,7 @@ export const ciAll = [
     ciPaperclipBoxOutlined,
     ciPaperclipOutlined,
     ciPaperplaneTiltOutlined,
-    ciPauseOutlined1,
+    ciPauseOutlined,
     ciPaylocity,
     ciPenOutlined,
     ciPenWriting,
