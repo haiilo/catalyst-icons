@@ -241,6 +241,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.25 5A.75.75 0 0 1 4 4.25h16a.75.75 0 0 1 0 1.5H4A.75.75 0 0 1 3.25 5m0 14a.75.75 0 0 1 .75-.75h16a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1-.75-.75"/><path fill-rule="evenodd" d="M13 8.25a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h6a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75zm.75 6v-4.5h4.5v4.5z" clip-rule="evenodd"/></svg>',
   'block-caption-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M5 4.25A1.75 1.75 0 0 0 3.25 6v8c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 14V6A1.75 1.75 0 0 0 19 4.25zM4.75 6A.25.25 0 0 1 5 5.75h14a.25.25 0 0 1 .25.25v8a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25zM4 18.25a.75.75 0 0 0 0 1.5h12a.75.75 0 0 0 0-1.5z" clip-rule="evenodd"/></svg>',
+  bluesky:
+    '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="22" height="22" x="1" y="1" fill="#0085FF" rx="6"/><path fill="#fff" d="M8.601 7.69c1.376 1.002 2.856 3.034 3.399 4.125v2.88c0-.061-.024.008-.077.157-.283.808-1.39 3.962-3.923 1.44-1.333-1.327-.716-2.654 1.711-3.055-1.388.23-2.95-.15-3.378-1.635C6.21 11.175 6 8.543 6 8.188c0-1.78 1.609-1.221 2.601-.498m6.798 0c-1.376 1.002-2.856 3.034-3.399 4.125v2.88c0-.061.024.008.077.157.283.808 1.39 3.962 3.923 1.44 1.333-1.327.716-2.654-1.711-3.055 1.388.23 2.95-.15 3.378-1.635.123-.427.333-3.059.333-3.414 0-1.78-1.608-1.221-2.601-.498"/></svg>',
   'bold-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.25 5A.75.75 0 0 1 8 4.25h4.5a4.25 4.25 0 0 1 2.836 7.416A4.25 4.25 0 0 1 13.5 19.75H8a.75.75 0 0 1-.75-.75zm1.5.75v5.5h3.75a2.75 2.75 0 1 0 0-5.5zm0 7v5.5h4.75a2.75 2.75 0 1 0 0-5.5z" clip-rule="evenodd"/></svg>',
   'book-filled':
@@ -1336,6 +1338,7 @@ export type MyIconType =
   | 'block-align-left-outlined'
   | 'block-align-right-outlined'
   | 'block-caption-outlined'
+  | 'bluesky'
   | 'bold-outlined'
   | 'book-filled'
   | 'book-outlined'

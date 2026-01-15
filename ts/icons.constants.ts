@@ -839,6 +839,13 @@ export const ciBlockCaptionOutlined: {
   name: 'block-caption-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M5 4.25A1.75 1.75 0 0 0 3.25 6v8c0 .966.784 1.75 1.75 1.75h14A1.75 1.75 0 0 0 20.75 14V6A1.75 1.75 0 0 0 19 4.25zM4.75 6A.25.25 0 0 1 5 5.75h14a.25.25 0 0 1 .25.25v8a.25.25 0 0 1-.25.25H5a.25.25 0 0 1-.25-.25zM4 18.25a.75.75 0 0 0 0 1.5h12a.75.75 0 0 0 0-1.5z" clip-rule="evenodd"/></svg>`,
 };
+export const ciBluesky: {
+  name: 'bluesky';
+  data: string;
+} = {
+  name: 'bluesky',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="22" height="22" x="1" y="1" fill="#0085FF" rx="6"/><path fill="#fff" d="M8.601 7.69c1.376 1.002 2.856 3.034 3.399 4.125v2.88c0-.061-.024.008-.077.157-.283.808-1.39 3.962-3.923 1.44-1.333-1.327-.716-2.654 1.711-3.055-1.388.23-2.95-.15-3.378-1.635C6.21 11.175 6 8.543 6 8.188c0-1.78 1.609-1.221 2.601-.498m6.798 0c-1.376 1.002-2.856 3.034-3.399 4.125v2.88c0-.061.024.008.077.157.283.808 1.39 3.962 3.923 1.44 1.333-1.327.716-2.654-1.711-3.055 1.388.23 2.95-.15 3.378-1.635.123-.427.333-3.059.333-3.414 0-1.78-1.608-1.221-2.601-.498"/></svg>`,
+};
 export const ciBoldOutlined: {
   name: 'bold-outlined';
   data: string;
@@ -4376,6 +4383,7 @@ export type coyoIcon =
   | 'block-align-left-outlined'
   | 'block-align-right-outlined'
   | 'block-caption-outlined'
+  | 'bluesky'
   | 'bold-outlined'
   | 'book-filled'
   | 'book-outlined'
@@ -4991,6 +4999,7 @@ export const ciAll = [
   ciBlockAlignLeftOutlined,
   ciBlockAlignRightOutlined,
   ciBlockCaptionOutlined,
+  ciBluesky,
   ciBoldOutlined,
   ciBookFilled,
   ciBookOutlined,
