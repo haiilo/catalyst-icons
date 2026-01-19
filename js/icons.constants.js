@@ -1595,6 +1595,10 @@ export const ciMicrosoft = {
     name: 'microsoft',
     data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFB900" d="M22 13h-9v9h9z"/><path fill="#01A4EF" d="M11 13H2v9h9z"/><path fill="#7FBA00" d="M22 2h-9v9h9z"/><path fill="#F25022" d="M11 2H2v9h9z"/></svg>`,
 };
+export const ciMinimizeOutlined = {
+    name: 'minimize-outlined',
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 9.75h3.19L5.47 6.53a.75.75 0 1 1 1.06-1.06l3.22 3.22V5.5a.75.75 0 0 1 1.5 0v5a.75.75 0 0 1-.75.75h-5a.75.75 0 0 1 0-1.5m8.75 8.75v-3.19l3.22 3.22a.75.75 0 1 0 1.06-1.06l-3.22-3.22h3.19a.75.75 0 0 0 0-1.5h-5a.75.75 0 0 0-.75.75v5a.75.75 0 0 0 1.5 0"/></svg>`,
+};
 export const ciMinusCircleOutlined = {
     name: 'minus-circle-outlined',
     data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.75 11.25H15a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5z"/><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0" clip-rule="evenodd"/></svg>`,
@@ -2839,6 +2843,7 @@ export const ciAll = [
     ciMicrosoftWord,
     ciMicrosoftYammer,
     ciMicrosoft,
+    ciMinimizeOutlined,
     ciMinusCircleOutlined,
     ciModulePlusOutlined,
     ciMoneyOutlined,

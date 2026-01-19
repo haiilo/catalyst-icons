@@ -2792,6 +2792,13 @@ export const ciMicrosoft: {
   name: 'microsoft',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFB900" d="M22 13h-9v9h9z"/><path fill="#01A4EF" d="M11 13H2v9h9z"/><path fill="#7FBA00" d="M22 2h-9v9h9z"/><path fill="#F25022" d="M11 2H2v9h9z"/></svg>`,
 };
+export const ciMinimizeOutlined: {
+  name: 'minimize-outlined';
+  data: string;
+} = {
+  name: 'minimize-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 9.75h3.19L5.47 6.53a.75.75 0 1 1 1.06-1.06l3.22 3.22V5.5a.75.75 0 0 1 1.5 0v5a.75.75 0 0 1-.75.75h-5a.75.75 0 0 1 0-1.5m8.75 8.75v-3.19l3.22 3.22a.75.75 0 1 0 1.06-1.06l-3.22-3.22h3.19a.75.75 0 0 0 0-1.5h-5a.75.75 0 0 0-.75.75v5a.75.75 0 0 0 1.5 0"/></svg>`,
+};
 export const ciMinusCircleOutlined: {
   name: 'minus-circle-outlined';
   data: string;
@@ -4669,6 +4676,7 @@ export type coyoIcon =
   | 'microsoft-word'
   | 'microsoft-yammer'
   | 'microsoft'
+  | 'minimize-outlined'
   | 'minus-circle-outlined'
   | 'module-plus-outlined'
   | 'money-outlined'
@@ -5286,6 +5294,7 @@ export const ciAll = [
   ciMicrosoftWord,
   ciMicrosoftYammer,
   ciMicrosoft,
+  ciMinimizeOutlined,
   ciMinusCircleOutlined,
   ciModulePlusOutlined,
   ciMoneyOutlined,

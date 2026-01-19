@@ -798,6 +798,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#0E51A3" d="M19.5 12.322c0 3.82-1.728 7.261-4.492 9.678l-9.883-9.678z"/><path fill="#2292E2" d="M19.5 12.323H5.125L15.008 2A14.07 14.07 0 0 1 19.5 12.323"/><path fill="#176FE0" d="M21.27 16.839c.474-1.52.73-3.147.73-4.839 0-1.691-.256-3.318-.73-4.839L5.126 12.323l16.146 4.516Z"/><rect width="11.25" height="11.613" x="2" y="5.871" fill="#084C8A" rx="2"/><path fill="#fff" d="M7.485 11.027 6.012 8.452H4.5l2.398 4.156v2.295h1.444v-2.295l2.408-4.156H9.228l-1.473 2.575z"/></svg>',
   microsoft:
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FFB900" d="M22 13h-9v9h9z"/><path fill="#01A4EF" d="M11 13H2v9h9z"/><path fill="#7FBA00" d="M22 2h-9v9h9z"/><path fill="#F25022" d="M11 2H2v9h9z"/></svg>',
+  'minimize-outlined':
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 9.75h3.19L5.47 6.53a.75.75 0 1 1 1.06-1.06l3.22 3.22V5.5a.75.75 0 0 1 1.5 0v5a.75.75 0 0 1-.75.75h-5a.75.75 0 0 1 0-1.5m8.75 8.75v-3.19l3.22 3.22a.75.75 0 1 0 1.06-1.06l-3.22-3.22h3.19a.75.75 0 0 0 0-1.5h-5a.75.75 0 0 0-.75.75v5a.75.75 0 0 0 1.5 0"/></svg>',
   'minus-circle-outlined':
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.75 11.25H15a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5z"/><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0" clip-rule="evenodd"/></svg>',
   'module-plus-outlined':
@@ -1619,6 +1621,7 @@ export type MyIconType =
   | 'microsoft-word'
   | 'microsoft-yammer'
   | 'microsoft'
+  | 'minimize-outlined'
   | 'minus-circle-outlined'
   | 'module-plus-outlined'
   | 'money-outlined'
