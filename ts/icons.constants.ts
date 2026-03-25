@@ -3247,6 +3247,20 @@ export const ciRteImage: {
   name: 'rte-image',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/><path fill-rule="evenodd" d="M3.25 7A3.75 3.75 0 0 1 7 3.25h10A3.75 3.75 0 0 1 20.75 7v10A3.75 3.75 0 0 1 17 20.75H7A3.75 3.75 0 0 1 3.25 17zM7 4.75A2.25 2.25 0 0 0 4.75 7v3.957c1.947-.587 3.42-.617 4.632-.263 1.402.41 2.334 1.305 3.138 2.078l.003.003c.829.796 1.528 1.469 2.55 1.82.922.318 2.2.398 4.177-.154V7A2.25 2.25 0 0 0 17 4.75zM4.75 17v-4.469c2.006-.672 3.292-.666 4.212-.397 1.004.293 1.697.93 2.518 1.72l.08.075c.777.75 1.686 1.624 3.024 2.085 1.212.417 2.694.473 4.666-.021V17A2.25 2.25 0 0 1 17 19.25H7A2.25 2.25 0 0 1 4.75 17" clip-rule="evenodd"/></svg>`,
 };
+export const ciRteIndentDecrease: {
+  name: 'rte-indent-decrease';
+  data: string;
+} = {
+  name: 'rte-indent-decrease',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 18.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zm0-5a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1 0-1.5zm0-4a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1 0-1.5zM8.53 8.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 0 0 0 1.06l3 3a.75.75 0 1 0 1.06-1.06L6.06 12l2.47-2.47a.75.75 0 0 0 0-1.06M20 4.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5z"/></svg>`,
+};
+export const ciRteIndentIncrease: {
+  name: 'rte-indent-increase';
+  data: string;
+} = {
+  name: 'rte-indent-increase',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 18.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zm0-5a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1 0-1.5zm0-4a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1 0-1.5zM5.47 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L7.94 12 5.47 9.53a.75.75 0 0 1 0-1.06M20 4.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5z"/></svg>`,
+};
 export const ciRteItalic: {
   name: 'rte-italic';
   data: string;
@@ -4755,6 +4769,8 @@ export type coyoIcon =
   | 'rte-bold'
   | 'rte-emoji'
   | 'rte-image'
+  | 'rte-indent-decrease'
+  | 'rte-indent-increase'
   | 'rte-italic'
   | 'rte-layout'
   | 'rte-lg-ai'
@@ -5375,6 +5391,8 @@ export const ciAll = [
   ciRteBold,
   ciRteEmoji,
   ciRteImage,
+  ciRteIndentDecrease,
+  ciRteIndentIncrease,
   ciRteItalic,
   ciRteLayout,
   ciRteLgAi,
