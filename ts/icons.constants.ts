@@ -482,6 +482,27 @@ export const ci16TargetedOutlined: {
   name: '16-targeted-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 2.75a5.25 5.25 0 0 0-1.75 10.201.75.75 0 1 1-.5 1.415A6.752 6.752 0 0 1 8 1.25c2.94 0 5.44 1.88 6.366 4.5a.75.75 0 1 1-1.415.5A5.25 5.25 0 0 0 8 2.75"/><path d="M8 5.75a2.25 2.25 0 0 0-1.5 3.927.75.75 0 0 1-1 1.118A3.75 3.75 0 1 1 10.795 5.5a.75.75 0 0 1-1.118 1A2.24 2.24 0 0 0 8 5.75"/><path d="M8.25 9A.75.75 0 0 1 9 8.25h3a.75.75 0 0 1 0 1.5h-1.19l2.72 2.72a.75.75 0 1 1-1.06 1.06l-2.72-2.72V12a.75.75 0 0 1-1.5 0z"/></svg>`,
 };
+export const ci16ThumbsDownFilled: {
+  name: '16-thumbs-down-filled';
+  data: string;
+} = {
+  name: '16-thumbs-down-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 18"><path d="M13.68 6v4a2 2 0 0 1-2 2V4a2 2 0 0 1 2 2m-4 5.942c-1.98 2.427-1.685 3.214-2.277 5.203-.146.49-.688.855-1.17.684-.649-.23-1.187-1.042-1.553-4.946H1a1 1 0 0 1-.962-1.27l1.937-6.884A1 1 0 0 1 2.938 4H9.68z"/></svg>`,
+};
+export const ci16ThumbsDownOutlined: {
+  name: '16-thumbs-down-outlined';
+  data: string;
+} = {
+  name: '16-thumbs-down-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 18"><path fill-rule="evenodd" d="M6.732 17.914c.496.176.988.063 1.354-.161a1.8 1.8 0 0 0 .787-1.017c.236-.796.35-1.627.61-2.415.191-.575.508-1.22 1.263-2.193h1.685a2.75 2.75 0 0 0 2.75-2.75v-4a2.75 2.75 0 0 0-2.75-2.75H3.688a1.75 1.75 0 0 0-1.684 1.276L.066 10.787a1.75 1.75 0 0 0 1.685 2.224h3.002c.172 1.58.383 2.64.643 3.357.308.848.73 1.33 1.336 1.546m.703-1.605a.3.3 0 0 1-.132.164l-.075.025c-.05-.017-.215-.073-.422-.642-.227-.625-.447-1.724-.628-3.665a.75.75 0 0 0-.747-.68H1.75a.25.25 0 0 1-.24-.317L3.447 4.31a.25.25 0 0 1 .24-.182H9.68v6.927c-.914 1.152-1.353 1.984-1.621 2.795-.266.803-.384 1.648-.625 2.459Zm-.132.164-.07.027h.007a.2.2 0 0 0 .063-.027m3.878-12.345v6.5h1.25c.69 0 1.25-.56 1.25-1.25v-4c0-.69-.56-1.25-1.25-1.25z" clip-rule="evenodd"/></svg>`,
+};
+export const ci16ThumbsUpFilled: {
+  name: '16-thumbs-up-filled';
+  data: string;
+} = {
+  name: '16-thumbs-up-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 13V9a2 2 0 0 1 2-2v8a2 2 0 0 1-2-2m4-5.942c1.98-2.427 1.686-3.214 2.277-5.203.146-.49.688-.855 1.17-.684.65.23 1.188 1.042 1.553 4.946h3.68a1 1 0 0 1 .962 1.27l-1.937 6.884a1 1 0 0 1-.962.729H5z"/></svg>`,
+};
 export const ci16ThumbsUpOutlined: {
   name: '16-thumbs-up-outlined';
   data: string;
@@ -4388,6 +4409,9 @@ export type coyoIcon =
   | '16-sticky-filled'
   | '16-sticky-outlined'
   | '16-targeted-outlined'
+  | '16-thumbs-down-filled'
+  | '16-thumbs-down-outlined'
+  | '16-thumbs-up-filled'
   | '16-thumbs-up-outlined'
   | '16-translate-box-outlined'
   | '16-warning-circle-outlined'
@@ -5012,6 +5036,9 @@ export const ciAll = [
   ci16StickyFilled,
   ci16StickyOutlined,
   ci16TargetedOutlined,
+  ci16ThumbsDownFilled,
+  ci16ThumbsDownOutlined,
+  ci16ThumbsUpFilled,
   ci16ThumbsUpOutlined,
   ci16TranslateBoxOutlined,
   ci16WarningCircleOutlined,
