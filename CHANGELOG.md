@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.30.0 (2026-04-08)
+
+
+### Features
+
+* added new like/dislike icons for ai assistant ([98801a8](https://github.com/haiilo/catalyst-icons/commit/98801a801da3ce36ac6c063e98c72b3d58a728ea))
+
 ## 2.29.0 (2026-03-25)
 
 ## 2.28.0 (2026-03-25)
