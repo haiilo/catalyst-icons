@@ -3268,6 +3268,20 @@ export const ciRteBold: {
   name: 'rte-bold',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.376 19a1 1 0 0 1-1-1V6.91a1 1 0 0 1 1-1h4.011q1.42 0 2.36.446.944.442 1.412 1.209.473.766.473 1.738 0 .8-.307 1.368a2.6 2.6 0 0 1-.825.914c-.345.235-.73.465-1.156.567.464.026.91.234 1.335.494q.645.384 1.055 1.087t.41 1.7q0 1.017-.493 1.828-.492.805-1.483 1.272-.99.467-2.493.467zm1.372-1.982h2.55q1.29 0 1.86-.492.575-.498.575-1.278a1.96 1.96 0 0 0-1.105-1.79q-.531-.275-1.266-.275H9.748zm0-5.542h2.346q.613 0 1.105-.223.492-.23.774-.646a1.73 1.73 0 0 0 .287-.997q0-.76-.537-1.253-.53-.492-1.578-.492H9.748z"/></svg>`,
 };
+export const ciRteBookmarkOutlined: {
+  name: 'rte-bookmark-outlined';
+  data: string;
+} = {
+  name: 'rte-bookmark-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.25 6c0-.69-.56-1.25-1.25-1.25H7c-.69 0-1.25.56-1.25 1.25v12.795l5.919-2.912.08-.034a.75.75 0 0 1 .582.034l5.919 2.912zm1.5 14a.75.75 0 0 1-1.081.673L12 17.39l-6.669 3.282A.75.75 0 0 1 4.25 20V6A2.75 2.75 0 0 1 7 3.25h10A2.75 2.75 0 0 1 19.75 6z"/></svg>`,
+};
+export const ciRteClearFormat: {
+  name: 'rte-clear-format';
+  data: string;
+} = {
+  name: 'rte-clear-format',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 17.25a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5zm0-3a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5zm0-3a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5z"/><path fill-rule="evenodd" d="M14.886 2.856a.75.75 0 0 0-1.03.258l-4.3 7.168A5 5 0 0 0 9 10.25h-.188c-.603 0-1.253.084-1.87.352-2.082.905-3.214 2.33-3.698 4.062-.468 1.677-.312 3.584.017 5.465A.75.75 0 0 0 4 20.75h10a.75.75 0 0 0 .597-1.205c-1.257-1.649-1.451-3.13-1.35-4.525.135-1.854-.721-3.503-2.212-4.287l4.109-6.847a.75.75 0 0 0-.258-1.03M6.63 19.25H4.638c-.237-1.58-.28-2.995.051-4.183.36-1.286 1.173-2.36 2.851-3.09.37-.16.8-.227 1.272-.227H9c1.721 0 2.884 1.337 2.751 3.16-.097 1.335.042 2.79.874 4.34h-1.256c-.766-1.029-1.015-1.801-1.058-2.37-.048-.615.135-1.095.36-1.545l-1.342-.67c-.275.55-.592 1.32-.514 2.33.052.684.281 1.43.757 2.255H8.385c-1.156-1.678-1.032-2.78-.714-3.415l-1.342-.67c-.536 1.073-.56 2.458.302 4.085Z" clip-rule="evenodd"/></svg>`,
+};
 export const ciRteEmoji: {
   name: 'rte-emoji';
   data: string;
@@ -3379,6 +3393,13 @@ export const ciRteRedo: {
 } = {
   name: 'rte-redo',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 6.53a.75.75 0 0 1 1.06-1.06l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H10a3.25 3.25 0 0 0 0 6.5h1.923a.75.75 0 0 1 0 1.5H10a4.75 4.75 0 1 1 0-9.5h6.19z"/></svg>`,
+};
+export const ciRteTableOutlined: {
+  name: 'rte-table-outlined';
+  data: string;
+} = {
+  name: 'rte-table-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M18 20.75A2.75 2.75 0 0 0 20.75 18V6A2.75 2.75 0 0 0 18 3.25H6A2.75 2.75 0 0 0 3.25 6v12A2.75 2.75 0 0 0 6 20.75zM4.75 8H8.5v2.5H4.75zM10 10.5V8h4v2.5zm-5.25 4.25V12H8.5v2.75zm5.25 0V12h4v2.75zm0 1.5h4v3h-4zm-5.25 0H8.5v3H6c-.69 0-1.25-.56-1.25-1.25zM15.5 8v2.5h3.75V8zm0 4v2.75h3.75V12zm0 7.25v-3h3.75V18c0 .69-.56 1.25-1.25 1.25z" clip-rule="evenodd"/></svg>`,
 };
 export const ciRteTextColor: {
   name: 'rte-text-color';
@@ -3792,6 +3813,13 @@ export const ciTextAlignCenterOutlined: {
 } = {
   name: 'text-align-center-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4.25 17a.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75m2-5a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75m-4-5A.75.75 0 0 1 3 6.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 7" clip-rule="evenodd"/></svg>`,
+};
+export const ciTextAlignJustifyOutlined: {
+  name: 'text-align-justify-outlined';
+  data: string;
+} = {
+  name: 'text-align-justify-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zm0-5a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zm0-5a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5z"/></svg>`,
 };
 export const ciTextAlignLeftOutlined: {
   name: 'text-align-left-outlined';
@@ -4807,6 +4835,8 @@ export type coyoIcon =
   | 'rte-blockquote-filled'
   | 'rte-blockquote'
   | 'rte-bold'
+  | 'rte-bookmark-outlined'
+  | 'rte-clear-format'
   | 'rte-emoji'
   | 'rte-image'
   | 'rte-indent-decrease'
@@ -4823,6 +4853,7 @@ export type coyoIcon =
   | 'rte-link'
   | 'rte-ol'
   | 'rte-redo'
+  | 'rte-table-outlined'
   | 'rte-text-color'
   | 'rte-text-size'
   | 'rte-text'
@@ -4882,6 +4913,7 @@ export type coyoIcon =
   | 'tag-outlined'
   | 'targeted-outlined'
   | 'text-align-center-outlined'
+  | 'text-align-justify-outlined'
   | 'text-align-left-outlined'
   | 'text-align-right-outlined'
   | 'text-extend-outlined'
@@ -5434,6 +5466,8 @@ export const ciAll = [
   ciRteBlockquoteFilled,
   ciRteBlockquote,
   ciRteBold,
+  ciRteBookmarkOutlined,
+  ciRteClearFormat,
   ciRteEmoji,
   ciRteImage,
   ciRteIndentDecrease,
@@ -5450,6 +5484,7 @@ export const ciAll = [
   ciRteLink,
   ciRteOl,
   ciRteRedo,
+  ciRteTableOutlined,
   ciRteTextColor,
   ciRteTextSize,
   ciRteText,
@@ -5509,6 +5544,7 @@ export const ciAll = [
   ciTagOutlined,
   ciTargetedOutlined,
   ciTextAlignCenterOutlined,
+  ciTextAlignJustifyOutlined,
   ciTextAlignLeftOutlined,
   ciTextAlignRightOutlined,
   ciTextExtendOutlined,
