@@ -285,7 +285,7 @@ export const ci16ThumbsDownOutlined = {
 };
 export const ci16ThumbsUpFilled = {
     name: '16-thumbs-up-filled',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 13V9a2 2 0 0 1 2-2v8a2 2 0 0 1-2-2m4-5.942c1.98-2.427 1.686-3.214 2.277-5.203.146-.49.688-.855 1.17-.684.65.23 1.188 1.042 1.553 4.946h3.68a1 1 0 0 1 .962 1.27l-1.937 6.884a1 1 0 0 1-.962.729H5z"/></svg>`,
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.51.741A1.58 1.58 0 0 1 8.848.584c.598.21 1.016.681 1.32 1.509.258.699.466 1.733.636 3.275h2.966c1.146 0 1.975 1.08 1.664 2.17l-1.914 6.717a1.726 1.726 0 0 1-1.664 1.245H5V6.078c.662-.866.951-1.457 1.13-1.988.14-.42.237-.85.334-1.282.081-.36.162-.721.269-1.075A1.77 1.77 0 0 1 7.51.741M3 6.238C1.6 6.348.5 7.504.5 8.913v3.904c0 1.41 1.1 2.565 2.5 2.675z" clip-rule="evenodd"/></svg>`,
 };
 export const ci16ThumbsUpOutlined = {
     name: '16-thumbs-up-outlined',
