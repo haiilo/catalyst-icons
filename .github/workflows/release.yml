@@ -34,6 +34,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          git pull --rebase
           npm run release:${{ github.event.inputs.release }}
       - name: Commit files
         run: |
