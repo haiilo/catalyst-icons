@@ -2456,6 +2456,13 @@ export const ciHashtagOutlined: {
   name: 'hashtag-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10.733 5.157a.75.75 0 0 0-1.466-.314l-.73 3.407H6a.75.75 0 1 0 0 1.5h2.215l-.964 4.5H5a.75.75 0 0 0 0 1.5h1.93l-.663 3.093a.75.75 0 1 0 1.466.314l.73-3.407h5.466l-.662 3.093a.75.75 0 0 0 1.466.314l.73-3.407H18a.75.75 0 0 0 0-1.5h-2.215l.964-4.5H19a.75.75 0 0 0 0-1.5h-1.93l.663-3.093a.75.75 0 0 0-1.466-.314l-.73 3.407H10.07zM9.75 9.75l-.964 4.5h5.466l.964-4.5z" clip-rule="evenodd"/></svg>`,
 };
+export const ciHeartOutlined: {
+  name: 'heart-outlined';
+  data: string;
+} = {
+  name: 'heart-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M16.125 3.748a5.34 5.34 0 0 1 3.773 1.563l.18.19a5.333 5.333 0 0 1-.18 7.354l-7.368 7.367a.75.75 0 0 1-1.06 0l-7.366-7.368a5.334 5.334 0 1 1 7.544-7.543l.352.352.354-.352a5.34 5.34 0 0 1 3.771-1.563m0 1.5a3.84 3.84 0 0 0-2.71 1.123l-.885.884a.75.75 0 0 1-1.06 0l-.883-.884a3.837 3.837 0 0 0-5.423 0 3.837 3.837 0 0 0 0 5.423L12 18.63l6.837-6.836.13-.137a3.84 3.84 0 0 0 .701-4.042 3.83 3.83 0 0 0-3.543-2.367" clip-rule="evenodd"/></svg>`,
+};
 export const ciHibob: {
   name: 'hibob';
   data: string;
@@ -4740,6 +4747,7 @@ export type coyoIcon =
   | 'half-star-filled'
   | 'hash-box-outlined'
   | 'hashtag-outlined'
+  | 'heart-outlined'
   | 'hibob'
   | 'history-outlined'
   | 'home-filled'
@@ -5374,6 +5382,7 @@ export const ciAll = [
   ciHalfStarFilled,
   ciHashBoxOutlined,
   ciHashtagOutlined,
+  ciHeartOutlined,
   ciHibob,
   ciHistoryOutlined,
   ciHomeFilled,
