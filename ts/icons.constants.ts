@@ -6,6 +6,13 @@ export const ci16LocationOutlined: {
   name: '16-location-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M11.883 6.767a3.917 3.917 0 1 0-7.833 0c0 1.676 1.015 3.334 2.15 4.642a16 16 0 0 0 1.53 1.53q.128.109.236.196.108-.088.236-.196c.42-.366.977-.89 1.532-1.53 1.134-1.308 2.149-2.966 2.149-4.642m1.5 0c0 2.234-1.318 4.243-2.517 5.624a17.4 17.4 0 0 1-2.392 2.267l-.045.033-.013.01-.004.002v.002a.75.75 0 0 1-.786.063l-.103-.064H7.52l-.004-.003-.013-.01a8 8 0 0 1-.204-.158 17.4 17.4 0 0 1-2.233-2.142C3.868 11.01 2.55 9.001 2.55 6.767a5.417 5.417 0 0 1 10.833 0"/><path d="M9.217 6.767a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0m1.5 0a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 0 1 5.5 0"/></svg>`,
 };
+export const ci16Paperclip: {
+  name: '16-paperclip';
+  data: string;
+} = {
+  name: '16-paperclip',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.658 2.551a3.524 3.524 0 0 1 5.211 4.743l-3.5 3.844a2.111 2.111 0 1 1-3.122-2.843l3.123-3.43a.75.75 0 0 1 1.109 1.01l-3.122 3.43a.612.612 0 0 0 .903.823l3.5-3.843A2.023 2.023 0 1 0 7.768 3.56l-3.36 3.69a3.486 3.486 0 0 0 5.155 4.694l2.983-3.278a.75.75 0 0 1 1.11 1.01l-2.984 3.278a4.986 4.986 0 0 1-7.373-6.713z"/></svg>`,
+};
 export const ciWMyTasksOutlined: {
   name: 'w-my-tasks-outlined';
   data: string;
@@ -376,6 +383,20 @@ export const ci16LockOutlined: {
 } = {
   name: '16-lock-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.25 4.25V4a3.75 3.75 0 1 1 7.5 0v.25H13c.966 0 1.75.784 1.75 1.75v8A1.75 1.75 0 0 1 13 15.75H3A1.75 1.75 0 0 1 1.25 14V6c0-.966.784-1.75 1.75-1.75zM5.75 4a2.25 2.25 0 0 1 4.5 0v.25h-4.5zM3 5.75a.25.25 0 0 0-.25.25v8c0 .138.112.25.25.25h10a.25.25 0 0 0 .25-.25V6a.25.25 0 0 0-.25-.25z" clip-rule="evenodd"/></svg>`,
+};
+export const ci16Mention: {
+  name: '16-mention';
+  data: string;
+} = {
+  name: '16-mention',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.213 2.438a6 6 0 0 1 6.12 2.576c.621.936.966 2.028.998 3.15h.002v1.059a2.148 2.148 0 0 1-3.873 1.275 3.037 3.037 0 1 1-.41-4.669.667.667 0 0 1 1.32.134v3.26a.815.815 0 0 0 1.63 0v-.89a4.667 4.667 0 1 0-4.772 4.666h2.476a.667.667 0 0 1 0 1.334l-2.506-.001a6.001 6.001 0 0 1-.985-11.894m1.12 4.192a1.703 1.703 0 1 0 1.696 1.878l.008-.175-.008-.174a1.704 1.704 0 0 0-1.696-1.53Z" clip-rule="evenodd"/></svg>`,
+};
+export const ci16Mic: {
+  name: '16-mic';
+  data: string;
+} = {
+  name: '16-mic',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M12.273 5.568a.75.75 0 0 1 .75.75V7.5a4.89 4.89 0 0 1-4.136 4.827v.923H10.5a.75.75 0 0 1 0 1.5H5.772a.75.75 0 0 1 0-1.5h1.615v-.923A4.89 4.89 0 0 1 3.25 7.5V6.318a.75.75 0 0 1 1.5 0V7.5a3.387 3.387 0 0 0 6.773 0V6.318a.75.75 0 0 1 .75-.75"/><path d="M8.137 1a1.773 1.773 0 0 1 1.772 1.772V7.5a1.774 1.774 0 0 1-3.546 0V2.772A1.773 1.773 0 0 1 8.137 1"/></svg>`,
 };
 export const ci16PenOutlined: {
   name: '16-pen-outlined';
@@ -4404,6 +4425,7 @@ export const ciZive: {
 };
 export type coyoIcon =
   | '16-location-outlined'
+  | '16-paperclip'
   | 'w-my-tasks-outlined'
   | '16-bell-strikethrough'
   | '16-bell'
@@ -4457,6 +4479,8 @@ export type coyoIcon =
   | '16-link-medium'
   | '16-link-small'
   | '16-lock-outlined'
+  | '16-mention'
+  | '16-mic'
   | '16-pen-outlined'
   | '16-pin-outlined'
   | '16-play'
@@ -5040,6 +5064,7 @@ export type CoyoIconNameSubset<T extends Readonly<CoyoIcon[]>> =
   T[number]['name'];
 export const ciAll = [
   ci16LocationOutlined,
+  ci16Paperclip,
   ciWMyTasksOutlined,
   ci16BellStrikethrough,
   ci16Bell,
@@ -5093,6 +5118,8 @@ export const ciAll = [
   ci16LinkMedium,
   ci16LinkSmall,
   ci16LockOutlined,
+  ci16Mention,
+  ci16Mic,
   ci16PenOutlined,
   ci16PinOutlined,
   ci16Play,
