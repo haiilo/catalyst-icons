@@ -496,6 +496,13 @@ export const ci16StickyOutlined: {
   name: '16-sticky-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10.051 2.797 7.9 5.591a1.8 1.8 0 0 1-.52.466l-.005.003-2.61 1.542 3.708 3.707.023.016 1.444-2.65c.126-.247.303-.435.476-.574l.009-.007 2.772-2.152-3.145-3.145ZM7.724 12.63a.8.8 0 0 1-.193-.14l-1.415-1.415L2.53 14.66a.75.75 0 0 1-1.06-1.061l3.585-3.585-1.437-1.438c-.659-.658-.497-1.72.256-2.19l.016-.01L6.609 4.77a.4.4 0 0 0 .058-.041l.016-.016.02-.026L8.926 1.8c.524-.693 1.51-.715 2.094-.154l.01.01 3.307 3.307a1.393 1.393 0 0 1-.126 2.09l-2.863 2.222a.3.3 0 0 0-.088.108l-1.505 2.763a1.396 1.396 0 0 1-2.032.483Z" clip-rule="evenodd"/></svg>`,
 };
+export const ci16StopCircleOutlined: {
+  name: '16-stop-circle-outlined';
+  data: string;
+} = {
+  name: '16-stop-circle-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 .25a7.75 7.75 0 1 1 0 15.5A7.75 7.75 0 0 1 8 .25m4.905 3.905-8.75 8.75-.012.011a6.25 6.25 0 0 0 8.773-8.773l-.01.012ZM8 1.75a6.25 6.25 0 0 0-4.917 10.106l8.773-8.773A6.22 6.22 0 0 0 8 1.75" clip-rule="evenodd"/></svg>`,
+};
 export const ci16TargetedOutlined: {
   name: '16-targeted-outlined';
   data: string;
@@ -4495,6 +4502,7 @@ export type coyoIcon =
   | '16-servicenow'
   | '16-sticky-filled'
   | '16-sticky-outlined'
+  | '16-stop-circle-outlined'
   | '16-targeted-outlined'
   | '16-thumbs-down-filled'
   | '16-thumbs-down-outlined'
@@ -5134,6 +5142,7 @@ export const ciAll = [
   ci16Servicenow,
   ci16StickyFilled,
   ci16StickyOutlined,
+  ci16StopCircleOutlined,
   ci16TargetedOutlined,
   ci16ThumbsDownFilled,
   ci16ThumbsDownOutlined,
