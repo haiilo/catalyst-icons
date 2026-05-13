@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.31.1](https://github.com/haiilo/catalyst-icons/compare/v2.31.0...v2.31.1) (2026-05-13)
+
+
+### Features
+
+* added new icon linkedin-outlined in size 24px ([d9d350e](https://github.com/haiilo/catalyst-icons/commit/d9d350ebe0785588d4c55a636cbb979fe42cc8f9))
+
 ## 2.31.0 (2026-05-07)
 
 ### 2.30.5 (2026-04-16)
