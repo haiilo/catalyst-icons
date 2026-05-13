@@ -2652,6 +2652,13 @@ export const ciLinkOutlined: {
   name: 'link-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.25 12A4.75 4.75 0 0 1 7 7.25h2a.75.75 0 0 1 0 1.5H7a3.25 3.25 0 0 0 0 6.5h2a.75.75 0 0 1 0 1.5H7A4.75 4.75 0 0 1 2.25 12m12-4a.75.75 0 0 1 .75-.75h2a4.75 4.75 0 1 1 0 9.5h-2a.75.75 0 0 1 0-1.5h2a3.25 3.25 0 0 0 0-6.5h-2a.75.75 0 0 1-.75-.75"/><path d="M10 11.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5z"/></svg>`,
 };
+export const ciLinkedinOutlined: {
+  name: 'linkedin-outlined';
+  data: string;
+} = {
+  name: 'linkedin-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.538 16H7.121V8.754h2.417zM8.33 7.678C7.596 7.678 7 7.08 7 6.34S7.595 5 8.33 5s1.33.6 1.33 1.34-.597 1.338-1.33 1.338M18 16h-2.415v-3.455c0-2.271-2.42-2.08-2.42 0V16h-2.418V8.754h2.418v1.32C14.219 8.123 18 7.978 18 11.944z"/><path d="M20.25 7A3.25 3.25 0 0 0 17 3.75H7A3.25 3.25 0 0 0 3.75 7v10A3.25 3.25 0 0 0 7 20.25h10A3.25 3.25 0 0 0 20.25 17zm1.5 10A4.75 4.75 0 0 1 17 21.75H7A4.75 4.75 0 0 1 2.25 17V7A4.75 4.75 0 0 1 7 2.25h10A4.75 4.75 0 0 1 21.75 7z"/></svg>`,
+};
 export const ciLinkedin: {
   name: 'linkedin';
   data: string;
@@ -4845,6 +4852,7 @@ export type coyoIcon =
   | 'likes-circle-filled'
   | 'link-break-outlined'
   | 'link-outlined'
+  | 'linkedin-outlined'
   | 'linkedin'
   | 'list-ordered-outlined'
   | 'list-unordered-outlined'
@@ -5490,6 +5498,7 @@ export const ciAll = [
   ciLikesCircleFilled,
   ciLinkBreakOutlined,
   ciLinkOutlined,
+  ciLinkedinOutlined,
   ciLinkedin,
   ciListOrderedOutlined,
   ciListUnorderedOutlined,
