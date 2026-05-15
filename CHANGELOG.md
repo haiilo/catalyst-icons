@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.31.2](https://github.com/haiilo/catalyst-icons/compare/v2.31.1...v2.31.2) (2026-05-15)
+
+
+### Features
+
+* add new icons for CK rte implementation ([17f3ef0](https://github.com/haiilo/catalyst-icons/commit/17f3ef0e68cb91cecad5e72d5f8dae4338cf9d86))
+
 ### [2.31.1](https://github.com/haiilo/catalyst-icons/compare/v2.31.0...v2.31.1) (2026-05-13)
 
 
