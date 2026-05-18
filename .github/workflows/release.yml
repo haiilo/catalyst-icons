@@ -33,11 +33,16 @@ jobs:
           npm ci
           npm run build
       - name: Create release
+        id: release
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git pull --rebase
           npm run release:${{ github.event.inputs.release }}
+          NOTES=$(git diff HEAD~1 -- CHANGELOG.md | grep '^+' | grep -v '^+++' | sed 's/^+//')
+          echo "notes<<EOF" >> $GITHUB_OUTPUT
+          echo "$NOTES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       - name: Commit files
         run: |
           git config user.name "GitHub Actions"
@@ -54,4 +59,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.previoustag.outputs.tag }}
-          body_path: CHANGELOG.md
+          body: ${{ steps.release.outputs.notes }}
