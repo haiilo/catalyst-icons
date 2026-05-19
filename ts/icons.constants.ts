@@ -3359,6 +3359,13 @@ export const ciRteBoldOutined: {
   name: 'rte-bold-outined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.647 19V4.8h5.32q2.6 0 3.94.92 1.36.92 1.36 2.92 0 .9-.38 1.58-.36.66-1.08 1.04-.7.38-1.7.42l-.02-.04q1.82.06 2.8 1 .98.92.98 2.46 0 1.96-1.36 2.94-1.34.96-3.82.96zm2.6-2.2h3.32q1.22 0 1.92-.5.72-.5.72-1.48c0-.98-.234-1.153-.7-1.5q-.7-.52-1.94-.52h-3.32zm0-6.04h2.64q1.28 0 2-.48t.72-1.4q0-.96-.7-1.42T11.887 7h-2.64z"/></svg>`,
 };
+export const ciRteBoldOutlined: {
+  name: 'rte-bold-outlined';
+  data: string;
+} = {
+  name: 'rte-bold-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.647 19V4.8h5.32q2.6 0 3.94.92 1.36.92 1.36 2.92 0 .9-.38 1.58-.36.66-1.08 1.04-.7.38-1.7.42l-.02-.04q1.82.06 2.8 1 .98.92.98 2.46 0 1.96-1.36 2.94-1.34.96-3.82.96zm2.6-2.2h3.32q1.22 0 1.92-.5.72-.5.72-1.48c0-.98-.234-1.153-.7-1.5q-.7-.52-1.94-.52h-3.32zm0-6.04h2.64q1.28 0 2-.48t.72-1.4q0-.96-.7-1.42T11.887 7h-2.64z"/></svg>`,
+};
 export const ciRteItalicOutlined: {
   name: 'rte-italic-outlined';
   data: string;
@@ -5002,6 +5009,7 @@ export type coyoIcon =
   | 'results-outlined'
   | 'rows-outlined'
   | 'rte-bold-outined'
+  | 'rte-bold-outlined'
   | 'rte-italic-outlined'
   | 'rte-blockquote-filled'
   | 'rte-blockquote'
@@ -5655,6 +5663,7 @@ export const ciAll = [
   ciResultsOutlined,
   ciRowsOutlined,
   ciRteBoldOutined,
+  ciRteBoldOutlined,
   ciRteItalicOutlined,
   ciRteBlockquoteFilled,
   ciRteBlockquote,
