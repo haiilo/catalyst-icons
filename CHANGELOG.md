@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.31.3](https://github.com/haiilo/catalyst-icons/compare/v2.31.2...v2.31.3) (2026-05-19)
+
+
+### Features
+
+* added new icon [rte-bold-outlined] ([54e1e1c](https://github.com/haiilo/catalyst-icons/commit/54e1e1c36b1c61a32ac675f77e40d7ef48d048cd))
+* improve release notes ([0da5099](https://github.com/haiilo/catalyst-icons/commit/0da5099a4b9161c721154aef918de928abd53418))
+
 ### [2.31.2](https://github.com/haiilo/catalyst-icons/compare/v2.31.1...v2.31.2) (2026-05-15)
 
 
