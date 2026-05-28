@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.32.0](https://github.com/haiilo/catalyst-icons/compare/v2.31.3...v2.32.0) (2026-05-28)
+
+
+### Features
+
+* added new icons (paylocity) and (bamboo-hr) in size 24 ([a79f2ab](https://github.com/haiilo/catalyst-icons/commit/a79f2ab879e6bfa6b4d00a1fd94f3275a3839085))
+
 ### [2.31.3](https://github.com/haiilo/catalyst-icons/compare/v2.31.2...v2.31.3) (2026-05-19)
 
 
