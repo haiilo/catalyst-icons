@@ -3226,11 +3226,11 @@ export const ciPuzzlePieceOutlined: {
   name: 'puzzle-piece-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M14.48 4.47a2.88 2.88 0 1 1 4.08 4.08l-.23.23 1.78 1.78a1.75 1.75 0 0 1 0 2.47l-1.78 1.78.23.22a2.88 2.88 0 1 1-4.08 4.08l-.23-.22-1.78 1.78a1.75 1.75 0 0 1-2.47 0l-7.64-7.64a1.75 1.75 0 0 1 0-2.47l2.31-2.31a.75.75 0 0 1 1.06 0L6.5 9a1.38 1.38 0 1 0 1.95-1.96L7.7 6.3a.75.75 0 0 1 0-1.06L10 2.92a1.75 1.75 0 0 1 2.48 0l1.77 1.78zm3.01 1.07a1.38 1.38 0 0 0-1.95 0l-.75.75a.75.75 0 0 1-1.07 0l-2.3-2.31a.25.25 0 0 0-.36 0L9.28 5.76l.23.22a2.88 2.88 0 0 1-4.08 4.08l-.23-.22-1.78 1.78a.25.25 0 0 0 0 .35l7.64 7.64a.25.25 0 0 0 .35 0l2.31-2.31a.75.75 0 0 1 1.06 0l.76.75a1.38 1.38 0 0 0 1.96-1.96l-.76-.75a.75.75 0 0 1 0-1.06l2.31-2.3a.25.25 0 0 0 0-.36l-2.3-2.31a.75.75 0 0 1 0-1.06l.74-.76c.55-.54.55-1.41 0-1.95" clip-rule="evenodd"/></svg>`,
 };
-export const ciQuestionCircleFilled: {
-  name: 'question-circle-filled';
+export const ciQuestionMarkCircleFilled: {
+  name: 'question-mark-circle-filled';
   data: string;
 } = {
-  name: 'question-circle-filled',
+  name: 'question-mark-circle-filled',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25M12 15a1 1 0 1 0 0 2 1 1 0 0 0 0-2m.696-8.172a3.05 3.05 0 0 0-2.186.318c-.706.397-1.296 1.08-1.701 2.04l.691.292.691.29c.302-.713.69-1.111 1.054-1.316a1.55 1.55 0 0 1 1.118-.162 1.796 1.796 0 0 1 1.387 1.745c0 .402-.183.75-.543 1.071-.371.332-.895.597-1.45.788l-.507.173V14h1.5v-.883c.509-.217 1.025-.508 1.455-.891.586-.523 1.045-1.25 1.045-2.19 0-1.63-1.164-2.892-2.554-3.208" clip-rule="evenodd"/></svg>`,
 };
 export const ciQuestionMarkCircleOutlined: {
@@ -4997,7 +4997,7 @@ export type coyoIcon =
   | 'profiles-outlined'
   | 'push-notification'
   | 'puzzle-piece-outlined'
-  | 'question-circle-filled'
+  | 'question-mark-circle-filled'
   | 'question-mark-circle-outlined'
   | 'quote-outlined'
   | 'reaction-clapping'
@@ -5652,7 +5652,7 @@ export const ciAll = [
   ciProfilesOutlined,
   ciPushNotification,
   ciPuzzlePieceOutlined,
-  ciQuestionCircleFilled,
+  ciQuestionMarkCircleFilled,
   ciQuestionMarkCircleOutlined,
   ciQuoteOutlined,
   ciReactionClapping,
