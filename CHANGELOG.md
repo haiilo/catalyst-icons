@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.33.1](https://github.com/haiilo/catalyst-icons/compare/v2.33.0...v2.33.1) (2026-06-03)
+
+
+### Features
+
+* Uploaded question-mark-filled icon ([82e156a](https://github.com/haiilo/catalyst-icons/commit/82e156a978db64fb2ad8bf3eafd4a13df339bae4))
+
 ## [2.33.0](https://github.com/haiilo/catalyst-icons/compare/v2.32.1...v2.33.0) (2026-06-02)
 
 ### [2.32.1](https://github.com/haiilo/catalyst-icons/compare/v2.32.0...v2.32.1) (2026-06-02)
