@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.33.2](https://github.com/haiilo/catalyst-icons/compare/v2.33.1...v2.33.2) (2026-06-08)
+
+
+### Features
+
+* added new icon (anchor-outlined) in size 24 ([b636583](https://github.com/haiilo/catalyst-icons/commit/b636583a7aafdc6d4c5e6fde31f9433433b97d56))
+* added new icon (anchor-outlined) in size 24 ([9601b43](https://github.com/haiilo/catalyst-icons/commit/9601b437b1b382a7c19e44691fde275d338973a6))
+
 ### [2.33.1](https://github.com/haiilo/catalyst-icons/compare/v2.33.0...v2.33.1) (2026-06-03)
 
 
