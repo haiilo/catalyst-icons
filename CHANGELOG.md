@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.34.0](https://github.com/haiilo/catalyst-icons/compare/v2.33.5...v2.34.0) (2026-06-16)
+
+
+### Features
+
+* add new icons for the calendar in Studio ([1853554](https://github.com/haiilo/catalyst-icons/commit/1853554403688a42b1396c28c217024da7e9969e))
+
 ### [2.33.5](https://github.com/haiilo/catalyst-icons/compare/v2.33.4...v2.33.5) (2026-06-12)
 
 ### [2.33.4](https://github.com/haiilo/catalyst-icons/compare/v2.33.3...v2.33.4) (2026-06-10)
