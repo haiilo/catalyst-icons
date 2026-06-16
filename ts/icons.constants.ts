@@ -20,6 +20,20 @@ export const ciWMyTasksOutlined: {
   name: 'w-my-tasks-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.424 8.52a.75.75 0 0 1 1.152.96l-5 6a.75.75 0 0 1-1.106.05l-3-3a.75.75 0 0 1 1.004-1.112l.056.052 2.42 2.419z"/><path fill-rule="evenodd" d="M19 3.25c.966 0 1.75.784 1.75 1.75v14A1.75 1.75 0 0 1 19 20.75H5A1.75 1.75 0 0 1 3.25 19V5c0-.966.784-1.75 1.75-1.75zM5 4.75a.25.25 0 0 0-.25.25v14c0 .138.112.25.25.25h14a.25.25 0 0 0 .25-.25V5a.25.25 0 0 0-.25-.25z" clip-rule="evenodd"/></svg>`,
 };
+export const ci16BellCheckOutlined: {
+  name: '16-bell-check-outlined';
+  data: string;
+} = {
+  name: '16-bell-check-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" d="M9.512 12.61a.625.625 0 1 1 .976.78c-.596.744-1.481 1.235-2.488 1.235s-1.892-.49-2.488-1.234a.626.626 0 0 1 .976-.782c.387.484.93.766 1.512.766.583 0 1.125-.282 1.512-.766ZM8.024 1.374a5 5 0 0 1 .25.009c.162.008.385.025.627.06a4.5 4.5 0 0 1 .773.174c.248.083.543.215.768.44a.626.626 0 0 1-.884.884.8.8 0 0 0-.28-.138 3.3 3.3 0 0 0-.554-.122 6 6 0 0 0-.673-.056l-.04-.001H8l-.178.004a3.576 3.576 0 0 0-3.394 3.396L4.363 7.38a5.36 5.36 0 0 1-1.096 2.995h9.364c.017 0 .023-.004.027-.006a.1.1 0 0 0 .018-.022.1.1 0 0 0 .006-.028c0-.003 0-.012-.01-.025a.625.625 0 1 1 .99-.76c.656.854.047 2.09-1.03 2.091H3.225c-1.02 0-1.596-1.17-.976-1.979l.02-.025a4.1 4.1 0 0 0 .845-2.302l.066-1.354A4.825 4.825 0 0 1 8 1.375zm5.469 2.26a.626.626 0 0 1 1.014.73l-2.4 3.333a.624.624 0 0 1-.907.115L9.6 6.48a.626.626 0 0 1 .8-.96l1.085.903 2.008-2.788Z"/></svg>`,
+};
+export const ci16BellPlusOutlined: {
+  name: '16-bell-plus-outlined';
+  data: string;
+} = {
+  name: '16-bell-plus-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" d="M9.512 12.61a.625.625 0 1 1 .976.78c-.596.744-1.481 1.235-2.488 1.235s-1.892-.49-2.488-1.234a.626.626 0 0 1 .976-.782c.387.484.93.766 1.512.766.583 0 1.125-.282 1.512-.766ZM8.024 1.374a5 5 0 0 1 .25.009c.162.008.385.025.627.06a4.5 4.5 0 0 1 .773.174c.248.083.543.215.768.44a.626.626 0 0 1-.884.884.8.8 0 0 0-.28-.138 3.3 3.3 0 0 0-.554-.122 6 6 0 0 0-.673-.056l-.04-.001H8l-.178.004a3.576 3.576 0 0 0-3.394 3.396L4.363 7.38a5.36 5.36 0 0 1-1.096 2.995h9.364c.017 0 .023-.004.027-.006a.1.1 0 0 0 .018-.022.1.1 0 0 0 .006-.028c0-.003 0-.012-.01-.025a.625.625 0 1 1 .99-.76c.656.854.047 2.09-1.03 2.091H3.225c-1.02 0-1.596-1.17-.976-1.979l.02-.025a4.1 4.1 0 0 0 .845-2.302l.066-1.354A4.825 4.825 0 0 1 8 1.375zM11.37 8V6.62H10a.625.625 0 0 1 0-1.25h1.37V4a.625.625 0 1 1 1.25 0v1.37H14a.625.625 0 0 1 0 1.25h-1.38V8a.625.625 0 0 1-1.25 0"/></svg>`,
+};
 export const ci16BellStrikethrough: {
   name: '16-bell-strikethrough';
   data: string;
@@ -33,6 +47,27 @@ export const ci16Bell: {
 } = {
   name: '16-bell',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.375a4.825 4.825 0 0 0-4.82 4.59l-.065 1.354a4.16 4.16 0 0 1-.864 2.328c-.621.809-.044 1.978.975 1.978h9.548c1.02 0 1.596-1.17.975-1.978a4.16 4.16 0 0 1-.864-2.328l-.066-1.354A4.825 4.825 0 0 0 8 1.375m-3.57 4.65a3.575 3.575 0 0 1 7.14 0l.067 1.355a5.36 5.36 0 0 0 1.096 2.995H3.267A5.36 5.36 0 0 0 4.363 7.38z" clip-rule="evenodd"/><path d="M6.488 12.61a.625.625 0 0 0-.976.78c.596.744 1.482 1.235 2.488 1.235s1.892-.49 2.488-1.234a.625.625 0 1 0-.976-.782c-.387.484-.93.766-1.512.766-.583 0-1.125-.282-1.512-.766Z"/></svg>`,
+};
+export const ci16CalendarCheckOutlined: {
+  name: '16-calendar-check-outlined';
+  data: string;
+} = {
+  name: '16-calendar-check-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" d="M12.826 9.635a.626.626 0 0 1 1.014.73l-2.4 3.333a.624.624 0 0 1-.907.115l-1.6-1.333a.626.626 0 0 1 .8-.96l1.085.903zM12.709 4a.71.71 0 0 0-.71-.708H4A.71.71 0 0 0 3.293 4v1.375h9.417V4Zm1.25 2.667a.626.626 0 0 1-1.25 0v-.042H3.292V12c0 .391.317.708.708.708h2.667a.625.625 0 0 1 0 1.25H4A1.96 1.96 0 0 1 2.042 12V4c0-1.081.876-1.958 1.958-1.958h.042V2a.625.625 0 0 1 1.25 0v.042h5.417V2a.625.625 0 1 1 1.25 0v.042h.04c1.082 0 1.96.876 1.96 1.958z"/></svg>`,
+};
+export const ci16CalendarOutlined: {
+  name: '16-calendar-outlined';
+  data: string;
+} = {
+  name: '16-calendar-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" d="M12.709 6.625H3.292V12c0 .391.317.708.708.708h8a.71.71 0 0 0 .709-.708zm0-2.625a.71.71 0 0 0-.71-.708H4A.71.71 0 0 0 3.293 4v1.375h9.417V4Zm1.25 8a1.96 1.96 0 0 1-1.96 1.958H4A1.96 1.96 0 0 1 2.043 12V4c0-1.081.876-1.958 1.958-1.958h.042V2a.625.625 0 0 1 1.25 0v.042h5.417V2a.625.625 0 1 1 1.25 0v.042H12c1.082 0 1.96.876 1.96 1.958v8Z"/></svg>`,
+};
+export const ci16CalendarPenOutlined: {
+  name: '16-calendar-pen-outlined';
+  data: string;
+} = {
+  name: '16-calendar-pen-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" d="M11.24 5.363a1.29 1.29 0 0 1 1.827 0l.903.904a1.29 1.29 0 0 1 0 1.826L8.903 13.16a.6.6 0 0 1-.29.164l-2.461.616a.626.626 0 0 1-.759-.758l.616-2.462.026-.08a.6.6 0 0 1 .138-.21zm-4.06 5.828-.322 1.283 1.284-.322 3.23-3.23-.962-.961zm4.945-4.944-.831.83.963.962.83-.83a.04.04 0 0 0 0-.059l-.904-.903a.04.04 0 0 0-.058 0M12.709 4a.71.71 0 0 0-.71-.708H4A.71.71 0 0 0 3.293 4v1.375h4v1.25h-4v6.042c0 .023.019.041.042.041a.626.626 0 0 1 0 1.25 1.29 1.29 0 0 1-1.292-1.291V4c0-1.081.876-1.958 1.958-1.958h.042V2a.625.625 0 1 1 1.25 0v.042h5.417V2a.625.625 0 1 1 1.25 0v.042H12c1.082 0 1.96.876 1.96 1.958a.625.625 0 0 1-1.25 0Z"/></svg>`,
 };
 export const ci16CheckCircleFilled: {
   name: '16-check-circle-filled';
@@ -481,6 +516,13 @@ export const ci16Servicenow: {
 } = {
   name: '16-servicenow',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#62D84E" fill-rule="evenodd" d="M8.029 1.486c-3.825 0-7.022 3.14-7.079 7.022a7.15 7.15 0 0 0 2.226 5.194 1.46 1.46 0 0 0 1.827.114c.8-.628 1.827-.97 3.026-.97s2.226.4 3.025.97c.57.4 1.313.4 1.827-.114 1.37-1.313 2.169-3.082 2.169-5.137-.057-3.939-3.14-7.079-7.021-7.079m-.058 10.56c-2.112 0-3.539-1.598-3.539-3.538 0-1.941 1.427-3.54 3.54-3.54s3.539 1.599 3.539 3.54c0 1.998-1.427 3.539-3.54 3.539Z" clip-rule="evenodd"/></svg>`,
+};
+export const ci16SmartphoneOutlined: {
+  name: '16-smartphone-outlined';
+  data: string;
+} = {
+  name: '16-smartphone-outlined',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" d="M10.667 1.375c1.081 0 1.958.877 1.958 1.958v9.334a1.96 1.96 0 0 1-1.958 1.958H5.333a1.96 1.96 0 0 1-1.958-1.958V3.333c0-1.081.877-1.958 1.958-1.958zm-5.334 1.25a.71.71 0 0 0-.708.708v9.334c0 .39.317.708.708.708h5.334c.39 0 .708-.317.708-.708V3.333a.71.71 0 0 0-.708-.708zm4 8.75a.625.625 0 1 1 0 1.25H6.667a.625.625 0 1 1 0-1.25z"/></svg>`,
 };
 export const ci16StickyFilled: {
   name: '16-sticky-filled';
@@ -4553,8 +4595,13 @@ export type coyoIcon =
   | '16-location-outlined'
   | '16-paperclip'
   | 'w-my-tasks-outlined'
+  | '16-bell-check-outlined'
+  | '16-bell-plus-outlined'
   | '16-bell-strikethrough'
   | '16-bell'
+  | '16-calendar-check-outlined'
+  | '16-calendar-outlined'
+  | '16-calendar-pen-outlined'
   | '16-check-circle-filled'
   | '16-check-circle-outlined'
   | '16-check-double'
@@ -4619,6 +4666,7 @@ export type coyoIcon =
   | '16-reaction-thumbs-down'
   | '16-reaction-thumbs-up'
   | '16-servicenow'
+  | '16-smartphone-outlined'
   | '16-sticky-filled'
   | '16-sticky-outlined'
   | '16-stop-circle-outlined'
@@ -5210,8 +5258,13 @@ export const ciAll = [
   ci16LocationOutlined,
   ci16Paperclip,
   ciWMyTasksOutlined,
+  ci16BellCheckOutlined,
+  ci16BellPlusOutlined,
   ci16BellStrikethrough,
   ci16Bell,
+  ci16CalendarCheckOutlined,
+  ci16CalendarOutlined,
+  ci16CalendarPenOutlined,
   ci16CheckCircleFilled,
   ci16CheckCircleOutlined,
   ci16CheckDouble,
@@ -5276,6 +5329,7 @@ export const ciAll = [
   ci16ReactionThumbsDown,
   ci16ReactionThumbsUp,
   ci16Servicenow,
+  ci16SmartphoneOutlined,
   ci16StickyFilled,
   ci16StickyOutlined,
   ci16StopCircleOutlined,
