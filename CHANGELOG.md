@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.34.2](https://github.com/haiilo/catalyst-icons/compare/v2.34.1...v2.34.2) (2026-07-14)
+
+
+### Features
+
+* flattened because color change didn't work ([f1c5fda](https://github.com/haiilo/catalyst-icons/commit/f1c5fda2f5e3dda000197ad34a29f4ffc1b95c8e))
+
 ### [2.34.1](https://github.com/haiilo/catalyst-icons/compare/v2.34.0...v2.34.1) (2026-07-14)
 
 
