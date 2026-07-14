@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.34.1](https://github.com/haiilo/catalyst-icons/compare/v2.34.0...v2.34.1) (2026-07-14)
+
+
+### Features
+
+* added thumbs up LinkedIn icon in 24px ([989eacf](https://github.com/haiilo/catalyst-icons/commit/989eacf69db67bc5729708cf805e9b68325b48dc))
+
 ## [2.34.0](https://github.com/haiilo/catalyst-icons/compare/v2.33.5...v2.34.0) (2026-06-16)
 
 
