@@ -4087,6 +4087,13 @@ export const ciThumbsUpFilled: {
   name: 'thumbs-up-filled',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.855 3.74c-.53 2.038-1.032 3.962-2.517 5.432-.207.205-.338.48-.338.77V19a1 1 0 0 0 1 1h6.638a3 3 0 0 0 2.824-1.988l2.1-5.861c.7-1.954-.748-4.012-2.824-4.012h-2.32a.51.51 0 0 1-.495-.414c-.629-3.264-1.358-4.636-2.053-5.23-.729-.621-1.734.168-1.975 1.095zM5.5 10H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h.5a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5"/></svg>`,
 };
+export const ciThumbsUpLinkedInFilled: {
+  name: 'thumbs-up-linked-in-filled';
+  data: string;
+} = {
+  name: 'thumbs-up-linked-in-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" d="M10.895 3.59c.241-.927 1.247-1.716 1.975-1.095.695.594 1.425 1.967 2.053 5.23a.51.51 0 0 0 .495.414h2.32c2.076 0 3.525 2.057 2.825 4.012L19.898 14H20a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-1.99-1.797L14 20H9a1 1 0 0 1-1-1V9.943c0-.292.13-.566.338-.77 1.521-1.507 2.01-3.49 2.557-5.584ZM5.5 10a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5H5a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2z"/><path fill="#fff" d="M16.923 20h-.879v-2.635h.88zm-.44-3.026a.485.485 0 0 1-.483-.487c0-.269.216-.487.483-.487.268 0 .484.218.484.487 0 .27-.217.487-.483.487ZM20 20h-.878v-1.256c0-.826-.88-.756-.88 0V20h-.88v-2.635h.88v.48c.383-.71 1.758-.762 1.758.68z"/></svg>`,
+};
 export const ciThumbsUpOutlined: {
   name: 'thumbs-up-outlined';
   data: string;
@@ -5176,6 +5183,7 @@ export type coyoIcon =
   | 'text-shorten-outlined'
   | 'text-summary-outlined'
   | 'thumbs-up-filled'
+  | 'thumbs-up-linked-in-filled'
   | 'thumbs-up-outlined'
   | 'translate-box-filled'
   | 'translate-box-outlined'
@@ -5839,6 +5847,7 @@ export const ciAll = [
   ciTextShortenOutlined,
   ciTextSummaryOutlined,
   ciThumbsUpFilled,
+  ciThumbsUpLinkedInFilled,
   ciThumbsUpOutlined,
   ciTranslateBoxFilled,
   ciTranslateBoxOutlined,
