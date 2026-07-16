@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.34.3](https://github.com/haiilo/catalyst-icons/compare/v2.34.2...v2.34.3) (2026-07-16)
+
 ### [2.34.2](https://github.com/haiilo/catalyst-icons/compare/v2.34.1...v2.34.2) (2026-07-14)
 
 
