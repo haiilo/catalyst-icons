@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.34.4](https://github.com/haiilo/catalyst-icons/compare/v2.34.3...v2.34.4) (2026-08-05)
+
+
+### Features
+
+* added new icon (claude) in size 24 ([ef4daca](https://github.com/haiilo/catalyst-icons/commit/ef4daca739031e322a671187a4ffca0a608a5d38))
+
 ### [2.34.3](https://github.com/haiilo/catalyst-icons/compare/v2.34.2...v2.34.3) (2026-07-16)
 
 ### [2.34.2](https://github.com/haiilo/catalyst-icons/compare/v2.34.1...v2.34.2) (2026-07-14)
