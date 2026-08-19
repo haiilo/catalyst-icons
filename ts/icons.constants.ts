@@ -20,6 +20,13 @@ export const ciWMyTasksOutlined: {
   name: 'w-my-tasks-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.424 8.52a.75.75 0 0 1 1.152.96l-5 6a.75.75 0 0 1-1.106.05l-3-3a.75.75 0 0 1 1.004-1.112l.056.052 2.42 2.419z"/><path fill-rule="evenodd" d="M19 3.25c.966 0 1.75.784 1.75 1.75v14A1.75 1.75 0 0 1 19 20.75H5A1.75 1.75 0 0 1 3.25 19V5c0-.966.784-1.75 1.75-1.75zM5 4.75a.25.25 0 0 0-.25.25v14c0 .138.112.25.25.25h14a.25.25 0 0 0 .25-.25V5a.25.25 0 0 0-.25-.25z" clip-rule="evenodd"/></svg>`,
 };
+export const ciChatFilledLinkedin: {
+  name: 'chat-filled-linkedin';
+  data: string;
+} = {
+  name: 'chat-filled-linkedin',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M12 3a9 9 0 0 1 8.74 11.144A2 2 0 0 1 22 16v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-1.857-1.26A9 9 0 0 1 12 21a9 9 0 0 1-4.355-1.123l-3.339 1.075a1 1 0 0 1-1.258-1.259l1.074-3.34A9 9 0 0 1 12 3m4.044 14.365V20h.879v-2.635zM20 18.525c0-1.441-1.374-1.39-1.758-.68v-.48h-.879V20h.879v-1.256c0-.756.88-.826.88 0V20H20zM16.483 16a.486.486 0 0 0-.483.487c0 .27.217.487.483.487a.485.485 0 0 0 .484-.487.485.485 0 0 0-.484-.487" clip-rule="evenodd"/></svg>`,
+};
 export const ci16BellCheckOutlined: {
   name: '16-bell-check-outlined';
   data: string;
@@ -4609,6 +4616,7 @@ export type coyoIcon =
   | '16-location-outlined'
   | '16-paperclip'
   | 'w-my-tasks-outlined'
+  | 'chat-filled-linkedin'
   | '16-bell-check-outlined'
   | '16-bell-plus-outlined'
   | '16-bell-strikethrough'
@@ -5274,6 +5282,7 @@ export const ciAll = [
   ci16LocationOutlined,
   ci16Paperclip,
   ciWMyTasksOutlined,
+  ciChatFilledLinkedin,
   ci16BellCheckOutlined,
   ci16BellPlusOutlined,
   ci16BellStrikethrough,
