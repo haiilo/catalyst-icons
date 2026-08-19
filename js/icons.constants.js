@@ -13,7 +13,7 @@ export const ciWMyTasksOutlined = {
 };
 export const ciChatFilledLinkedin = {
     name: 'chat-filled-linkedin',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M12 3a9 9 0 0 1 8.74 11.144A2 2 0 0 1 22 16v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-1.857-1.26A9 9 0 0 1 12 21a9 9 0 0 1-4.355-1.123l-3.339 1.075a1 1 0 0 1-1.258-1.259l1.074-3.34A9 9 0 0 1 12 3m4.044 14.365V20h.879v-2.635zM20 18.525c0-1.441-1.374-1.39-1.758-.68v-.48h-.879V20h.879v-1.256c0-.756.88-.826.88 0V20H20zM16.483 16a.486.486 0 0 0-.483.487c0 .27.217.487.483.487a.485.485 0 0 0 .484-.487.485.485 0 0 0-.484-.487" clip-rule="evenodd"/></svg>`,
+    data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 3a9 9 0 0 1 8.74 11.144A2 2 0 0 1 22 16v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-1.857-1.26A9 9 0 0 1 12 21a9 9 0 0 1-4.355-1.123l-3.339 1.075a1 1 0 0 1-1.258-1.259l1.074-3.34A9 9 0 0 1 12 3m4.044 14.365V20h.879v-2.635zM20 18.525c0-1.441-1.374-1.39-1.758-.68v-.48h-.879V20h.879v-1.256c0-.756.88-.826.88 0V20H20zM16.483 16a.486.486 0 0 0-.483.487c0 .27.217.487.483.487a.485.485 0 0 0 .484-.487.485.485 0 0 0-.484-.487" clip-rule="evenodd"/></svg>`,
 };
 export const ci16BellCheckOutlined = {
     name: '16-bell-check-outlined',
