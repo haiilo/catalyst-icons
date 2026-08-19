@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.34.5](https://github.com/haiilo/catalyst-icons/compare/v2.34.4...v2.34.5) (2026-08-19)
+
+
+### Features
+
+* Added new chat LinkedIn icon ([1b96ef8](https://github.com/haiilo/catalyst-icons/commit/1b96ef8125b6c9b61cb1f3ff34f640510de38e9a))
+
 ### [2.34.4](https://github.com/haiilo/catalyst-icons/compare/v2.34.3...v2.34.4) (2026-08-05)
 
 
