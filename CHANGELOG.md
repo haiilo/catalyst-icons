@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [2.34.7](https://github.com/haiilo/catalyst-icons/compare/v2.34.6...v2.34.7) (2026-10-05)
+
+
+### Features
+
+* added new icon weibo in size 24 ([cd6a026](https://github.com/haiilo/catalyst-icons/commit/cd6a02666e2812ab22a87c87d9f72d2faf4b1dbf))
+
 ### [2.34.6](https://github.com/haiilo/catalyst-icons/compare/v2.34.5...v2.34.6) (2026-08-19)
 
 ### [2.34.5](https://github.com/haiilo/catalyst-icons/compare/v2.34.4...v2.34.5) (2026-08-19)
