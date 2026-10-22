@@ -1378,6 +1378,27 @@ export const ciDayforce: {
   name: 'dayforce',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="url(#dayforce_svg__a)" d="M15.249 8.889c-.967-.45-2.053-.677-3.236-.677-1.368 0-2.605.304-3.68.904a6.6 6.6 0 0 0-2.532 2.461c-.605 1.033-.91 2.21-.91 3.502 0 1.273.305 2.446.91 3.487a6.5 6.5 0 0 0 2.535 2.464c1.073.59 2.31.888 3.678.888 1.366 0 2.604-.299 3.678-.888a6.43 6.43 0 0 0 2.523-2.466 6.9 6.9 0 0 0 .886-3.134h.009V2.082l-3.86 1.27zm-1.008 3.671c.606.66.9 1.484.9 2.52 0 1.018-.296 1.832-.9 2.492-.597.65-1.326.966-2.228.966-.919 0-1.65-.315-2.239-.966-.598-.659-.889-1.475-.889-2.494 0-1.035.291-1.859.89-2.52.588-.65 1.32-.967 2.238-.967.902.002 1.63.319 2.228.97Z"/><defs><linearGradient id="dayforce_svg__a" x1="12" x2="12" y1="2.082" y2="21.918" gradientUnits="userSpaceOnUse"><stop stop-color="#3067DB"/><stop offset="1" stop-color="#61ACEF"/></linearGradient></defs></svg>`,
 };
+export const ciDensityHighFilled: {
+  name: 'density-high-filled';
+  data: string;
+} = {
+  name: 'density-high-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#000" stroke="#000" d="M19 5v14a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Zm-6 6v8a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Zm-6 4v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Z"/></svg>`,
+};
+export const ciDensityLowFilled: {
+  name: 'density-low-filled';
+  data: string;
+} = {
+  name: 'density-low-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#807F75" stroke="#807F75" d="M19 5v14a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Zm-6 6v8a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Z"/><path fill="#000" stroke="#000" d="M7 15v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Z"/></svg>`,
+};
+export const ciDensityMediumFilled: {
+  name: 'density-medium-filled';
+  data: string;
+} = {
+  name: 'density-medium-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#807F75" stroke="#807F75" d="M19 5v14a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Z"/><path fill="#000" stroke="#000" d="M13 11v8a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Zm-6 4v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1Z"/></svg>`,
+};
 export const ciDotsCircleOutlined: {
   name: 'dots-circle-outlined';
   data: string;
@@ -4817,6 +4838,9 @@ export type coyoIcon =
   | 'dash-filled'
   | 'dashboard-outlined'
   | 'dayforce'
+  | 'density-high-filled'
+  | 'density-low-filled'
+  | 'density-medium-filled'
   | 'dots-circle-outlined'
   | 'double-chevron-down'
   | 'download-outlined'
@@ -5484,6 +5508,9 @@ export const ciAll = [
   ciDashFilled,
   ciDashboardOutlined,
   ciDayforce,
+  ciDensityHighFilled,
+  ciDensityLowFilled,
+  ciDensityMediumFilled,
   ciDotsCircleOutlined,
   ciDoubleChevronDown,
   ciDownloadOutlined,
