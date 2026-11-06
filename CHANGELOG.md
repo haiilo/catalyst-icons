@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.35.0](https://github.com/haiilo/catalyst-icons/compare/v2.34.8...v2.35.0) (2026-11-06)
+
+
+### Features
+
+* added new icons flag-circle-ua and flag-ua in size 24 ([3c9d5df](https://github.com/haiilo/catalyst-icons/commit/3c9d5df00164534c1a492685e2ed7adcc9846f03))
+
 ### [2.34.8](https://github.com/haiilo/catalyst-icons/compare/v2.34.7...v2.34.8) (2026-10-22)
 
 ### [2.34.7](https://github.com/haiilo/catalyst-icons/compare/v2.34.6...v2.34.7) (2026-10-05)
