@@ -1854,6 +1854,13 @@ export const ciFlagCircleTr: {
   name: 'flag-circle-tr',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#fff" fill-rule="evenodd" d="m16.67 13.536-1.55.813.296-1.724-1.253-1.222 1.733-.254.773-1.568.774 1.57 1.733.253-1.253 1.22.296 1.724" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M10.667 16.667a4.667 4.667 0 1 0 0-9.334 4.667 4.667 0 0 0 0 9.334M12 15.333a3.334 3.334 0 0 0 0-6.666 3.335 3.335 0 0 0 0 6.666" clip-rule="evenodd"/></svg>`,
 };
+export const ciFlagCircleUa: {
+  name: 'flag-circle-ua';
+  data: string;
+} = {
+  name: 'flag-circle-ua',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#0057B7" d="M2 12a10 10 0 0 1 20 0z"/><path fill="gold" d="M22 12a10 10 0 0 1-20 0z"/></svg>`,
+};
 export const ciFlagCircleVn: {
   name: 'flag-circle-vn';
   data: string;
@@ -2288,6 +2295,13 @@ export const ciFlagRectTr: {
   name: 'flag-rect-tr',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="m15.335 13.075-1.107.57.212-1.207-.895-.856 1.238-.178.552-1.097.552 1.098 1.239.178-.896.854.212 1.207" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M11.048 15.267c1.84 0 3.333-1.463 3.333-3.267s-1.492-3.267-3.333-3.267S7.714 10.196 7.714 12s1.493 3.267 3.334 3.267m.952-.934c1.314 0 2.38-1.045 2.38-2.333S13.314 9.667 12 9.667 9.619 10.712 9.619 12s1.067 2.333 2.38 2.333Z" clip-rule="evenodd"/></svg>`,
 };
+export const ciFlagRectUa: {
+  name: 'flag-rect-ua';
+  data: string;
+} = {
+  name: 'flag-rect-ua',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#0057B7" d="M2 8a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v4H2z"/><path fill="gold" d="M2 12h20v4a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3z"/></svg>`,
+};
 export const ciFlagRectVn: {
   name: 'flag-rect-vn';
   data: string;
@@ -2350,6 +2364,13 @@ export const ciFlagTr: {
 } = {
   name: 'flag-tr',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="m15.335 13.075-1.107.57.212-1.207-.895-.856 1.238-.178.552-1.097.552 1.098 1.239.178-.896.854.212 1.207" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M11.048 15.267c1.84 0 3.333-1.463 3.333-3.267s-1.492-3.267-3.333-3.267S7.714 10.196 7.714 12s1.493 3.267 3.334 3.267m.952-.934c1.314 0 2.38-1.045 2.38-2.333S13.314 9.667 12 9.667 9.619 10.712 9.619 12s1.067 2.333 2.38 2.333Z" clip-rule="evenodd"/></svg>`,
+};
+export const ciFlagUa: {
+  name: 'flag-ua';
+  data: string;
+} = {
+  name: 'flag-ua',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#0057B7" d="M2 8a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v4H2z"/><path fill="gold" d="M2 12h20v4a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3z"/></svg>`,
 };
 export const ciFlagVn: {
   name: 'flag-vn';
@@ -4906,6 +4927,7 @@ export type coyoIcon =
   | 'flag-circle-sk'
   | 'flag-circle-th'
   | 'flag-circle-tr'
+  | 'flag-circle-ua'
   | 'flag-circle-vn'
   | 'flag-cn'
   | 'flag-cz'
@@ -4968,6 +4990,7 @@ export type coyoIcon =
   | 'flag-rect-sk'
   | 'flag-rect-th'
   | 'flag-rect-tr'
+  | 'flag-rect-ua'
   | 'flag-rect-vn'
   | 'flag-ro'
   | 'flag-rs'
@@ -4977,6 +5000,7 @@ export type coyoIcon =
   | 'flag-sk'
   | 'flag-th'
   | 'flag-tr'
+  | 'flag-ua'
   | 'flag-vn'
   | 'flash-circle-outlined'
   | 'flash-filled'
@@ -5576,6 +5600,7 @@ export const ciAll = [
   ciFlagCircleSk,
   ciFlagCircleTh,
   ciFlagCircleTr,
+  ciFlagCircleUa,
   ciFlagCircleVn,
   ciFlagCn,
   ciFlagCz,
@@ -5638,6 +5663,7 @@ export const ciAll = [
   ciFlagRectSk,
   ciFlagRectTh,
   ciFlagRectTr,
+  ciFlagRectUa,
   ciFlagRectVn,
   ciFlagRo,
   ciFlagRs,
@@ -5647,6 +5673,7 @@ export const ciAll = [
   ciFlagSk,
   ciFlagTh,
   ciFlagTr,
+  ciFlagUa,
   ciFlagVn,
   ciFlashCircleOutlined,
   ciFlashFilled,
