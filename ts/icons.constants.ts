@@ -601,6 +601,13 @@ export const ci16TranslateBoxOutlined: {
   name: '16-translate-box-outlined',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.25 5.28A.75.75 0 0 1 5 4.53h2.75V4a.75.75 0 0 1 1.5 0v.53H12a.75.75 0 0 1 0 1.5h-.781a9.2 9.2 0 0 1-1.848 3.768q.198.106.41.187l1 .383-.537 1.4-1-.383a5 5 0 0 1-.947-.48 9.2 9.2 0 0 1-2.21 1.422l-.775.355a.75.75 0 0 1-.624-1.364l.776-.355A7.7 7.7 0 0 0 7.16 9.901a5.1 5.1 0 0 1-1.153-2.6l1.486-.203c.088.644.345 1.239.73 1.733a7.7 7.7 0 0 0 1.45-2.801H5a.75.75 0 0 1-.75-.75"/><path fill-rule="evenodd" d="M.25 3A2.75 2.75 0 0 1 3 .25h10A2.75 2.75 0 0 1 15.75 3v10A2.75 2.75 0 0 1 13 15.75H3A2.75 2.75 0 0 1 .25 13zM3 1.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25V3c0-.69-.56-1.25-1.25-1.25z" clip-rule="evenodd"/></svg>`,
 };
+export const ci16WarningCircleFilled: {
+  name: '16-warning-circle-filled';
+  data: string;
+} = {
+  name: '16-warning-circle-filled',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" fill-rule="evenodd" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m.75 9h-1.5V4h1.5zM8 10a1 1 0 1 0 0 2 1 1 0 0 0 0-2" clip-rule="evenodd"/></svg>`,
+};
 export const ci16WarningCircleOutlined: {
   name: '16-warning-circle-outlined';
   data: string;
@@ -4755,6 +4762,7 @@ export type coyoIcon =
   | '16-thumbs-up-filled'
   | '16-thumbs-up-outlined'
   | '16-translate-box-outlined'
+  | '16-warning-circle-filled'
   | '16-warning-circle-outlined'
   | '32-reaction-appreciate'
   | '32-reaction-celebrate'
@@ -5429,6 +5437,7 @@ export const ciAll = [
   ci16ThumbsUpFilled,
   ci16ThumbsUpOutlined,
   ci16TranslateBoxOutlined,
+  ci16WarningCircleFilled,
   ci16WarningCircleOutlined,
   ci32ReactionAppreciate,
   ci32ReactionCelebrate,
