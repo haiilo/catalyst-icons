@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.37.0](https://github.com/haiilo/catalyst-icons/compare/v2.36.3...v2.37.0) (2026-11-18)
+
+
+### Features
+
+* added new icons 16-warning-circle-filled and 16-info-circle-filled in size 16 ([e70bac6](https://github.com/haiilo/catalyst-icons/commit/e70bac60108693e30976888461ad57288aea5694))
+
 ### [2.36.3](https://github.com/haiilo/catalyst-icons/compare/v2.36.2...v2.36.3) (2026-11-17)
 
 
