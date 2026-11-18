@@ -217,7 +217,7 @@ export const ci16GroupOutlined = {
 };
 export const ci16InfoCircleFilled = {
     name: '16-info-circle-filled',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m-.75-9h1.5v5h-1.5zM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2" clip-rule="evenodd"/></svg>`,
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m-.75-8.375a.75.75 0 0 1 1.5 0v4a.75.75 0 0 1-1.5 0zm.75-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2" clip-rule="evenodd"/></svg>`,
 };
 export const ci16InfoCircleOutlined = {
     name: '16-info-circle-outlined',
@@ -345,7 +345,7 @@ export const ci16TranslateBoxOutlined = {
 };
 export const ci16WarningCircleFilled = {
     name: '16-warning-circle-filled',
-    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" fill-rule="evenodd" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m.75 9h-1.5V4h1.5zM8 10a1 1 0 1 0 0 2 1 1 0 0 0 0-2" clip-rule="evenodd"/></svg>`,
+    data: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#000" fill-rule="evenodd" d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 10a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0-6.75a.75.75 0 0 0-.75.75v4a.75.75 0 0 0 1.5 0V4A.75.75 0 0 0 8 3.25" clip-rule="evenodd"/></svg>`,
 };
 export const ci16WarningCircleOutlined = {
     name: '16-warning-circle-outlined',
