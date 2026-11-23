@@ -477,6 +477,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-circle-bg_svg__a)"><path fill="#249F58" d="M27.333 2H4.667A2.667 2.667 0 0 0 2 4.667v14.666A2.667 2.667 0 0 0 4.667 22h22.666A2.667 2.667 0 0 0 30 19.333V4.667A2.667 2.667 0 0 0 27.333 2"/><path fill="#F93939" fill-rule="evenodd" d="M2 15.333h28V22H2z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 2h28v6.667H2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-circle-bg_svg__a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>',
   'flag-circle-cn':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-circle-cn_svg__a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#F93939" d="M27.333 2H4.667A2.667 2.667 0 0 0 2 4.667v14.666A2.667 2.667 0 0 0 4.667 22h22.666A2.667 2.667 0 0 0 30 19.333V4.667A2.667 2.667 0 0 0 27.333 2"/><path fill="#FFDA2C" fill-rule="evenodd" d="m9.33 11.64-1.96 1.03.374-2.182L6.16 8.941l2.19-.316.98-1.986.98 1.986 2.19.316-1.586 1.547.376 2.181zM14 6h1.334v1.333H14zm1.334 2.667h1.333V10h-1.334V8.667Zm0 2.666h1.333v1.334h-1.334v-1.334ZM14 14h1.334v1.333H14z" clip-rule="evenodd"/></g><defs><clipPath id="flag-circle-cn_svg__a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>',
+  'flag-circle-cy':
+    '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M2 12a10 10 0 0 1 20 0z"/><path fill="#249f58" d="M22 12a10 10 0 0 1-20 0z"/><g fill="#f93939" stroke="#f93939" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M9.28 12.72c-.16-2.24 1.44-4.8 4.32-6.24-.32.96.32 1.44 1.12 1.28-.64.8 0 1.44.96 1.28-.8.96-1.28 2.24-1.92 3.68z"/><path stroke="none" d="M8.48 12.56c1.12-.8 5.12-.8 7.04-.32 1.12.48 1.12 2.24-.32 2.56-1.92.48-4.8.48-6.4 0-1.12-.32-1.28-1.76-.32-2.24"/><path fill="none" stroke-width="1.6" d="M9.28 13.36c-1.76-.64-2.4-1.92-1.92-3.52"/><path stroke="none" d="M8.32 9.84c.16-1.12-.48-1.76-1.28-1.6l-2.08.32c-.16.16 0 .48.32.48l1.12.32-1.28.64c-.16.32.16.48.48.48l1.92.16c.48 0 .8-.32.8-.8"/><path stroke="none" d="m7.36 8.4 1.28-1.12-.48 1.6z"/><path fill="none" stroke-width=".96" d="m8.8 14-1.44.8-.96-.48m4 .16-.32 2.24-.96.32m4.8-2.72c.48.96.32 1.92-.64 2.72M15.36 14l1.12 1.6-.48 1.44"/><path fill="none" stroke-width=".8" d="M15.84 13.36c2.24.32 3.2-.96 2.72-2.88-.48-1.6-1.76-1.76-2.4-.96"/><path stroke="none" d="M15.68 8.88 16.96 10l-1.76.64z"/></g></svg>',
   'flag-circle-cz':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-circle-cz_svg__a)"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#fff" fill-rule="evenodd" d="M2 2h28v9.333H2z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="m2 2 13.333 10L2 22z" clip-rule="evenodd"/></g><defs><clipPath id="flag-circle-cz_svg__a"><rect width="20" height="20" x="2" y="2" fill="#fff" rx="10"/></clipPath></defs></svg>',
   'flag-circle-de':
@@ -543,6 +545,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" fill="#F93939" rx="10"/><path fill="#FFDA2C" fill-rule="evenodd" d="m12.003 14.44-2.787 1.467.533-3.103-2.253-2.196 3.115-.453 1.392-2.822 1.393 2.822 3.113.453-2.253 2.196.533 3.101" clip-rule="evenodd"/></svg>',
   'flag-cn':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-cn_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#F93939" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5"/><path fill="#FFDA2C" fill-rule="evenodd" d="m7.236 11.748-1.4.722.267-1.528-1.131-1.083 1.564-.221.7-1.39.7 1.39 1.564.22-1.133 1.084.268 1.527zM10.572 7.8h.952v.933h-.952zm.952 1.867h.952v.933h-.952zm0 1.866h.952v.934h-.952zm-.952 1.867h.952v.933h-.952z" clip-rule="evenodd"/></g><defs><clipPath id="flag-cn_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>',
+  'flag-cy':
+    '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M2 8a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v4H2z"/><path fill="#249f58" d="M2 12h20v4a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3z"/><g fill="#f93939" stroke="#f93939" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M9.45 12.7c-.15-2.1 1.35-4.5 4.05-5.85-.3.9.3 1.35 1.05 1.2-.6.75 0 1.35.9 1.2-.75.9-1.2 2.1-1.8 3.45z"/><path stroke="none" d="M8.7 12.55c1.05-.75 4.8-.75 6.6-.3 1.05.45 1.05 2.1-.3 2.4-1.8.45-4.5.45-6 0-1.05-.3-1.2-1.65-.3-2.1"/><path fill="none" stroke-width="1.5" d="M9.45 13.3c-1.65-.6-2.25-1.8-1.8-3.3"/><path stroke="none" d="M8.55 10c.15-1.05-.45-1.65-1.2-1.5l-1.95.3c-.15.15 0 .45.3.45l1.05.3-1.2.6c-.15.3.15.45.45.45l1.8.15c.45 0 .75-.3.75-.75"/><path stroke="none" d="m7.65 8.65 1.2-1.05-.45 1.5z"/><path fill="none" stroke-width=".9" d="m9 13.9-1.35.75-.9-.45m3.75.15-.3 2.1-.9.3m4.5-2.55c.45.9.3 1.8-.6 2.55m1.95-2.85 1.05 1.5-.45 1.35"/><path fill="none" stroke-width=".75" d="M15.6 13.3c2.1.3 3-.9 2.55-2.7-.45-1.5-1.65-1.65-2.25-.9"/><path stroke="none" d="m15.45 9.1 1.2 1.05-1.65.6z"/></g></svg>',
   'flag-cz':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-cz_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v6.533H2z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="m2 5 9.524 7L2 19z" clip-rule="evenodd"/></g><defs><clipPath id="flag-cz_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>',
   'flag-de':
@@ -601,6 +605,8 @@ export const ci: { [key in MyIconType]: string } = {
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-rect-bg_svg__a)"><path fill="#249F58" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5"/><path fill="#F93939" fill-rule="evenodd" d="M2 14.333h20V19H2z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v4.667H2z" clip-rule="evenodd"/></g><defs><clipPath id="flag-rect-bg_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>',
   'flag-rect-cn':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-rect-cn_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#F93939" d="M20.095 5H3.905C2.853 5 2 5.836 2 6.867v10.266C2 18.164 2.853 19 3.905 19h16.19C21.147 19 22 18.164 22 17.133V6.867C22 5.836 21.147 5 20.095 5"/><path fill="#FFDA2C" fill-rule="evenodd" d="m7.236 11.748-1.4.722.267-1.528-1.131-1.083 1.564-.221.7-1.39.7 1.39 1.564.22-1.133 1.084.268 1.527zM10.572 7.8h.952v.933h-.952zm.952 1.867h.952v.933h-.952zm0 1.866h.952v.934h-.952zm-.952 1.867h.952v.933h-.952z" clip-rule="evenodd"/></g><defs><clipPath id="flag-rect-cn_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>',
+  'flag-rect-cy':
+    '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M2 8a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v4H2z"/><path fill="#249f58" d="M2 12h20v4a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3z"/><g fill="#f93939" stroke="#f93939" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M9.45 12.7c-.15-2.1 1.35-4.5 4.05-5.85-.3.9.3 1.35 1.05 1.2-.6.75 0 1.35.9 1.2-.75.9-1.2 2.1-1.8 3.45z"/><path stroke="none" d="M8.7 12.55c1.05-.75 4.8-.75 6.6-.3 1.05.45 1.05 2.1-.3 2.4-1.8.45-4.5.45-6 0-1.05-.3-1.2-1.65-.3-2.1"/><path fill="none" stroke-width="1.5" d="M9.45 13.3c-1.65-.6-2.25-1.8-1.8-3.3"/><path stroke="none" d="M8.55 10c.15-1.05-.45-1.65-1.2-1.5l-1.95.3c-.15.15 0 .45.3.45l1.05.3-1.2.6c-.15.3.15.45.45.45l1.8.15c.45 0 .75-.3.75-.75"/><path stroke="none" d="m7.65 8.65 1.2-1.05-.45 1.5z"/><path fill="none" stroke-width=".9" d="m9 13.9-1.35.75-.9-.45m3.75.15-.3 2.1-.9.3m4.5-2.55c.45.9.3 1.8-.6 2.55m1.95-2.85 1.05 1.5-.45 1.35"/><path fill="none" stroke-width=".75" d="M15.6 13.3c2.1.3 3-.9 2.55-2.7-.45-1.5-1.65-1.65-2.25-.9"/><path stroke="none" d="m15.45 9.1 1.2 1.05-1.65.6z"/></g></svg>',
   'flag-rect-cz':
     '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g clip-path="url(#flag-rect-cz_svg__a)"><rect width="20" height="14" x="2" y="5" fill="#F93939" rx="3"/><path fill="#fff" fill-rule="evenodd" d="M2 5h20v6.533H2z" clip-rule="evenodd"/><path fill="#1A47B8" fill-rule="evenodd" d="m2 5 9.524 7L2 19z" clip-rule="evenodd"/></g><defs><clipPath id="flag-rect-cz_svg__a"><rect width="20" height="14" x="2" y="5" fill="#fff" rx="3"/></clipPath></defs></svg>',
   'flag-rect-de':
@@ -1574,6 +1580,7 @@ export type MyIconType =
   | 'flag-circle-ba'
   | 'flag-circle-bg'
   | 'flag-circle-cn'
+  | 'flag-circle-cy'
   | 'flag-circle-cz'
   | 'flag-circle-de'
   | 'flag-circle-dk'
@@ -1608,6 +1615,7 @@ export type MyIconType =
   | 'flag-circle-ua'
   | 'flag-circle-vn'
   | 'flag-cn'
+  | 'flag-cy'
   | 'flag-cz'
   | 'flag-de'
   | 'flag-dk'
@@ -1637,6 +1645,7 @@ export type MyIconType =
   | 'flag-rect-ba'
   | 'flag-rect-bg'
   | 'flag-rect-cn'
+  | 'flag-rect-cy'
   | 'flag-rect-cz'
   | 'flag-rect-de'
   | 'flag-rect-dk'
