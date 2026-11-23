@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.38.0](https://github.com/haiilo/catalyst-icons/compare/v2.37.1...v2.38.0) (2026-11-23)
+
+
+### Features
+
+* add welsh flag ([ed8b734](https://github.com/haiilo/catalyst-icons/commit/ed8b73480d7039f243d7ddf34ac70d76bfe6d065))
+
 ### [2.37.1](https://github.com/haiilo/catalyst-icons/compare/v2.37.0...v2.37.1) (2026-11-18)
 
 
